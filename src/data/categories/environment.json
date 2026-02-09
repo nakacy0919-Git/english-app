@@ -1,5 +1,386 @@
 {
   "id": "topic_environment",
   "title": "Environment (環境)",
-  "questions": []
+  "questions":[
+  {
+    "id": "env_adv_01",
+    "question1": { "en": "Do you separate your trash properly?", "ja": "ゴミの分別はちゃんとしてる？" },
+    "answer1_variations": [
+      { "en": "Yes, my city has very strict rules.", "ja": "うん、私の住む市はルールがすごく厳しいんだ。" },
+      { "en": "Mostly, but plastic types are confusing.", "ja": "たいていはね。でもプラの種類がややこしくて。" }
+    ],
+    "answer1_detail": { "en": "We have to wash everything before throwing it away.", "ja": "捨てる前に全部洗わないといけないんだよ。" },
+    "question2": { "en": "It sounds like a hassle.", "ja": "それは面倒くさそうだね。" },
+    "answer2_variations": [
+      { "en": "It is, but it's good for the environment.", "ja": "そうだけど、環境にはいいことだからね。" },
+      { "en": "You get used to it eventually.", "ja": "そのうち慣れるよ。" }
+    ],
+    "vocab": [
+      { "word": "separate", "meaning": "分別する、分ける" },
+      { "word": "strict", "meaning": "厳しい" },
+      { "word": "hassle", "meaning": "面倒なこと" }
+    ]
+  },
+  {
+    "id": "env_adv_02",
+    "question1": { "en": "Do you need a plastic bag?", "ja": "レジ袋はご利用ですか？" },
+    "answer1_variations": [
+      { "en": "No thanks, I have my own bag.", "ja": "いいえ、マイバッグを持ってます。" },
+      { "en": "Yes please, I forgot mine.", "ja": "お願いします、持ってくるの忘れちゃって。" }
+    ],
+    "answer1_detail": { "en": "I'm trying to reduce my plastic waste.", "ja": "プラスチックゴミを減らそうとしてるんだ。" },
+    "question2": { "en": "Do you carry it everywhere?", "ja": "どこにでも持ち歩いてるの？" },
+    "answer2_variations": [
+      { "en": "Yeah, I keep a foldable one in my purse.", "ja": "うん、折りたためるやつを財布に入れてる。" },
+      { "en": "Usually, but sometimes I forget.", "ja": "たいていはね、でもたまに忘れちゃう。" }
+    ],
+    "vocab": [
+      { "word": "plastic bag", "meaning": "レジ袋、ビニール袋" },
+      { "word": "reduce", "meaning": "減らす" },
+      { "word": "foldable", "meaning": "折りたたみ式の" }
+    ]
+  },
+  {
+    "id": "env_adv_03",
+    "question1": { "en": "Are you worried about climate change?", "ja": "気候変動について心配してる？" },
+    "answer1_variations": [
+      { "en": "Definitely. The summers are getting unbearable.", "ja": "もちろん。夏が耐えられない暑さになってきてるし。" },
+      { "en": "Yes, extreme weather is happening more often.", "ja": "うん、異常気象が頻繁に起きてるよね。" }
+    ],
+    "answer1_detail": { "en": "Scientists say we are running out of time.", "ja": "科学者たちはもう時間がないと言ってるよ。" },
+    "question2": { "en": "What can we do as individuals?", "ja": "個人として何ができるかな？" },
+    "answer2_variations": [
+      { "en": "Reduce our carbon footprint.", "ja": "二酸化炭素排出量を減らすことだね。" },
+      { "en": "Vote for leaders who care about the planet.", "ja": "地球環境を大事にするリーダーに投票することだよ。" }
+    ],
+    "vocab": [
+      { "word": "climate change", "meaning": "気候変動" },
+      { "word": "unbearable", "meaning": "耐えられない" },
+      { "word": "carbon footprint", "meaning": "二酸化炭素排出量（カーボンフットプリント）" }
+    ]
+  },
+  {
+    "id": "env_adv_04",
+    "question1": { "en": "Would you ever buy an electric car?", "ja": "電気自動車を買おうと思ったことある？" },
+    "answer1_variations": [
+      { "en": "I'd love to, but they are expensive.", "ja": "買いたいけど、高いんだよね。" },
+      { "en": "Yes, I want to stop using gasoline.", "ja": "うん、ガソリンを使うのをやめたいから。" }
+    ],
+    "answer1_detail": { "en": "EVs are much better for air quality.", "ja": "EVは大気質にとってずっといいからね。" },
+    "question2": { "en": "What about charging stations?", "ja": "充電スタンドはどう？" },
+    "answer2_variations": [
+      { "en": "That's my main concern.", "ja": "それが一番の懸念点だね。" },
+      { "en": "They are popping up everywhere now.", "ja": "今はあちこちに増えてきてるよ。" }
+    ],
+    "vocab": [
+      { "word": "electric car", "meaning": "電気自動車 (EV)" },
+      { "word": "gasoline", "meaning": "ガソリン" },
+      { "word": "concern", "meaning": "懸念、心配事" }
+    ]
+  },
+  {
+    "id": "env_adv_05",
+    "question1": { "en": "You shouldn't leave the water running.", "ja": "水を出しっぱなしにしちゃだめだよ。" },
+    "answer1_variations": [
+      { "en": "Sorry, I wasn't paying attention.", "ja": "ごめん、気が付かなかった。" },
+      { "en": "Does it really matter?", "ja": "それってそんなに重要？" }
+    ],
+    "answer1_detail": { "en": "Water conservation is important.", "ja": "節水は重要なんだよ。" },
+    "question2": { "en": "I didn't know it wasted that much.", "ja": "そんなに無駄になるとは知らなかったよ。" },
+    "answer2_variations": [
+      { "en": "Every drop counts!", "ja": "一滴一滴が大事なんだ！" },
+      { "en": "It adds up on the water bill too.", "ja": "水道代もかさむしね。" }
+    ],
+    "vocab": [
+      { "word": "leave running", "meaning": "（水やエンジンを）出しっぱなしにする" },
+      { "word": "conservation", "meaning": "保護、節約" },
+      { "word": "count", "meaning": "重要である、数に入る" }
+    ]
+  },
+  {
+    "id": "env_adv_06",
+    "question1": { "en": "Do you use a reusable water bottle?", "ja": "マイボトルを使ってる？" },
+    "answer1_variations": [
+      { "en": "Yes, I never buy bottled water anymore.", "ja": "うん、もうペットボトルの水は買わないよ。" },
+      { "en": "Sometimes, but it's heavy to carry.", "ja": "時々ね、でも持ち歩くのが重くて。" }
+    ],
+    "answer1_detail": { "en": "Single-use plastic bottles are a huge problem.", "ja": "使い捨てのプラスチックボトルは大きな問題だから。" },
+    "question2": { "en": "Where do you refill it?", "ja": "どこで中身を補充するの？" },
+    "answer2_variations": [
+      { "en": "There are water dispensers at work.", "ja": "職場に給水機があるんだ。" },
+      { "en": "I use a filtration app to find spots.", "ja": "給水スポットを探すアプリを使ってるよ。" }
+    ],
+    "vocab": [
+      { "word": "reusable", "meaning": "再利用可能な" },
+      { "word": "single-use", "meaning": "使い捨ての" },
+      { "word": "refill", "meaning": "詰め替える、補充する" }
+    ]
+  },
+  {
+    "id": "env_adv_07",
+    "question1": { "en": "Why are you turning off the lights?", "ja": "なんで電気を消してるの？" },
+    "answer1_variations": [
+      { "en": "To save energy.", "ja": "省エネのためだよ。" },
+      { "en": "Nobody is in the room.", "ja": "部屋に誰もいないから。" }
+    ],
+    "answer1_detail": { "en": "Wasting electricity increases pollution.", "ja": "電気の無駄遣いは汚染を増やすことになるんだ。" },
+    "question2": { "en": "Does it really make a difference?", "ja": "それで本当に変わるの？" },
+    "answer2_variations": [
+      { "en": "If everyone does it, yes.", "ja": "みんながやれば、変わるよ。" },
+      { "en": "It certainly helps my electricity bill.", "ja": "少なくとも電気代の助けにはなるね。" }
+    ],
+    "vocab": [
+      { "word": "turn off", "meaning": "（電気などを）消す" },
+      { "word": "electricity", "meaning": "電気" },
+      { "word": "pollution", "meaning": "汚染" }
+    ]
+  },
+  {
+    "id": "env_adv_08",
+    "question1": { "en": "Have you heard of 'Fast Fashion'?", "ja": "「ファストファッション」って聞いたことある？" },
+    "answer1_variations": [
+      { "en": "Yes, it's about cheap, mass-produced clothes.", "ja": "うん、安くて大量生産された服のことだよね。" },
+      { "en": "I have, but I don't know why it's bad.", "ja": "あるけど、何が悪いのかな。" }
+    ],
+    "answer1_detail": { "en": "The industry causes a lot of water pollution.", "ja": "その産業は多くの水質汚染を引き起こしているんだ。" },
+    "question2": { "en": "So what should we buy instead?", "ja": "じゃあ代わりに何を買えばいいの？" },
+    "answer2_variations": [
+      { "en": "Second-hand clothes or sustainable brands.", "ja": "古着か、サステナブルなブランドだね。" },
+      { "en": "Just buy less and wear things longer.", "ja": "単に買う量を減らして、長く着ることだよ。" }
+    ],
+    "vocab": [
+      { "word": "mass-produced", "meaning": "大量生産された" },
+      { "word": "industry", "meaning": "産業" },
+      { "word": "sustainable", "meaning": "持続可能な" }
+    ]
+  },
+  {
+    "id": "env_adv_09",
+    "question1": { "en": "I'm trying to eat less meat.", "ja": "肉を食べる量を減らそうとしてるんだ。" },
+    "answer1_variations": [
+      { "en": "For health or the environment?", "ja": "健康のため？それとも環境のため？" },
+      { "en": "Are you going vegetarian?", "ja": "ベジタリアンになるの？" }
+    ],
+    "answer1_detail": { "en": "Meat production creates a lot of greenhouse gases.", "ja": "肉の生産は大量の温室効果ガスを出すからね。" },
+    "question2": { "en": "Is it hard to give up burgers?", "ja": "ハンバーガーをやめるのは辛くない？" },
+    "answer2_variations": [
+      { "en": "There are great plant-based burgers now.", "ja": "今は美味しい植物由来のバーガーがあるよ。" },
+      { "en": "I still eat them occasionally.", "ja": "たまには食べるよ。" }
+    ],
+    "vocab": [
+      { "word": "greenhouse gas", "meaning": "温室効果ガス" },
+      { "word": "give up", "meaning": "あきらめる、やめる" },
+      { "word": "plant-based", "meaning": "植物由来の" }
+    ]
+  },
+  {
+    "id": "env_adv_10",
+    "question1": { "en": "Look at all this trash on the beach.", "ja": "見てよ、ビーチのこのゴミ。" },
+    "answer1_variations": [
+      { "en": "It's disgusting.", "ja": "ひどいね（むかつくね）。" },
+      { "en": "Let's pick some of it up.", "ja": "少し拾おうよ。" }
+    ],
+    "answer1_detail": { "en": "Plastic in the ocean kills marine life.", "ja": "海のプラスチックは海洋生物を殺してしまうんだ。" },
+    "question2": { "en": "Why do people litter?", "ja": "なんで人はポイ捨てするんだろう？" },
+    "answer2_variations": [
+      { "en": "They are just lazy and selfish.", "ja": "怠惰で自分勝手だからさ。" },
+      { "en": "They don't realize the impact.", "ja": "影響を理解していないんだよ。" }
+    ],
+    "vocab": [
+      { "word": "disgusting", "meaning": "胸が悪くなるような、最低な" },
+      { "word": "marine life", "meaning": "海洋生物" },
+      { "word": "litter", "meaning": "ポイ捨てする" }
+    ]
+  },
+  {
+    "id": "env_adv_11",
+    "question1": { "en": "Do you compost your food scraps?", "ja": "生ごみを堆肥（コンポスト）にしてる？" },
+    "answer1_variations": [
+      { "en": "Yes, I use it for my garden.", "ja": "うん、庭に使ってるよ。" },
+      { "en": "No, I live in an apartment.", "ja": "ううん、マンション住まいだから。" }
+    ],
+    "answer1_detail": { "en": "It reduces the amount of garbage significantly.", "ja": "ゴミの量が劇的に減るんだよ。" },
+    "question2": { "en": "Does it smell bad?", "ja": "臭わない？" },
+    "answer2_variations": [
+      { "en": "Not if you do it correctly.", "ja": "正しくやれば臭わないよ。" },
+      { "en": "A little bit in the summer.", "ja": "夏場は少しね。" }
+    ],
+    "vocab": [
+      { "word": "compost", "meaning": "堆肥にする" },
+      { "word": "scrap", "meaning": "くず、残り" },
+      { "word": "significantly", "meaning": "著しく、かなり" }
+    ]
+  },
+  {
+    "id": "env_adv_12",
+    "question1": { "en": "What is renewable energy?", "ja": "再生可能エネルギーって何？" },
+    "answer1_variations": [
+      { "en": "Energy from sources that don't run out.", "ja": "尽きることのない源からのエネルギーだよ。" },
+      { "en": "Like solar, wind, and hydro power.", "ja": "太陽光、風力、水力みたいなやつ。" }
+    ],
+    "answer1_detail": { "en": "It's cleaner than burning fossil fuels.", "ja": "化石燃料を燃やすよりクリーンなんだ。" },
+    "question2": { "en": "Why don't we use it for everything?", "ja": "なんで全部それにしないの？" },
+    "answer2_variations": [
+      { "en": "It can be unreliable without batteries.", "ja": "バッテリーがないと安定しないことがあるからね。" },
+      { "en": "Transitioning the infrastructure takes time.", "ja": "インフラを移行するのには時間がかかるんだ。" }
+    ],
+    "vocab": [
+      { "word": "run out", "meaning": "なくなる、尽きる" },
+      { "word": "fossil fuel", "meaning": "化石燃料（石油、石炭など）" },
+      { "word": "infrastructure", "meaning": "インフラ、社会基盤" }
+    ]
+  },
+  {
+    "id": "env_adv_13",
+    "question1": { "en": "This soap is biodegradable.", "ja": "この石鹸、生分解性なんだ。" },
+    "answer1_variations": [
+      { "en": "What does biodegradable mean?", "ja": "生分解性ってどういう意味？" },
+      { "en": "That's great for camping.", "ja": "キャンプには最高だね。" }
+    ],
+    "answer1_detail": { "en": "It breaks down naturally without harming nature.", "ja": "自然を傷つけずに、自然に分解されるってことだよ。" },
+    "question2": { "en": "Is it more expensive?", "ja": "値段は高いの？" },
+    "answer2_variations": [
+      { "en": "A little, but it's worth it.", "ja": "少しね、でもその価値はあるよ。" },
+      { "en": "The price is about the same nowadays.", "ja": "最近は値段も変わらないよ。" }
+    ],
+    "vocab": [
+      { "word": "biodegradable", "meaning": "生分解性の（バクテリアなどで分解できる）" },
+      { "word": "break down", "meaning": "分解する" },
+      { "word": "harm", "meaning": "害を与える" }
+    ]
+  },
+  {
+    "id": "env_adv_14",
+    "question1": { "en": "Paper receipt or email?", "ja": "紙のレシートにしますか、それともメール？" },
+    "answer1_variations": [
+      { "en": "Email, please. Let's save paper.", "ja": "メールでお願いします。紙の節約で。" },
+      { "en": "I don't need a receipt.", "ja": "レシートはいりません。" }
+    ],
+    "answer1_detail": { "en": "Going paperless saves a lot of trees.", "ja": "ペーパーレス化はたくさんの木を救うからね。" },
+    "question2": { "en": "Do you prefer e-books too?", "ja": "電子書籍のほうが好き？" },
+    "answer2_variations": [
+      { "en": "Yes, I read everything on my tablet.", "ja": "うん、全部タブレットで読んでる。" },
+      { "en": "No, I still like holding a real book.", "ja": "ううん、やっぱり本物の本を持つのが好きだな。" }
+    ],
+    "vocab": [
+      { "word": "receipt", "meaning": "レシート、領収書" },
+      { "word": "paperless", "meaning": "紙を使わない、ペーパーレスの" },
+      { "word": "save", "meaning": "節約する、救う" }
+    ]
+  },
+  {
+    "id": "env_adv_15",
+    "question1": { "en": "The air quality is terrible today.", "ja": "今日の大気質はひどいね。" },
+    "answer1_variations": [
+      { "en": "Yeah, it's really hazy outside.", "ja": "うん、外はすごく霞んでるよ。" },
+      { "en": "I'm going to wear a mask.", "ja": "マスクをしていくよ。" }
+    ],
+    "answer1_detail": { "en": "It's dangerous to exercise outdoors.", "ja": "外で運動するのは危険だね。" },
+    "question2": { "en": "Is it from the factories?", "ja": "工場のせいかな？" },
+    "answer2_variations": [
+      { "en": "Probably car exhaust and factories.", "ja": "たぶん車の排気ガスと工場だろうね。" },
+      { "en": "It might be sand dust.", "ja": "黄砂かもしれないよ。" }
+    ],
+    "vocab": [
+      { "word": "air quality", "meaning": "大気質" },
+      { "word": "hazy", "meaning": "霞んでいる" },
+      { "word": "exhaust", "meaning": "排気ガス" }
+    ]
+  },
+  {
+    "id": "env_adv_16",
+    "question1": { "en": "Have you seen those paper straws?", "ja": "あの紙ストロー見たことある？" },
+    "answer1_variations": [
+      { "en": "Yes, I hate them. They get soggy.", "ja": "うん、嫌いだよ。ふにゃふにゃになるから。" },
+      { "en": "It's a good step away from plastic.", "ja": "プラスチック脱却への良い一歩だね。" }
+    ],
+    "answer1_detail": { "en": "It takes hundreds of years for plastic to decompose.", "ja": "プラスチックが分解されるには何百年もかかるんだ。" },
+    "question2": { "en": "Why don't we use metal ones?", "ja": "なんで金属製を使わないのかな？" },
+    "answer2_variations": [
+      { "en": "Hard to clean, I guess.", "ja": "洗うのが大変だからじゃないかな。" },
+      { "en": "I carry my own metal straw.", "ja": "僕は自分の金属ストローを持ち歩いてるよ。" }
+    ],
+    "vocab": [
+      { "word": "soggy", "meaning": "水浸しの、ふやけた" },
+      { "word": "decompose", "meaning": "分解する、腐敗する" },
+      { "word": "step", "meaning": "一歩、段階" }
+    ]
+  },
+  {
+    "id": "env_adv_17",
+    "question1": { "en": "We should take public transport.", "ja": "公共交通機関を使ったほうがいいよ。" },
+    "answer1_variations": [
+      { "en": "Agreed, driving contributes to smog.", "ja": "賛成、運転はスモッグの原因になるし。" },
+      { "en": "But the train is so crowded.", "ja": "でも電車はすごく混んでるよ。" }
+    ],
+    "answer1_detail": { "en": "It has a much lower carbon footprint per person.", "ja": "一人当たりの二酸化炭素排出量がずっと低いんだ。" },
+    "question2": { "en": "Is it cheaper too?", "ja": "値段も安いの？" },
+    "answer2_variations": [
+      { "en": "Definitely, considering gas and parking.", "ja": "ガソリン代と駐車代を考えれば絶対そうだよ。" },
+      { "en": "Sometimes, depending on the distance.", "ja": "距離によるけど、たいていはね。" }
+    ],
+    "vocab": [
+      { "word": "public transport", "meaning": "公共交通機関" },
+      { "word": "contribute to", "meaning": "～の一因となる、貢献する" },
+      { "word": "smog", "meaning": "スモッグ、煙霧" }
+    ]
+  },
+  {
+    "id": "env_adv_18",
+    "question1": { "en": "Did you know pandas are endangered?", "ja": "パンダが絶滅危惧種だって知ってた？" },
+    "answer1_variations": [
+      { "en": "Yes, due to habitat loss.", "ja": "うん、生息地の減少のせいでしょ。" },
+      { "en": "I thought their numbers were increasing.", "ja": "数は増えてきていると思ってたけど。" }
+    ],
+    "answer1_detail": { "en": "Humans are destroying forests for farming.", "ja": "人間が農業のために森を破壊しているんだ。" },
+    "question2": { "en": "Can we stop deforestation?", "ja": "森林破壊は止められるかな？" },
+    "answer2_variations": [
+      { "en": "We need stricter laws.", "ja": "もっと厳しい法律が必要だね。" },
+      { "en": "Planting more trees is a start.", "ja": "もっと木を植えることが始まりだよ。" }
+    ],
+    "vocab": [
+      { "word": "endangered", "meaning": "絶滅の危機にある" },
+      { "word": "habitat loss", "meaning": "生息地の喪失" },
+      { "word": "deforestation", "meaning": "森林破壊" }
+    ]
+  },
+  {
+    "id": "env_adv_19",
+    "question1": { "en": "That bag is cool! Where did you get it?", "ja": "そのバッグかっこいいね！どこで買ったの？" },
+    "answer1_variations": [
+      { "en": "I made it from old jeans.", "ja": "古いジーンズから作ったんだ。" },
+      { "en": "It's an upcycled product.", "ja": "アップサイクル製品だよ。" }
+    ],
+    "answer1_detail": { "en": "Upcycling gives old items a new life.", "ja": "アップサイクルは古い物に新しい命を吹き込むんだ。" },
+    "question2": { "en": "That's very creative.", "ja": "すごくクリエイティブだね。" },
+    "answer2_variations": [
+      { "en": "It reduces waste too.", "ja": "ゴミも減らせるしね。" },
+      { "en": "Thanks, I love DIY projects.", "ja": "ありがとう、DIYが好きなんだ。" }
+    ],
+    "vocab": [
+      { "word": "upcycled", "meaning": "アップサイクルされた（廃物を再利用して価値を高めた）" },
+      { "word": "waste", "meaning": "ゴミ、無駄" },
+      { "word": "DIY", "meaning": "日曜大工 (Do It Yourself)" }
+    ]
+  },
+  {
+    "id": "env_adv_20",
+    "question1": { "en": "What does 'sustainable' mean exactly?", "ja": "「サステナブル」って正確にはどういう意味？" },
+    "answer1_variations": [
+      { "en": "Meeting needs without harming the future.", "ja": "未来を損なわずに（現在の）ニーズを満たすことだよ。" },
+      { "en": "Living in balance with nature.", "ja": "自然と調和して生きることだね。" }
+    ],
+    "answer1_detail": { "en": "It applies to energy, food, and fashion.", "ja": "エネルギー、食料、ファッションに当てはまる言葉だね。" },
+    "question2": { "en": "It sounds complicated.", "ja": "難しそうだね。" },
+    "answer2_variations": [
+      { "en": "It starts with simple choices.", "ja": "単純な選択から始まるんだよ。" },
+      { "en": "Just buy less and waste less.", "ja": "ただ買うのを減らして、無駄を減らすことさ。" }
+    ],
+    "vocab": [
+      { "word": "sustainable", "meaning": "持続可能な" },
+      { "word": "harm", "meaning": "害する" },
+      { "word": "complicated", "meaning": "複雑な" }
+    ]
+  }
+]
 }

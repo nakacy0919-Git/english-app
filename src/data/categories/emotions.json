@@ -1,5 +1,386 @@
 {
   "id": "topic_emotions",
   "title": "Emotions (感情)",
-  "questions": []
+  "questions": [
+  {
+    "id": "emotion_adv_01",
+    "question1": { "en": "You look really happy today.", "ja": "今日はすごく嬉しそうだね。" },
+    "answer1_variations": [
+      { "en": "I am! I finally got the promotion.", "ja": "そうなんだ！ついに昇進が決まったんだよ。" },
+      { "en": "I'm over the moon about the news.", "ja": "その知らせを聞いて、天にも昇る気持ちだよ。" }
+    ],
+    "answer1_detail": { "en": "I've been working so hard for this all year.", "ja": "この一年、このために一生懸命働いてきたからね。" },
+    "question2": { "en": "How are you going to celebrate?", "ja": "どうやってお祝いするの？" },
+    "answer2_variations": [
+      { "en": "I'm taking my family out for a nice dinner.", "ja": "家族を素敵なディナーに連れて行くつもり。" },
+      { "en": "Drinks are on me tonight!", "ja": "今夜は僕のおごりで飲みに行こう！" }
+    ],
+    "vocab": [
+      { "word": "promotion", "meaning": "昇進" },
+      { "word": "over the moon", "meaning": "大喜びで、有頂天で" },
+      { "word": "celebrate", "meaning": "祝う" }
+    ]
+  },
+  {
+    "id": "emotion_adv_02",
+    "question1": { "en": "Why the long face?", "ja": "なんでそんな浮かない顔をしてるの？" },
+    "answer1_variations": [
+      { "en": "I'm just feeling a bit down.", "ja": "ただちょっと落ち込んでるんだ。" },
+      { "en": "I messed up a presentation at work.", "ja": "仕事のプレゼンで失敗しちゃって。" }
+    ],
+    "answer1_detail": { "en": "It wasn't a huge mistake, but I'm embarrassed.", "ja": "大きなミスじゃなかったけど、恥ずかしくて。" },
+    "question2": { "en": "Don't beat yourself up about it.", "ja": "そんなに自分を責めないで。" },
+    "answer2_variations": [
+      { "en": "Thanks, I'll try to let it go.", "ja": "ありがとう、忘れるようにするよ。" },
+      { "en": "I just need some chocolate.", "ja": "チョコでも食べれば元気になるかな。" }
+    ],
+    "vocab": [
+      { "word": "long face", "meaning": "浮かない顔、悲しそうな顔" },
+      { "word": "mess up", "meaning": "失敗する、台無しにする" },
+      { "word": "beat oneself up", "meaning": "自分を責める" }
+    ]
+  },
+  {
+    "id": "emotion_adv_03",
+    "question1": { "en": "Are you nervous about the interview?", "ja": "面接、緊張してる？" },
+    "answer1_variations": [
+      { "en": "Yes, I have butterflies in my stomach.", "ja": "うん、すごくドキドキして落ち着かないよ。" },
+      { "en": "I'm trying to stay calm, but it's hard.", "ja": "落ち着こうとしてるけど、難しいね。" }
+    ],
+    "answer1_detail": { "en": "It's my dream job, so the pressure is high.", "ja": "夢の仕事だから、プレッシャーがすごくて。" },
+    "question2": { "en": "Just take a deep breath.", "ja": "深呼吸して。" },
+    "answer2_variations": [
+      { "en": "Okay, breathing in and out.", "ja": "よし、吸って、吐いて。" },
+      { "en": "You're right, I prepared for this.", "ja": "そうだね、ちゃんと準備したんだし。" }
+    ],
+    "vocab": [
+      { "word": "nervous", "meaning": "緊張した" },
+      { "word": "butterflies in one's stomach", "meaning": "ドキドキする、そわそわする" },
+      { "word": "pressure", "meaning": "重圧、プレッシャー" }
+    ]
+  },
+  {
+    "id": "emotion_adv_04",
+    "question1": { "en": "I can't believe he said that to you.", "ja": "彼が君にそんなこと言ったなんて信じられない。" },
+    "answer1_variations": [
+      { "en": "I know! I was absolutely furious.", "ja": "でしょ！本当に頭にきたよ。" },
+      { "en": "It really ticked me off.", "ja": "本当にムカついたわ。" }
+    ],
+    "answer1_detail": { "en": "I had to walk away to cool down.", "ja": "頭を冷やすためにその場を離れなきゃいけなかったよ。" },
+    "question2": { "en": "Did he apologize later?", "ja": "後で彼は謝ったの？" },
+    "answer2_variations": [
+      { "en": "Not yet, and I'm not holding my breath.", "ja": "まだだよ、期待もしてないけどね。" },
+      { "en": "He sent a text, but it felt insincere.", "ja": "メールしてきたけど、心がこもってない感じだった。" }
+    ],
+    "vocab": [
+      { "word": "furious", "meaning": "激怒した" },
+      { "word": "tick off", "meaning": "怒らせる、イライラさせる" },
+      { "word": "insincere", "meaning": "誠実でない、本心でない" }
+    ]
+  },
+  {
+    "id": "emotion_adv_05",
+    "question1": { "en": "How did you feel when you heard the news?", "ja": "そのニュースを聞いた時、どう感じた？" },
+    "answer1_variations": [
+      { "en": "I was totally shocked. I didn't see it coming.", "ja": "完全にショックだったよ。予想もしてなかった。" },
+      { "en": "My jaw hit the floor.", "ja": "開いた口が塞がらなかったよ（すごく驚いた）。" }
+    ],
+    "answer1_detail": { "en": "It happened so suddenly.", "ja": "あまりに突然の出来事だったから。" },
+    "question2": { "en": "Is everyone else surprised too?", "ja": "他の人も驚いてる？" },
+    "answer2_variations": [
+      { "en": "Yeah, the whole office is buzzing.", "ja": "うん、オフィス中がざわついてるよ。" },
+      { "en": "Nobody expected this.", "ja": "誰もこんなこと予想してなかったよ。" }
+    ],
+    "vocab": [
+      { "word": "shocked", "meaning": "衝撃を受けた" },
+      { "word": "see it coming", "meaning": "予想する、予期する" },
+      { "word": "buzzing", "meaning": "ざわついている、噂話をしている" }
+    ]
+  },
+  {
+    "id": "emotion_adv_06",
+    "question1": { "en": "I'm so relieved the exam is over.", "ja": "試験が終わってすごくホッとしたよ。" },
+    "answer1_variations": [
+      { "en": "Me too. It feels like a weight off my shoulders.", "ja": "私も。肩の荷が下りた気分だよ。" },
+      { "en": "I can finally sleep properly tonight.", "ja": "これで今夜はやっとちゃんと眠れるよ。" }
+    ],
+    "answer1_detail": { "en": "I was studying until 3 AM every night.", "ja": "毎晩3時まで勉強してたんだ。" },
+    "question2": { "en": "Do you think you passed?", "ja": "合格したと思う？" },
+    "answer2_variations": [
+      { "en": "I think I did okay.", "ja": "まあまあできたと思う。" },
+      { "en": "It was tough, so I'm not sure.", "ja": "難しかったから、ちょっと自信ないな。" }
+    ],
+    "vocab": [
+      { "word": "relieved", "meaning": "安心した、ホッとした" },
+      { "word": "weight off one's shoulders", "meaning": "肩の荷が下りる" },
+      { "word": "tough", "meaning": "厳しい、難しい" }
+    ]
+  },
+  {
+    "id": "emotion_adv_07",
+    "question1": { "en": "This movie is a tear-jerker.", "ja": "この映画、泣けるね。" },
+    "answer1_variations": [
+      { "en": "I know, I'm already crying.", "ja": "だよね、私もう泣いてるもん。" },
+      { "en": "It's so heartbreaking but beautiful.", "ja": "すごく悲しいけど美しい物語だね。" }
+    ],
+    "answer1_detail": { "en": "The ending always gets me.", "ja": "結末でいつもやられちゃうんだ（泣いちゃう）。" },
+    "question2": { "en": "Do you need a tissue?", "ja": "ティッシュいる？" },
+    "answer2_variations": [
+      { "en": "Yes, please. I'm a mess.", "ja": "うん、お願い。もうボロボロだよ。" },
+      { "en": "I'm trying to hold back the tears.", "ja": "涙をこらえようとしてるんだけどね。" }
+    ],
+    "vocab": [
+      { "word": "tear-jerker", "meaning": "お涙頂戴もの、泣ける映画や本" },
+      { "word": "heartbreaking", "meaning": "悲痛な、胸が張り裂けるような" },
+      { "word": "hold back", "meaning": "こらえる、抑える" }
+    ]
+  },
+  {
+    "id": "emotion_adv_08",
+    "question1": { "en": "I feel really bad about forgetting her birthday.", "ja": "彼女の誕生日を忘れてしまって、すごく罪悪感があるんだ。" },
+    "answer1_variations": [
+      { "en": "Did you apologize to her?", "ja": "彼女に謝った？" },
+      { "en": "Don't worry, just make it up to her.", "ja": "心配しないで、埋め合わせをすればいいよ。" }
+    ],
+    "answer1_detail": { "en": "I've been so busy, it completely slipped my mind.", "ja": "忙しすぎて、完全に忘れてたんだ。" },
+    "question2": { "en": "She will understand.", "ja": "彼女なら分かってくれるよ。" },
+    "answer2_variations": [
+      { "en": "I hope so. I'll buy her a nice gift.", "ja": "そう願うよ。素敵なプレゼントを買うつもり。" },
+      { "en": "I still feel guilty though.", "ja": "それでもやっぱり申し訳ない気持ちだよ。" }
+    ],
+    "vocab": [
+      { "word": "apologize", "meaning": "謝る" },
+      { "word": "make it up to", "meaning": "～に埋め合わせをする" },
+      { "word": "slip one's mind", "meaning": "うっかり忘れる" }
+    ]
+  },
+  {
+    "id": "emotion_adv_09",
+    "question1": { "en": "I'm so frustrated with this computer!", "ja": "このパソコン、本当にイライラする！" },
+    "answer1_variations": [
+      { "en": "Is it crashing again?", "ja": "またクラッシュしてるの？" },
+      { "en": "You look like you're at your wits' end.", "ja": "もうお手上げって顔してるね。" }
+    ],
+    "answer1_detail": { "en": "It keeps freezing every 5 minutes.", "ja": "5分おきにフリーズするんだよ。" },
+    "question2": { "en": " maybe it's time for a new one.", "ja": "そろそろ買い替え時かもね。" },
+    "answer2_variations": [
+      { "en": "I can't afford that right now.", "ja": "今はそんな余裕ないよ。" },
+      { "en": "Yeah, I might have to bite the bullet.", "ja": "うん、思い切って買うしかないかも。" }
+    ],
+    "vocab": [
+      { "word": "frustrated", "meaning": "いら立った、挫折感を抱いた" },
+      { "word": "at one's wits' end", "meaning": "途方に暮れて、困り果てて" },
+      { "word": "bite the bullet", "meaning": "（嫌なことを）我慢してやる、決心する" }
+    ]
+  },
+  {
+    "id": "emotion_adv_10",
+    "question1": { "en": "I'm so bored. There's nothing to do.", "ja": "すごく暇だ。何もすることがないよ。" },
+    "answer1_variations": [
+      { "en": "Only boring people get bored.", "ja": "退屈するのはつまらない人間だけだよ（よくある言い回し）。" },
+      { "en": "Why don't we play a board game?", "ja": "ボードゲームでもしない？" }
+    ],
+    "answer1_detail": { "en": "I've already watched everything on my list.", "ja": "リストにあったものはもう全部見ちゃったし。" },
+    "question2": { "en": "Do you want to go for a walk?", "ja": "散歩にでも行く？" },
+    "answer2_variations": [
+      { "en": "Nah, it's too hot outside.", "ja": "いや、外は暑すぎるよ。" },
+      { "en": "Sure, getting some fresh air might help.", "ja": "そうだね、外の空気を吸えば気分転換になるかも。" }
+    ],
+    "vocab": [
+      { "word": "bored", "meaning": "退屈した" },
+      { "word": "board game", "meaning": "ボードゲーム" },
+      { "word": "fresh air", "meaning": "新鮮な空気" }
+    ]
+  },
+  {
+    "id": "emotion_adv_11",
+    "question1": { "en": "I'm really worried about the future.", "ja": "将来のことがすごく不安なんだ。" },
+    "answer1_variations": [
+      { "en": "What specifically are you anxious about?", "ja": "具体的に何が不安なの？" },
+      { "en": "Try to focus on the present.", "ja": "今のことに集中するようにしなよ。" }
+    ],
+    "answer1_detail": { "en": "Just everything. Career, money, life.", "ja": "全部だよ。仕事とか、お金とか、人生とか。" },
+    "question2": { "en": "Everyone feels lost sometimes.", "ja": "誰だってたまには迷子になるものだよ。" },
+    "answer2_variations": [
+      { "en": "I guess you're right.", "ja": "そうかもしれないね。" },
+      { "en": "It just feels overwhelming right now.", "ja": "今はただ、押しつぶされそうな気分なんだ。" }
+    ],
+    "vocab": [
+      { "word": "anxious", "meaning": "不安な、心配な" },
+      { "word": "present", "meaning": "現在" },
+      { "word": "overwhelming", "meaning": "圧倒的な、不可抗力の" }
+    ]
+  },
+  {
+    "id": "emotion_adv_12",
+    "question1": { "en": "I was so embarrassed when I tripped.", "ja": "転んだ時、すごく恥ずかしかったよ。" },
+    "answer1_variations": [
+      { "en": "Did anyone see you?", "ja": "誰かに見られた？" },
+      { "en": "I wanted to sink into the floor.", "ja": "穴があったら入りたい気分だったよ。" }
+    ],
+    "answer1_detail": { "en": "It was right in front of my crush.", "ja": "好きな人の目の前だったんだ。" },
+    "question2": { "en": "Oh no, that's awkward.", "ja": "うわ、それは気まずいね。" },
+    "answer2_variations": [
+      { "en": "He laughed, but he helped me up.", "ja": "彼は笑ってたけど、助け起こしてくれたよ。" },
+      { "en": "I can never show my face there again.", "ja": "あそこにはもう二度と顔を出せないよ。" }
+    ],
+    "vocab": [
+      { "word": "embarrassed", "meaning": "恥ずかしい、きまりが悪い" },
+      { "word": "sink into the floor", "meaning": "穴があったら入りたい（消えてしまいたい）" },
+      { "word": "crush", "meaning": "片思いの相手" }
+    ]
+  },
+  {
+    "id": "emotion_adv_13",
+    "question1": { "en": "I feel a bit jealous seeing their travel photos.", "ja": "彼らの旅行の写真を見ると、ちょっと嫉妬しちゃうな。" },
+    "answer1_variations": [
+      { "en": "Social media always makes people look perfect.", "ja": "SNSはいつだって人を完璧に見せるものだよ。" },
+      { "en": "I know the feeling. I need a vacation.", "ja": "その気持ち分かる。私も休みが必要だよ。" }
+    ],
+    "answer1_detail": { "en": "They are in Hawaii while I'm stuck in the office.", "ja": "私がオフィスに缶詰なのに、彼らはハワイにいるんだもん。" },
+    "question2": { "en": "Let's plan our own trip soon.", "ja": "私たちも近いうちに旅行を計画しようよ。" },
+    "answer2_variations": [
+      { "en": "Yes! Let's go somewhere tropical.", "ja": "うん！どこか南国に行こう。" },
+      { "en": "That gives me something to look forward to.", "ja": "それが楽しみになるね。" }
+    ],
+    "vocab": [
+      { "word": "jealous", "meaning": "嫉妬した、うらやましい" },
+      { "word": "stuck", "meaning": "行き詰まった、動けない" },
+      { "word": "look forward to", "meaning": "～を楽しみにする" }
+    ]
+  },
+  {
+    "id": "emotion_adv_14",
+    "question1": { "en": "I'm so grateful for your help.", "ja": "手伝ってくれて本当に感謝してるよ。" },
+    "answer1_variations": [
+      { "en": "Anytime! That's what friends are for.", "ja": "いつでも言って！そのための友達でしょ。" },
+      { "en": "Don't mention it. I was happy to help.", "ja": "礼には及ばないよ。喜んで手伝ったんだから。" }
+    ],
+    "answer1_detail": { "en": "I couldn't have moved all this furniture alone.", "ja": "一人じゃこの家具全部は運べなかったよ。" },
+    "question2": { "en": "Can I buy you lunch as a thank you?", "ja": "お礼にランチをご馳走させて？" },
+    "answer2_variations": [
+      { "en": "You don't have to, but I won't say no!", "ja": "しなくていいけど、断りはしないよ！" },
+      { "en": "Sure, I'm starving.", "ja": "いいの？お腹ペコペコなんだ。" }
+    ],
+    "vocab": [
+      { "word": "grateful", "meaning": "感謝している" },
+      { "word": "don't mention it", "meaning": "どういたしまして、礼には及ばない" },
+      { "word": "starving", "meaning": "お腹がペコペコの" }
+    ]
+  },
+  {
+    "id": "emotion_adv_15",
+    "question1": { "en": "I'm feeling really nostalgic today.", "ja": "今日はなんだかすごく懐かしい気分なんだ。" },
+    "answer1_variations": [
+      { "en": "Why? Did you find something old?", "ja": "なんで？何か古いものでも見つけた？" },
+      { "en": "Listening to 90s music always does that to me.", "ja": "90年代の音楽を聴くと、いつも私もそうなるよ。" }
+    ],
+    "answer1_detail": { "en": "I found my high school yearbook.", "ja": "高校の卒業アルバムを見つけたんだ。" },
+    "question2": { "en": "Do you miss those days?", "ja": "あの頃が恋しい？" },
+    "answer2_variations": [
+      { "en": "Sometimes. Life was simpler back then.", "ja": "時々ね。あの頃は人生がもっと単純だったから。" },
+      { "en": "Not really, but it's fun to look back.", "ja": "そうでもないけど、振り返るのは楽しいね。" }
+    ],
+    "vocab": [
+      { "word": "nostalgic", "meaning": "懐かしい、郷愁を感じる" },
+      { "word": "yearbook", "meaning": "卒業アルバム、年鑑" },
+      { "word": "look back", "meaning": "振り返る、回顧する" }
+    ]
+  },
+  {
+    "id": "emotion_adv_16",
+    "question1": { "en": "I'm confused about this instruction.", "ja": "この説明書、意味が分からなくて混乱してるんだ。" },
+    "answer1_variations": [
+      { "en": "Let me take a look.", "ja": "ちょっと見せてみて。" },
+      { "en": "These manuals are always so poorly written.", "ja": "こういうマニュアルっていつも書き方がひどいよね。" }
+    ],
+    "answer1_detail": { "en": "It says insert part A into part B, but they don't fit.", "ja": "パーツAをパーツBに入れろって書いてあるけど、合わないんだよ。" },
+    "question2": { "en": " maybe we are holding it upside down.", "ja": "逆さまに持ってるのかもしれないよ。" },
+    "answer2_variations": [
+      { "en": "Ah, that makes sense now!", "ja": "ああ、それで意味が通じた！" },
+      { "en": "You're a genius.", "ja": "君は天才だね。" }
+    ],
+    "vocab": [
+      { "word": "confused", "meaning": "混乱した、困惑した" },
+      { "word": "manual", "meaning": "説明書、マニュアル" },
+      { "word": "fit", "meaning": "合う、はまる" }
+    ]
+  },
+  {
+    "id": "emotion_adv_17",
+    "question1": { "en": "I regret buying this expensive bag.", "ja": "この高いバッグを買ったこと、後悔してるんだ。" },
+    "answer1_variations": [
+      { "en": "Do you have buyer's remorse?", "ja": "買った後の後悔（バイヤーズ・リモース）ってやつ？" },
+      { "en": "Can you return it?", "ja": "返品できる？" }
+    ],
+    "answer1_detail": { "en": "It was an impulse buy, and now I'm broke.", "ja": "衝動買いだったんだけど、今や金欠だよ。" },
+    "question2": { "en": "You should sleep on it next time.", "ja": "次は一晩考えてからにした方がいいね。" },
+    "answer2_variations": [
+      { "en": "Lesson learned.", "ja": "いい勉強になったよ。" },
+      { "en": "I'll try to sell it online.", "ja": "ネットで売ってみるよ。" }
+    ],
+    "vocab": [
+      { "word": "regret", "meaning": "後悔する" },
+      { "word": "buyer's remorse", "meaning": "購入後の後悔" },
+      { "word": "impulse buy", "meaning": "衝動買い" }
+    ]
+  },
+  {
+    "id": "emotion_adv_18",
+    "question1": { "en": "I'm feeling really pumped for the game!", "ja": "試合に向けてすごく気合が入ってるよ！" },
+    "answer1_variations": [
+      { "en": "That's the spirit!", "ja": "その意気だよ！" },
+      { "en": "You guys are going to crush it.", "ja": "君たちなら圧勝できるよ。" }
+    ],
+    "answer1_detail": { "en": "We've been practicing for weeks.", "ja": "何週間も練習してきたからね。" },
+    "question2": { "en": "Are you confident?", "ja": "自信はある？" },
+    "answer2_variations": [
+      { "en": "100%. We are ready.", "ja": "100%あるよ。準備は万端だ。" },
+      { "en": "A little nervous, but mostly excited.", "ja": "少し緊張してるけど、楽しみの方が大きいかな。" }
+    ],
+    "vocab": [
+      { "word": "pumped", "meaning": "興奮した、気合が入った" },
+      { "word": "crush it", "meaning": "大成功する、圧勝する" },
+      { "word": "confident", "meaning": "自信がある" }
+    ]
+  },
+  {
+    "id": "emotion_adv_19",
+    "question1": { "en": "I'm disappointed that the concert was canceled.", "ja": "コンサートが中止になってがっかりだよ。" },
+    "answer1_variations": [
+      { "en": "That's a bummer.", "ja": "それは残念だね。" },
+      { "en": "They said they will reschedule it.", "ja": "日程変更するって言ってたよ。" }
+    ],
+    "answer1_detail": { "en": "I was really looking forward to seeing them live.", "ja": "生で見るのをすごく楽しみにしてたのに。" },
+    "question2": { "en": "Did you get a refund?", "ja": "払い戻しは受けた？" },
+    "answer2_variations": [
+      { "en": "Yes, but I'd rather see the show.", "ja": "うん、でもショーを見たかったよ。" },
+      { "en": "Not yet, the process is complicated.", "ja": "まだ、手続きがややこしくて。" }
+    ],
+    "vocab": [
+      { "word": "disappointed", "meaning": "がっかりした、失望した" },
+      { "word": "bummer", "meaning": "残念なこと、ガッカリなこと" },
+      { "word": "refund", "meaning": "払い戻し" }
+    ]
+  },
+  {
+    "id": "emotion_adv_20",
+    "question1": { "en": "I'm exhausted. I can barely keep my eyes open.", "ja": "疲れ果てたよ。目を開けているのがやっとだ。" },
+    "answer1_variations": [
+      { "en": "You look like a zombie.", "ja": "ゾンビみたいに見えるよ。" },
+      { "en": "You need some serious rest.", "ja": "本気で休息が必要だね。" }
+    ],
+    "answer1_detail": { "en": "It's been a crazy week at work.", "ja": "仕事がとんでもなく忙しい週だったから。" },
+    "question2": { "en": "Why don't you take tomorrow off?", "ja": "明日は休んだら？" },
+    "answer2_variations": [
+      { "en": "I wish I could, but I have a meeting.", "ja": "そうしたいけど、会議があるんだ。" },
+      { "en": "I think I will. I'm burnt out.", "ja": "そうすると思う。燃え尽きちゃったよ。" }
+    ],
+    "vocab": [
+      { "word": "exhausted", "meaning": "疲れ切った" },
+      { "word": "crazy", "meaning": "（忙しさなどが）異常な、ひどい" },
+      { "word": "burnt out", "meaning": "燃え尽きた" }
+    ]
+  }
+]
 }

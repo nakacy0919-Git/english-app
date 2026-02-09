@@ -1,45 +1,44 @@
-import school from './categories/school.json';
-import food from './categories/food.json';
-import travel from './categories/travel.json';
-import future from './categories/future.json';
-import seasons from './categories/seasons.json';
-import tech from './categories/tech.json';
-import hobbies from './categories/hobbies.json';
-import friends from './categories/friends.json';
-import family from './categories/family.json';
-import health from './categories/health.json';
-import sports from './categories/sports.json';
-import music from './categories/music.json';
-import movies from './categories/movies.json';
-import shopping from './categories/shopping.json';
 import animals from './categories/animals.json';
-import daily from './categories/daily.json';
-import work from './categories/work.json';
-import emotions from './categories/emotions.json';
 import culture from './categories/culture.json';
+import daily from './categories/daily.json';
+import emotions from './categories/emotions.json';
 import environment from './categories/environment.json';
+import family from './categories/family.json';
+import food from './categories/food.json';
+import friends from './categories/friends.json';
+import future from './categories/future.json';
+import health from './categories/health.json';
+import hobbies from './categories/hobbies.json';
+import movies from './categories/movies.json';
+import music from './categories/music.json';
+import school from './categories/school.json';
+import seasons from './categories/seasons.json';
+import shopping from './categories/shopping.json';
+import sports from './categories/sports.json';
+import tech from './categories/tech.json';
+import travel from './categories/travel.json';
+import work from './categories/work.json';
 
-const allTopics = [
-  school,
-  food,
-  travel,
-  future,
-  seasons,
-  tech,
-  hobbies,
-  friends,
-  family,
-  health,
-  sports,
-  music,
-  movies,
-  shopping,
+// ここが重要！ "categories" という名前をつけて送り出します
+export const categories = [
   animals,
-  daily,
-  work,
-  emotions,
   culture,
+  daily,
+  emotions,
   environment,
+  family,
+  food,
+  friends,
+  future,
+  health,
+  hobbies,
+  movies,
+  music,
+  school,
+  seasons,
+  shopping,
+  sports,
+  tech,
+  travel,
+  work
 ];
-
-export default allTopics;

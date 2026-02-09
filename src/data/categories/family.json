@@ -1,5 +1,386 @@
 {
   "id": "topic_family",
   "title": "Family (家族)",
-  "questions": []
+  "questions":[
+  {
+    "id": "family_adv_01",
+    "question1": { "en": "Do you have any siblings?", "ja": "兄弟や姉妹はいますか？" },
+    "answer1_variations": [
+      { "en": "Yes, I have an older brother and a younger sister.", "ja": "はい、兄と妹がいます。" },
+      { "en": "No, I'm an only child.", "ja": "いいえ、一人っ子です。" }
+    ],
+    "answer1_detail": { "en": "Being the middle child is tough sometimes.", "ja": "真ん中の子は時々大変なんだよ。" },
+    "question2": { "en": "Do you get along with them?", "ja": "彼らとは仲が良いの？" },
+    "answer2_variations": [
+      { "en": "We used to fight, but we're close now.", "ja": "昔は喧嘩したけど、今は仲良しだよ。" },
+      { "en": "Not really, we are very different.", "ja": "そうでもないかな、性格が全然違うから。" }
+    ],
+    "vocab": [
+      { "word": "sibling", "meaning": "兄弟姉妹" },
+      { "word": "only child", "meaning": "一人っ子" },
+      { "word": "get along", "meaning": "仲良くする" }
+    ]
+  },
+  {
+    "id": "family_adv_02",
+    "question1": { "en": "Who do you look like more, your mom or dad?", "ja": "お母さんとお父さん、どっちに似てる？" },
+    "answer1_variations": [
+      { "en": "Everyone says I'm the spitting image of my dad.", "ja": "みんな、私が父に瓜二つだと言うよ。" },
+      { "en": "I have my mother's eyes.", "ja": "目は母譲りだね。" }
+    ],
+    "answer1_detail": { "en": "But personality-wise, I'm more like my mom.", "ja": "でも性格的には、母に似てるかな。" },
+    "question2": { "en": "Does your brother look like you?", "ja": "お兄さんはあなたに似てる？" },
+    "answer2_variations": [
+      { "en": "Not at all, people don't believe we're related.", "ja": "全然、みんな私たちが親族だとは信じないよ。" },
+      { "en": "Yeah, we could pass for twins.", "ja": "うん、双子で通るくらい似てるよ。" }
+    ],
+    "vocab": [
+      { "word": "spitting image", "meaning": "瓜二つ、生き写し" },
+      { "word": "personality-wise", "meaning": "性格に関しては" },
+      { "word": "related", "meaning": "親戚関係にある、血縁の" }
+    ]
+  },
+  {
+    "id": "family_adv_03",
+    "question1": { "en": "Do you still live with your parents?", "ja": "まだ両親と一緒に住んでるの？" },
+    "answer1_variations": [
+      { "en": "Yes, I'm saving money for a house.", "ja": "うん、家を買うためにお金を貯めてるんだ。" },
+      { "en": "No, I moved out when I was 18.", "ja": "ううん、18歳の時に家を出たよ。" }
+    ],
+    "answer1_detail": { "en": "Rent in the city is just too expensive.", "ja": "都会の家賃は高すぎるからね。" },
+    "question2": { "en": "Do your parents mind?", "ja": "ご両親は気にしてない？" },
+    "answer2_variations": [
+      { "en": "They love having me around.", "ja": "彼らは私がいるのを喜んでくれてるよ。" },
+      { "en": "They keep asking when I'm leaving.", "ja": "いつ出て行くのかって聞かれ続けてるよ。" }
+    ],
+    "vocab": [
+      { "word": "save money", "meaning": "貯金する" },
+      { "word": "move out", "meaning": "引っ越す、家を出る" },
+      { "word": "mind", "meaning": "気にする、嫌がる" }
+    ]
+  },
+  {
+    "id": "family_adv_04",
+    "question1": { "en": "How often do you see your family?", "ja": "どのくらいの頻度で家族に会う？" },
+    "answer1_variations": [
+      { "en": "We try to get together every Sunday.", "ja": "毎週日曜日に集まるようにしてるよ。" },
+      { "en": "Only once or twice a year.", "ja": "年に1、2回だけかな。" }
+    ],
+    "answer1_detail": { "en": "They live on the other side of the country.", "ja": "彼らは国の反対側に住んでるから。" },
+    "question2": { "en": "Do you miss them?", "ja": "寂しい？" },
+    "answer2_variations": [
+      { "en": "Terribly. Video calls aren't the same.", "ja": "すごくね。ビデオ通話じゃ物足りないよ。" },
+      { "en": "I'm okay. I enjoy my independence.", "ja": "平気だよ。自立を楽しんでるし。" }
+    ],
+    "vocab": [
+      { "word": "get together", "meaning": "集まる" },
+      { "word": "terribly", "meaning": "ひどく、ものすごく" },
+      { "word": "independence", "meaning": "自立、独立" }
+    ]
+  },
+  {
+    "id": "family_adv_05",
+    "question1": { "en": "Were your parents strict growing up?", "ja": "子供の頃、親は厳しかった？" },
+    "answer1_variations": [
+      { "en": "Very. I had a curfew until college.", "ja": "すごくね。大学まで門限があったよ。" },
+      { "en": "Not really, they were pretty laid-back.", "ja": "そうでもないよ、かなりおおらかだった。" }
+    ],
+    "answer1_detail": { "en": "They were obsessed with my grades.", "ja": "彼らは私の成績にうるさかったんだ。" },
+    "question2": { "en": "Did you rebel?", "ja": "反抗した？" },
+    "answer2_variations": [
+      { "en": "A little bit in high school.", "ja": "高校の時にちょっとね。" },
+      { "en": "No, I was a goody-two-shoes.", "ja": "ううん、いい子ちゃんだったから。" }
+    ],
+    "vocab": [
+      { "word": "strict", "meaning": "厳しい" },
+      { "word": "curfew", "meaning": "門限" },
+      { "word": "laid-back", "meaning": "おおらかな、のんびりした" }
+    ]
+  },
+  {
+    "id": "family_adv_06",
+    "question1": { "en": "Are you married?", "ja": "結婚していますか？" },
+    "answer1_variations": [
+      { "en": "Yes, we've been married for 5 years.", "ja": "はい、結婚して5年になります。" },
+      { "en": "No, I'm single and loving it.", "ja": "いいえ、独身でそれを楽しんでます。" }
+    ],
+    "answer1_detail": { "en": "We actually just got engaged last month.", "ja": "実は先月婚約したばかりなんです。" },
+    "question2": { "en": "Congratulations! When is the wedding?", "ja": "おめでとう！結婚式はいつ？" },
+    "answer2_variations": [
+      { "en": "We haven't set a date yet.", "ja": "まだ日取りは決めてないんだ。" },
+      { "en": "We're planning for next spring.", "ja": "来年の春を予定してるよ。" }
+    ],
+    "vocab": [
+      { "word": "single", "meaning": "独身の" },
+      { "word": "engaged", "meaning": "婚約した" },
+      { "word": "set a date", "meaning": "日取りを決める" }
+    ]
+  },
+  {
+    "id": "family_adv_07",
+    "question1": { "en": "Do you have any kids?", "ja": "お子さんはいますか？" },
+    "answer1_variations": [
+      { "en": "Yes, I have two boys.", "ja": "はい、男の子が二人います。" },
+      { "en": "Not yet, maybe in the future.", "ja": "まだです、将来的には欲しいけど。" }
+    ],
+    "answer1_detail": { "en": "They are a handful but very cute.", "ja": "手がかかるけど、すごく可愛いですよ。" },
+    "question2": { "en": "How old are they?", "ja": "何歳ですか？" },
+    "answer2_variations": [
+      { "en": "They are 3 and 5.", "ja": "3歳と5歳です。" },
+      { "en": "One is in college already.", "ja": "一人はもう大学生です。" }
+    ],
+    "vocab": [
+      { "word": "handful", "meaning": "手がかかる子、手に余るもの" },
+      { "word": "in the future", "meaning": "将来的に" },
+      { "word": "college", "meaning": "大学" }
+    ]
+  },
+  {
+    "id": "family_adv_08",
+    "question1": { "en": "What does your father do?", "ja": "お父さんは何をされているの？（職業は？）" },
+    "answer1_variations": [
+      { "en": "He's an engineer at a car company.", "ja": "自動車会社のエンジニアだよ。" },
+      { "en": "He's retired now.", "ja": "今はもう引退（退職）してるよ。" }
+    ],
+    "answer1_detail": { "en": "He loves gardening in his free time.", "ja": "暇なときはガーデニングをするのが好きなんだ。" },
+    "question2": { "en": "Is he enjoying retirement?", "ja": "引退生活を楽しんでる？" },
+    "answer2_variations": [
+      { "en": "He's busier now than when he worked!", "ja": "働いてた時より今の方が忙しそうだよ！" },
+      { "en": "He seems a bit bored, honestly.", "ja": "正直、ちょっと退屈そうだね。" }
+    ],
+    "vocab": [
+      { "word": "engineer", "meaning": "技術者、エンジニア" },
+      { "word": "retired", "meaning": "退職した、引退した" },
+      { "word": "honestly", "meaning": "正直に言うと" }
+    ]
+  },
+  {
+    "id": "family_adv_09",
+    "question1": { "en": "Do you have a big extended family?", "ja": "親戚は多いほう？" },
+    "answer1_variations": [
+      { "en": "Huge. I have like 20 cousins.", "ja": "すごく多いよ。いとこが20人くらいいるし。" },
+      { "en": "No, it's just my parents and me.", "ja": "ううん、両親と私だけだよ。" }
+    ],
+    "answer1_detail": { "en": "Family reunions are absolute chaos.", "ja": "親戚の集まりは完全にカオスだよ。" },
+    "question2": { "en": "That sounds fun though.", "ja": "でも楽しそうだね。" },
+    "answer2_variations": [
+      { "en": "It is, there's always so much food.", "ja": "楽しいよ、いつも食べ物が山ほどあるし。" },
+      { "en": "It can be overwhelming sometimes.", "ja": "時々圧倒されちゃうけどね。" }
+    ],
+    "vocab": [
+      { "word": "extended family", "meaning": "親戚（大家族）" },
+      { "word": "reunion", "meaning": "再会、親睦会" },
+      { "word": "chaos", "meaning": "大混乱、カオス" }
+    ]
+  },
+  {
+    "id": "family_adv_10",
+    "question1": { "en": "Does musical talent run in your family?", "ja": "あなたの家族は音楽の才能がある家系？" },
+    "answer1_variations": [
+      { "en": "Yes, my mom is a piano teacher.", "ja": "うん、母はピアノの先生なんだ。" },
+      { "en": "No, we are all tone-deaf.", "ja": "ううん、私たちはみんな音痴だよ。" }
+    ],
+    "answer1_detail": { "en": "My grandfather played in a jazz band.", "ja": "祖父はジャズバンドで演奏してたんだ。" },
+    "question2": { "en": "Do you play anything?", "ja": "何か演奏するの？" },
+    "answer2_variations": [
+      { "en": "I play the guitar a little.", "ja": "ギターを少し弾くよ。" },
+      { "en": "I tried the violin but gave up.", "ja": "バイオリンを試したけど諦めたよ。" }
+    ],
+    "vocab": [
+      { "word": "run in the family", "meaning": "（遺伝的形質などが）家族に伝わる" },
+      { "word": "tone-deaf", "meaning": "音痴の" },
+      { "word": "give up", "meaning": "諦める、やめる" }
+    ]
+  },
+  {
+    "id": "family_adv_11",
+    "question1": { "en": "How are your in-laws?", "ja": "義理の家族（配偶者の家族）とはどう？" },
+    "answer1_variations": [
+      { "en": "They are wonderful, very supportive.", "ja": "素晴らしい人たちだよ、とても協力的だし。" },
+      { "en": "We have a bit of a strained relationship.", "ja": "ちょっと緊張感のある関係かな。" }
+    ],
+    "answer1_detail": { "en": "My mother-in-law treats me like her own son.", "ja": "義母は私を実の息子のように扱ってくれるんだ。" },
+    "question2": { "en": "You are lucky.", "ja": "それは幸運だね。" },
+    "answer2_variations": [
+      { "en": "I know, I hear so many horror stories.", "ja": "だよね、恐ろしい話をたくさん聞くからさ。" },
+      { "en": "It makes holidays much easier.", "ja": "おかげで休暇がすごく楽だよ。" }
+    ],
+    "vocab": [
+      { "word": "in-laws", "meaning": "義理の家族" },
+      { "word": "strained", "meaning": "緊張した、ぴりぴりした" },
+      { "word": "treat", "meaning": "扱う、接する" }
+    ]
+  },
+  {
+    "id": "family_adv_12",
+    "question1": { "en": "Are you the oldest or the youngest?", "ja": "あなたは一番上？それとも末っ子？" },
+    "answer1_variations": [
+      { "en": "I'm the baby of the family.", "ja": "私は家族の中で一番下（末っ子）だよ。" },
+      { "en": "I'm the oldest of four.", "ja": "4人兄弟の一番上だよ。" }
+    ],
+    "answer1_detail": { "en": "I got away with everything growing up.", "ja": "子供の頃は何をしても許されたんだ。" },
+    "question2": { "en": "Do your siblings resent that?", "ja": "兄弟はそれを恨んでる？" },
+    "answer2_variations": [
+      { "en": "They joke about it all the time.", "ja": "彼らはいつもそれをネタにしてるよ。" },
+      { "en": "Yeah, they say I was spoiled.", "ja": "うん、私が甘やかされてたって言うよ。" }
+    ],
+    "vocab": [
+      { "word": "get away with", "meaning": "（悪いことをしても）罰せられない、うまくやる" },
+      { "word": "resent", "meaning": "恨む、憤慨する" },
+      { "word": "spoiled", "meaning": "甘やかされた" }
+    ]
+  },
+  {
+    "id": "family_adv_13",
+    "question1": { "en": "Did you have to do chores as a kid?", "ja": "子供の頃、家事をしなきゃいけなかった？" },
+    "answer1_variations": [
+      { "en": "Yes, washing dishes was my job.", "ja": "うん、皿洗いが僕の仕事だったよ。" },
+      { "en": "Not really, my mom did everything.", "ja": "あんまり。母が全部やってくれてたから。" }
+    ],
+    "answer1_detail": { "en": "My allowance depended on it.", "ja": "お小遣いはそれにかかってたんだ。" },
+    "question2": { "en": "Do you think that was good for you?", "ja": "それは自分のためになったと思う？" },
+    "answer2_variations": [
+      { "en": "Definitely, it taught me responsibility.", "ja": "間違いなくね。責任感を学べたよ。" },
+      { "en": "I hated it then, but I appreciate it now.", "ja": "当時は嫌いだったけど、今は感謝してる。" }
+    ],
+    "vocab": [
+      { "word": "chore", "meaning": "家事、雑用" },
+      { "word": "allowance", "meaning": "お小遣い" },
+      { "word": "responsibility", "meaning": "責任（感）" }
+    ]
+  },
+  {
+    "id": "family_adv_14",
+    "question1": { "en": "Are you going home for the holidays?", "ja": "休暇には実家に帰るの？" },
+    "answer1_variations": [
+      { "en": "I can't this year because of work.", "ja": "今年は仕事があるから無理なんだ。" },
+      { "en": "Yes, I already booked my flight.", "ja": "うん、もう飛行機を予約したよ。" }
+    ],
+    "answer1_detail": { "en": "My mom is going to be so disappointed.", "ja": "母がすごくがっかりするだろうな。" },
+    "question2": { "en": "Will you video call them?", "ja": "ビデオ通話はするの？" },
+    "answer2_variations": [
+      { "en": "Of course, on New Year's Eve.", "ja": "もちろん、大晦日にね。" },
+      { "en": "Yeah, we'll open gifts together online.", "ja": "うん、オンラインで一緒にプレゼントを開けるよ。" }
+    ],
+    "vocab": [
+      { "word": "book", "meaning": "予約する" },
+      { "word": "disappointed", "meaning": "がっかりした" },
+      { "word": "New Year's Eve", "meaning": "大晦日" }
+    ]
+  },
+  {
+    "id": "family_adv_15",
+    "question1": { "en": "Who is the breadwinner in your family?", "ja": "あなたの家の稼ぎ頭は誰？" },
+    "answer1_variations": [
+      { "en": "My dad works, and my mom is a homemaker.", "ja": "父が働いていて、母は専業主婦だよ。" },
+      { "en": "Both my parents work full-time.", "ja": "両親ともフルタイムで働いてるよ。" }
+    ],
+    "answer1_detail": { "en": "It's becoming more common for both to work.", "ja": "共働きが一般的になってきてるよね。" },
+    "question2": { "en": "Who does the cooking then?", "ja": "じゃあ料理は誰がするの？" },
+    "answer2_variations": [
+      { "en": "They take turns.", "ja": "交代でやってるよ。" },
+      { "en": "Usually my dad, actually.", "ja": "実はたいてい父がやるんだ。" }
+    ],
+    "vocab": [
+      { "word": "breadwinner", "meaning": "稼ぎ頭、大黒柱" },
+      { "word": "homemaker", "meaning": "専業主婦（主夫）" },
+      { "word": "take turns", "meaning": "交代でする" }
+    ]
+  },
+  {
+    "id": "family_adv_16",
+    "question1": { "en": "Are you twins?", "ja": "あなたたち、双子なの？" },
+    "answer1_variations": [
+      { "en": "Yes, identical twins.", "ja": "うん、一卵性双生児だよ。" },
+      { "en": "No, just brothers close in age.", "ja": "ううん、ただ歳が近い兄弟なだけ。" }
+    ],
+    "answer1_detail": { "en": "People mix us up all the time.", "ja": "いつもみんなに間違えられるんだ。" },
+    "question2": { "en": "Do you have telepathy?", "ja": "テレパシーはある？" },
+    "answer2_variations": [
+      { "en": "Sometimes we finish each other's sentences.", "ja": "たまにお互いの言葉を補完し合うことはあるね。" },
+      { "en": "I wish! That would be cool.", "ja": "あったらいいのに！それならかっこいいよね。" }
+    ],
+    "vocab": [
+      { "word": "identical", "meaning": "そっくりの、一卵性の" },
+      { "word": "mix up", "meaning": "混同する、間違える" },
+      { "word": "telepathy", "meaning": "テレパシー" }
+    ]
+  },
+  {
+    "id": "family_adv_17",
+    "question1": { "en": "Have you ever traced your family tree?", "ja": "家系図を調べたことはある？" },
+    "answer1_variations": [
+      { "en": "Yes, I found some interesting ancestors.", "ja": "うん、面白い先祖を見つけたよ。" },
+      { "en": "No, but I've always wanted to.", "ja": "ううん、でもずっとやってみたいと思ってる。" }
+    ],
+    "answer1_detail": { "en": "Apparently, we have samurai blood.", "ja": "どうやらサムライの血が流れてるらしいんだ。" },
+    "question2": { "en": "Wow, that's amazing history.", "ja": "わあ、すごい歴史だね。" },
+    "answer2_variations": [
+      { "en": "It explains why my dad is so serious.", "ja": "父がなんであんなに真面目なのか説明がつくよ。" },
+      { "en": "I want to visit where they lived.", "ja": "彼らが住んでた場所に行ってみたいな。" }
+    ],
+    "vocab": [
+      { "word": "trace", "meaning": "たどる、追跡する" },
+      { "word": "ancestor", "meaning": "先祖" },
+      { "word": "blood", "meaning": "血（筋）、血統" }
+    ]
+  },
+  {
+    "id": "family_adv_18",
+    "question1": { "en": "My parents are getting a divorce.", "ja": "両親が離婚することになったんだ。" },
+    "answer1_variations": [
+      { "en": "I'm so sorry to hear that.", "ja": "それは残念だね（お気の毒に）。" },
+      { "en": "Are you okay?", "ja": "大丈夫？" }
+    ],
+    "answer1_detail": { "en": "It's probably for the best, they fight a lot.", "ja": "たぶんそれが一番いいんだ、喧嘩ばかりしてるから。" },
+    "question2": { "en": "Will you stay with your mom or dad?", "ja": "お母さんとお父さん、どっちと住むの？" },
+    "answer2_variations": [
+      { "en": "I'm old enough to live on my own.", "ja": "もう一人暮らしできる年齢だからね。" },
+      { "en": "I'll stay with my mom for now.", "ja": "とりあえず母さんと住むよ。" }
+    ],
+    "vocab": [
+      { "word": "divorce", "meaning": "離婚" },
+      { "word": "for the best", "meaning": "最善の結果（になる）" },
+      { "word": "fight", "meaning": "喧嘩する" }
+    ]
+  },
+  {
+    "id": "family_adv_19",
+    "question1": { "en": "Who is the black sheep of your family?", "ja": "家族の中の「厄介者（変わり者）」は誰？" },
+    "answer1_variations": [
+      { "en": "Definitely my uncle Bob.", "ja": "間違いなくボブおじさんだね。" },
+      { "en": "Honestly, I think it's me.", "ja": "正直、私だと思う。" }
+    ],
+    "answer1_detail": { "en": "He travels the world and never settles down.", "ja": "彼は世界中を旅してて、全然落ち着かないんだ。" },
+    "question2": { "en": "That actually sounds cool.", "ja": "それは逆にかっこいいね。" },
+    "answer2_variations": [
+      { "en": "Yeah, I admire his freedom.", "ja": "うん、彼の自由さには憧れるよ。" },
+      { "en": "My grandma doesn't think so.", "ja": "おばあちゃんはそう思ってないけどね。" }
+    ],
+    "vocab": [
+      { "word": "black sheep", "meaning": "厄介者、変わり者、面汚し" },
+      { "word": "settle down", "meaning": "身を固める、落ち着く" },
+      { "word": "admire", "meaning": "憧れる、称賛する" }
+    ]
+  },
+  {
+    "id": "family_adv_20",
+    "question1": { "en": "Do you want to raise your kids in the city?", "ja": "子供は都会で育てたい？" },
+    "answer1_variations": [
+      { "en": "No, I want them to grow up in nature.", "ja": "ううん、自然の中で育ってほしいな。" },
+      { "en": "Yes, for the educational opportunities.", "ja": "うん、教育の機会があるからね。" }
+    ],
+    "answer1_detail": { "en": "I had a great childhood in the countryside.", "ja": "田舎での子供時代は最高だったから。" },
+    "question2": { "en": "But isn't it inconvenient?", "ja": "でも不便じゃない？" },
+    "answer2_variations": [
+      { "en": "Maybe, but it's safer and quieter.", "ja": "かもね、でも安全で静かだよ。" },
+      { "en": "You need a car for everything though.", "ja": "何をするにも車が必要だけどね。" }
+    ],
+    "vocab": [
+      { "word": "raise", "meaning": "（子供を）育てる" },
+      { "word": "countryside", "meaning": "田舎" },
+      { "word": "opportunity", "meaning": "機会、チャンス" }
+    ]
+  }
+]
 }

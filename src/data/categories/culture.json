@@ -1,5 +1,386 @@
 {
   "id": "topic_culture",
   "title": "Culture (文化)",
-  "questions": []
+  "questions":[
+  {
+    "id": "culture_adv_01",
+    "question1": { "en": "Do people bow instead of shaking hands in Japan?", "ja": "日本では握手の代わりにお辞儀をするのですか？" },
+    "answer1_variations": [
+      { "en": "Yes, bowing is the standard greeting here.", "ja": "はい、ここではお辞儀が一般的な挨拶です。" },
+      { "en": "We do both, but bowing is more common.", "ja": "両方しますが、お辞儀の方が一般的ですね。" }
+    ],
+    "answer1_detail": { "en": "The angle of the bow depends on the person's status.", "ja": "お辞儀の角度は、相手の立場によって変わります。" },
+    "question2": { "en": "Is it rude if I don't bow?", "ja": "お辞儀をしないと失礼になりますか？" },
+    "answer2_variations": [
+      { "en": "Not really, foreigners aren't expected to know the rules.", "ja": "そんなことないですよ、外国人がルールを知っているとは期待されていませんから。" },
+      { "en": "A small nod is usually enough to be polite.", "ja": "軽く会釈するだけで、十分丁寧ですよ。" }
+    ],
+    "vocab": [
+      { "word": "standard", "meaning": "標準的な、一般的な" },
+      { "word": "status", "meaning": "地位、立場" },
+      { "word": "nod", "meaning": "うなずく、会釈する" }
+    ]
+  },
+  {
+    "id": "culture_adv_02",
+    "question1": { "en": "Should I leave a tip at restaurants in Japan?", "ja": "日本のレストランではチップを置くべきですか？" },
+    "answer1_variations": [
+      { "en": "No, tipping isn't part of our culture.", "ja": "いいえ、チップは私たちの文化の一部ではありません。" },
+      { "en": "You don't need to. Good service is standard.", "ja": "その必要はありません。良いサービスが当たり前ですので。" }
+    ],
+    "answer1_detail": { "en": "Some staff might even run after you to return the money.", "ja": "店員さんによっては、お金を返そうと追いかけてくることもありますよ。" },
+    "question2": { "en": "That's so different from the US.", "ja": "アメリカとは全然違いますね。" },
+    "answer2_variations": [
+      { "en": "Yes, the service charge is usually included in the price.", "ja": "ええ、サービス料はたいてい価格に含まれていますから。" },
+      { "en": "It makes paying the bill much simpler.", "ja": "そのおかげで会計がずっとシンプルです。" }
+    ],
+    "vocab": [
+      { "word": "tip", "meaning": "チップを渡す" },
+      { "word": "standard", "meaning": "標準の、基準" },
+      { "word": "include", "meaning": "含む" }
+    ]
+  },
+  {
+    "id": "culture_adv_03",
+    "question1": { "en": "Why do Japanese people take off their shoes inside?", "ja": "なぜ日本人は室内で靴を脱ぐのですか？" },
+    "answer1_variations": [
+      { "en": "It's to keep the floors clean.", "ja": "床を清潔に保つためです。" },
+      { "en": "Because we often sit on the floor.", "ja": "床に座ることが多いからです。" }
+    ],
+    "answer1_detail": { "en": "There is a specific area called the 'genkan' for this.", "ja": "このために「玄関」と呼ばれる特定の場所があります。" },
+    "question2": { "en": "Do I need to wear slippers?", "ja": "スリッパを履く必要がありますか？" },
+    "answer2_variations": [
+      { "en": "Usually yes, but not on tatami mats.", "ja": "たいていはそうですが、畳の上では履きません。" },
+      { "en": "Guests are almost always provided with them.", "ja": "お客さんにはほぼ必ずスリッパが出されますよ。" }
+    ],
+    "vocab": [
+      { "word": "clean", "meaning": "清潔な" },
+      { "word": "specific", "meaning": "特定の" },
+      { "word": "provide", "meaning": "提供する" }
+    ]
+  },
+  {
+    "id": "culture_adv_04",
+    "question1": { "en": "Is it true that slurping noodles is polite?", "ja": "麺をすすって食べるのが礼儀正しいって本当？" },
+    "answer1_variations": [
+      { "en": "It shows that you are enjoying the meal.", "ja": "食事を楽しんでいることを示すんですよ。" },
+      { "en": "Yes, it also cools down the hot noodles.", "ja": "はい、熱い麺を冷ます効果もあります。" }
+    ],
+    "answer1_detail": { "en": "However, it's considered bad manners for pasta.", "ja": "ただ、パスタでそれをやるのはマナー違反とされています。" },
+    "question2": { "en": "I find it hard to do without making a mess.", "ja": "散らかさずにやるのは難しいですね。" },
+    "answer2_variations": [
+      { "en": "It takes some practice to do it neatly.", "ja": "きれいにやるには練習が必要ですね。" },
+      { "en": "Don't worry, nobody will judge you if you don't slurp.", "ja": "心配しないで、すすらなくても誰も非難しませんよ。" }
+    ],
+    "vocab": [
+      { "word": "slurp", "meaning": "音を立ててすする" },
+      { "word": "manners", "meaning": "行儀、マナー" },
+      { "word": "neatly", "meaning": "きれいに、こぎれいに" }
+    ]
+  },
+  {
+    "id": "culture_adv_05",
+    "question1": { "en": "What is 'Omiyage'?", "ja": "「お土産」とは何ですか？" },
+    "answer1_variations": [
+      { "en": "It's a souvenir you buy for friends or coworkers.", "ja": "友人や同僚のために買うお土産のことです。" },
+      { "en": "It's a gift to share after a trip.", "ja": "旅行の後で配る贈り物のことです。" }
+    ],
+    "answer1_detail": { "en": "They are usually individually wrapped snacks.", "ja": "たいていは個包装されたお菓子です。" },
+    "question2": { "en": "Is it mandatory to buy them?", "ja": "買うのは義務なんですか？" },
+    "answer2_variations": [
+      { "en": "Not mandatory, but it helps maintain good relationships.", "ja": "義務ではありませんが、良い関係を保つのに役立ちます。" },
+      { "en": "It's a strong social expectation in some workplaces.", "ja": "職場によっては、社会的な期待として根強いですね。" }
+    ],
+    "vocab": [
+      { "word": "souvenir", "meaning": "お土産、記念品" },
+      { "word": "individually wrapped", "meaning": "個包装された" },
+      { "word": "mandatory", "meaning": "義務的な、強制の" }
+    ]
+  },
+  {
+    "id": "culture_adv_06",
+    "question1": { "en": "I see vending machines everywhere in Japan.", "ja": "日本では至る所に自動販売機がありますね。" },
+    "answer1_variations": [
+      { "en": "Yes, you can find one on almost every corner.", "ja": "ええ、ほぼすべての曲がり角にありますよ。" },
+      { "en": "It's because the crime rate is very low.", "ja": "犯罪率がとても低いからですね。" }
+    ],
+    "answer1_detail": { "en": "They sell hot drinks even in winter.", "ja": "冬でも温かい飲み物が売られているんですよ。" },
+    "question2": { "en": "Do they sell anything other than drinks?", "ja": "飲み物以外も売っているんですか？" },
+    "answer2_variations": [
+      { "en": "Some sell ice cream, soup, or even bananas.", "ja": "アイスやスープ、バナナを売っているものもあります。" },
+      { "en": "You can find machines for cigarettes and alcohol too.", "ja": "タバコやお酒の自販機も見かけますね。" }
+    ],
+    "vocab": [
+      { "word": "crime rate", "meaning": "犯罪率" },
+      { "word": "corner", "meaning": "角、街角" },
+      { "word": "cigarette", "meaning": "タバコ" }
+    ]
+  },
+  {
+    "id": "culture_adv_07",
+    "question1": { "en": "Japanese trains are incredibly punctual.", "ja": "日本の電車は信じられないほど時間に正確ですね。" },
+    "answer1_variations": [
+      { "en": "We panic if the train is even one minute late.", "ja": "電車が1分遅れるだけでも私たちは焦ります。" },
+      { "en": "Punctuality is highly valued in our society.", "ja": "私たちの社会では時間厳守が重んじられています。" }
+    ],
+    "answer1_detail": { "en": "If there's a delay, the conductor apologizes repeatedly.", "ja": "遅延があると、車掌さんが何度も謝罪します。" },
+    "question2": { "en": "What happens if I'm late for work because of it?", "ja": "そのせいで仕事に遅れたらどうなるんですか？" },
+    "answer2_variations": [
+      { "en": "You can get a 'delay certificate' at the station.", "ja": "駅で「遅延証明書」をもらえますよ。" },
+      { "en": "Companies usually accept that as a valid excuse.", "ja": "会社はたいていそれを正当な理由として認めてくれます。" }
+    ],
+    "vocab": [
+      { "word": "punctual", "meaning": "時間に正確な" },
+      { "word": "valued", "meaning": "重んじられる、評価される" },
+      { "word": "certificate", "meaning": "証明書" }
+    ]
+  },
+  {
+    "id": "culture_adv_08",
+    "question1": { "en": "What do you say before eating in Japan?", "ja": "日本では食べる前に何と言いますか？" },
+    "answer1_variations": [
+      { "en": "We say 'Itadakimasu'.", "ja": "「いただきます」と言います。" },
+      { "en": "It means 'I humbly receive'.", "ja": "「慎んで頂戴します」という意味です。" }
+    ],
+    "answer1_detail": { "en": "It's a way to show gratitude to the cook and the ingredients.", "ja": "料理人と食材への感謝を示す言葉なんです。" },
+    "question2": { "en": "And what about after the meal?", "ja": "では、食後は？" },
+    "answer2_variations": [
+      { "en": "We say 'Gochisousama'.", "ja": "「ごちそうさま」と言います。" },
+      { "en": "It translates to 'Thank you for the feast'.", "ja": "「ごちそうをありがとう」と訳せますね。" }
+    ],
+    "vocab": [
+      { "word": "humbly", "meaning": "謙虚に、慎んで" },
+      { "word": "gratitude", "meaning": "感謝" },
+      { "word": "ingredient", "meaning": "食材、材料" }
+    ]
+  },
+  {
+    "id": "culture_adv_09",
+    "question1": { "en": "Can I enter a hot spring if I have a tattoo?", "ja": "タトゥーがあっても温泉に入れますか？" },
+    "answer1_variations": [
+      { "en": "Many traditional onsens still ban tattoos.", "ja": "多くの伝統的な温泉では、まだタトゥーはお断りされています。" },
+      { "en": "It's getting better, but you should check beforehand.", "ja": "状況は良くなっていますが、事前に確認した方がいいですね。" }
+    ],
+    "answer1_detail": { "en": "Tattoos are historically associated with gangs here.", "ja": "ここでは歴史的に、タトゥーは暴力団と結び付けられてきたからです。" },
+    "question2": { "en": "What if I cover it with a sticker?", "ja": "シールで隠せばどうですか？" },
+    "answer2_variations": [
+      { "en": "Some places allow that if it's small.", "ja": "小さいものなら、それで許可してくれる場所もあります。" },
+      { "en": "Private baths are always a safe option.", "ja": "貸切風呂ならいつでも安心な選択肢ですね。" }
+    ],
+    "vocab": [
+      { "word": "ban", "meaning": "禁止する" },
+      { "word": "beforehand", "meaning": "事前に" },
+      { "word": "associate", "meaning": "関連付ける、連想する" }
+    ]
+  },
+  {
+    "id": "culture_adv_10",
+    "question1": { "en": "Why are there so many convenience stores?", "ja": "なぜこんなにたくさんのコンビニがあるのですか？" },
+    "answer1_variations": [
+      { "en": "They are essential for our daily lives.", "ja": "私たちの日常生活に欠かせないからです。" },
+      { "en": "You can do almost anything there, 24/7.", "ja": "24時間365日、そこでほぼ何でもできますから。" }
+    ],
+    "answer1_detail": { "en": "You can pay bills, send packages, and withdraw cash.", "ja": "請求書の支払いや荷物の発送、現金の引き出しもできます。" },
+    "question2": { "en": "Is the food actually good?", "ja": "食べ物は美味しいんですか？" },
+    "answer2_variations": [
+      { "en": "Surprisingly yes, especially the rice balls.", "ja": "驚くことに美味しいですよ、特におにぎりがね。" },
+      { "en": "The quality is much higher than in other countries.", "ja": "他の国に比べてクオリティははるかに高いです。" }
+    ],
+    "vocab": [
+      { "word": "essential", "meaning": "不可欠な" },
+      { "word": "withdraw", "meaning": "（お金を）引き出す" },
+      { "word": "quality", "meaning": "質、クオリティ" }
+    ]
+  },
+  {
+    "id": "culture_adv_11",
+    "question1": { "en": "Why is it so quiet on the train?", "ja": "電車の中はなぜこんなに静かなんですか？" },
+    "answer1_variations": [
+      { "en": "Talking loudly on the phone is considered rude.", "ja": "電話で大声で話すのは失礼だとされているからです。" },
+      { "en": "People value silence and personal space here.", "ja": "ここでは静寂と他人のスペースが重んじられています。" }
+    ],
+    "answer1_detail": { "en": "You are expected to set your phone to silent mode.", "ja": "携帯電話はマナーモードに設定することが求められています。" },
+    "question2": { "en": "Can I talk to my friend?", "ja": "友達と話してもいいですか？" },
+    "answer2_variations": [
+      { "en": "Yes, but please keep your voice down.", "ja": "はい、でも声のトーンを落としてくださいね。" },
+      { "en": "Whispering is safer to avoid stares.", "ja": "ジロジロ見られないためには、ひそひそ話が無難です。" }
+    ],
+    "vocab": [
+      { "word": "rude", "meaning": "失礼な、無礼な" },
+      { "word": "value", "meaning": "重んじる、評価する" },
+      { "word": "whisper", "meaning": "ささやく、ひそひそ話す" }
+    ]
+  },
+  {
+    "id": "culture_adv_12",
+    "question1": { "en": "Can I pass food to you with my chopsticks?", "ja": "箸であなたに食べ物を渡してもいい？" },
+    "answer1_variations": [
+      { "en": "No, that is a big taboo in Japan.", "ja": "だめ、それは日本では大きなタブーなんだ。" },
+      { "en": "Please don't, it reminds us of funerals.", "ja": "やめて、お葬式を連想させるから。" }
+    ],
+    "answer1_detail": { "en": "It mimics the ritual of picking up bones after cremation.", "ja": "火葬後に骨を拾う儀式を真似てしまうことになるんだ。" },
+    "question2": { "en": "Oh, I didn't know that. How should I share?", "ja": "知らなかった。どうやって分け合えばいいの？" },
+    "answer2_variations": [
+      { "en": "Put it on a small plate first.", "ja": "まずは小皿に置いて。" },
+      { "en": "Just let me pick it up myself.", "ja": "自分で取るから大丈夫だよ。" }
+    ],
+    "vocab": [
+      { "word": "taboo", "meaning": "タブー、禁忌" },
+      { "word": "funeral", "meaning": "葬式" },
+      { "word": "cremation", "meaning": "火葬" }
+    ]
+  },
+  {
+    "id": "culture_adv_13",
+    "question1": { "en": "I can't find any trash cans on the street.", "ja": "通りにゴミ箱が全然見当たらないんだけど。" },
+    "answer1_variations": [
+      { "en": "Yeah, public trash cans are rare nowadays.", "ja": "うん、最近は公共のゴミ箱って珍しいんだ。" },
+      { "en": "Most were removed for security reasons.", "ja": "セキュリティ上の理由でほとんど撤去されたんだよ。" }
+    ],
+    "answer1_detail": { "en": "People usually carry their trash home with them.", "ja": "たいていみんな、ゴミは家に持ち帰るんだ。" },
+    "question2": { "en": "What do I do with this empty bottle?", "ja": "この空のボトルはどうすればいい？" },
+    "answer2_variations": [
+      { "en": "Look for a recycling bin next to a vending machine.", "ja": "自販機の横にあるリサイクルボックスを探してみて。" },
+      { "en": "Convenience stores usually have bins.", "ja": "コンビニならたいていゴミ箱があるよ。" }
+    ],
+    "vocab": [
+      { "word": "rare", "meaning": "珍しい、稀な" },
+      { "word": "remove", "meaning": "撤去する、取り除く" },
+      { "word": "security", "meaning": "防犯、安全" }
+    ]
+  },
+  {
+    "id": "culture_adv_14",
+    "question1": { "en": "What is this small appetizer I didn't order?", "ja": "頼んでいないこの小さな前菜は何ですか？" },
+    "answer1_variations": [
+      { "en": "It's called 'Otoshi', a table charge appetizer.", "ja": "「お通し」と呼ばれる、席料代わりの前菜です。" },
+      { "en": "Think of it as a cover charge for the seat.", "ja": "席のためのカバーチャージ（席料）だと考えてください。" }
+    ],
+    "answer1_detail": { "en": "Everyone gets one automatically at an Izakaya.", "ja": "居酒屋では全員に自動的に出されます。" },
+    "question2": { "en": "Can I refuse it?", "ja": "断ることはできますか？" },
+    "answer2_variations": [
+      { "en": "Usually no, it's part of the system.", "ja": "たいていは無理ですね、システムの一部なので。" },
+      { "en": "Some places allow it, but it's rare.", "ja": "許可してくれる店もありますが、稀ですよ。" }
+    ],
+    "vocab": [
+      { "word": "appetizer", "meaning": "前菜" },
+      { "word": "automatically", "meaning": "自動的に" },
+      { "word": "refuse", "meaning": "断る、拒否する" }
+    ]
+  },
+  {
+    "id": "culture_adv_15",
+    "question1": { "en": "How is Christmas celebrated in Japan?", "ja": "日本ではクリスマスはどう祝うの？" },
+    "answer1_variations": [
+      { "en": "It's more for couples than families here.", "ja": "ここでは家族よりもカップルのためのイベントだね。" },
+      { "en": "We traditionally eat fried chicken and strawberry cake.", "ja": "伝統的にフライドチキンとイチゴのケーキを食べるよ。" }
+    ],
+    "answer1_detail": { "en": "Reservations for chicken start months in advance.", "ja": "チキンの予約は数ヶ月前から始まるんだ。" },
+    "question2": { "en": "Wait, fried chicken? Really?", "ja": "待って、フライドチキン？本当に？" },
+    "answer2_variations": [
+      { "en": "Yes, thanks to a successful marketing campaign.", "ja": "うん、成功したマーケティングキャンペーンのおかげでね。" },
+      { "en": "It sounds weird, but it's a beloved tradition.", "ja": "変に聞こえるだろうけど、愛されている伝統なんだ。" }
+    ],
+    "vocab": [
+      { "word": "celebrate", "meaning": "祝う" },
+      { "word": "in advance", "meaning": "事前に、前もって" },
+      { "word": "marketing campaign", "meaning": "宣伝活動" }
+    ]
+  },
+  {
+    "id": "culture_adv_16",
+    "question1": { "en": "Do you like Karaoke?", "ja": "カラオケは好き？" },
+    "answer1_variations": [
+      { "en": "Yes, it's a great stress reliever!", "ja": "うん、素晴らしいストレス発散になるよ！" },
+      { "en": "We often go after drinking parties.", "ja": "飲み会の後によく行くよ。" }
+    ],
+    "answer1_detail": { "en": "You rent a private room, so you can sing badly.", "ja": "個室を借りるから、下手でも歌えるんだ。" },
+    "question2": { "en": "I'm too shy to sing in front of others.", "ja": "人前で歌うのは恥ずかしいな。" },
+    "answer2_variations": [
+      { "en": "Don't worry, everyone is busy choosing their next song.", "ja": "心配しないで、みんな次の曲を選ぶのに忙しいから。" },
+      { "en": "Just pick a famous song and everyone will join in.", "ja": "有名な曲を選べば、みんな一緒に歌ってくれるよ。" }
+    ],
+    "vocab": [
+      { "word": "stress reliever", "meaning": "ストレス解消になるもの" },
+      { "word": "private", "meaning": "個人の、私的な" },
+      { "word": "badly", "meaning": "下手に、ひどく" }
+    ]
+  },
+  {
+    "id": "culture_adv_17",
+    "question1": { "en": "Why are people wearing masks even when not sick?", "ja": "病気じゃないのにマスクをしている人がいるのはなぜ？" },
+    "answer1_variations": [
+      { "en": "Many people have hay fever.", "ja": "花粉症の人が多いんだよ。" },
+      { "en": "Some women wear them when they don't have makeup on.", "ja": "化粧をしていない時に着ける女性もいるね。" }
+    ],
+    "answer1_detail": { "en": "It's also to prevent catching colds from others.", "ja": "他人から風邪をもらわない予防のためでもあるんだ。" },
+    "question2": { "en": "Is it considered polite?", "ja": "それは礼儀正しいこととされているの？" },
+    "answer2_variations": [
+      { "en": "Yes, especially if you are coughing.", "ja": "うん、特に咳をしているならね。" },
+      { "en": "It shows you care about public hygiene.", "ja": "公衆衛生に気を使っていることを示すからね。" }
+    ],
+    "vocab": [
+      { "word": "hay fever", "meaning": "花粉症" },
+      { "word": "prevent", "meaning": "防ぐ、予防する" },
+      { "word": "hygiene", "meaning": "衛生" }
+    ]
+  },
+  {
+    "id": "culture_adv_18",
+    "question1": { "en": "Have you ever stayed in a capsule hotel?", "ja": "カプセルホテルに泊まったことある？" },
+    "answer1_variations": [
+      { "en": "Once, when I missed the last train.", "ja": "終電を逃した時に一度だけね。" },
+      { "en": "No, it seems too claustrophobic for me.", "ja": "ううん、閉所恐怖症になりそうだから。" }
+    ],
+    "answer1_detail": { "en": "It's basically just a bed in a pod.", "ja": "基本的にはポッドの中にベッドがあるだけだよ。" },
+    "question2": { "en": "Is it comfortable?", "ja": "快適なの？" },
+    "answer2_variations": [
+      { "en": "It's surprisingly cozy and has everything you need.", "ja": "意外と居心地が良くて、必要なものは全部揃ってるよ。" },
+      { "en": "It's cheap, but don't expect luxury.", "ja": "安いけど、豪華さは期待しないでね。" }
+    ],
+    "vocab": [
+      { "word": "miss", "meaning": "（乗り物に）乗り遅れる" },
+      { "word": "claustrophobic", "meaning": "閉所恐怖症の（ような気分にさせる）" },
+      { "word": "cozy", "meaning": "居心地が良い" }
+    ]
+  },
+  {
+    "id": "culture_adv_19",
+    "question1": { "en": "What do Japanese people do for New Year's?", "ja": "日本人はお正月に何をするの？" },
+    "answer1_variations": [
+      { "en": "We visit a shrine to pray for good luck.", "ja": "神社に行って幸運を祈るんだ（初詣）。" },
+      { "en": "Spending time with family is the main thing.", "ja": "家族と過ごすのがメインだね。" }
+    ],
+    "answer1_detail": { "en": "It's the most important holiday of the year here.", "ja": "ここでは一年で最も重要な祝日なんだ。" },
+    "question2": { "en": "Do you have fireworks?", "ja": "花火はあるの？" },
+    "answer2_variations": [
+      { "en": "No, it's a quiet and traditional holiday.", "ja": "ううん、静かで伝統的な祝日だよ。" },
+      { "en": "We watch a singing contest on TV instead.", "ja": "代わりにテレビで歌合戦を見るんだ。" }
+    ],
+    "vocab": [
+      { "word": "shrine", "meaning": "神社" },
+      { "word": "pray", "meaning": "祈る" },
+      { "word": "tradition", "meaning": "伝統" }
+    ]
+  },
+  {
+    "id": "culture_adv_20",
+    "question1": { "en": "I heard about 'White Day'. What is it?", "ja": "「ホワイトデー」って聞いたんだけど、何？" },
+    "answer1_variations": [
+      { "en": "It's when men return gifts to women.", "ja": "男性が女性にお返しをする日だよ。" },
+      { "en": "It happens exactly one month after Valentine's.", "ja": "バレンタインのちょうど一ヶ月後にあるんだ。" }
+    ],
+    "answer1_detail": { "en": "In Japan, women give chocolates first on Valentine's.", "ja": "日本では、バレンタインにまず女性がチョコをあげるからね。" },
+    "question2": { "en": "What kind of gifts do you give?", "ja": "どんな贈り物をあげるの？" },
+    "answer2_variations": [
+      { "en": "Cookies, marshmallows, or white chocolate.", "ja": "クッキーやマシュマロ、ホワイトチョコだね。" },
+      { "en": "Sometimes jewelry if it's for a girlfriend.", "ja": "彼女向けならジュエリーの場合もあるよ。" }
+    ],
+    "vocab": [
+      { "word": "return", "meaning": "（お返しを）返す" },
+      { "word": "exactly", "meaning": "ちょうど、正確に" },
+      { "word": "jewelry", "meaning": "宝石、ジュエリー" }
+    ]
+  }
+]
 }

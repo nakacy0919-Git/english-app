@@ -1,5 +1,386 @@
 {
   "id": "topic_animals",
   "title": "Animals (動物)",
-  "questions": []
+  "questions": [
+  {
+    "id": "animal_adv_01",
+    "question1": { "en": "If you could have any animal as a pet, what would it be?", "ja": "もしどんな動物でもペットにできるとしたら、何がいい？" },
+    "answer1_variations": [
+      { "en": "I'd love to have a sloth.", "ja": "ナマケモノを飼ってみたいな。" },
+      { "en": "I've always wanted a hedgehog.", "ja": "ずっとハリネズミが欲しかったんだ。" }
+    ],
+    "answer1_detail": { "en": "They seem so chill and low-maintenance.", "ja": "彼らはすごくのんびりしていて、手がかからなそうだから。" },
+    "question2": { "en": "Wouldn't it be hard to take care of?", "ja": "世話をするのは大変じゃない？" },
+    "answer2_variations": [
+      { "en": "Maybe, but watching them would be relaxing.", "ja": "かもね、でも見ているだけで癒やされそうだよ。" },
+      { "en": "I'd need to do some research first.", "ja": "まずはちゃんと調べないといけないね。" }
+    ],
+    "vocab": [
+      { "word": "low-maintenance", "meaning": "手がかからない、世話が楽な" },
+      { "word": "chill", "meaning": "のんびりした、落ち着いた" },
+      { "word": "hedgehog", "meaning": "ハリネズミ" }
+    ]
+  },
+  {
+    "id": "animal_adv_02",
+    "question1": { "en": "Can I pet your dog?", "ja": "そのワンちゃん、撫でてもいいですか？" },
+    "answer1_variations": [
+      { "en": "Sure, he loves people!", "ja": "もちろんです、彼は人が大好きなんですよ！" },
+      { "en": "Sorry, he's a bit shy with strangers.", "ja": "ごめんなさい、彼は知らない人がちょっと苦手なんです。" }
+    ],
+    "answer1_detail": { "en": "He doesn't bite, so don't worry.", "ja": "噛んだりしないので、心配しないでくださいね。" },
+    "question2": { "en": "What breed is he?", "ja": "犬種は何ですか？" },
+    "answer2_variations": [
+      { "en": "He's a mix of a Poodle and a Labrador.", "ja": "プードルとラブラドールのミックスです。" },
+      { "en": "He's actually a rescue dog, so I'm not sure.", "ja": "実は保護犬なので、よく分からないんです。" }
+    ],
+    "vocab": [
+      { "word": "pet", "meaning": "(動物を)撫でる" },
+      { "word": "breed", "meaning": "品種、犬種" },
+      { "word": "rescue dog", "meaning": "保護犬" }
+    ]
+  },
+  {
+    "id": "animal_adv_03",
+    "question1": { "en": "Have you ever been to a cat cafe?", "ja": "猫カフェに行ったことある？" },
+    "answer1_variations": [
+      { "en": "Yeah, I went to one in Tokyo last year.", "ja": "うん、去年東京で行ったよ。" },
+      { "en": "No, I'm actually allergic to cats.", "ja": "ううん、実は猫アレルギーなんだ。" }
+    ],
+    "answer1_detail": { "en": "It was incredibly relaxing to be around them.", "ja": "猫たちに囲まれて、すごく癒やされたよ。" },
+    "question2": { "en": "Did you have a favorite one?", "ja": "お気に入りの子はいた？" },
+    "answer2_variations": [
+      { "en": "There was a fluffy white one that slept on my lap.", "ja": "膝の上で寝てくれた、白くてふわふわな子がいたよ。" },
+      { "en": "They were all too cute to pick just one.", "ja": "みんな可愛すぎて、一匹だけなんて選べないよ。" }
+    ],
+    "vocab": [
+      { "word": "allergic", "meaning": "アレルギーがある" },
+      { "word": "incredibly", "meaning": "信じられないほど、すごく" },
+      { "word": "fluffy", "meaning": "ふわふわした" }
+    ]
+  },
+  {
+    "id": "animal_adv_04",
+    "question1": { "en": "Are there any animals you are afraid of?", "ja": "何か苦手な動物っている？" },
+    "answer1_variations": [
+      { "en": "I absolutely can't stand spiders.", "ja": "クモがどうしても無理なんだ。" },
+      { "en": "Snakes kind of creep me out.", "ja": "ヘビはちょっと気味が悪くて苦手かな。" }
+    ],
+    "answer1_detail": { "en": "I just can't handle all those legs.", "ja": "あのたくさんの脚がどうしてもダメなんだよ。" },
+    "question2": { "en": "What do you do if you find one in your room?", "ja": "もし部屋で見つけたらどうするの？" },
+    "answer2_variations": [
+      { "en": "I scream and call for help immediately.", "ja": "叫んで即座に助けを呼ぶよ。" },
+      { "en": "I try to catch it and release it outside.", "ja": "捕まえて外に逃がしてあげるようにしてる。" }
+    ],
+    "vocab": [
+      { "word": "can't stand", "meaning": "～が大嫌い、我慢できない" },
+      { "word": "creep out", "meaning": "～をぞっとさせる、気味悪がらせる" },
+      { "word": "handle", "meaning": "対処する、耐える" }
+    ]
+  },
+  {
+    "id": "animal_adv_05",
+    "question1": { "en": "Do you like watching animal documentaries?", "ja": "動物のドキュメンタリー番組は好き？" },
+    "answer1_variations": [
+      { "en": "I love them! Especially the ones about sea life.", "ja": "大好き！特に海の生き物のやつがね。" },
+      { "en": "Sometimes, but I don't like the brutal scenes.", "ja": "たまにね。でも残酷なシーンは苦手だな。" }
+    ],
+    "answer1_detail": { "en": "I was amazed at how smart killer whales are.", "ja": "シャチがいかに賢いかを知って驚いたよ。" },
+    "question2": { "en": "Did you learn any fun facts?", "ja": "何か面白い事実はあった？" },
+    "answer2_variations": [
+      { "en": "Apparently, they have different dialects.", "ja": "どうやら、彼らには異なる方言があるらしいよ。" },
+      { "en": "They actually hunt in teams.", "ja": "彼らはチームを組んで狩りをするんだって。" }
+    ],
+    "vocab": [
+      { "word": "documentary", "meaning": "ドキュメンタリー" },
+      { "word": "brutal", "meaning": "残酷な" },
+      { "word": "dialect", "meaning": "方言" }
+    ]
+  },
+  {
+    "id": "animal_adv_06",
+    "question1": { "en": "Have you seen any wild animals around here?", "ja": "この辺りで野生動物を見かけたことある？" },
+    "answer1_variations": [
+      { "en": "I saw a wild boar near the mountains.", "ja": "山の近くでイノシシを見たよ。" },
+      { "en": "Just the usual stray cats and crows.", "ja": "いつもの野良猫とカラスくらいかな。" }
+    ],
+    "answer1_detail": { "en": "It came out of the bushes suddenly and surprised me.", "ja": "茂みから突然出てきて、びっくりしたよ。" },
+    "question2": { "en": "Did it chase you?", "ja": "追いかけられたりした？" },
+    "answer2_variations": [
+      { "en": "No, it ran away as soon as it saw me.", "ja": "ううん、僕を見るなり逃げていったよ。" },
+      { "en": "Thankfully no, but I froze for a second.", "ja": "幸いなかったけど、一瞬固まっちゃったよ。" }
+    ],
+    "vocab": [
+      { "word": "wild boar", "meaning": "イノシシ" },
+      { "word": "stray", "meaning": "野良の、はぐれた" },
+      { "word": "bush", "meaning": "茂み" }
+    ]
+  },
+  {
+    "id": "animal_adv_07",
+    "question1": { "en": "I'm thinking about getting a parrot.", "ja": "オウムを飼おうかと思っているんだ。" },
+    "answer1_variations": [
+      { "en": "That sounds fun! They are very intelligent.", "ja": "それは楽しそうだね！彼らはとても賢いよ。" },
+      { "en": "Be careful, they can be pretty noisy.", "ja": "気をつけた方がいいよ、結構うるさいからね。" }
+    ],
+    "answer1_detail": { "en": "Some of them can live for over 50 years.", "ja": "種類によっては50年以上生きるのもいるんだよ。" },
+    "question2": { "en": "Really? That's a huge commitment.", "ja": "本当？それはすごい責任重大だね。" },
+    "answer2_variations": [
+      { "en": "Yeah, it's basically a lifelong friendship.", "ja": "うん、基本的には一生の付き合いになるね。" },
+      { "en": "You definitely need to be prepared for that.", "ja": "間違いなくその覚悟が必要だよ。" }
+    ],
+    "vocab": [
+      { "word": "parrot", "meaning": "オウム" },
+      { "word": "intelligent", "meaning": "知能が高い、賢い" },
+      { "word": "commitment", "meaning": "責任、約束、献身" }
+    ]
+  },
+  {
+    "id": "animal_adv_08",
+    "question1": { "en": "Do you prefer zoos or aquariums?", "ja": "動物園と水族館、どっちが好き？" },
+    "answer1_variations": [
+      { "en": "Definitely aquariums. I love jellyfish.", "ja": "断然、水族館だね。クラゲが大好きなんだ。" },
+      { "en": "I like zoos because I want to see lions.", "ja": "ライオンが見たいから動物園かな。" }
+    ],
+    "answer1_detail": { "en": "Watching the fish swim is so mesmerizing.", "ja": "魚が泳いでいるのを見ると、うっとりしちゃうんだ。" },
+    "question2": { "en": "Do you have a favorite sea creature?", "ja": "好きな海の生き物はいる？" },
+    "answer2_variations": [
+      { "en": "I've always liked sea turtles.", "ja": "昔からウミガメが好きなんだ。" },
+      { "en": "Otters are my favorite. They're adorable.", "ja": "カワウソが一番かな。愛らしいよ。" }
+    ],
+    "vocab": [
+      { "word": "definitely", "meaning": "絶対に、間違いなく" },
+      { "word": "mesmerizing", "meaning": "魅惑的な、うっとりさせる" },
+      { "word": "otter", "meaning": "カワウソ" }
+    ]
+  },
+  {
+    "id": "animal_adv_09",
+    "question1": { "en": "Have you ever ridden a horse?", "ja": "馬に乗ったことはある？" },
+    "answer1_variations": [
+      { "en": "Yes, I tried it once during a trip.", "ja": "うん、旅行中に一度試したよ。" },
+      { "en": "No, but it's on my bucket list.", "ja": "ううん、でもいつかやってみたいことの一つだよ。" }
+    ],
+    "answer1_detail": { "en": "It was much higher and shakier than I expected.", "ja": "思っていたよりずっと高くて揺れたよ。" },
+    "question2": { "en": "Was it scary?", "ja": "怖かった？" },
+    "answer2_variations": [
+      { "en": "A little bit, but the horse was gentle.", "ja": "ちょっとね、でもその馬は優しかったよ。" },
+      { "en": "Not really, I felt like a cowboy!", "ja": "そんなことないよ、カウボーイになった気分だった！" }
+    ],
+    "vocab": [
+      { "word": "bucket list", "meaning": "死ぬまでにやりたいことリスト" },
+      { "word": "shaky", "meaning": "揺れる、不安定な" },
+      { "word": "gentle", "meaning": "優しい、大人しい" }
+    ]
+  },
+  {
+    "id": "animal_adv_10",
+    "question1": { "en": "What do you think about animal cafes?", "ja": "動物カフェについてどう思う？" },
+    "answer1_variations": [
+      { "en": "They're cute, but I worry about the animals' stress.", "ja": "可愛いけど、動物たちのストレスが心配だな。" },
+      { "en": "It's a great way to interact with exotic animals.", "ja": "珍しい動物と触れ合える良い方法だと思うよ。" }
+    ],
+    "answer1_detail": { "en": "Imagine being touched by strangers all day.", "ja": "一日中知らない人に触られることを想像してみてよ。" },
+    "question2": { "en": "That's a good point.", "ja": "確かにそれは一理あるね。" },
+    "answer2_variations": [
+      { "en": "Yeah, strict rules are necessary for their well-being.", "ja": "うん、彼らの幸福のためには厳しいルールが必要だよ。" },
+      { "en": "I hope they get plenty of rest breaks.", "ja": "ちゃんと休憩時間がたくさんあるといいんだけど。" }
+    ],
+    "vocab": [
+      { "word": "exotic", "meaning": "珍しい、外来の" },
+      { "word": "interact", "meaning": "交流する、触れ合う" },
+      { "word": "well-being", "meaning": "幸福、健康な状態" }
+    ]
+  },
+  {
+    "id": "animal_adv_11",
+    "question1": { "en": "If you were an animal, which one would you be?", "ja": "もし自分が動物だとしたら、何になると思う？" },
+    "answer1_variations": [
+      { "en": "I think I'd be an owl.", "ja": "フクロウかな。" },
+      { "en": "Definitely a dolphin.", "ja": "間違いなくイルカだね。" }
+    ],
+    "answer1_detail": { "en": "People tell me I'm observant and like the night.", "ja": "観察眼が鋭いとか、夜型だって言われるから。" },
+    "question2": { "en": "That fits your personality perfectly.", "ja": "君の性格にぴったりだね。" },
+    "answer2_variations": [
+      { "en": "Right? I like staying up late.", "ja": "でしょ？夜更かしが好きだしね。" },
+      { "en": "I just like the idea of flying silently.", "ja": "ただ静かに飛ぶっていうのがいいなと思って。" }
+    ],
+    "vocab": [
+      { "word": "observant", "meaning": "観察眼が鋭い、目ざとい" },
+      { "word": "fit", "meaning": "（型や条件に）合う、適する" },
+      { "word": "silently", "meaning": "静かに、音もなく" }
+    ]
+  },
+  {
+    "id": "animal_adv_12",
+    "question1": { "en": "Are you okay with bugs?", "ja": "虫は平気？" },
+    "answer1_variations": [
+      { "en": "Not at all, they gross me out.", "ja": "全然ダメ、気持ち悪いよ。" },
+      { "en": "I don't mind them, except for mosquitoes.", "ja": "蚊以外なら気にならないよ。" }
+    ],
+    "answer1_detail": { "en": "Even butterflies make me nervous.", "ja": "蝶々でさえ、見てると不安になるんだ。" },
+    "question2": { "en": "What about beetles? Kids love them.", "ja": "カブトムシはどう？子供は大好きだけど。" },
+    "answer2_variations": [
+      { "en": "They look like armored tanks, which is cool.", "ja": "装甲戦車みたいでかっこいいとは思うよ。" },
+      { "en": "Still a no for me. Too many legs.", "ja": "それでも無理だな。脚が多すぎるよ。" }
+    ],
+    "vocab": [
+      { "word": "gross out", "meaning": "～を気持ち悪がらせる、ゾッとさせる" },
+      { "word": "nervous", "meaning": "不安な、神経質な" },
+      { "word": "armored", "meaning": "装甲した、鎧を着た" }
+    ]
+  },
+  {
+    "id": "animal_adv_13",
+    "question1": { "en": "Did you know that pandas are endangered?", "ja": "パンダが絶滅危惧種だって知ってた？" },
+    "answer1_variations": [
+      { "en": "Yes, it's really sad to hear.", "ja": "うん、本当に悲しい話だよね。" },
+      { "en": "Actually, their numbers are slightly increasing.", "ja": "実は、数はわずかに増えているらしいよ。" }
+    ],
+    "answer1_detail": { "en": "Loss of habitat is the biggest problem.", "ja": "生息地の減少が最大の問題なんだ。" },
+    "question2": { "en": "Is there anything we can do to help?", "ja": "私たちが助けになれることはあるかな？" },
+    "answer2_variations": [
+      { "en": "Supporting conservation groups is a start.", "ja": "保護団体を支援することが第一歩だね。" },
+      { "en": "Raising awareness is important too.", "ja": "認知を広めることも重要だよ。" }
+    ],
+    "vocab": [
+      { "word": "endangered", "meaning": "絶滅の危機に瀕した" },
+      { "word": "habitat", "meaning": "生息地" },
+      { "word": "conservation", "meaning": "（自然環境などの）保護、保全" }
+    ]
+  },
+  {
+    "id": "animal_adv_14",
+    "question1": { "en": "Did you have any pets growing up?", "ja": "子供の頃、何かペットは飼ってた？" },
+    "answer1_variations": [
+      { "en": "We had a hamster named Hammy.", "ja": "ハミーっていうハムスターを飼ってたよ。" },
+      { "en": "My apartment didn't allow pets, unfortunately.", "ja": "残念ながら、うちのアパートはペット禁止だったんだ。" }
+    ],
+    "answer1_detail": { "en": "He was tiny but had a big personality.", "ja": "彼は小さかったけど、個性豊かだったよ。" },
+    "question2": { "en": "Hamsters are great first pets.", "ja": "ハムスターは初めてのペットに最適だよね。" },
+    "answer2_variations": [
+      { "en": "Yeah, they teach you responsibility.", "ja": "うん、責任感を教えてくれるしね。" },
+      { "en": "But their lifespan is so short.", "ja": "でも寿命がすごく短いんだよね。" }
+    ],
+    "vocab": [
+      { "word": "allow", "meaning": "許可する" },
+      { "word": "personality", "meaning": "個性、性格" },
+      { "word": "lifespan", "meaning": "寿命" }
+    ]
+  },
+  {
+    "id": "animal_adv_15",
+    "question1": { "en": "Have you ever seen a sheep shearing show?", "ja": "羊の毛刈りショーって見たことある？" },
+    "answer1_variations": [
+      { "en": "Yes, at a farm in Hokkaido.", "ja": "うん、北海道の牧場で見たよ。" },
+      { "en": "No, but I've seen videos of it.", "ja": "ううん、でも動画では見たことある。" }
+    ],
+    "answer1_detail": { "en": "The sheep looked so much smaller afterwards!", "ja": "終わった後の羊、すごく小さく見えたよ！" },
+    "question2": { "en": "Do they get cold without their wool?", "ja": "羊毛がないと寒くないのかな？" },
+    "answer2_variations": [
+      { "en": "They usually do it in spring, so it's fine.", "ja": "たいてい春にやるから大丈夫だよ。" },
+      { "en": "I think they feel relieved to be lighter.", "ja": "軽くなってほっとしてると思うよ。" }
+    ],
+    "vocab": [
+      { "word": "shear", "meaning": "（羊の）毛を刈る" },
+      { "word": "afterwards", "meaning": "その後で" },
+      { "word": "relieved", "meaning": "ほっとした、安心した" }
+    ]
+  },
+  {
+    "id": "animal_adv_16",
+    "question1": { "en": "The cicadas are really loud this year.", "ja": "今年はセミの声が本当にうるさいね。" },
+    "answer1_variations": [
+      { "en": "Yeah, it's almost deafening.", "ja": "うん、耳がおかしくなりそうなくらいだよ。" },
+      { "en": "It doesn't feel like summer without them.", "ja": "彼らがいないと夏って感じがしないけどね。" }
+    ],
+    "answer1_detail": { "en": "Their sound is surprisingly nostalgic for me.", "ja": "その音は私にとって意外と懐かしいものなんだ。" },
+    "question2": { "en": "Did you use to catch them as a kid?", "ja": "子供の頃、捕まえたりした？" },
+    "answer2_variations": [
+      { "en": "All the time! I had a net and a cage.", "ja": "いつもやってたよ！網とカゴを持ってね。" },
+      { "en": "No, I was too afraid to touch them.", "ja": "ううん、怖くて触れなかったよ。" }
+    ],
+    "vocab": [
+      { "word": "cicada", "meaning": "セミ" },
+      { "word": "deafening", "meaning": "耳をつんざくような、とてもうるさい" },
+      { "word": "nostalgic", "meaning": "懐かしい" }
+    ]
+  },
+  {
+    "id": "animal_adv_17",
+    "question1": { "en": "How do you feel about snakes?", "ja": "ヘビってどう思う？" },
+    "answer1_variations": [
+      { "en": "I'm actually fascinated by them.", "ja": "実はすごく惹かれるんだ。" },
+      { "en": "I'm terrified of them, honestly.", "ja": "正直、怖くてたまらないよ。" }
+    ],
+    "answer1_detail": { "en": "Their skin patterns are beautiful if you look closely.", "ja": "近くで見ると、皮膚の模様が綺麗なんだよ。" },
+    "question2": { "en": "Would you ever hold one?", "ja": "持ってみたりできる？" },
+    "answer2_variations": [
+      { "en": "If it's not poisonous, sure.", "ja": "毒がないなら、もちろん。" },
+      { "en": "No way, not even for a million dollars.", "ja": "絶対に無理、100万ドルもらっても嫌だね。" }
+    ],
+    "vocab": [
+      { "word": "fascinated", "meaning": "魅了された、興味津々な" },
+      { "word": "terrified", "meaning": "恐れおののいている、とても怖い" },
+      { "word": "poisonous", "meaning": "有毒な" }
+    ]
+  },
+  {
+    "id": "animal_adv_18",
+    "question1": { "en": "Look at those birds flying in formation.", "ja": "見て、あの鳥たちが編隊を組んで飛んでる。" },
+    "answer1_variations": [
+      { "en": "Wow, that's impressive.", "ja": "わあ、それは見事だね。" },
+      { "en": "It must be migration season.", "ja": "渡りの季節に違いないね。" }
+    ],
+    "answer1_detail": { "en": "Geese travel thousands of miles like that.", "ja": "ガチョウはああやって何千マイルも旅をするんだ。" },
+    "question2": { "en": "How do they know where to go?", "ja": "どうやって行き先が分かるんだろう？" },
+    "answer2_variations": [
+      { "en": "Some say they use the earth's magnetic field.", "ja": "地磁気を使っているっていう説があるよ。" },
+      { "en": "It's just pure instinct.", "ja": "純粋な本能だろうね。" }
+    ],
+    "vocab": [
+      { "word": "formation", "meaning": "編隊、隊形" },
+      { "word": "migration", "meaning": "（鳥などの）渡り、移動" },
+      { "word": "instinct", "meaning": "本能" }
+    ]
+  },
+  {
+    "id": "animal_adv_19",
+    "question1": { "en": "Do you know what a capybara is?", "ja": "カピバラって何か知ってる？" },
+    "answer1_variations": [
+      { "en": "The giant hamster looking thing?", "ja": "あの巨大なハムスターみたいなやつ？" },
+      { "en": "Yes! They love hot springs.", "ja": "うん！彼らは温泉が大好きなんだよね。" }
+    ],
+    "answer1_detail": { "en": "They are actually the world's largest rodent.", "ja": "実は世界最大のげっ歯類（ネズミの仲間）なんだよ。" },
+    "question2": { "en": "Are they friendly?", "ja": "人懐っこいの？" },
+    "answer2_variations": [
+      { "en": "Very. Other animals love hanging out with them.", "ja": "すごくね。他の動物も彼らと一緒にいるのが好きみたい。" },
+      { "en": "They seem pretty chill and harmless.", "ja": "かなり穏やかで無害に見えるよ。" }
+    ],
+    "vocab": [
+      { "word": "rodent", "meaning": "げっ歯動物（ネズミ、リスなど）" },
+      { "word": "hang out", "meaning": "（誰かと）一緒に過ごす、たむろする" },
+      { "word": "harmless", "meaning": "無害な" }
+    ]
+  },
+  {
+    "id": "animal_adv_20",
+    "question1": { "en": "My cat keeps scratching the furniture.", "ja": "うちの猫が家具をひっかいてばかりいるんだ。" },
+    "answer1_variations": [
+      { "en": "You should get a scratching post.", "ja": "爪とぎを用意したほうがいいよ。" },
+      { "en": "Maybe he's bored or stressed.", "ja": "たぶん退屈か、ストレスが溜まってるのかも。" }
+    ],
+    "answer1_detail": { "en": "Cats need to sharpen their claws naturally.", "ja": "猫はどうしても爪を研ぐ必要がある習性だからね。" },
+    "question2": { "en": "Does a scratching post actually help?", "ja": "爪とぎって本当に効果あるの？" },
+    "answer2_variations": [
+      { "en": "It usually saves your sofa.", "ja": "たいていはそれでソファが助かるよ。" },
+      { "en": "You can also try trimming their nails.", "ja": "爪を切ってあげるのも手だよ。" }
+    ],
+    "vocab": [
+      { "word": "scratch", "meaning": "ひっかく" },
+      { "word": "furniture", "meaning": "家具" },
+      { "word": "sharpen", "meaning": "研ぐ、鋭くする" }
+    ]
+  }
+]
 }
