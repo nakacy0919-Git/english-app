@@ -1,0 +1,386 @@
+{
+  "id": "topic_animals",
+  "title": "Animals (動物)",
+  "questions": [
+  {
+    "id": "animal_01",
+    "question": {
+      "en": "What is your favorite animal?",
+      "ja": "あなたの一番好きな動物は何ですか？"
+    },
+    "answer": {
+      "en": "I like dogs because they are very loyal and friendly.",
+      "ja": "犬はとても忠実でフレンドリーなので好きです。"
+    },
+    "followUp": {
+      "en": "Have you ever had a dog as a pet?",
+      "ja": "今までに犬をペットとして飼ったことはありますか？"
+    },
+    "vocabulary": {
+      "favorite": { "ja": "お気に入りの" },
+      "loyal": { "ja": "忠実な" }
+    }
+  },
+  {
+    "id": "animal_02",
+    "question": {
+      "en": "Do you prefer cats or dogs?",
+      "ja": "猫と犬、どちらが好きですか？"
+    },
+    "answer": {
+      "en": "I prefer cats because they are independent and quiet.",
+      "ja": "猫は自立していて静かなので、猫の方が好きです。"
+    },
+    "followUp": {
+      "en": "Do you think cats are easier to take care of than dogs?",
+      "ja": "猫は犬よりも世話が簡単だと思いますか？"
+    },
+    "vocabulary": {
+      "prefer": { "ja": "〜を好む" },
+      "independent": { "ja": "自立した" }
+    }
+  },
+  {
+    "id": "animal_03",
+    "question": {
+      "en": "Which animal is known as the king of the jungle?",
+      "ja": "ジャングルの王として知られている動物は何ですか？"
+    },
+    "answer": {
+      "en": "The lion is known as the king of the jungle.",
+      "ja": "ライオンがジャングルの王として知られています。"
+    },
+    "followUp": {
+      "en": "Have you ever seen a real lion at a zoo?",
+      "ja": "動物園で本物のライオンを見たことがありますか？"
+    },
+    "vocabulary": {
+      "known": { "ja": "知られている" },
+      "jungle": { "ja": "密林、ジャングル" }
+    }
+  },
+  {
+    "id": "animal_04",
+    "question": {
+      "en": "What do pandas usually eat?",
+      "ja": "パンダはふだん何を食べますか？"
+    },
+    "answer": {
+      "en": "Pandas usually eat bamboo.",
+      "ja": "パンダはふだん竹を食べます。"
+    },
+    "followUp": {
+      "en": "Why do you think pandas are so popular around the world?",
+      "ja": "なぜパンダは世界中でそんなに人気があるのだと思いますか？"
+    },
+    "vocabulary": {
+      "usually": { "ja": "たいてい、ふだん" },
+      "bamboo": { "ja": "竹" }
+    }
+  },
+  {
+    "id": "animal_05",
+    "question": {
+      "en": "Which bird can run very fast but cannot fly?",
+      "ja": "とても速く走れるけれど飛ぶことができない鳥は何ですか？"
+    },
+    "answer": {
+      "en": "The ostrich is a bird that can run fast but cannot fly.",
+      "ja": "ダチョウは速く走れますが飛べない鳥です。"
+    },
+    "followUp": {
+      "en": "Do you know any other birds that cannot fly?",
+      "ja": "他に飛べない鳥を知っていますか？"
+    },
+    "vocabulary": {
+      "ostrich": { "ja": "ダチョウ" },
+      "cannot": { "ja": "〜できない" }
+    }
+  },
+  {
+    "id": "animal_06",
+    "question": {
+      "en": "What is the tallest animal in the world?",
+      "ja": "世界で最も背が高い動物は何ですか？"
+    },
+    "answer": {
+      "en": "The giraffe is the tallest animal in the world.",
+      "ja": "キリンが世界で最も背が高い動物です。"
+    },
+    "followUp": {
+      "en": "How tall do you think a giraffe's neck is?",
+      "ja": "キリンの首はどのくらいの長さがあると思いますか？"
+    },
+    "vocabulary": {
+      "tallest": { "ja": "最も背が高い" },
+      "giraffe": { "ja": "キリン" }
+    }
+  },
+  {
+    "id": "animal_07",
+    "question": {
+      "en": "Where do kangaroos live?",
+      "ja": "カンガルーはどこに住んでいますか？"
+    },
+    "answer": {
+      "en": "Kangaroos live in Australia.",
+      "ja": "カンガルーはオーストラリアに住んでいます。"
+    },
+    "followUp": {
+      "en": "What other unique animals live in Australia?",
+      "ja": "オーストラリアには他にどんな珍しい動物が住んでいますか？"
+    },
+    "vocabulary": {
+      "live": { "ja": "住む、生きる" },
+      "unique": { "ja": "独特な、珍しい" }
+    }
+  },
+  {
+    "id": "animal_08",
+    "question": {
+      "en": "Which animal is the largest mammal on Earth?",
+      "ja": "地球上で最大の哺乳類は何ですか？"
+    },
+    "answer": {
+      "en": "The blue whale is the largest mammal on Earth.",
+      "ja": "シロナガスクジラが地球上で最大の哺乳類です。"
+    },
+    "followUp": {
+      "en": "Do you like learning about sea creatures?",
+      "ja": "海の生き物について学ぶのは好きですか？"
+    },
+    "vocabulary": {
+      "largest": { "ja": "最大の" },
+      "mammal": { "ja": "哺乳類" }
+    }
+  },
+  {
+    "id": "animal_09",
+    "question": {
+      "en": "Why do some animals hibernate in winter?",
+      "ja": "なぜ一部の動物は冬に冬眠するのですか？"
+    },
+    "answer": {
+      "en": "They hibernate to save energy when food is scarce.",
+      "ja": "食べ物が少ないときにエネルギーを節約するために冬眠します。"
+    },
+    "followUp": {
+      "en": "Can you name an animal that hibernates?",
+      "ja": "冬眠する動物の名前を挙げられますか？"
+    },
+    "vocabulary": {
+      "hibernate": { "ja": "冬眠する" },
+      "scarce": { "ja": "乏しい、不十分な" }
+    }
+  },
+  {
+    "id": "animal_10",
+    "question": {
+      "en": "What do you call a baby cat?",
+      "ja": "猫の赤ちゃんを何と呼びますか？"
+    },
+    "answer": {
+      "en": "A baby cat is called a kitten.",
+      "ja": "猫の赤ちゃんは子猫（kitten）と呼ばれます。"
+    },
+    "followUp": {
+      "en": "What do you call a baby dog?",
+      "ja": "犬の赤ちゃんは何と呼びますか？"
+    },
+    "vocabulary": {
+      "call": { "ja": "呼ぶ" },
+      "kitten": { "ja": "子猫" }
+    }
+  },
+  {
+    "id": "animal_11",
+    "question": {
+      "en": "Are you afraid of snakes?",
+      "ja": "蛇は怖いですか？"
+    },
+    "answer": {
+      "en": "Yes, I am afraid of them because some are poisonous.",
+      "ja": "はい、毒があるものもいるので怖いです。"
+    },
+    "followUp": {
+      "en": "What would you do if you saw a snake in your garden?",
+      "ja": "もし庭で蛇を見かけたらどうしますか？"
+    },
+    "vocabulary": {
+      "afraid": { "ja": "恐れて" },
+      "poisonous": { "ja": "毒のある" }
+    }
+  },
+  {
+    "id": "animal_12",
+    "question": {
+      "en": "Which animal is famous for its long trunk?",
+      "ja": "長い鼻で有名な動物は何ですか？"
+    },
+    "answer": {
+      "en": "The elephant is famous for its long trunk.",
+      "ja": "象が長い鼻で有名です。"
+    },
+    "followUp": {
+      "en": "What do elephants use their trunks for?",
+      "ja": "象は鼻を何のために使いますか？"
+    },
+    "vocabulary": {
+      "famous": { "ja": "有名な" },
+      "trunk": { "ja": "（象の）鼻" }
+    }
+  },
+  {
+    "id": "animal_13",
+    "question": {
+      "en": "Which insect makes honey?",
+      "ja": "どのはちみつを作る昆虫は何ですか？"
+    },
+    "answer": {
+      "en": "Bees make honey.",
+      "ja": "ミツバチがはちみつを作ります。"
+    },
+    "followUp": {
+      "en": "Do you like the taste of honey?",
+      "ja": "はちみつの味は好きですか？"
+    },
+    "vocabulary": {
+      "insect": { "ja": "昆虫" },
+      "honey": { "ja": "はちみつ" }
+    }
+  },
+  {
+    "id": "animal_14",
+    "question": {
+      "en": "What is the fastest land animal?",
+      "ja": "最も速い陸上の動物は何ですか？"
+    },
+    "answer": {
+      "en": "The cheetah is the fastest land animal.",
+      "ja": "チーターが最も速い陸上の動物です。"
+    },
+    "followUp": {
+      "en": "How fast can a cheetah run?",
+      "ja": "チーターはどのくらいの速さで走れますか？"
+    },
+    "vocabulary": {
+      "fastest": { "ja": "最も速い" },
+      "cheetah": { "ja": "チーター" }
+    }
+  },
+  {
+    "id": "animal_15",
+    "question": {
+      "en": "Do you think animals should be kept in zoos?",
+      "ja": "動物は動物園で飼育されるべきだと思いますか？"
+    },
+    "answer": {
+      "en": "I think zoos are important for education, but animals need enough space.",
+      "ja": "教育のために動物園は重要だと思いますが、動物には十分な広さが必要です。"
+    },
+    "followUp": {
+      "en": "When was the last time you visited a zoo?",
+      "ja": "最後に動物園に行ったのはいつですか？"
+    },
+    "vocabulary": {
+      "should": { "ja": "〜すべきである" },
+      "education": { "ja": "教育" }
+    }
+  },
+  {
+    "id": "animal_16",
+    "question": {
+      "en": "Which animal can change its color to hide?",
+      "ja": "隠れるために体の色を変えることができる動物は何ですか？"
+    },
+    "answer": {
+      "en": "The chameleon can change its color.",
+      "ja": "カメレオンは体の色を変えることができます。"
+    },
+    "followUp": {
+      "en": "Why do you think animals need to hide?",
+      "ja": "なぜ動物は隠れる必要があるのだと思いますか？"
+    },
+    "vocabulary": {
+      "change": { "ja": "変える" },
+      "hide": { "ja": "隠れる" }
+    }
+  },
+  {
+    "id": "animal_17",
+    "question": {
+      "en": "Which farm animal gives us milk?",
+      "ja": "私たちに牛乳をくれる農場の動物は何ですか？"
+    },
+    "answer": {
+      "en": "Cows give us milk.",
+      "ja": "牛が私たちに牛乳をくれます。"
+    },
+    "followUp": {
+      "en": "Do you drink milk every day?",
+      "ja": "毎日牛乳を飲みますか？"
+    },
+    "vocabulary": {
+      "farm": { "ja": "農場" },
+      "cow": { "ja": "牛" }
+    }
+  },
+  {
+    "id": "animal_18",
+    "question": {
+      "en": "What animal is the symbol of peace?",
+      "ja": "平和の象徴とされている動物は何ですか？"
+    },
+    "answer": {
+      "en": "The dove is often used as a symbol of peace.",
+      "ja": "ハトがよく平和の象徴として使われます。"
+    },
+    "followUp": {
+      "en": "Are there many pigeons in your city?",
+      "ja": "あなたの街にはハトがたくさんいますか？"
+    },
+    "vocabulary": {
+      "symbol": { "ja": "象徴、シンボル" },
+      "peace": { "ja": "平和" }
+    }
+  },
+  {
+    "id": "animal_19",
+    "question": {
+      "en": "How do polar bears stay warm in the ice?",
+      "ja": "ホッキョクグマはどうやって氷の中で暖かさを保つのですか？"
+    },
+    "answer": {
+      "en": "They have thick fur and a layer of fat to stay warm.",
+      "ja": "厚い毛皮と脂肪の層によって暖かさを保ちます。"
+    },
+    "followUp": {
+      "en": "Are you worried about polar bears losing their homes?",
+      "ja": "ホッキョクグマが住みかを失っていることを心配していますか？"
+    },
+    "vocabulary": {
+      "polar bear": { "ja": "ホッキョクグマ" },
+      "fur": { "ja": "毛皮" }
+    }
+  },
+  {
+    "id": "animal_20",
+    "question": {
+      "en": "Which animal is known for being very slow?",
+      "ja": "とても動きが遅いことで知られている動物は何ですか？"
+    },
+    "answer": {
+      "en": "The sloth is known for being very slow.",
+      "ja": "ナマケモノがとても遅いことで知られています。"
+    },
+    "followUp": {
+      "en": "Do you sometimes feel like a sloth on weekends?",
+      "ja": "週末にときどきナマケモノのような気分になることはありますか？"
+    },
+    "vocabulary": {
+      "sloth": { "ja": "ナマケモノ" },
+      "slow": { "ja": "遅い" }
+    }
+  }
+]
+}

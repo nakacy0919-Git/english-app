@@ -1,0 +1,57 @@
+{
+  "id": "topic_school",
+  "title": "School Life (学校生活)",
+  "questions": [
+    {
+      "id": "school_01",
+      "question": {
+        "en": "What is your favorite subject at school?",
+        "ja": "学校で一番好きな教科は何ですか？",
+        "pt": "Qual é a sua matéria favorita na escola?",
+        "zh": "你在学校最喜欢的科目是什么？"
+      },
+      "answer": {
+        "en": "I like English because I want to travel abroad someday.",
+        "ja": "いつか海外旅行に行きたいので英語が好きです。"
+      },
+      "followUp": {
+        "en": "Do you like studying languages?",
+        "ja": "言語を勉強するのは好きですか？"
+      }
+    },
+    {
+      "id": "school_02",
+      "question": {
+        "en": "Do you belong to any club activities?",
+        "ja": "部活動には入っていますか？",
+        "pt": "Você participa de alguma atividade extracurricular?",
+        "zh": "你参加什么社团活动吗？"
+      },
+      "answer": {
+        "en": "Yes, I'm in the basketball club. We practice very hard.",
+        "ja": "はい、バスケ部に入っています。練習はとてもハードです。"
+      },
+      "followUp": {
+        "en": "How often do you practice?",
+        "ja": "どのくらいの頻度で練習しますか？"
+      }
+    },
+    {
+      "id": "school_03",
+      "question": {
+        "en": "What is the best part of your school day?",
+        "ja": "学校生活の中で一番好きな時間はいつですか？",
+        "pt": "Qual é a melhor parte do seu dia na escola?",
+        "zh": "你在学校一天中最喜欢什么时候？"
+      },
+      "answer": {
+        "en": "Lunch time is the best because I can talk with my friends.",
+        "ja": "友達と話せるのでお昼休みが一番好きです。"
+      },
+      "followUp": {
+        "en": "Who do you usually eat lunch with?",
+        "ja": "たいてい誰とお昼を食べますか？"
+      }
+    }
+  ]
+}

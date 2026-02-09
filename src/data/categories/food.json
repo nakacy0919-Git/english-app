@@ -1,0 +1,57 @@
+{
+  "id": "topic_food",
+  "title": "Food (食べ物)",
+  "questions": [
+    {
+      "id": "food_01",
+      "question": {
+        "en": "What is your favorite food?",
+        "ja": "一番好きな食べ物は何ですか？",
+        "pt": "Qual é a sua comida favorita?",
+        "zh": "你最喜欢的食物是什么？"
+      },
+      "answer": {
+        "en": "I love Sushi, especially Salmon.",
+        "ja": "お寿司、特にサーモンが大好きです。"
+      },
+      "followUp": {
+        "en": "Can you eat Wasabi?",
+        "ja": "ワサビは食べられますか？"
+      }
+    },
+    {
+      "id": "food_02",
+      "question": {
+        "en": "Do you like sweets? What is your favorite?",
+        "ja": "甘いものは好きですか？何が一番好きですか？",
+        "pt": "Você gosta de doces? Qual é o seu favorito?",
+        "zh": "你喜欢甜食吗？你最喜欢什么？"
+      },
+      "answer": {
+        "en": "Yes! I love chocolate and ice cream.",
+        "ja": "はい！チョコとアイスが大好きです。"
+      },
+      "followUp": {
+        "en": "Do you prefer chocolate or vanilla?",
+        "ja": "チョコとバニラどっちが好きですか？"
+      }
+    },
+    {
+      "id": "food_03",
+      "question": {
+        "en": "Can you cook? What can you make?",
+        "ja": "料理はできますか？何が作れますか？",
+        "pt": "Você sabe cozinhar? O que você sabe fazer?",
+        "zh": "你会做饭吗？你会做什么菜？"
+      },
+      "answer": {
+        "en": "I can make simple dishes like fried eggs and curry.",
+        "ja": "目玉焼きやカレーのような簡単な料理なら作れます。"
+      },
+      "followUp": {
+        "en": "Who cooks dinner in your family?",
+        "ja": "家族の中で誰が夕食を作りますか？"
+      }
+    }
+  ]
+}

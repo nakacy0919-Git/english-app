@@ -1,0 +1,386 @@
+{
+  "id": "topic_culture",
+  "title": "Culture (文化)",
+  "questions": [
+  {
+    "id": "culture_01",
+    "question": {
+      "en": "What is a traditional food in your country?",
+      "ja": "あなたの国の伝統的な料理は何ですか？"
+    },
+    "answer": {
+      "en": "Sushi is one of the most famous traditional foods in Japan.",
+      "ja": "寿司は日本で最も有名な伝統料理の一つです。"
+    },
+    "followUp": {
+      "en": "What ingredients are used to make it?",
+      "ja": "それを作るためにどのような材料が使われますか？"
+    },
+    "vocabulary": {
+      "traditional": { "ja": "伝統的な" },
+      "famous": { "ja": "有名な" }
+    }
+  },
+  {
+    "id": "culture_02",
+    "question": {
+      "en": "Have you ever worn traditional clothes?",
+      "ja": "伝統的な服を着たことがありますか？"
+    },
+    "answer": {
+      "en": "Yes, I usually wear a yukata during summer festivals.",
+      "ja": "はい、夏祭りの間はたいてい浴衣を着ます。"
+    },
+    "followUp": {
+      "en": "Is it difficult to put on traditional clothes?",
+      "ja": "伝統的な服を着るのは難しいですか？"
+    },
+    "vocabulary": {
+      "worn": { "ja": "着た（wearの過去分詞）" },
+      "festival": { "ja": "祭り" }
+    }
+  },
+  {
+    "id": "culture_03",
+    "question": {
+      "en": "What is the most important holiday in your culture?",
+      "ja": "あなたの文化で最も重要な祝日は何ですか？"
+    },
+    "answer": {
+      "en": "New Year's Day is very important because families gather together.",
+      "ja": "家族が集まるので、元日はとても重要です。"
+    },
+    "followUp": {
+      "en": "What do people usually do on that day?",
+      "ja": "その日、人々はふだん何をしますか？"
+    },
+    "vocabulary": {
+      "holiday": { "ja": "休日、祝日" },
+      "gather": { "ja": "集まる" }
+    }
+  },
+  {
+    "id": "culture_04",
+    "question": {
+      "en": "Do you like learning about foreign cultures?",
+      "ja": "外国の文化について学ぶのは好きですか？"
+    },
+    "answer": {
+      "en": "Yes, I'm interested in how people live in other countries.",
+      "ja": "はい、他国の人々がどのように暮らしているかに興味があります。"
+    },
+    "followUp": {
+      "en": "Which country's culture interests you the most?",
+      "ja": "どの国の文化に一番興味がありますか？"
+    },
+    "vocabulary": {
+      "foreign": { "ja": "外国の" },
+      "interested": { "ja": "興味がある" }
+    }
+  },
+  {
+    "id": "culture_05",
+    "question": {
+      "en": "What are some common manners in your country?",
+      "ja": "あなたの国の一般的なマナーにはどのようなものがありますか？"
+    },
+    "answer": {
+      "en": "We usually bow when we greet someone.",
+      "ja": "誰かに挨拶するとき、私たちはたいていお辞儀をします。"
+    },
+    "followUp": {
+      "en": "Are there any manners that might surprise foreigners?",
+      "ja": "外国人を驚かせるようなマナーはありますか？"
+    },
+    "vocabulary": {
+      "common": { "ja": "共通の、一般的な" },
+      "bow": { "ja": "お辞儀をする" }
+    }
+  },
+  {
+    "id": "culture_06",
+    "question": {
+      "en": "Which museum would you recommend to a tourist?",
+      "ja": "観光客にどの博物館（美術館）を勧めますか？"
+    },
+    "answer": {
+      "en": "I would recommend the Tokyo National Museum to learn about history.",
+      "ja": "歴史を学ぶために、東京国立博物館をお勧めします。"
+    },
+    "followUp": {
+      "en": "Do you enjoy visiting museums?",
+      "ja": "博物館や美術館に行くのは楽しいですか？"
+    },
+    "vocabulary": {
+      "recommend": { "ja": "勧める" },
+      "tourist": { "ja": "観光客" }
+    }
+  },
+  {
+    "id": "culture_07",
+    "question": {
+      "en": "Is pop culture popular in your country?",
+      "ja": "あなたの国ではポップカルチャーは人気がありますか？"
+    },
+    "answer": {
+      "en": "Yes, anime and manga are a big part of Japanese pop culture.",
+      "ja": "はい、アニメや漫画は日本のポップカルチャーの大きな部分を占めています。"
+    },
+    "followUp": {
+      "en": "What is your favorite anime series?",
+      "ja": "あなたの一番好きなアニメシリーズは何ですか？"
+    },
+    "vocabulary": {
+      "pop culture": { "ja": "大衆文化" },
+      "part": { "ja": "部分、役割" }
+    }
+  },
+  {
+    "id": "culture_08",
+    "question": {
+      "en": "What is a famous landmark in your country?",
+      "ja": "あなたの国の有名なランドマーク（名所）は何ですか？"
+    },
+    "answer": {
+      "en": "Mount Fuji is the most famous natural landmark in Japan.",
+      "ja": "富士山は日本で最も有名な自然のランドマークです。"
+    },
+    "followUp": {
+      "en": "Have you ever climbed Mount Fuji?",
+      "ja": "富士山に登ったことはありますか？"
+    },
+    "vocabulary": {
+      "landmark": { "ja": "目印、名所" },
+      "natural": { "ja": "自然の" }
+    }
+  },
+  {
+    "id": "culture_09",
+    "question": {
+      "en": "Do you think it's important to protect traditional culture?",
+      "ja": "伝統文化を守ることは重要だと思いますか？"
+    },
+    "answer": {
+      "en": "Yes, it helps us understand our history and identity.",
+      "ja": "はい、それは私たちの歴史やアイデンティティを理解する助けになります。"
+    },
+    "followUp": {
+      "en": "How can young people help protect it?",
+      "ja": "若者はそれを守るために何ができますか？"
+    },
+    "vocabulary": {
+      "protect": { "ja": "守る、保護する" },
+      "identity": { "ja": "自己同一性、個性" }
+    }
+  },
+  {
+    "id": "culture_10",
+    "question": {
+      "en": "What kind of music is traditional in your country?",
+      "ja": "あなたの国ではどのような音楽が伝統的ですか？"
+    },
+    "answer": {
+      "en": "Instruments like the koto and shamisen are used in traditional music.",
+      "ja": "伝統音楽では琴や三味線のような楽器が使われます。"
+    },
+    "followUp": {
+      "en": "Have you ever heard a live performance of traditional music?",
+      "ja": "伝統音楽の生演奏を聴いたことがありますか？"
+    },
+    "vocabulary": {
+      "instrument": { "ja": "楽器" },
+      "performance": { "ja": "演奏、公演" }
+    }
+  },
+  {
+    "id": "culture_11",
+    "question": {
+      "en": "How do people celebrate birthdays in your culture?",
+      "ja": "あなたの文化では、人々はどのように誕生日を祝いますか？"
+    },
+    "answer": {
+      "en": "We usually have a party with a cake and give presents.",
+      "ja": "たいていケーキを用意してパーティーを開き、プレゼントを渡します。"
+    },
+    "followUp": {
+      "en": "What was the best birthday gift you ever received?",
+      "ja": "今までにもらった中で最高の誕生日プレゼントは何でしたか？"
+    },
+    "vocabulary": {
+      "celebrate": { "ja": "祝う" },
+      "received": { "ja": "受け取った" }
+    }
+  },
+  {
+    "id": "culture_12",
+    "question": {
+      "en": "Are there any special taboos in your country?",
+      "ja": "あなたの国に何か特別なタブー（忌み事）はありますか？"
+    },
+    "answer": {
+      "en": "Sticking chopsticks vertically into a bowl of rice is a taboo.",
+      "ja": "ご飯茶碗に箸を垂直に突き立てることはタブーです。"
+    },
+    "followUp": {
+      "en": "Why is that action considered bad luck?",
+      "ja": "なぜその行為は縁起が悪いと考えられているのですか？"
+    },
+    "vocabulary": {
+      "taboo": { "ja": "禁忌、タブー" },
+      "vertically": { "ja": "垂直に" }
+    }
+  },
+  {
+    "id": "culture_13",
+    "question": {
+      "en": "What is the tea culture like in your country?",
+      "ja": "あなたの国の茶文化はどのようなものですか？"
+    },
+    "answer": {
+      "en": "Green tea is very popular, and there is a formal way to serve it called Sado.",
+      "ja": "緑茶がとても人気で、茶道と呼ばれる正式な出し方があります。"
+    },
+    "followUp": {
+      "en": "Do you prefer green tea or black tea?",
+      "ja": "緑茶と紅茶、どちらが好きですか？"
+    },
+    "vocabulary": {
+      "formal": { "ja": "正式な" },
+      "serve": { "ja": "（食事などを）出す" }
+    }
+  },
+  {
+    "id": "culture_14",
+    "question": {
+      "en": "How has your culture changed in the last 20 years?",
+      "ja": "あなたの文化はこの20年間でどのように変わりましたか？"
+    },
+    "answer": {
+      "en": "Technology has made our lifestyle more convenient and global.",
+      "ja": "テクノロジーによって私たちのライフスタイルはより便利でグローバルになりました。"
+    },
+    "followUp": {
+      "en": "Do you think these changes are mostly positive?",
+      "ja": "これらの変化は、主にポジティブなものだと思いますか？"
+    },
+    "vocabulary": {
+      "lifestyle": { "ja": "生活様式" },
+      "convenient": { "ja": "便利な" }
+    }
+  },
+  {
+    "id": "culture_15",
+    "question": {
+      "en": "What are the common family values in your culture?",
+      "ja": "あなたの文化における一般的な家族の価値観は何ですか？"
+    },
+    "answer": {
+      "en": "Respecting elders is a very important value in our society.",
+      "ja": "年長者を敬うことは、私たちの社会で非常に重要な価値観です。"
+    },
+    "followUp": {
+      "en": "Do you live with your grandparents?",
+      "ja": "祖父母と一緒に住んでいますか？"
+    },
+    "vocabulary": {
+      "value": { "ja": "価値観" },
+      "respecting": { "ja": "尊敬すること" }
+    }
+  },
+  {
+    "id": "culture_16",
+    "question": {
+      "en": "What is a popular sport in your country?",
+      "ja": "あなたの国で人気のスポーツは何ですか？"
+    },
+    "answer": {
+      "en": "Baseball and soccer are very popular sports in Japan.",
+      "ja": "日本では野球とサッカーがとても人気のあるスポーツです。"
+    },
+    "followUp": {
+      "en": "Is there a traditional sport like Sumo that you like?",
+      "ja": "相撲のような、好きな伝統スポーツはありますか？"
+    },
+    "vocabulary": {
+      "popular": { "ja": "人気のある" },
+      "soccer": { "ja": "サッカー" }
+    }
+  },
+  {
+    "id": "culture_17",
+    "question": {
+      "en": "What do people usually wear to a wedding?",
+      "ja": "結婚式にはふだん何を着ていきますか？"
+    },
+    "answer": {
+      "en": "Men usually wear suits, and women wear dresses or kimonos.",
+      "ja": "男性はたいていスーツを、女性はドレスや着物を着ます。"
+    },
+    "followUp": {
+      "en": "Have you ever attended a wedding ceremony?",
+      "ja": "結婚式に出席したことはありますか？"
+    },
+    "vocabulary": {
+      "wedding": { "ja": "結婚式" },
+      "ceremony": { "ja": "儀式、式典" }
+    }
+  },
+  {
+    "id": "culture_18",
+    "question": {
+      "en": "Do you enjoy traditional festivals?",
+      "ja": "伝統的なお祭りは好きですか？"
+    },
+    "answer": {
+      "en": "Yes, I love the food stalls and the atmosphere of Matsuri.",
+      "ja": "はい、お祭りの屋台や雰囲気が大好きです。"
+    },
+    "followUp": {
+      "en": "Which festival is the most famous in your city?",
+      "ja": "あなたの街で最も有名なお祭りは何ですか？"
+    },
+    "vocabulary": {
+      "stall": { "ja": "屋台、売店" },
+      "atmosphere": { "ja": "雰囲気" }
+    }
+  },
+  {
+    "id": "culture_19",
+    "question": {
+      "en": "How do people greet each other in your culture?",
+      "ja": "あなたの文化では、人々はどのようにお互いに挨拶しますか？"
+    },
+    "answer": {
+      "en": "We say 'Konnichiwa' and bow slightly to each other.",
+      "ja": "「こんにちは」と言って、お互いに軽くお辞儀をします。"
+    },
+    "followUp": {
+      "en": "Do you shake hands when you meet someone for the first time?",
+      "ja": "初めて誰かに会うとき、握手をしますか？"
+    },
+    "vocabulary": {
+      "greet": { "ja": "挨拶する" },
+      "slightly": { "ja": "わずかに、軽く" }
+    }
+  },
+  {
+    "id": "culture_20",
+    "question": {
+      "en": "What is the best way to experience your culture?",
+      "ja": "あなたの文化を体験するのに最適な方法は何ですか？"
+    },
+    "answer": {
+      "en": "Visiting a local shrine and trying home-cooked food is the best way.",
+      "ja": "地元の神社を訪れたり、家庭料理を食べたりするのが一番の方法です。"
+    },
+    "followUp": {
+      "en": "If I visit your town, where should I go first?",
+      "ja": "もし私があなたの町を訪れたら、まずどこへ行くべきですか？"
+    },
+    "vocabulary": {
+      "experience": { "ja": "経験（する）" },
+      "shrine": { "ja": "神社" }
+    }
+  }
+]
+}

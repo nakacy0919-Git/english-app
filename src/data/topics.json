@@ -1,0 +1,370 @@
+[
+  {
+    "id": "topic_school",
+    "title": "School Life (学校生活)",
+    "questions": [
+      {
+        "textEn": "What is your favorite subject at school?",
+        "textJa": "学校で一番好きな教科は何ですか？",
+        "answerEn": "I like English because I want to travel abroad someday.",
+        "answerJa": "いつか海外旅行に行きたいので英語が好きです。",
+        "followUpEn": "Do you like studying languages?",
+        "followUpJa": "言語を勉強するのは好きですか？"
+      },
+      {
+        "textEn": "Do you belong to any club activities?",
+        "textJa": "部活動には入っていますか？",
+        "answerEn": "Yes, I'm in the basketball club. We practice very hard.",
+        "answerJa": "はい、バスケ部に入っています。練習はとてもハードです。",
+        "followUpEn": "How often do you practice?",
+        "followUpJa": "どのくらいの頻度で練習しますか？"
+      },
+      {
+        "textEn": "What is the best part of your school day?",
+        "textJa": "学校生活の中で一番好きな時間はいつですか？",
+        "answerEn": "Lunch time is the best because I can talk with my friends.",
+        "answerJa": "友達と話せるのでお昼休みが一番好きです。",
+        "followUpEn": "Who do you usually eat lunch with?",
+        "followUpJa": "たいてい誰とお昼を食べますか？"
+      },
+      {
+        "textEn": "Which teacher do you like the most?",
+        "textJa": "一番好きな先生は誰ですか？",
+        "answerEn": "I like Mr. Tanaka because his classes are very funny.",
+        "answerJa": "田中先生が好きです、授業がとても面白いからです。",
+        "followUpEn": "What subject does he teach?",
+        "followUpJa": "彼は何の教科を教えていますか？"
+      },
+      {
+        "textEn": "How do you get to school?",
+        "textJa": "どうやって通学していますか？",
+        "answerEn": "I go to school by bike. It takes about 15 minutes.",
+        "answerJa": "自転車で通っています。15分くらいかかります。",
+        "followUpEn": "Is your school far from your house?",
+        "followUpJa": "学校は家から遠いですか？"
+      }
+    ]
+  },
+  {
+    "id": "topic_free_time",
+    "title": "Free Time (自由時間)",
+    "questions": [
+      {
+        "textEn": "What do you usually do on weekends?",
+        "textJa": "週末はたいてい何をしていますか？",
+        "answerEn": "I usually play video games with my friends online.",
+        "answerJa": "たいてい友達とオンラインでゲームをします。",
+        "followUpEn": "What game is popular right now?",
+        "followUpJa": "今どんなゲームが人気ですか？"
+      },
+      {
+        "textEn": "Do you prefer watching movies or reading books?",
+        "textJa": "映画を見るのと読書、どっちが好きですか？",
+        "answerEn": "I prefer movies because I like exciting stories.",
+        "answerJa": "ワクワクする物語が好きなので映画の方が好きです。",
+        "followUpEn": "What is the best movie you've ever seen?",
+        "followUpJa": "今まで見た中で一番良かった映画は何ですか？"
+      },
+      {
+        "textEn": "What is your favorite YouTuber?",
+        "textJa": "好きなYouTuberは誰ですか？",
+        "answerEn": "I like Hikakin. His videos are very funny and kind.",
+        "answerJa": "ヒカキンが好きです。彼の動画はとても面白くて優しいです。",
+        "followUpEn": "Do you watch YouTube every day?",
+        "followUpJa": "YouTubeは毎日見ますか？"
+      },
+      {
+        "textEn": "Do you play any musical instruments?",
+        "textJa": "何か楽器は演奏しますか？",
+        "answerEn": "Yes, I play the guitar. I want to start a band.",
+        "answerJa": "はい、ギターを弾きます。バンドを組みたいです。",
+        "followUpEn": "What kind of music do you like?",
+        "followUpJa": "どんな音楽が好きですか？"
+      },
+      {
+        "textEn": "Do you like karaoke?",
+        "textJa": "カラオケは好きですか？",
+        "answerEn": "Yes! I go to karaoke with my friends once a month.",
+        "answerJa": "はい！月に一回友達とカラオケに行きます。",
+        "followUpEn": "What song do you always sing?",
+        "followUpJa": "いつも歌う曲は何ですか？"
+      }
+    ]
+  },
+  {
+    "id": "topic_food",
+    "title": "Food (食べ物)",
+    "questions": [
+      {
+        "textEn": "What is your favorite food?",
+        "textJa": "一番好きな食べ物は何ですか？",
+        "answerEn": "I love Sushi, especially Salmon.",
+        "answerJa": "お寿司、特にサーモンが大好きです。",
+        "followUpEn": "Can you eat Wasabi?",
+        "followUpJa": "ワサビは食べられますか？"
+      },
+      {
+        "textEn": "Do you like sweets? What is your favorite?",
+        "textJa": "甘いものは好きですか？何が一番好きですか？",
+        "answerEn": "Yes! I love chocolate and ice cream.",
+        "answerJa": "はい！チョコとアイスが大好きです。",
+        "followUpEn": "Do you prefer chocolate or vanilla?",
+        "followUpJa": "チョコとバニラどっちが好きですか？"
+      },
+      {
+        "textEn": "Can you cook? What can you make?",
+        "textJa": "料理はできますか？何が作れますか？",
+        "answerEn": "I can make simple dishes like fried eggs and curry.",
+        "answerJa": "目玉焼きやカレーのような簡単な料理なら作れます。",
+        "followUpEn": "Who cooks dinner in your family?",
+        "followUpJa": "家族の中で誰が夕食を作りますか？"
+      },
+      {
+        "textEn": "Do you prefer Japanese food or Western food?",
+        "textJa": "和食と洋食、どっちが好きですか？",
+        "answerEn": "I prefer Japanese food because I love rice.",
+        "answerJa": "お米が大好きなので和食の方が好きです。",
+        "followUpEn": "What did you eat for breakfast today?",
+        "followUpJa": "今日の朝ごはんは何を食べましたか？"
+      },
+      {
+        "textEn": "What is your favorite school lunch menu?",
+        "textJa": "給食で一番好きなメニューは何ですか？",
+        "answerEn": "I love the fried bread (Age-pan) days!",
+        "answerJa": "揚げパンの日が大好きです！",
+        "followUpEn": "Is school lunch delicious?",
+        "followUpJa": "給食は美味しいですか？"
+      }
+    ]
+  },
+  {
+    "id": "topic_travel",
+    "title": "Travel (旅行)",
+    "questions": [
+      {
+        "textEn": "Where do you want to travel someday?",
+        "textJa": "いつか旅行してみたい場所はどこですか？",
+        "answerEn": "I want to go to America to see a MLB game.",
+        "answerJa": "メジャーリーグの試合を見るためにアメリカに行きたいです。",
+        "followUpEn": "Are you a baseball fan?",
+        "followUpJa": "野球ファンですか？"
+      },
+      {
+        "textEn": "Have you ever been abroad?",
+        "textJa": "海外に行ったことはありますか？",
+        "answerEn": "No, I haven't. I want to get a passport soon.",
+        "answerJa": "いいえ、ありません。早くパスポートを取りたいです。",
+        "followUpEn": "Where is the first place you want to go?",
+        "followUpJa": "最初に行きたい場所はどこですか？"
+      },
+      {
+        "textEn": "Do you like hot springs (Onsen)?",
+        "textJa": "温泉は好きですか？",
+        "answerEn": "Yes, I love Onsen. It's very relaxing.",
+        "answerJa": "はい、温泉は大好きです。とてもリラックスできます。",
+        "followUpEn": "Do you prefer indoor or outdoor baths?",
+        "followUpJa": "内風呂と露天風呂、どっちが好きですか？"
+      },
+      {
+        "textEn": "What do you like to do during summer vacation?",
+        "textJa": "夏休みは何をするのが好きですか？",
+        "answerEn": "I like to go camping with my family.",
+        "answerJa": "家族とキャンプに行くのが好きです。",
+        "followUpEn": "Do you like BBQ?",
+        "followUpJa": "バーベキューは好きですか？"
+      },
+      {
+        "textEn": "Do you prefer the sea or the mountains?",
+        "textJa": "海と山、どっちが好きですか？",
+        "answerEn": "I prefer the sea because I like swimming.",
+        "answerJa": "泳ぐのが好きなので海の方が好きです。",
+        "followUpEn": "Can you swim well?",
+        "followUpJa": "泳ぐのは得意ですか？"
+      }
+    ]
+  },
+  {
+    "id": "topic_future",
+    "title": "Future (将来)",
+    "questions": [
+      {
+        "textEn": "What do you want to be in the future?",
+        "textJa": "将来何になりたいですか？",
+        "answerEn": "I want to be a doctor because I want to help people.",
+        "answerJa": "人を助けたいので医者になりたいです。",
+        "followUpEn": "Do you need to study hard to be a doctor?",
+        "followUpJa": "医者になるには一生懸命勉強しないといけませんか？"
+      },
+      {
+        "textEn": "Do you want to live in Japan or abroad?",
+        "textJa": "日本に住みたいですか、それとも海外に住みたいですか？",
+        "answerEn": "I want to live in Japan near my family.",
+        "answerJa": "家族の近くにいたいので日本に住みたいです。",
+        "followUpEn": "Where in Japan do you want to live?",
+        "followUpJa": "日本のどこに住みたいですか？"
+      },
+      {
+        "textEn": "Do you want to get married in the future?",
+        "textJa": "将来結婚したいですか？",
+        "answerEn": "Yes, I want to have a happy family.",
+        "answerJa": "はい、幸せな家庭を持ちたいです。",
+        "followUpEn": "How many children do you want?",
+        "followUpJa": "子供は何人欲しいですか？"
+      },
+      {
+        "textEn": "If you could start a business, what would it be?",
+        "textJa": "もしお店や会社を始めるとしたら、何がいいですか？",
+        "answerEn": "I would open a stylish cafe.",
+        "answerJa": "おしゃれなカフェを開きたいです。",
+        "followUpEn": "What kind of food would you serve?",
+        "followUpJa": "どんな食べ物を出しますか？"
+      },
+      {
+        "textEn": "What is your dream?",
+        "textJa": "あなたの夢は何ですか？",
+        "answerEn": "My dream is to travel around the world.",
+        "answerJa": "私の夢は世界一周旅行をすることです。",
+        "followUpEn": "How long would that take?",
+        "followUpJa": "それにはどのくらい時間がかかりそうですか？"
+      }
+    ]
+  },
+  {
+    "id": "topic_seasons",
+    "title": "Seasons (季節)",
+    "questions": [
+      {
+        "textEn": "Which season do you like the best?",
+        "textJa": "どの季節が一番好きですか？",
+        "answerEn": "I like spring because of the cherry blossoms.",
+        "answerJa": "桜があるので春が好きです。",
+        "followUpEn": "Do you have hay fever (Kafun-sho)?",
+        "followUpJa": "花粉症ですか？"
+      },
+      {
+        "textEn": "Do you like winter sports?",
+        "textJa": "ウィンタースポーツは好きですか？",
+        "answerEn": "Yes, I go snowboarding every year.",
+        "answerJa": "はい、毎年スノボに行きます。",
+        "followUpEn": "Are you good at it?",
+        "followUpJa": "得意ですか？"
+      },
+      {
+        "textEn": "What is your favorite holiday?",
+        "textJa": "一番好きな祝日・イベントは何ですか？",
+        "answerEn": "I like Christmas because I get presents.",
+        "answerJa": "プレゼントがもらえるのでクリスマスが好きです。",
+        "followUpEn": "What do you want for Christmas this year?",
+        "followUpJa": "今年のクリスマスは何が欲しいですか？"
+      },
+      {
+        "textEn": "Do you like hot weather or cold weather?",
+        "textJa": "暑いのと寒いの、どっちが好きですか？",
+        "answerEn": "I prefer cold weather because I can wear warm clothes.",
+        "answerJa": "暖かい服を着られるので寒い方が好きです。",
+        "followUpEn": "Do you like snow?",
+        "followUpJa": "雪は好きですか？"
+      },
+      {
+        "textEn": "What do you eat on New Year's Day?",
+        "textJa": "お正月には何を食べますか？",
+        "answerEn": "I eat Osechi and Mochi (rice cakes).",
+        "answerJa": "おせちとお餅を食べます。",
+        "followUpEn": "How many rice cakes did you eat?",
+        "followUpJa": "お餅は何個食べましたか？"
+      }
+    ]
+  },
+  {
+    "id": "topic_tech",
+    "title": "Technology (テクノロジー)",
+    "questions": [
+      {
+        "textEn": "What smartphone do you use?",
+        "textJa": "どんなスマホを使っていますか？",
+        "answerEn": "I use an iPhone. It's very easy to use.",
+        "answerJa": "iPhoneを使っています。とても使いやすいです。",
+        "followUpEn": "What is your favorite app?",
+        "followUpJa": "一番好きなアプリは何ですか？"
+      },
+      {
+        "textEn": "Do you use SNS? Which one?",
+        "textJa": "SNSは使いますか？どれですか？",
+        "answerEn": "I use Instagram to see my friends' photos.",
+        "answerJa": "友達の写真を見るためにインスタグラムを使っています。",
+        "followUpEn": "Do you post photos often?",
+        "followUpJa": "よく写真を投稿しますか？"
+      },
+      {
+        "textEn": "Do you think AI is useful?",
+        "textJa": "AIは便利だと思いますか？",
+        "answerEn": "Yes, I use AI to help with my homework sometimes.",
+        "answerJa": "はい、時々宿題を手伝ってもらうためにAIを使います。",
+        "followUpEn": "Is it difficult to use?",
+        "followUpJa": "使うのは難しいですか？"
+      },
+      {
+        "textEn": "Do you prefer texting or calling?",
+        "textJa": "LINE（メッセージ）と電話、どっちが好きですか？",
+        "answerEn": "I prefer texting because I can reply anytime.",
+        "answerJa": "いつでも返信できるのでメッセージの方が好きです。",
+        "followUpEn": "Do you use emojis?",
+        "followUpJa": "絵文字は使いますか？"
+      },
+      {
+        "textEn": "How many hours a day do you use your phone?",
+        "textJa": "1日何時間くらいスマホを使いますか？",
+        "answerEn": "I use it for about 3 hours. Maybe too much!",
+        "answerJa": "3時間くらい使います。たぶん使いすぎです！",
+        "followUpEn": "What do you do on your phone?",
+        "followUpJa": "スマホで何をしていますか？"
+      }
+    ]
+  },
+  {
+    "id": "topic_imagination",
+    "title": "Imagination (もしも...)",
+    "questions": [
+      {
+        "textEn": "If you had a million yen, what would you buy?",
+        "textJa": "もし100万円あったら、何を買いますか？",
+        "answerEn": "I would buy a new gaming PC.",
+        "answerJa": "新しいゲーミングPCを買います。",
+        "followUpEn": "What game would you play first?",
+        "followUpJa": "最初に何のゲームをしますか？"
+      },
+      {
+        "textEn": "If you could have a superpower, what would it be?",
+        "textJa": "もし超能力が使えるなら、どんな力がいいですか？",
+        "answerEn": "I want to be able to fly so I can go anywhere.",
+        "answerJa": "どこへでも行けるように空を飛べるようになりたいです。",
+        "followUpEn": "Where would you fly to now?",
+        "followUpJa": "今どこに飛んで行きたいですか？"
+      },
+      {
+        "textEn": "If you were an animal, what would you be?",
+        "textJa": "もし動物になるとしたら、何になりますか？",
+        "answerEn": "I would be a cat so I can sleep all day.",
+        "answerJa": "一日中寝ていられるので猫になりたいです。",
+        "followUpEn": "Do you like sleeping?",
+        "followUpJa": "寝るのは好きですか？"
+      },
+      {
+        "textEn": "If you could meet a historical person, who would it be?",
+        "textJa": "もし歴史上の人物に会えるなら、誰がいいですか？",
+        "answerEn": "I would meet Oda Nobunaga.",
+        "answerJa": "織田信長に会ってみたいです。",
+        "followUpEn": "What would you ask him?",
+        "followUpJa": "彼に何を聞いてみたいですか？"
+      },
+      {
+        "textEn": "If you could live anywhere in the world, where would it be?",
+        "textJa": "もし世界のどこにでも住めるとしたら、どこがいいですか？",
+        "answerEn": "I would live in Hawaii because the weather is nice.",
+        "answerJa": "天気がいいのでハワイに住みたいです。",
+        "followUpEn": "Have you been to Hawaii?",
+        "followUpJa": "ハワイに行ったことはありますか？"
+      }
+    ]
+  }
+]

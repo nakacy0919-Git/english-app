@@ -1,0 +1,57 @@
+{
+  "id": "topic_travel",
+  "title": "Travel (旅行)",
+  "questions": [
+    {
+      "id": "travel_01",
+      "question": {
+        "en": "Where do you want to travel someday?",
+        "ja": "いつか旅行してみたい場所はどこですか？",
+        "pt": "Para onde você quer viajar algum dia?",
+        "zh": "有一天你想去哪里旅行？"
+      },
+      "answer": {
+        "en": "I want to go to America to see a MLB game.",
+        "ja": "メジャーリーグの試合を見るためにアメリカに行きたいです。"
+      },
+      "followUp": {
+        "en": "Are you a baseball fan?",
+        "ja": "野球ファンですか？"
+      }
+    },
+    {
+      "id": "travel_02",
+      "question": {
+        "en": "Have you ever been abroad?",
+        "ja": "海外に行ったことはありますか？",
+        "pt": "Você já esteve no exterior?",
+        "zh": "你去过国外吗？"
+      },
+      "answer": {
+        "en": "No, I haven't. I want to get a passport soon.",
+        "ja": "いいえ、ありません。早くパスポートを取りたいです。"
+      },
+      "followUp": {
+        "en": "Where is the first place you want to go?",
+        "ja": "最初に行きたい場所はどこですか？"
+      }
+    },
+    {
+      "id": "travel_03",
+      "question": {
+        "en": "Do you like hot springs (Onsen)?",
+        "ja": "温泉は好きですか？",
+        "pt": "Você gosta de fontes termais (Onsen)?",
+        "zh": "你喜欢温泉吗？"
+      },
+      "answer": {
+        "en": "Yes, I love Onsen. It's very relaxing.",
+        "ja": "はい、温泉は大好きです。とてもリラックスできます。"
+      },
+      "followUp": {
+        "en": "Do you prefer indoor or outdoor baths?",
+        "ja": "内風呂と露天風呂、どっちが好きですか？"
+      }
+    }
+  ]
+}
