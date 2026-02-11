@@ -1,5 +1,362 @@
-{
-  "id": "topic_seasons",
-  "title": "Seasons (季節)",
-  "questions": []
-}
+[
+  {
+    "id": "season_01",
+    "question1": { "en": "Which season do you like best?", "ja": "どの季節が一番好きですか？" },
+    "answer1_variations": [
+      { "en": "I love spring the most.", "ja": "春が一番大好きです。" },
+      { "en": "I'm definitely a winter person.", "ja": "断然、冬派ですね。" }
+    ],
+    "answer1_detail": { "en": "The temperature is just perfect for me.", "ja": "気温が私にはちょうどいいんです。" },
+    "question2": { "en": "What do you like to do then?", "ja": "その時期は何をするのが好きですか？" },
+    "answer2_variations": [
+      { "en": "I enjoy going for picnics.", "ja": "ピクニックに行くのが楽しいです。" },
+      { "en": "I love skiing in the mountains.", "ja": "山でスキーをするのが大好きです。" }
+    ],
+    "vocab": [
+      { "word": "definitely", "meaning": "間違いなく、断然" },
+      { "word": "temperature", "meaning": "気温" }
+    ]
+  },
+  {
+    "id": "season_02",
+    "question1": { "en": "Have you seen the cherry blossoms yet?", "ja": "もう桜は見ましたか？" },
+    "answer1_variations": [
+      { "en": "Yes, they are in full bloom.", "ja": "はい、満開ですよ。" },
+      { "en": "Not yet, I plan to go this weekend.", "ja": "まだです、今週末に行く予定です。" }
+    ],
+    "answer1_detail": { "en": "They are so beautiful but last only a short time.", "ja": "とても綺麗ですが、短い期間しか咲きません。" },
+    "question2": { "en": "Did you have a Hanami party?", "ja": "お花見はしましたか？" },
+    "answer2_variations": [
+      { "en": "We had a picnic under the trees.", "ja": "木の下でピクニックをしました。" },
+      { "en": "No, it was too crowded.", "ja": "いいえ、混みすぎていたので。" }
+    ],
+    "vocab": [
+      { "word": "in full bloom", "meaning": "満開で" },
+      { "word": "crowded", "meaning": "混雑した" }
+    ]
+  },
+  {
+    "id": "season_03",
+    "question1": { "en": "How do you handle the summer heat?", "ja": "夏の暑さはどう対処していますか？" },
+    "answer1_variations": [
+      { "en": "I stay indoors with the AC on.", "ja": "エアコンをつけて室内にいます。" },
+      { "en": "I eat lots of ice cream.", "ja": "アイスクリームをたくさん食べます。" }
+    ],
+    "answer1_detail": { "en": "It's the humidity that gets me.", "ja": "私を参らせるのは湿度なんです。" },
+    "question2": { "en": "Do you like summer?", "ja": "夏は好きですか？" },
+    "answer2_variations": [
+      { "en": "I hate sweating.", "ja": "汗をかくのが嫌いです。" },
+      { "en": "I love the sunshine.", "ja": "日差しが大好きです。" }
+    ],
+    "vocab": [
+      { "word": "handle", "meaning": "対処する、扱う" },
+      { "word": "humidity", "meaning": "湿度" }
+    ]
+  },
+  {
+    "id": "season_04",
+    "question1": { "en": "Do you go to the beach in summer?", "ja": "夏は海に行きますか？" },
+    "answer1_variations": [
+      { "en": "Every weekend if I can.", "ja": "できれば毎週末行きたいです。" },
+      { "en": "I prefer the pool.", "ja": "プールの方が好きです。" }
+    ],
+    "answer1_detail": { "en": "I love getting a tan.", "ja": "日焼けするのが好きなんです。" },
+    "question2": { "en": "Can you swim well?", "ja": "泳ぐのは得意ですか？" },
+    "answer2_variations": [
+      { "en": "I'm a pretty good swimmer.", "ja": "かなり泳げる方です。" },
+      { "en": "No, I just float around.", "ja": "いいえ、ただプカプカ浮いているだけです。" }
+    ],
+    "vocab": [
+      { "word": "tan", "meaning": "日焼け（小麦色）" },
+      { "word": "float", "meaning": "浮く" }
+    ]
+  },
+  {
+    "id": "season_05",
+    "question1": { "en": "Do you like autumn?", "ja": "秋は好きですか？" },
+    "answer1_variations": [
+      { "en": "Yes, the autumn leaves are stunning.", "ja": "はい、紅葉が素晴らしいです。" },
+      { "en": "It's my favorite season.", "ja": "一番好きな季節です。" }
+    ],
+    "answer1_detail": { "en": "The mountains turn red and yellow.", "ja": "山々が赤や黄色に染まります。" },
+    "question2": { "en": "Do you go hiking?", "ja": "ハイキングに行きますか？" },
+    "answer2_variations": [
+      { "en": "Yes, to see the foliage.", "ja": "はい、紅葉を見るために。" },
+      { "en": "No, I just drive through.", "ja": "いいえ、ドライブで通るだけです。" }
+    ],
+    "vocab": [
+      { "word": "stunning", "meaning": "見事な、素晴らしい" },
+      { "word": "foliage", "meaning": "（木々の）葉、紅葉" }
+    ]
+  },
+  {
+    "id": "season_06",
+    "question1": { "en": "Do you like winter?", "ja": "冬は好きですか？" },
+    "answer1_variations": [
+      { "en": "No, I can't stand the cold.", "ja": "いいえ、寒さには耐えられません。" },
+      { "en": "Yes, I love the snow.", "ja": "はい、雪が大好きです。" }
+    ],
+    "answer1_detail": { "en": "I have to wear three layers of clothes.", "ja": "服を3枚重ね着しないといけません。" },
+    "question2": { "en": "Does it snow where you live?", "ja": "あなたの住んでいる所では雪が降りますか？" },
+    "answer2_variations": [
+      { "en": "It snows quite a bit.", "ja": "結構降りますよ。" },
+      { "en": "Rarely, maybe once a year.", "ja": "めったに。年に一回くらいです。" }
+    ],
+    "vocab": [
+      { "word": "can't stand", "meaning": "〜に耐えられない、大嫌い" },
+      { "word": "layer", "meaning": "層、重ね着" }
+    ]
+  },
+  {
+    "id": "season_07",
+    "question1": { "en": "Do you ski or snowboard?", "ja": "スキーかスノボはしますか？" },
+    "answer1_variations": [
+      { "en": "I go snowboarding every winter.", "ja": "毎冬スノーボードに行きます。" },
+      { "en": "Neither, I'm afraid of getting hurt.", "ja": "どっちもしません、怪我するのが怖いので。" }
+    ],
+    "answer1_detail": { "en": "The slopes are great this year.", "ja": "今年はゲレンデの調子がいいですよ。" },
+    "question2": { "en": "Is it expensive?", "ja": "お金はかかりますか？" },
+    "answer2_variations": [
+      { "en": "Yes, the gear costs a lot.", "ja": "はい、道具にかなりお金がかかります。" },
+      { "en": "Lift tickets are pricey.", "ja": "リフト券が高いですね。" }
+    ],
+    "vocab": [
+      { "word": "slope", "meaning": "坂、ゲレンデ" },
+      { "word": "pricey", "meaning": "高価な" }
+    ]
+  },
+  {
+    "id": "season_08",
+    "question1": { "en": "What do you do during the rainy season?", "ja": "梅雨の間は何をしていますか？" },
+    "answer1_variations": [
+      { "en": "I read books at home.", "ja": "家で本を読みます。" },
+      { "en": "I get depressed.", "ja": "気が滅入ります。" }
+    ],
+    "answer1_detail": { "en": "The laundry never dries.", "ja": "洗濯物が全然乾かないんです。" },
+    "question2": { "en": "Do you carry an umbrella?", "ja": "傘は持ち歩いていますか？" },
+    "answer2_variations": [
+      { "en": "Always, just in case.", "ja": "念のため、いつも。" },
+      { "en": "I use a raincoat.", "ja": "レインコートを使っています。" }
+    ],
+    "vocab": [
+      { "word": "depressed", "meaning": "落ち込んだ、憂鬱な" },
+      { "word": "just in case", "meaning": "念のため、万が一に備えて" }
+    ]
+  },
+  {
+    "id": "season_09",
+    "question1": { "en": "What is the best autumn food?", "ja": "秋の食べ物で一番は何ですか？" },
+    "answer1_variations": [
+      { "en": "I love roasted sweet potatoes.", "ja": "焼き芋が大好きです。" },
+      { "en": "Pacific saury is delicious.", "ja": "サンマが美味しいですね。" }
+    ],
+    "answer1_detail": { "en": "Food tastes better in autumn.", "ja": "秋は食べ物が美味しく感じます。" },
+    "question2": { "en": "Do you gain weight?", "ja": "太りますか？" },
+    "answer2_variations": [
+      { "en": "Yes, I have a big appetite.", "ja": "はい、食欲がすごくて。" },
+      { "en": "I try to be careful.", "ja": "気をつけるようにしています。" }
+    ],
+    "vocab": [
+      { "word": "Pacific saury", "meaning": "サンマ" },
+      { "word": "appetite", "meaning": "食欲" }
+    ]
+  },
+  {
+    "id": "season_10",
+    "question1": { "en": "Do you have hay fever in spring?", "ja": "春に花粉症になりますか？" },
+    "answer1_variations": [
+      { "en": "Yes, my eyes get so itchy.", "ja": "はい、目がかゆくてたまりません。" },
+      { "en": "Luckily, I don't have it.", "ja": "幸運なことに、私は大丈夫です。" }
+    ],
+    "answer1_detail": { "en": "I have to wear a mask everywhere.", "ja": "どこへ行くにもマスクが必要です。" },
+    "question2": { "en": "Do you take medication?", "ja": "薬は飲んでいますか？" },
+    "answer2_variations": [
+      { "en": "Yes, daily.", "ja": "はい、毎日。" },
+      { "en": "I try natural remedies.", "ja": "自然療法を試しています。" }
+    ],
+    "vocab": [
+      { "word": "itchy", "meaning": "かゆい" },
+      { "word": "medication", "meaning": "薬" }
+    ]
+  },
+  {
+    "id": "season_11",
+    "question1": { "en": "Have you switched your wardrobe yet?", "ja": "もう衣替えはしましたか？" },
+    "answer1_variations": [
+      { "en": "I'm doing it this weekend.", "ja": "今週末やるつもりです。" },
+      { "en": "Yes, I put away my winter coats.", "ja": "はい、冬のコートを片付けました。" }
+    ],
+    "answer1_detail": { "en": "I have too many clothes.", "ja": "服を持ちすぎているんです。" },
+    "question2": { "en": "Do you need new clothes?", "ja": "新しい服は必要ですか？" },
+    "answer2_variations": [
+      { "en": "I want a new spring jacket.", "ja": "新しい春物のジャケットが欲しいです。" },
+      { "en": "I'm trying not to buy new things.", "ja": "新しいものは買わないようにしています。" }
+    ],
+    "vocab": [
+      { "word": "wardrobe", "meaning": "衣装、持ち衣装、タンス" },
+      { "word": "put away", "meaning": "片付ける、しまう" }
+    ]
+  },
+  {
+    "id": "season_12",
+    "question1": { "en": "Do you like long summer days?", "ja": "夏の日の長さは好きですか？" },
+    "answer1_variations": [
+      { "en": "Yes, it stays bright until 8 PM.", "ja": "はい、夜8時まで明るいですから。" },
+      { "en": "It's hard to sleep early.", "ja": "早く寝るのが難しいです。" }
+    ],
+    "answer1_detail": { "en": "You can do more things after work.", "ja": "仕事のあとに色々なことができます。" },
+    "question2": { "en": "How about winter?", "ja": "冬はどうですか？" },
+    "answer2_variations": [
+      { "en": "It gets dark too fast.", "ja": "暗くなるのが早すぎます。" },
+      { "en": "The nights are long and cozy.", "ja": "夜が長くて心地いいです。" }
+    ],
+    "vocab": [
+      { "word": "bright", "meaning": "明るい" },
+      { "word": "cozy", "meaning": "居心地が良い" }
+    ]
+  },
+  {
+    "id": "season_13",
+    "question1": { "en": "What's your favorite winter holiday?", "ja": "冬の休日で好きなのは何ですか？" },
+    "answer1_variations": [
+      { "en": "Christmas is magical.", "ja": "クリスマスは魔法のようです。" },
+      { "en": "New Year's is the most important.", "ja": "お正月が一番大事です。" }
+    ],
+    "answer1_detail": { "en": "I love the decorations and lights.", "ja": "飾り付けやイルミネーションが好きなんです。" },
+    "question2": { "en": "How do you celebrate?", "ja": "どうやって祝いますか？" },
+    "answer2_variations": [
+      { "en": "We have a family dinner.", "ja": "家族で夕食を食べます。" },
+      { "en": "We visit a shrine.", "ja": "神社にお参りに行きます。" }
+    ],
+    "vocab": [
+      { "word": "magical", "meaning": "魔法のような、不思議な魅力のある" },
+      { "word": "celebrate", "meaning": "祝う" }
+    ]
+  },
+  {
+    "id": "season_14",
+    "question1": { "en": "Do you plant anything in spring?", "ja": "春に何か植えますか？" },
+    "answer1_variations": [
+      { "en": "I plant tulips and herbs.", "ja": "チューリップとハーブを植えます。" },
+      { "en": "I don't have a garden.", "ja": "庭がないんです。" }
+    ],
+    "answer1_detail": { "en": "It's nice to see things grow.", "ja": "植物が育つのを見るのはいいものです。" },
+    "question2": { "en": "Is it hard work?", "ja": "作業は大変ですか？" },
+    "answer2_variations": [
+      { "en": "Weeding is annoying.", "ja": "雑草取りが面倒です。" },
+      { "en": "It's very relaxing.", "ja": "とてもリラックスできます。" }
+    ],
+    "vocab": [
+      { "word": "plant", "meaning": "植える" },
+      { "word": "weed", "meaning": "雑草を抜く" }
+    ]
+  },
+  {
+    "id": "season_15",
+    "question1": { "en": "When is the best time to travel here?", "ja": "ここを旅行するならいつがベストですか？" },
+    "answer1_variations": [
+      { "en": "Spring or autumn is best.", "ja": "春か秋が一番です。" },
+      { "en": "Avoid the summer heat.", "ja": "夏の暑さは避けたほうがいいです。" }
+    ],
+    "answer1_detail": { "en": "The weather is mild and pleasant.", "ja": "気候が穏やかで快適ですから。" },
+    "question2": { "en": "Is it crowded?", "ja": "混んでいますか？" },
+    "answer2_variations": [
+      { "en": "Yes, during Golden Week.", "ja": "はい、ゴールデンウィーク中は。" },
+      { "en": "Weekdays are better.", "ja": "平日の方がいいですよ。" }
+    ],
+    "vocab": [
+      { "word": "avoid", "meaning": "避ける" },
+      { "word": "mild", "meaning": "穏やかな" }
+    ]
+  },
+  {
+    "id": "season_16",
+    "question1": { "en": "Does your country have four seasons?", "ja": "あなたの国には四季がありますか？" },
+    "answer1_variations": [
+      { "en": "Yes, they are very distinct.", "ja": "はい、とてもはっきりしています。" },
+      { "en": "No, it's summer all year round.", "ja": "いいえ、一年中夏です。" }
+    ],
+    "answer1_detail": { "en": "Japan is famous for having four seasons.", "ja": "日本は四季があることで有名です。" },
+    "question2": { "en": "Which one is the longest?", "ja": "どれが一番長いですか？" },
+    "answer2_variations": [
+      { "en": "Summer feels the longest.", "ja": "夏が一番長く感じます。" },
+      { "en": "Winter seems to last forever.", "ja": "冬が永遠に続くように思えます。" }
+    ],
+    "vocab": [
+      { "word": "distinct", "meaning": "はっきりした、明確な" },
+      { "word": "last", "meaning": "続く" }
+    ]
+  },
+  {
+    "id": "season_17",
+    "question1": { "en": "When do you turn on the heater?", "ja": "いつ暖房をつけますか？" },
+    "answer1_variations": [
+      { "en": "As soon as it gets cold.", "ja": "寒くなったらすぐに。" },
+      { "en": "I try to wait until December.", "ja": "12月までは待つようにしています。" }
+    ],
+    "answer1_detail": { "en": "Electricity bills are expensive.", "ja": "電気代が高いので。" },
+    "question2": { "en": "Do you use a Kotatsu?", "ja": "こたつは使いますか？" },
+    "answer2_variations": [
+      { "en": "Yes, I can't live without it.", "ja": "はい、それなしでは生きられません。" },
+      { "en": "No, I have floor heating.", "ja": "いいえ、床暖房があります。" }
+    ],
+    "vocab": [
+      { "word": "heater", "meaning": "暖房器具、ヒーター" },
+      { "word": "bill", "meaning": "請求書" }
+    ]
+  },
+  {
+    "id": "season_18",
+    "question1": { "en": "What do you hate about summer?", "ja": "夏の何が嫌いですか？" },
+    "answer1_variations": [
+      { "en": "The mosquitoes are terrible.", "ja": "蚊がひどいことです。" },
+      { "en": "The humidity is awful.", "ja": "湿気が最悪です。" }
+    ],
+    "answer1_detail": { "en": "I get bitten all the time.", "ja": "いつも（虫に）刺されちゃうんです。" },
+    "question2": { "en": "Do you use bug spray?", "ja": "虫除けスプレーは使いますか？" },
+    "answer2_variations": [
+      { "en": "Yes, when I go outside.", "ja": "はい、外に出る時は。" },
+      { "en": "I use an electric repellent.", "ja": "電気式の虫除けを使っています。" }
+    ],
+    "vocab": [
+      { "word": "mosquito", "meaning": "蚊" },
+      { "word": "repellent", "meaning": "虫除け" }
+    ]
+  },
+  {
+    "id": "season_19",
+    "question1": { "en": "Does the weather affect your mood?", "ja": "天気は気分に影響しますか？" },
+    "answer1_variations": [
+      { "en": "Rain makes me sleepy.", "ja": "雨だと眠くなります。" },
+      { "en": "Sunshine makes me happy.", "ja": "日差しを浴びると幸せな気分になります。" }
+    ],
+    "answer1_detail": { "en": "Winter can be a bit depressing.", "ja": "冬は少し憂鬱になることがあります。" },
+    "question2": { "en": "How do you fix it?", "ja": "どうやって対処しますか？" },
+    "answer2_variations": [
+      { "en": "I try to get more sunlight.", "ja": "もっと日光を浴びるようにしています。" },
+      { "en": "I exercise to feel better.", "ja": "気分を良くするために運動します。" }
+    ],
+    "vocab": [
+      { "word": "affect", "meaning": "影響する" },
+      { "word": "depressing", "meaning": "気を滅入らせる、憂鬱な" }
+    ]
+  },
+  {
+    "id": "season_20",
+    "question1": { "en": "Are you looking forward to spring?", "ja": "春を楽しみにしていますか？" },
+    "answer1_variations": [
+      { "en": "Yes, I can't wait for warmer days.", "ja": "はい、暖かい日が待ちきれません。" },
+      { "en": "No, I love winter sports too much.", "ja": "いいえ、ウィンタースポーツが好きすぎるので。" }
+    ],
+    "answer1_detail": { "en": "Winter has been too long this year.", "ja": "今年の冬は長すぎました。" },
+    "question2": { "en": "What will you do first?", "ja": "最初に何をしますか？" },
+    "answer2_variations": [
+      { "en": "I'll go for a walk in the park.", "ja": "公園を散歩します。" },
+      { "en": "I'll buy new clothes.", "ja": "新しい服を買います。" }
+    ],
+    "vocab": [
+      { "word": "look forward to", "meaning": "〜を楽しみにする" },
+      { "word": "can't wait", "meaning": "待ちきれない" }
+    ]
+  }
+]

@@ -1,5 +1,362 @@
-{
-  "id": "topic_hobbies",
-  "title": "Hobbies (趣味)",
-  "questions": []
-}
+[
+  {
+    "id": "hobbies_01",
+    "question1": { "en": "What do you do in your free time?", "ja": "暇な時は何をしていますか？" },
+    "answer1_variations": [
+      { "en": "I'm really into rock climbing lately.", "ja": "最近はロッククライミングにハマっています。" },
+      { "en": "I mostly just chill and watch Netflix.", "ja": "たいていダラダラしてネットフリックスを見ています。" }
+    ],
+    "answer1_detail": { "en": "It's a great workout and very thrilling.", "ja": "いい運動になるし、とてもスリルがあるんです。" },
+    "question2": { "en": "Is it dangerous?", "ja": "危なくないですか？" },
+    "answer2_variations": [
+      { "en": "Not if you use the proper gear.", "ja": "適切な道具を使えば危なくないですよ。" },
+      { "en": "A little bit, but that's the fun part.", "ja": "少しはね、でもそれが楽しいところなんです。" }
+    ],
+    "vocab": [
+      { "word": "be into", "meaning": "〜にハマっている、夢中である" },
+      { "word": "chill", "meaning": "くつろぐ、ダラダラする" }
+    ]
+  },
+  {
+    "id": "hobbies_02",
+    "question1": { "en": "Do you play any musical instruments?", "ja": "何か楽器は演奏しますか？" },
+    "answer1_variations": [
+      { "en": "I play the guitar a little bit.", "ja": "ギターを少し弾きます。" },
+      { "en": "No, I have zero musical talent.", "ja": "いいえ、音楽の才能はゼロなんです。" }
+    ],
+    "answer1_detail": { "en": "I taught myself using YouTube videos.", "ja": "YouTubeの動画を見て独学しました。" },
+    "question2": { "en": "Can you read music?", "ja": "楽譜は読めますか？" },
+    "answer2_variations": [
+      { "en": "Yes, I learned piano as a kid.", "ja": "はい、子供の頃ピアノを習っていたので。" },
+      { "en": "No, I play by ear.", "ja": "いいえ、耳コピで弾いています。" }
+    ],
+    "vocab": [
+      { "word": "musical instrument", "meaning": "楽器" },
+      { "word": "play by ear", "meaning": "耳コピする、即興で演奏する" }
+    ]
+  },
+  {
+    "id": "hobbies_03",
+    "question1": { "en": "Are you a bookworm?", "ja": "読書家ですか？" },
+    "answer1_variations": [
+      { "en": "Yes, I devour books.", "ja": "はい、本をむさぼるように読みます。" },
+      { "en": "I prefer listening to audiobooks.", "ja": "オーディオブックを聴く方が好きです。" }
+    ],
+    "answer1_detail": { "en": "I love getting lost in a good mystery novel.", "ja": "良質なミステリー小説の世界に没頭するのが好きなんです。" },
+    "question2": { "en": "Paper books or e-books?", "ja": "紙の本派？電子書籍派？" },
+    "answer2_variations": [
+      { "en": "Paper. I like the smell of old books.", "ja": "紙ですね。古本の匂いが好きなので。" },
+      { "en": "E-books are more convenient.", "ja": "電子書籍の方が便利です。" }
+    ],
+    "vocab": [
+      { "word": "bookworm", "meaning": "本の虫、読書家" },
+      { "word": "devour", "meaning": "むさぼり食う（ここでは「夢中で読む」）" }
+    ]
+  },
+  {
+    "id": "hobbies_04",
+    "question1": { "en": "Do you collect anything?", "ja": "何か集めているものはありますか？" },
+    "answer1_variations": [
+      { "en": "I have a huge collection of vinyl records.", "ja": "レコードの膨大なコレクションがあります。" },
+      { "en": "I try not to clutter my house.", "ja": "家を散らかさないようにしているので。" }
+    ],
+    "answer1_detail": { "en": "I love hunting for rare albums at flea markets.", "ja": "フリーマーケットでレアなアルバムを探すのが大好きなんです。" },
+    "question2": { "en": "Which one is your most valuable?", "ja": "一番高価なものはどれですか？" },
+    "answer2_variations": [
+      { "en": "Probably an original Beatles pressing.", "ja": "たぶんビートルズのオリジナル版ですね。" },
+      { "en": "I don't know the price, but it's special to me.", "ja": "値段は分かりませんが、私にとっては特別です。" }
+    ],
+    "vocab": [
+      { "word": "clutter", "meaning": "散らかす、物で溢れさせる" },
+      { "word": "hunt for", "meaning": "〜を探し回る" }
+    ]
+  },
+  {
+    "id": "hobbies_05",
+    "question1": { "en": "Are you outdoorsy?", "ja": "アウトドア派ですか？" },
+    "answer1_variations": [
+      { "en": "I love hiking and camping.", "ja": "ハイキングやキャンプが大好きです。" },
+      { "en": "I'm definitely an indoor person.", "ja": "完全にインドア派ですね。" }
+    ],
+    "answer1_detail": { "en": "Being in nature recharges my batteries.", "ja": "自然の中にいると充電されるんです。" },
+    "question2": { "en": "Where do you usually go?", "ja": "普段どこに行きますか？" },
+    "answer2_variations": [
+      { "en": "There's a nice trail near my house.", "ja": "家の近くにいいハイキングコースがあるんです。" },
+      { "en": "I drive to the mountains.", "ja": "車で山まで行きます。" }
+    ],
+    "vocab": [
+      { "word": "outdoorsy", "meaning": "アウトドア好きな" },
+      { "word": "recharge one's batteries", "meaning": "活力を取り戻す、充電する" }
+    ]
+  },
+  {
+    "id": "hobbies_06",
+    "question1": { "en": "Do you like gardening?", "ja": "ガーデニングは好きですか？" },
+    "answer1_variations": [
+      { "en": "Yes, I have a green thumb.", "ja": "はい、園芸の才能（植物を育てるのが上手）があります。" },
+      { "en": "I try, but I kill every plant I touch.", "ja": "やろうとはしますが、触る植物をすべて枯らしてしまいます。" }
+    ],
+    "answer1_detail": { "en": "I grow my own tomatoes and basil.", "ja": "自分でトマトとバジルを育てています。" },
+    "question2": { "en": "Is it hard to maintain?", "ja": "手入れは大変ですか？" },
+    "answer2_variations": [
+      { "en": "You just need to water them regularly.", "ja": "定期的に水をやるだけで大丈夫ですよ。" },
+      { "en": "Weeds are a pain.", "ja": "雑草取りが面倒ですね。" }
+    ],
+    "vocab": [
+      { "word": "green thumb", "meaning": "園芸の才能" },
+      { "word": "maintain", "meaning": "維持する、手入れする" }
+    ]
+  },
+  {
+    "id": "hobbies_07",
+    "question1": { "en": "Are you a gamer?", "ja": "ゲーマーですか？" },
+    "answer1_variations": [
+      { "en": "Yes, I play video games every night.", "ja": "はい、毎晩ビデオゲームをします。" },
+      { "en": "Casual only, like mobile games.", "ja": "カジュアルなものだけ、スマホゲームとか。" }
+    ],
+    "answer1_detail": { "en": "I love open-world RPGs.", "ja": "オープンワールドのRPGが大好きです。" },
+    "question2": { "en": "Console or PC?", "ja": "家庭用ゲーム機派？PC派？" },
+    "answer2_variations": [
+      { "en": "PC master race!", "ja": "PCこそ至高！" },
+      { "en": "I stick to my PlayStation.", "ja": "プレイステーション一筋です。" }
+    ],
+    "vocab": [
+      { "word": "casual", "meaning": "たまにやる程度の、本格的でない" },
+      { "word": "stick to", "meaning": "〜にこだわる、〜を使い続ける" }
+    ]
+  },
+  {
+    "id": "hobbies_08",
+    "question1": { "en": "Do you enjoy cooking?", "ja": "料理は好きですか？" },
+    "answer1_variations": [
+      { "en": "I find it very therapeutic.", "ja": "とても癒やしになると思います。" },
+      { "en": "I cook because I have to.", "ja": "やらなきゃいけないから料理します。" }
+    ],
+    "answer1_detail": { "en": "I like experimenting with new spices.", "ja": "新しいスパイスを試してみるのが好きです。" },
+    "question2": { "en": "What's your signature dish?", "ja": "得意料理（看板料理）は何ですか？" },
+    "answer2_variations": [
+      { "en": "My friends love my lasagna.", "ja": "友達は私のラザニアを気に入ってくれています。" },
+      { "en": "A simple stir-fry.", "ja": "シンプルな野菜炒めです。" }
+    ],
+    "vocab": [
+      { "word": "therapeutic", "meaning": "癒やしになる、治療効果のある" },
+      { "word": "signature dish", "meaning": "得意料理、看板メニュー" }
+    ]
+  },
+  {
+    "id": "hobbies_09",
+    "question1": { "en": "Do you do any crafts?", "ja": "何か手芸や工作はしますか？" },
+    "answer1_variations": [
+      { "en": "I took up knitting recently.", "ja": "最近編み物を始めました。" },
+      { "en": "I like DIY home improvement projects.", "ja": "DIYで家の修繕をするのが好きです。" }
+    ],
+    "answer1_detail": { "en": "It's satisfying to make something with your hands.", "ja": "自分の手で何かを作るのは満足感があります。" },
+    "question2": { "en": "What did you make last?", "ja": "最近何を作りましたか？" },
+    "answer2_variations": [
+      { "en": "A scarf for my mom.", "ja": "母のためにマフラーを。" },
+      { "en": "I built a bookshelf.", "ja": "本棚を作りました。" }
+    ],
+    "vocab": [
+      { "word": "take up", "meaning": "（趣味などを）始める" },
+      { "word": "satisfying", "meaning": "満足感を与える、やりがいのある" }
+    ]
+  },
+  {
+    "id": "hobbies_10",
+    "question1": { "en": "Are you into photography?", "ja": "写真は好きですか？" },
+    "answer1_variations": [
+      { "en": "Yes, I carry my camera everywhere.", "ja": "はい、どこにでもカメラを持ち歩いています。" },
+      { "en": "I just use my smartphone.", "ja": "スマホで撮るだけですね。" }
+    ],
+    "answer1_detail": { "en": "I especially like taking portraits.", "ja": "特にポートレート（人物写真）を撮るのが好きです。" },
+    "question2": { "en": "Do you post them on Instagram?", "ja": "インスタグラムに投稿しますか？" },
+    "answer2_variations": [
+      { "en": "Yes, I have a dedicated account.", "ja": "はい、専用のアカウントを持っています。" },
+      { "en": "No, they are just for memories.", "ja": "いいえ、ただの思い出用です。" }
+    ],
+    "vocab": [
+      { "word": "portrait", "meaning": "肖像画、人物写真" },
+      { "word": "dedicated", "meaning": "専用の、特化した" }
+    ]
+  },
+  {
+    "id": "hobbies_11",
+    "question1": { "en": "How often do you go to the movies?", "ja": "どのくらい映画に行きますか？" },
+    "answer1_variations": [
+      { "en": "I'm a huge movie buff, so once a week.", "ja": "映画マニアなので、週に1回は行きます。" },
+      { "en": "Only for big blockbusters.", "ja": "超大作の時だけですね。" }
+    ],
+    "answer1_detail": { "en": "I love the experience of the big screen.", "ja": "大画面での体験が好きなんです。" },
+    "question2": { "en": "Do you buy popcorn?", "ja": "ポップコーンは買いますか？" },
+    "answer2_variations": [
+      { "en": "Always. Salt and butter.", "ja": "いつも買います。塩とバターで。" },
+      { "en": "No, it's too expensive.", "ja": "いいえ、高すぎるので。" }
+    ],
+    "vocab": [
+      { "word": "movie buff", "meaning": "映画通、映画マニア" },
+      { "word": "blockbuster", "meaning": "大ヒット作、超大作映画" }
+    ]
+  },
+  {
+    "id": "hobbies_12",
+    "question1": { "en": "Have you ever tried yoga?", "ja": "ヨガをやったことはありますか？" },
+    "answer1_variations": [
+      { "en": "Yes, I do it every morning.", "ja": "はい、毎朝やっています。" },
+      { "en": "I tried once, but I'm too stiff.", "ja": "一度試しましたが、体が硬すぎて。" }
+    ],
+    "answer1_detail": { "en": "It helps me clear my mind.", "ja": "心を空っぽにするのに役立ちます。" },
+    "question2": { "en": "Do you go to a studio?", "ja": "スタジオに通っていますか？" },
+    "answer2_variations": [
+      { "en": "I prefer following online videos.", "ja": "オンライン動画を見ながらやるのが好きです。" },
+      { "en": "Yes, I like the community there.", "ja": "はい、そこのコミュニティが好きなので。" }
+    ],
+    "vocab": [
+      { "word": "stiff", "meaning": "（体が）硬い、凝っている" },
+      { "word": "clear one's mind", "meaning": "心を無にする、頭をスッキリさせる" }
+    ]
+  },
+  {
+    "id": "hobbies_13",
+    "question1": { "en": "Do you like fishing?", "ja": "釣りは好きですか？" },
+    "answer1_variations": [
+      { "en": "It's my favorite way to relax.", "ja": "一番のお気に入りのリラックス法です。" },
+      { "en": "I find it boring.", "ja": "退屈だと思います。" }
+    ],
+    "answer1_detail": { "en": "Patience is key.", "ja": "忍耐が鍵ですね。" },
+    "question2": { "en": "Do you eat what you catch?", "ja": "釣った魚は食べますか？" },
+    "answer2_variations": [
+      { "en": "Sometimes, if it's big enough.", "ja": "時々、十分に大きければ。" },
+      { "en": "No, I do catch and release.", "ja": "いいえ、キャッチ・アンド・リリース（釣って逃がす）です。" }
+    ],
+    "vocab": [
+      { "word": "patience", "meaning": "忍耐、根気" },
+      { "word": "catch and release", "meaning": "魚を釣って放流すること" }
+    ]
+  },
+  {
+    "id": "hobbies_14",
+    "question1": { "en": "Do you follow any sports?", "ja": "何かスポーツを観戦していますか？" },
+    "answer1_variations": [
+      { "en": "I'm a die-hard baseball fan.", "ja": "筋金入りの野球ファンです。" },
+      { "en": "I only watch the Olympics.", "ja": "オリンピックしか見ません。" }
+    ],
+    "answer1_detail": { "en": "I cheer for the local team.", "ja": "地元のチームを応援しています。" },
+    "question2": { "en": "Do you go to games?", "ja": "試合を見に行きますか？" },
+    "answer2_variations": [
+      { "en": "As often as I can.", "ja": "できる限り頻繁に。" },
+      { "en": "I prefer watching on TV.", "ja": "テレビで見る方が好きです。" }
+    ],
+    "vocab": [
+      { "word": "die-hard", "meaning": "頑固な、熱狂的な" },
+      { "word": "cheer for", "meaning": "〜を応援する" }
+    ]
+  },
+  {
+    "id": "hobbies_15",
+    "question1": { "en": "Is your hobby expensive?", "ja": "あなたの趣味はお金がかかりますか？" },
+    "answer1_variations": [
+      { "en": "Yes, golf gear costs a fortune.", "ja": "はい、ゴルフ道具は大金がかかります。" },
+      { "en": "Not really, running is free.", "ja": "いいえ、ランニングはタダですから。" }
+    ],
+    "answer1_detail": { "en": "But I think it's worth the investment.", "ja": "でも投資する価値はあると思います。" },
+    "question2": { "en": "How do you budget for it?", "ja": "どうやって予算を立てていますか？" },
+    "answer2_variations": [
+      { "en": "I set aside money each month.", "ja": "毎月お金を取り分けています。" },
+      { "en": "I buy used equipment.", "ja": "中古の道具を買っています。" }
+    ],
+    "vocab": [
+      { "word": "cost a fortune", "meaning": "大金がかかる" },
+      { "word": "set aside", "meaning": "（お金などを）取っておく" }
+    ]
+  },
+  {
+    "id": "hobbies_16",
+    "question1": { "en": "Do you like board games?", "ja": "ボードゲームは好きですか？" },
+    "answer1_variations": [
+      { "en": "We have a game night every Friday.", "ja": "毎週金曜日にゲームナイトをやっています。" },
+      { "en": "Only simple ones like Uno.", "ja": "ウノみたいな単純なやつだけなら。" }
+    ],
+    "answer1_detail": { "en": "I like strategy games where you have to think.", "ja": "考えないといけない戦略ゲームが好きです。" },
+    "question2": { "en": "Are you competitive?", "ja": "負けず嫌いですか？" },
+    "answer2_variations": [
+      { "en": "Very. I hate losing.", "ja": "すごく。負けるのが大嫌いです。" },
+      { "en": "No, I just play for fun.", "ja": "いいえ、楽しむためにやってるだけです。" }
+    ],
+    "vocab": [
+      { "word": "strategy", "meaning": "戦略" },
+      { "word": "competitive", "meaning": "競争心の強い、負けず嫌いの" }
+    ]
+  },
+  {
+    "id": "hobbies_17",
+    "question1": { "en": "Do you enjoy karaoke?", "ja": "カラオケは好きですか？" },
+    "answer1_variations": [
+      { "en": "I love it, even though I'm tone-deaf.", "ja": "音痴ですけど大好きです。" },
+      { "en": "I'm too shy to sing in public.", "ja": "人前で歌うのは恥ずかしすぎます。" }
+    ],
+    "answer1_detail": { "en": "It's a great stress reliever.", "ja": "最高のストレス発散になります。" },
+    "question2": { "en": "What is your go-to song?", "ja": "十八番（定番曲）は何ですか？" },
+    "answer2_variations": [
+      { "en": "Anything by Queen.", "ja": "クイーンの曲なら何でも。" },
+      { "en": "I usually pick anime songs.", "ja": "たいていアニソンを選びます。" }
+    ],
+    "vocab": [
+      { "word": "tone-deaf", "meaning": "音痴な" },
+      { "word": "go-to", "meaning": "定番の、お気に入りの" }
+    ]
+  },
+  {
+    "id": "hobbies_18",
+    "question1": { "en": "Do you have any creative hobbies?", "ja": "何かクリエイティブな趣味はありますか？" },
+    "answer1_variations": [
+      { "en": "I write short stories.", "ja": "短編小説を書いています。" },
+      { "en": "I do calligraphy.", "ja": "書道をしています。" }
+    ],
+    "answer1_detail": { "en": "I want to publish a book someday.", "ja": "いつか本を出版したいんです。" },
+    "question2": { "en": "Do you show your work to others?", "ja": "作品を人に見せますか？" },
+    "answer2_variations": [
+      { "en": "No, it's just for my eyes only.", "ja": "いいえ、自分だけで楽しむ用です。" },
+      { "en": "I share it on a blog.", "ja": "ブログで公開しています。" }
+    ],
+    "vocab": [
+      { "word": "publish", "meaning": "出版する、公開する" },
+      { "word": "for my eyes only", "meaning": "自分だけの秘密、他言無用" }
+    ]
+  },
+  {
+    "id": "hobbies_19",
+    "question1": { "en": "Is there a hobby you want to start?", "ja": "始めたい趣味はありますか？" },
+    "answer1_variations": [
+      { "en": "I've always wanted to try pottery.", "ja": "ずっと陶芸をやってみたかったんです。" },
+      { "en": "I want to learn how to code.", "ja": "プログラミングを学びたいです。" }
+    ],
+    "answer1_detail": { "en": "It looks like fun but messy.", "ja": "楽しそうだけど汚れそうですよね。" },
+    "question2": { "en": "What's stopping you?", "ja": "なぜやらないんですか？（何が止めている？）" },
+    "answer2_variations": [
+      { "en": "I don't have the time right now.", "ja": "今は時間がなくて。" },
+      { "en": "Classes are expensive.", "ja": "教室が高いんです。" }
+    ],
+    "vocab": [
+      { "word": "pottery", "meaning": "陶芸" },
+      { "word": "messy", "meaning": "散らかった、汚れる" }
+    ]
+  },
+  {
+    "id": "hobbies_20",
+    "question1": { "en": "Do you prefer solo hobbies or group activities?", "ja": "一人でする趣味とグループ活動、どっちが好きですか？" },
+    "answer1_variations": [
+      { "en": "I like doing things on my own.", "ja": "一人で何かをするのが好きです。" },
+      { "en": "I prefer being social.", "ja": "社交的な方が好きです。" }
+    ],
+    "answer1_detail": { "en": "It's my time to escape from the world.", "ja": "世の中から逃避するための自分の時間なんです。" },
+    "question2": { "en": "Don't you get lonely?", "ja": "寂しくないですか？" },
+    "answer2_variations": [
+      { "en": "Never. I enjoy the solitude.", "ja": "全然。孤独を楽しんでいます。" },
+      { "en": "Sometimes, but I cherish the quiet.", "ja": "時々はね、でも静寂を大事にしています。" }
+    ],
+    "vocab": [
+      { "word": "on my own", "meaning": "一人で、独力で" },
+      { "word": "solitude", "meaning": "孤独（楽しむニュアンスが含まれることが多い）" }
+    ]
+  }
+]

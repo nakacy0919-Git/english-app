@@ -1,5 +1,362 @@
-{
-  "id": "topic_music",
-  "title": "Music (音楽)",
-  "questions": []
-}
+[
+  {
+    "id": "music_01",
+    "question1": { "en": "What kind of music are you into?", "ja": "どんな音楽にハマっていますか？" },
+    "answer1_variations": [
+      { "en": "I'm really into indie rock right now.", "ja": "今はインディーズロックにすごくハマっています。" },
+      { "en": "I listen to a bit of everything.", "ja": "ジャンル問わず何でも少しずつ聴きます。" }
+    ],
+    "answer1_detail": { "en": "I usually discover new songs on Spotify.", "ja": "たいていSpotifyで新しい曲を見つけます。" },
+    "question2": { "en": "Do you have a favorite band?", "ja": "好きなバンドはいますか？" },
+    "answer2_variations": [
+      { "en": "I love Arctic Monkeys.", "ja": "アークティック・モンキーズが大好きです。" },
+      { "en": "It changes all the time.", "ja": "コロコロ変わります（いつも変わります）。" }
+    ],
+    "vocab": [
+      { "word": "be into", "meaning": "〜に夢中である、ハマっている" },
+      { "word": "indie", "meaning": "インディーズの、独立系の" }
+    ]
+  },
+  {
+    "id": "music_02",
+    "question1": { "en": "Do you play any instruments?", "ja": "何か楽器は演奏しますか？" },
+    "answer1_variations": [
+      { "en": "I play the piano a little.", "ja": "ピアノを少し弾きます。" },
+      { "en": "No, I just enjoy listening.", "ja": "いいえ、聴く専門です。" }
+    ],
+    "answer1_detail": { "en": "I took lessons when I was a kid.", "ja": "子供の頃にレッスンを受けていました。" },
+    "question2": { "en": "Do you still practice?", "ja": "今も練習していますか？" },
+    "answer2_variations": [
+      { "en": "Every now and then.", "ja": "たまにね。" },
+      { "en": "I wish I had more time.", "ja": "もっと時間があればいいんですけど。" }
+    ],
+    "vocab": [
+      { "word": "instrument", "meaning": "楽器" },
+      { "word": "every now and then", "meaning": "時々、たまに" }
+    ]
+  },
+  {
+    "id": "music_03",
+    "question1": { "en": "How do you usually listen to music?", "ja": "普段どうやって音楽を聴きますか？" },
+    "answer1_variations": [
+      { "en": "I use wireless headphones.", "ja": "ワイヤレスヘッドホンを使っています。" },
+      { "en": "I blast it on my speakers at home.", "ja": "家でスピーカーから大音量で流します。" }
+    ],
+    "answer1_detail": { "en": "Noise-canceling is a lifesaver on the train.", "ja": "電車の中ではノイズキャンセリングが欠かせません（命の恩人です）。" },
+    "question2": { "en": "What streaming service do you use?", "ja": "どのストリーミングサービスを使っていますか？" },
+    "answer2_variations": [
+      { "en": "I'm an Apple Music user.", "ja": "Apple Musicユーザーです。" },
+      { "en": "YouTube Music is good enough for me.", "ja": "YouTube Musicで十分です。" }
+    ],
+    "vocab": [
+      { "word": "blast", "meaning": "（音楽などを）大音量で鳴らす" },
+      { "word": "lifesaver", "meaning": "命の恩人、窮地を救ってくれるもの" }
+    ]
+  },
+  {
+    "id": "music_04",
+    "question1": { "en": "Have you ever been to a live concert?", "ja": "ライブコンサートに行ったことはありますか？" },
+    "answer1_variations": [
+      { "en": "Yes, I go to festivals every summer.", "ja": "はい、毎年夏にフェスに行きます。" },
+      { "en": "No, I hate crowded places.", "ja": "いいえ、人混みが嫌いなので。" }
+    ],
+    "answer1_detail": { "en": "The atmosphere is totally different live.", "ja": "生演奏は雰囲気が全然違います。" },
+    "question2": { "en": "Who did you see last?", "ja": "最後に誰を見ましたか？" },
+    "answer2_variations": [
+      { "en": "I saw Bruno Mars in Tokyo.", "ja": "東京でブルーノ・マーズを見ました。" },
+      { "en": "A local jazz band.", "ja": "地元のジャズバンドです。" }
+    ],
+    "vocab": [
+      { "word": "crowded", "meaning": "混雑した" },
+      { "word": "atmosphere", "meaning": "雰囲気" }
+    ]
+  },
+  {
+    "id": "music_05",
+    "question1": { "en": "Do you like singing?", "ja": "歌うのは好きですか？" },
+    "answer1_variations": [
+      { "en": "I only sing in the shower.", "ja": "シャワーを浴びている時だけ歌います。" },
+      { "en": "Yes, I love karaoke!", "ja": "はい、カラオケ大好きです！" }
+    ],
+    "answer1_detail": { "en": "I'm too shy to sing in front of people.", "ja": "人前で歌うのは恥ずかしすぎて。" },
+    "question2": { "en": "Do you have a go-to karaoke song?", "ja": "カラオケの十八番（定番曲）はありますか？" },
+    "answer2_variations": [
+      { "en": "Anything by Taylor Swift.", "ja": "テイラー・スウィフトの曲なら何でも。" },
+      { "en": "I usually pick anime songs.", "ja": "たいていアニソンを選びます。" }
+    ],
+    "vocab": [
+      { "word": "shy", "meaning": "恥ずかしがり屋の" },
+      { "word": "go-to", "meaning": "定番の、頼りになる" }
+    ]
+  },
+  {
+    "id": "music_06",
+    "question1": { "en": "Do you listen to music while studying?", "ja": "勉強中に音楽を聴きますか？" },
+    "answer1_variations": [
+      { "en": "Yes, it helps me focus.", "ja": "はい、その方が集中できます。" },
+      { "en": "No, I get distracted by the lyrics.", "ja": "いいえ、歌詞に気が散ってしまいます。" }
+    ],
+    "answer1_detail": { "en": "I usually put on some lo-fi beats.", "ja": "たいていローファイ・ビーツ（作業用BGM）をかけます。" },
+    "question2": { "en": "Does it have to be instrumental?", "ja": "インスト（歌なし）じゃないとダメですか？" },
+    "answer2_variations": [
+      { "en": "Yeah, no vocals allowed.", "ja": "ええ、ボーカルなしです。" },
+      { "en": "Classical music works best.", "ja": "クラシック音楽が一番効果的ですね。" }
+    ],
+    "vocab": [
+      { "word": "focus", "meaning": "集中する" },
+      { "word": "distracted", "meaning": "気が散った" }
+    ]
+  },
+  {
+    "id": "music_07",
+    "question1": { "en": "Do you prefer oldies or modern music?", "ja": "懐メロと現代の音楽、どっちが好きですか？" },
+    "answer1_variations": [
+      { "en": "I love 80s pop music.", "ja": "80年代のポップスが大好きです。" },
+      { "en": "I like keeping up with the charts.", "ja": "チャート（最新ヒット曲）を追うのが好きです。" }
+    ],
+    "answer1_detail": { "en": "Old songs bring back memories.", "ja": "古い歌は思い出が蘇ります。" },
+    "question2": { "en": "Do you like the Beatles?", "ja": "ビートルズは好きですか？" },
+    "answer2_variations": [
+      { "en": "They are legends.", "ja": "彼らは伝説ですよ。" },
+      { "en": "I respect them, but I don't listen to them.", "ja": "尊敬はしていますが、聴きはしません。" }
+    ],
+    "vocab": [
+      { "word": "oldies", "meaning": "懐メロ、古い曲" },
+      { "word": "keep up with", "meaning": "〜についていく、遅れずについていく" }
+    ]
+  },
+  {
+    "id": "music_08",
+    "question1": { "en": "Do you pay attention to the lyrics?", "ja": "歌詞に注目しますか？" },
+    "answer1_variations": [
+      { "en": "Yes, I analyze the meaning deeply.", "ja": "はい、意味を深く分析します。" },
+      { "en": "No, I'm more about the melody.", "ja": "いいえ、どちらかというとメロディー重視です。" }
+    ],
+    "answer1_detail": { "en": "Good lyrics can make me cry.", "ja": "良い歌詞には泣かされます。" },
+    "question2": { "en": "Can you remember lyrics easily?", "ja": "歌詞はすぐに覚えられますか？" },
+    "answer2_variations": [
+      { "en": "Surprisingly, yes.", "ja": "驚くことに、はい。" },
+      { "en": "I always get the words wrong.", "ja": "いつも歌詞を間違えちゃいます。" }
+    ],
+    "vocab": [
+      { "word": "analyze", "meaning": "分析する" },
+      { "word": "melody", "meaning": "メロディー、旋律" }
+    ]
+  },
+  {
+    "id": "music_09",
+    "question1": { "en": "What song is stuck in your head right now?", "ja": "今、頭から離れない曲はありますか？" },
+    "answer1_variations": [
+      { "en": "That viral song from TikTok.", "ja": "TikTokで流行ってるあの曲です。" },
+      { "en": "A catchy commercial jingle.", "ja": "キャッチーなCMソングです。" }
+    ],
+    "answer1_detail": { "en": "It's been playing in my head all day.", "ja": "一日中頭の中で流れています。" },
+    "question2": { "en": "Is it annoying?", "ja": "イライラしますか？" },
+    "answer2_variations": [
+      { "en": "A little bit, actually.", "ja": "実はちょっと。" },
+      { "en": "No, I'm humming along.", "ja": "いいえ、ハミングしちゃってます。" }
+    ],
+    "vocab": [
+      { "word": "stuck in one's head", "meaning": "頭から離れない" },
+      { "word": "catchy", "meaning": "覚えやすい、耳に残る" }
+    ]
+  },
+  {
+    "id": "music_10",
+    "question1": { "en": "Do you buy merchandise from artists?", "ja": "アーティストのグッズを買いますか？" },
+    "answer1_variations": [
+      { "en": "I buy t-shirts at concerts.", "ja": "コンサートでTシャツを買います。" },
+      { "en": "No, it's usually too expensive.", "ja": "いいえ、たいてい高すぎるので。" }
+    ],
+    "answer1_detail": { "en": "I like to support my favorite bands.", "ja": "好きなバンドを応援したいんです。" },
+    "question2": { "en": "Do you have any posters?", "ja": "ポスターは持っていますか？" },
+    "answer2_variations": [
+      { "en": "My room used to be full of them.", "ja": "かつて私の部屋はポスターだらけでした。" },
+      { "en": "Just one signed poster.", "ja": "サイン入りのポスターが1枚だけ。" }
+    ],
+    "vocab": [
+      { "word": "merchandise", "meaning": "グッズ、商品（merchとも言う）" },
+      { "word": "support", "meaning": "応援する、支援する" }
+    ]
+  },
+  {
+    "id": "music_11",
+    "question1": { "en": "Do you like classical music?", "ja": "クラシック音楽は好きですか？" },
+    "answer1_variations": [
+      { "en": "It's very relaxing before bed.", "ja": "寝る前に聴くとリラックスできます。" },
+      { "en": "I find it a bit boring.", "ja": "ちょっと退屈だと思います。" }
+    ],
+    "answer1_detail": { "en": "I like piano concertos.", "ja": "ピアノ協奏曲が好きです。" },
+    "question2": { "en": "Who is your favorite composer?", "ja": "好きな作曲家は誰ですか？" },
+    "answer2_variations": [
+      { "en": "Chopin is my favorite.", "ja": "ショパンがお気に入りです。" },
+      { "en": "I don't know many composers.", "ja": "作曲家はあまり詳しくないです。" }
+    ],
+    "vocab": [
+      { "word": "relaxing", "meaning": "リラックスさせる" },
+      { "word": "composer", "meaning": "作曲家" }
+    ]
+  },
+  {
+    "id": "music_12",
+    "question1": { "en": "Do you create playlists?", "ja": "プレイリストを作りますか？" },
+    "answer1_variations": [
+      { "en": "Yes, for different moods.", "ja": "はい、気分に合わせて。" },
+      { "en": "I just shuffle my liked songs.", "ja": "「いいね」した曲をシャッフルするだけです。" }
+    ],
+    "answer1_detail": { "en": "I have a 'Workout' playlist and a 'Chill' playlist.", "ja": "「ワークアウト用」と「まったり用」のプレイリストがあります。" },
+    "question2": { "en": "Can you share it with me?", "ja": "シェアしてくれますか？" },
+    "answer2_variations": [
+      { "en": "Sure, I'll send the link.", "ja": "もちろん、リンクを送りますね。" },
+      { "en": "It's a bit embarrassing.", "ja": "ちょっと恥ずかしいです。" }
+    ],
+    "vocab": [
+      { "word": "shuffle", "meaning": "シャッフル再生する" },
+      { "word": "embarrassing", "meaning": "恥ずかしい" }
+    ]
+  },
+  {
+    "id": "music_13",
+    "question1": { "en": "Do you listen to the radio?", "ja": "ラジオは聴きますか？" },
+    "answer1_variations": [
+      { "en": "Only when I'm driving.", "ja": "運転している時だけ。" },
+      { "en": "I prefer podcasts these days.", "ja": "最近はポッドキャストの方が好きです。" }
+    ],
+    "answer1_detail": { "en": "I like discovering random songs.", "ja": "ランダムに曲と出会えるのが好きなんです。" },
+    "question2": { "en": "Do you have a favorite station?", "ja": "お気に入りの局はありますか？" },
+    "answer2_variations": [
+      { "en": "I listen to the local rock station.", "ja": "地元のロック専門局を聴きます。" },
+      { "en": "I just scan through channels.", "ja": "チャンネルを適当に回すだけです。" }
+    ],
+    "vocab": [
+      { "word": "random", "meaning": "無作為の、思いがけない" },
+      { "word": "station", "meaning": "（ラジオの）局" }
+    ]
+  },
+  {
+    "id": "music_14",
+    "question1": { "en": "What is your guilty pleasure song?", "ja": "人には言えないけど実は好きな曲（ギルティ・プレジャー）は？" },
+    "answer1_variations": [
+      { "en": "Cheesy boy band songs from the 90s.", "ja": "90年代の安っぽいボーイズバンドの曲です。" },
+      { "en": "I unironically love 'Call Me Maybe'.", "ja": "皮肉抜きで『コール・ミー・メイビー』が好きなんです。" }
+    ],
+    "answer1_detail": { "en": "It makes me want to dance.", "ja": "踊りたくなっちゃうんですよね。" },
+    "question2": { "en": "Do you admit it to your friends?", "ja": "友達に公言していますか？" },
+    "answer2_variations": [
+      { "en": "Never. It's my secret.", "ja": "絶対に。私の秘密です。" },
+      { "en": "They tease me about it.", "ja": "からかわれますよ。" }
+    ],
+    "vocab": [
+      { "word": "guilty pleasure", "meaning": "後ろめたい楽しみ、恥ずかしいけど好きなもの" },
+      { "word": "cheesy", "meaning": "安っぽい、ベタな" }
+    ]
+  },
+  {
+    "id": "music_15",
+    "question1": { "en": "Do you collect vinyl records?", "ja": "レコードを集めていますか？" },
+    "answer1_variations": [
+      { "en": "Yes, I love the warm sound.", "ja": "はい、温かみのある音が好きなんです。" },
+      { "en": "No, digital is much easier.", "ja": "いいえ、デジタルの方がずっと楽なので。" }
+    ],
+    "answer1_detail": { "en": "I like the large album art.", "ja": "大きなアルバムジャケットが好きなんです。" },
+    "question2": { "en": "Do you have a record player?", "ja": "レコードプレーヤーは持っていますか？" },
+    "answer2_variations": [
+      { "en": "Yes, a vintage one.", "ja": "はい、ビンテージのやつを。" },
+      { "en": "Not yet, I just collect the discs.", "ja": "まだです、盤だけ集めています。" }
+    ],
+    "vocab": [
+      { "word": "vinyl", "meaning": "アナログレコード（ビニール盤）" },
+      { "word": "vintage", "meaning": "年代物の、古くて価値のある" }
+    ]
+  },
+  {
+    "id": "music_16",
+    "question1": { "en": "Have you ever been in a band?", "ja": "バンドを組んでいたことはありますか？" },
+    "answer1_variations": [
+      { "en": "I was the drummer in high school.", "ja": "高校の時ドラマーでした。" },
+      { "en": "No, I have no rhythm.", "ja": "いいえ、リズム感がないので。" }
+    ],
+    "answer1_detail": { "en": "We played at the school festival.", "ja": "文化祭で演奏しました。" },
+    "question2": { "en": "Were you guys good?", "ja": "上手でしたか？" },
+    "answer2_variations": [
+      { "en": "We were terrible, but it was fun.", "ja": "ひどかったけど、楽しかったです。" },
+      { "en": "We actually won a contest.", "ja": "実はコンテストで優勝しました。" }
+    ],
+    "vocab": [
+      { "word": "rhythm", "meaning": "リズム、リズム感" },
+      { "word": "terrible", "meaning": "ひどい" }
+    ]
+  },
+  {
+    "id": "music_17",
+    "question1": { "en": "Do you watch music videos?", "ja": "ミュージックビデオ（MV）は見ますか？" },
+    "answer1_variations": [
+      { "en": "I watch them on YouTube all the time.", "ja": "YouTubeでいつも見ています。" },
+      { "en": "I just listen to the audio mostly.", "ja": "たいてい音だけ聴いています。" }
+    ],
+    "answer1_detail": { "en": "K-pop videos have amazing production.", "ja": "K-POPの動画は作りがすごいです。" },
+    "question2": { "en": "Do you learn the dances?", "ja": "ダンスを覚えますか？" },
+    "answer2_variations": [
+      { "en": "I try, but I'm clumsy.", "ja": "やろうとはしますけど、不器用で。" },
+      { "en": "Just the chorus part.", "ja": "サビの部分だけ。" }
+    ],
+    "vocab": [
+      { "word": "production", "meaning": "制作、演出" },
+      { "word": "clumsy", "meaning": "不器用な" }
+    ]
+  },
+  {
+    "id": "music_18",
+    "question1": { "en": "How do you discover new music?", "ja": "どうやって新しい音楽を見つけますか？" },
+    "answer1_variations": [
+      { "en": "My friends recommend songs to me.", "ja": "友達が曲を勧めてくれます。" },
+      { "en": "I rely on the algorithm.", "ja": "アルゴリズム（おすすめ機能）に頼っています。" }
+    ],
+    "answer1_detail": { "en": "Shazam is also very useful.", "ja": "Shazam（曲検索アプリ）もすごく便利です。" },
+    "question2": { "en": "Do you share your discoveries?", "ja": "見つけた曲をシェアしますか？" },
+    "answer2_variations": [
+      { "en": "Always, I send links instantly.", "ja": "いつも、すぐにリンクを送ります。" },
+      { "en": "I keep the good ones to myself.", "ja": "いい曲は自分だけのものにしておきます。" }
+    ],
+    "vocab": [
+      { "word": "recommend", "meaning": "勧める" },
+      { "word": "rely on", "meaning": "頼る、依存する" }
+    ]
+  },
+  {
+    "id": "music_19",
+    "question1": { "en": "Do you like soundtracks from movies?", "ja": "映画のサントラは好きですか？" },
+    "answer1_variations": [
+      { "en": "Yes, I listen to them while working.", "ja": "はい、仕事中に聴きます。" },
+      { "en": "Only from musicals.", "ja": "ミュージカルのものだけ。" }
+    ],
+    "answer1_detail": { "en": "Disney songs are so nostalgic.", "ja": "ディズニーの歌はすごく懐かしいです。" },
+    "question2": { "en": "Can you sing 'Let It Go'?", "ja": "『レット・イット・ゴー』を歌えますか？" },
+    "answer2_variations": [
+      { "en": "Every single word.", "ja": "一語一句全部。" },
+      { "en": "Please don't make me.", "ja": "歌わせないでください。" }
+    ],
+    "vocab": [
+      { "word": "soundtrack", "meaning": "サウンドトラック" },
+      { "word": "nostalgic", "meaning": "懐かしい" }
+    ]
+  },
+  {
+    "id": "music_20",
+    "question1": { "en": "What music do you listen to when you're sad?", "ja": "悲しい時はどんな音楽を聴きますか？" },
+    "answer1_variations": [
+      { "en": "Sad ballads to cry it out.", "ja": "思い切り泣くために悲しいバラードを。" },
+      { "en": "Upbeat music to cheer me up.", "ja": "元気を出すためにアップテンポな曲を。" }
+    ],
+    "answer1_detail": { "en": "Music is the best therapy.", "ja": "音楽は最高のセラピー（癒やし）です。" },
+    "question2": { "en": "Do you have a 'sad' playlist?", "ja": "「悲しい時用」プレイリストはありますか？" },
+    "answer2_variations": [
+      { "en": "Yes, it's called 'Rainy Days'.", "ja": "はい、「雨の日」という名前です。" },
+      { "en": "No, I just shuffle random songs.", "ja": "いいえ、ランダムに聴くだけです。" }
+    ],
+    "vocab": [
+      { "word": "ballad", "meaning": "バラード（感傷的な曲）" },
+      { "word": "cheer up", "meaning": "元気づける" }
+    ]
+  }
+]

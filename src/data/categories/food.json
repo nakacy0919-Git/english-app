@@ -1,57 +1,362 @@
-{
-  "id": "topic_food",
-  "title": "Food (食べ物)",
-  "questions": [
-    {
-      "id": "food_01",
-      "question": {
-        "en": "What is your favorite food?",
-        "ja": "一番好きな食べ物は何ですか？",
-        "pt": "Qual é a sua comida favorita?",
-        "zh": "你最喜欢的食物是什么？"
-      },
-      "answer": {
-        "en": "I love Sushi, especially Salmon.",
-        "ja": "お寿司、特にサーモンが大好きです。"
-      },
-      "followUp": {
-        "en": "Can you eat Wasabi?",
-        "ja": "ワサビは食べられますか？"
-      }
-    },
-    {
-      "id": "food_02",
-      "question": {
-        "en": "Do you like sweets? What is your favorite?",
-        "ja": "甘いものは好きですか？何が一番好きですか？",
-        "pt": "Você gosta de doces? Qual é o seu favorito?",
-        "zh": "你喜欢甜食吗？你最喜欢什么？"
-      },
-      "answer": {
-        "en": "Yes! I love chocolate and ice cream.",
-        "ja": "はい！チョコとアイスが大好きです。"
-      },
-      "followUp": {
-        "en": "Do you prefer chocolate or vanilla?",
-        "ja": "チョコとバニラどっちが好きですか？"
-      }
-    },
-    {
-      "id": "food_03",
-      "question": {
-        "en": "Can you cook? What can you make?",
-        "ja": "料理はできますか？何が作れますか？",
-        "pt": "Você sabe cozinhar? O que você sabe fazer?",
-        "zh": "你会做饭吗？你会做什么菜？"
-      },
-      "answer": {
-        "en": "I can make simple dishes like fried eggs and curry.",
-        "ja": "目玉焼きやカレーのような簡単な料理なら作れます。"
-      },
-      "followUp": {
-        "en": "Who cooks dinner in your family?",
-        "ja": "家族の中で誰が夕食を作りますか？"
-      }
-    }
-  ]
-}
+[
+  {
+    "id": "food_01",
+    "question1": { "en": "What's your favorite food?", "ja": "一番好きな食べ物は何ですか？" },
+    "answer1_variations": [
+      { "en": "I absolutely love pizza.", "ja": "ピザが大好きです。" },
+      { "en": "I'm crazy about sushi.", "ja": "寿司には目がありません。" }
+    ],
+    "answer1_detail": { "en": "Especially deep-dish style with lots of cheese.", "ja": "特にチーズたっぷりのディープディッシュスタイルが好きなんです。" },
+    "question2": { "en": "How often do you eat it?", "ja": "どれくらいの頻度で食べますか？" },
+    "answer2_variations": [
+      { "en": "Probably once a week.", "ja": "たぶん週に1回くらいです。" },
+      { "en": "Only on special occasions.", "ja": "特別な時だけですね。" }
+    ],
+    "vocab": [
+      { "word": "absolutely", "meaning": "絶対に、間違いなく" },
+      { "word": "be crazy about", "meaning": "〜に夢中である" }
+    ]
+  },
+  {
+    "id": "food_02",
+    "question1": { "en": "Do you cook often?", "ja": "よく料理をしますか？" },
+    "answer1_variations": [
+      { "en": "Yes, I cook almost every day.", "ja": "はい、ほぼ毎日料理します。" },
+      { "en": "Not really, I usually order in.", "ja": "いいえ、たいてい出前を取ります。" }
+    ],
+    "answer1_detail": { "en": "I find chopping vegetables very relaxing.", "ja": "野菜を刻むのがとてもリラックスできるんです。" },
+    "question2": { "en": "What is your specialty?", "ja": "得意料理は何ですか？" },
+    "answer2_variations": [
+      { "en": "I make a great pasta sauce.", "ja": "パスタソースを作るのが得意です。" },
+      { "en": "I'm good at making fried rice.", "ja": "チャーハンを作るのが上手です。" }
+    ],
+    "vocab": [
+      { "word": "order in", "meaning": "出前を取る" },
+      { "word": "specialty", "meaning": "得意料理、専門" }
+    ]
+  },
+  {
+    "id": "food_03",
+    "question1": { "en": "Can you handle spicy food?", "ja": "辛い食べ物は平気ですか？" },
+    "answer1_variations": [
+      { "en": "I love it, the hotter the better.", "ja": "大好きです。辛ければ辛いほどいいですね。" },
+      { "en": "No, I have a sensitive tongue.", "ja": "いいえ、猫舌（敏感）なんです。" }
+    ],
+    "answer1_detail": { "en": "Thai green curry is my all-time favorite.", "ja": "タイのグリーンカレーが昔から一番好きです。" },
+    "question2": { "en": "Have you ever tried Tom Yum Goong?", "ja": "トムヤムクンは食べたことありますか？" },
+    "answer2_variations": [
+      { "en": "Yes, it was too spicy for me!", "ja": "はい、私には辛すぎました！" },
+      { "en": "Not yet, but I want to.", "ja": "まだですが、食べてみたいです。" }
+    ],
+    "vocab": [
+      { "word": "handle", "meaning": "〜に対処する、〜を扱う（ここでは「平気である」）" },
+      { "word": "the hotter the better", "meaning": "辛ければ辛いほど良い" }
+    ]
+  },
+  {
+    "id": "food_04",
+    "question1": { "en": "What do you usually have for breakfast?", "ja": "朝食は普段何を食べますか？" },
+    "answer1_variations": [
+      { "en": "Just coffee and toast.", "ja": "コーヒーとトーストだけです。" },
+      { "en": "I usually skip breakfast.", "ja": "たいてい朝食は抜きます。" }
+    ],
+    "answer1_detail": { "en": "I'm not very hungry in the morning.", "ja": "朝はあまりお腹が空かないんです。" },
+    "question2": { "en": "Do you put anything on your toast?", "ja": "トーストには何か塗りますか？" },
+    "answer2_variations": [
+      { "en": "Just some butter.", "ja": "バターを少しだけ。" },
+      { "en": "I like strawberry jam.", "ja": "イチゴジャムが好きです。" }
+    ],
+    "vocab": [
+      { "word": "skip", "meaning": "抜く、飛ばす" },
+      { "word": "hungry", "meaning": "お腹が空いた" }
+    ]
+  },
+  {
+    "id": "food_05",
+    "question1": { "en": "Do you have a sweet tooth?", "ja": "甘いもの好きですか？" },
+    "answer1_variations": [
+      { "en": "Yes, I can't resist chocolate.", "ja": "はい、チョコレートには抗えません。" },
+      { "en": "Actually, I prefer savory snacks.", "ja": "実は、塩気のあるスナックの方が好きなんです。" }
+    ],
+    "answer1_detail": { "en": "I eat a piece of dark chocolate after dinner.", "ja": "夕食後にダークチョコレートをひとかけら食べます。" },
+    "question2": { "en": "What kind of chocolate do you like?", "ja": "どんなチョコレートが好きですか？" },
+    "answer2_variations": [
+      { "en": "Anything with nuts in it.", "ja": "ナッツが入っているものなら何でも。" },
+      { "en": "I like white chocolate.", "ja": "ホワイトチョコが好きです。" }
+    ],
+    "vocab": [
+      { "word": "sweet tooth", "meaning": "甘党" },
+      { "word": "savory", "meaning": "塩味の効いた、香ばしい" }
+    ]
+  },
+  {
+    "id": "food_06",
+    "question1": { "en": "How often do you eat out?", "ja": "どのくらいの頻度で外食しますか？" },
+    "answer1_variations": [
+      { "en": "Maybe once or twice a week.", "ja": "週に1、2回ですかね。" },
+      { "en": "Rarely, I try to save money.", "ja": "めったに行きません。節約しようとしていて。" }
+    ],
+    "answer1_detail": { "en": "I usually go out on Friday nights with friends.", "ja": "たいてい金曜の夜に友達と行きます。" },
+    "question2": { "en": "What kind of restaurants do you go to?", "ja": "どんなレストランに行きますか？" },
+    "answer2_variations": [
+      { "en": "We like casual Italian places.", "ja": "カジュアルなイタリアンが好きです。" },
+      { "en": "Usually Izakaya or pubs.", "ja": "たいてい居酒屋かパブですね。" }
+    ],
+    "vocab": [
+      { "word": "eat out", "meaning": "外食する" },
+      { "word": "rarely", "meaning": "めったに〜ない" }
+    ]
+  },
+  {
+    "id": "food_07",
+    "question1": { "en": "Are there any foods you don't like?", "ja": "嫌いな食べ物はありますか？" },
+    "answer1_variations": [
+      { "en": "I can't stand cilantro.", "ja": "パクチーだけはどうしてもダメです。" },
+      { "en": "I eat pretty much anything.", "ja": "基本的には何でも食べます。" }
+    ],
+    "answer1_detail": { "en": "To me, it tastes like soap.", "ja": "私には石鹸のような味がするんです。" },
+    "question2": { "en": "How about parsley?", "ja": "パセリはどうですか？" },
+    "answer2_variations": [
+      { "en": "Parsley is fine.", "ja": "パセリは大丈夫です。" },
+      { "en": "I don't like strong herbs in general.", "ja": "ハーブの強い香りは全般的に苦手です。" }
+    ],
+    "vocab": [
+      { "word": "can't stand", "meaning": "〜に耐えられない、大嫌いだ" },
+      { "word": "pretty much", "meaning": "ほとんど、だいたい" }
+    ]
+  },
+  {
+    "id": "food_08",
+    "question1": { "en": "Are you adventurous with food?", "ja": "食に関して冒険するタイプですか？" },
+    "answer1_variations": [
+      { "en": "Yes, I'll try anything once.", "ja": "はい、何でも一度は試します。" },
+      { "en": "No, I stick to what I know.", "ja": "いいえ、知っているものだけを食べます。" }
+    ],
+    "answer1_detail": { "en": "I even tried fried insects in Thailand.", "ja": "タイで昆虫の唐揚げにも挑戦しました。" },
+    "question2": { "en": "What did it taste like?", "ja": "どんな味でしたか？" },
+    "answer2_variations": [
+      { "en": "Surprisingly crunchy and salty.", "ja": "驚くほどカリカリして塩味が効いていました。" },
+      { "en": "It wasn't as bad as I thought.", "ja": "思ったほど悪くなかったです。" }
+    ],
+    "vocab": [
+      { "word": "adventurous", "meaning": "冒険好きな、大胆な" },
+      { "word": "stick to", "meaning": "〜にこだわる、〜を続ける" }
+    ]
+  },
+  {
+    "id": "food_09",
+    "question1": { "en": "What is your comfort food?", "ja": "あなたの「ほっとする食べ物」は何ですか？" },
+    "answer1_variations": [
+      { "en": "Definitely mac and cheese.", "ja": "間違いなくマカロニチーズです。" },
+      { "en": "A warm bowl of miso soup.", "ja": "温かいお味噌汁ですね。" }
+    ],
+    "answer1_detail": { "en": "It reminds me of my childhood.", "ja": "子供の頃を思い出させてくれるんです。" },
+    "question2": { "en": "Did your mom make it for you?", "ja": "お母さんが作ってくれたんですか？" },
+    "answer2_variations": [
+      { "en": "Yes, on rainy days.", "ja": "はい、雨の日によく。" },
+      { "en": "Actually, my grandma made it.", "ja": "実は祖母が作ってくれました。" }
+    ],
+    "vocab": [
+      { "word": "comfort food", "meaning": "食べるとほっとする料理、懐かしい料理" },
+      { "word": "remind A of B", "meaning": "AにBを思い出させる" }
+    ]
+  },
+  {
+    "id": "food_10",
+    "question1": { "en": "How do you take your coffee?", "ja": "コーヒーはどのように飲みますか？" },
+    "answer1_variations": [
+      { "en": "Black, no sugar.", "ja": "ブラックで、砂糖なしです。" },
+      { "en": "With plenty of milk and sugar.", "ja": "ミルクと砂糖たっぷりで。" }
+    ],
+    "answer1_detail": { "en": "I need the strong caffeine kick to wake up.", "ja": "目を覚ますために強いカフェインが必要なんです。" },
+    "question2": { "en": "How many cups do you drink a day?", "ja": "1日に何杯くらい飲みますか？" },
+    "answer2_variations": [
+      { "en": "Usually three or four.", "ja": "たいてい3、4杯です。" },
+      { "en": "I try to stop after two.", "ja": "2杯でやめるようにしています。" }
+    ],
+    "vocab": [
+      { "word": "plenty of", "meaning": "たくさんの" },
+      { "word": "kick", "meaning": "刺激、効き目" }
+    ]
+  },
+  {
+    "id": "food_11",
+    "question1": { "en": "Do you prefer rice or bread?", "ja": "ご飯派ですか、パン派ですか？" },
+    "answer1_variations": [
+      { "en": "I'm definitely a rice person.", "ja": "断然ご飯派です。" },
+      { "en": "I love fresh bread.", "ja": "焼きたてのパンが大好きです。" }
+    ],
+    "answer1_detail": { "en": "I can't imagine a meal without rice.", "ja": "ご飯のない食事なんて想像できません。" },
+    "question2": { "en": "What kind of rice do you buy?", "ja": "どんなお米を買っていますか？" },
+    "answer2_variations": [
+      { "en": "Usually Koshihikari.", "ja": "たいていコシヒカリです。" },
+      { "en": "I prefer brown rice for health.", "ja": "健康のために玄米を好んで食べます。" }
+    ],
+    "vocab": [
+      { "word": "definitely", "meaning": "間違いなく、断然" },
+      { "word": "imagine", "meaning": "想像する" }
+    ]
+  },
+  {
+    "id": "food_12",
+    "question1": { "en": "Do you eat enough vegetables?", "ja": "野菜は十分に摂っていますか？" },
+    "answer1_variations": [
+      { "en": "I try to have a salad every day.", "ja": "毎日サラダを食べるようにしています。" },
+      { "en": "To be honest, not really.", "ja": "正直言うと、あまり摂れていません。" }
+    ],
+    "answer1_detail": { "en": "I usually buy pre-made salads at the store.", "ja": "たいていお店で出来合いのサラダを買います。" },
+    "question2": { "en": "What dressing do you use?", "ja": "ドレッシングは何を使いますか？" },
+    "answer2_variations": [
+      { "en": "I like sesame dressing.", "ja": "ゴマドレッシングが好きです。" },
+      { "en": "Just olive oil and salt.", "ja": "オリーブオイルと塩だけです。" }
+    ],
+    "vocab": [
+      { "word": "to be honest", "meaning": "正直に言うと" },
+      { "word": "pre-made", "meaning": "出来合いの、調理済みの" }
+    ]
+  },
+  {
+    "id": "food_13",
+    "question1": { "en": "What's your go-to snack?", "ja": "定番のおやつは何ですか？" },
+    "answer1_variations": [
+      { "en": "Potato chips are my weakness.", "ja": "ポテトチップスには弱いです。" },
+      { "en": "I eat nuts or dried fruit.", "ja": "ナッツかドライフルーツを食べます。" }
+    ],
+    "answer1_detail": { "en": "I can finish a whole bag in one sitting.", "ja": "一回で一袋全部食べきっちゃうこともあります。" },
+    "question2": { "en": "Do you prefer salty or plain?", "ja": "塩味とプレーン、どっちが好きですか？" },
+    "answer2_variations": [
+      { "en": "Salty usually.", "ja": "たいてい塩味ですね。" },
+      { "en": "Sour cream and onion is the best.", "ja": "サワークリームオニオンが最高です。" }
+    ],
+    "vocab": [
+      { "word": "go-to", "meaning": "お決まりの、頼りになる" },
+      { "word": "in one sitting", "meaning": "一気に、一度に" }
+    ]
+  },
+  {
+    "id": "food_14",
+    "question1": { "en": "Have you ever been on a diet?", "ja": "ダイエットをしたことはありますか？" },
+    "answer1_variations": [
+      { "en": "Yes, I'm watching my carbs right now.", "ja": "はい、今ちょうど炭水化物を控えています。" },
+      { "en": "No, I eat whatever I want.", "ja": "いいえ、好きなものを食べています。" }
+    ],
+    "answer1_detail": { "en": "I'm trying to avoid pasta and bread.", "ja": "パスタやパンを避けるようにしています。" },
+    "question2": { "en": "Is it difficult?", "ja": "大変ですか？" },
+    "answer2_variations": [
+      { "en": "The first week is the hardest.", "ja": "最初の週が一番きついですね。" },
+      { "en": "I got used to it.", "ja": "慣れました。" }
+    ],
+    "vocab": [
+      { "word": "watch one's carbs", "meaning": "炭水化物を気にする・控える" },
+      { "word": "avoid", "meaning": "避ける" }
+    ]
+  },
+  {
+    "id": "food_15",
+    "question1": { "en": "Do you like seafood?", "ja": "シーフードは好きですか？" },
+    "answer1_variations": [
+      { "en": "Yes, especially shrimp.", "ja": "はい、特にエビが好きです。" },
+      { "en": "No, I'm actually allergic.", "ja": "いいえ、実はアレルギーなんです。" }
+    ],
+    "answer1_detail": { "en": "Garlic shrimp is my favorite dish.", "ja": "ガーリックシュリンプが一番好きな料理です。" },
+    "question2": { "en": "Can you eat raw fish?", "ja": "生魚は食べられますか？" },
+    "answer2_variations": [
+      { "en": "I love Sashimi!", "ja": "お刺身大好きです！" },
+      { "en": "No, I prefer it cooked.", "ja": "いいえ、火が通っている方が好きです。" }
+    ],
+    "vocab": [
+      { "word": "especially", "meaning": "特に" },
+      { "word": "raw", "meaning": "生の" }
+    ]
+  },
+  {
+    "id": "food_16",
+    "question1": { "en": "What did you have for lunch?", "ja": "お昼は何を食べましたか？" },
+    "answer1_variations": [
+      { "en": "I grabbed a quick sandwich.", "ja": "急いでサンドイッチを食べました。" },
+      { "en": "I brought a bento from home.", "ja": "家からお弁当を持ってきました。" }
+    ],
+    "answer1_detail": { "en": "It was a turkey club sandwich.", "ja": "ターキークラブサンドでした。" },
+    "question2": { "en": "Was it good?", "ja": "美味しかったですか？" },
+    "answer2_variations": [
+      { "en": "It was okay, nothing special.", "ja": "まあまあでした、特別ってほどじゃないです。" },
+      { "en": "Yeah, very tasty.", "ja": "ええ、とても美味しかったです。" }
+    ],
+    "vocab": [
+      { "word": "grab", "meaning": "（急いで）手に入れる、食べる" },
+      { "word": "nothing special", "meaning": "特に変わったことはない、普通" }
+    ]
+  },
+  {
+    "id": "food_17",
+    "question1": { "en": "Do you like fast food?", "ja": "ファストフードは好きですか？" },
+    "answer1_variations": [
+      { "en": "Sometimes, when I'm in a rush.", "ja": "時々、急いでいる時に。" },
+      { "en": "I try to avoid it because it's unhealthy.", "ja": "不健康なので避けるようにしています。" }
+    ],
+    "answer1_detail": { "en": "I usually get a cheeseburger and fries.", "ja": "たいていチーズバーガーとポテトを買います。" },
+    "question2": { "en": "Which chain do you prefer?", "ja": "どのお店（チェーン）が好きですか？" },
+    "answer2_variations": [
+      { "en": "I'm a McDonald's fan.", "ja": "マクドナルド派です。" },
+      { "en": "I like Burger King better.", "ja": "バーガーキングの方が好きです。" }
+    ],
+    "vocab": [
+      { "word": "in a rush", "meaning": "急いでいる" },
+      { "word": "unhealthy", "meaning": "不健康な" }
+    ]
+  },
+  {
+    "id": "food_18",
+    "question1": { "en": "Can you recommend a good restaurant nearby?", "ja": "この近くで美味しいレストランのおすすめはありますか？" },
+    "answer1_variations": [
+      { "en": "There's a great ramen shop around the corner.", "ja": "角を曲がったところにすごく美味しいラーメン屋があります。" },
+      { "en": "The Italian place on Main Street is nice.", "ja": "メインストリートにあるイタリアンがいいですよ。" }
+    ],
+    "answer1_detail": { "en": "It's famous for its rich broth.", "ja": "濃厚なスープで有名なんです。" },
+    "question2": { "en": "Does it get crowded?", "ja": "混みますか？" },
+    "answer2_variations": [
+      { "en": "Yes, there's usually a line.", "ja": "はい、たいてい行列ができています。" },
+      { "en": "If you go early, it's fine.", "ja": "早めに行けば大丈夫です。" }
+    ],
+    "vocab": [
+      { "word": "recommend", "meaning": "勧める" },
+      { "word": "crowded", "meaning": "混雑した" }
+    ]
+  },
+  {
+    "id": "food_19",
+    "question1": { "en": "Do you eat late at night?", "ja": "夜遅くに食べますか？" },
+    "answer1_variations": [
+      { "en": "I try not to eat after 8 PM.", "ja": "午後8時以降は食べないようにしています。" },
+      { "en": "Sometimes I have a midnight snack.", "ja": "時々夜食を食べちゃいます。" }
+    ],
+    "answer1_detail": { "en": "Eating late gives me heartburn.", "ja": "遅くに食べると胸焼けがするんです。" },
+    "question2": { "en": "What time do you usually have dinner?", "ja": "普段夕食は何時ですか？" },
+    "answer2_variations": [
+      { "en": "Around 7 PM.", "ja": "7時ごろです。" },
+      { "en": "It depends on my work schedule.", "ja": "仕事のスケジュールによりますね。" }
+    ],
+    "vocab": [
+      { "word": "midnight snack", "meaning": "夜食" },
+      { "word": "heartburn", "meaning": "胸焼け" }
+    ]
+  },
+  {
+    "id": "food_20",
+    "question1": { "en": "Do you prefer buffet style?", "ja": "ビュッフェ形式は好きですか？" },
+    "answer1_variations": [
+      { "en": "Yes, I like trying a little bit of everything.", "ja": "はい、いろんなものを少しずつ試すのが好きです。" },
+      { "en": "No, I always overeat.", "ja": "いいえ、いつも食べ過ぎてしまうので。" }
+    ],
+    "answer1_detail": { "en": "It's great when you're with a big group.", "ja": "大人数の時はいいですよね。" },
+    "question2": { "en": "Do you go for dessert first?", "ja": "最初にデザートに行きますか？" },
+    "answer2_variations": [
+      { "en": "Never! Savory first.", "ja": "まさか！まずは食事からです。" },
+      { "en": "Sometimes, if it looks good.", "ja": "時々、美味しそうだったら。" }
+    ],
+    "vocab": [
+      { "word": "a little bit of everything", "meaning": "すべてのものを少しずつ" },
+      { "word": "overeat", "meaning": "食べ過ぎる" }
+    ]
+  }
+]

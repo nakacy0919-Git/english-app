@@ -4,7 +4,7 @@ import {
   Lightbulb, Volume2, LayoutGrid, Gamepad2,
   School, Plane, Rocket, Sun, Heart, Music, Globe,
   Briefcase, Utensils, Home, BookOpen, Activity, 
-  ArrowRight, Sparkles, MessageCircle, ArrowDown
+  ArrowRight, Sparkles, ArrowDown
 } from 'lucide-react';
 
 // ■ データ読み込み
@@ -118,39 +118,45 @@ const VocabHighlighter = ({ text, vocabList }) => {
   );
 };
 
-// ■ 1行ごとの英文コンポーネント（スピーカー＆国旗付き）
-const SentenceRow = ({ textEn, textJa, vocab, className = "" }) => {
-  const [showTrans, setShowTrans] = useState(false);
-
+// ■ 1行ごとの英文コンポーネント（修正版：スピーカー左、日本語下、レイアウト優先）
+const SentenceRow = ({ textEn, textJa, vocab, showTrans, className = "" }) => {
   return (
-    <div className={`flex flex-col ${className}`}>
-      <div className="flex items-start gap-3 justify-between">
-        <p className="text-lg font-bold text-gray-800 leading-snug flex-1">
+    <div className={`flex items-start gap-3 ${className}`}>
+      {/* 左側：スピーカーアイコン */}
+      <button 
+        onClick={(e) => { e.stopPropagation(); speak(textEn); }}
+        className="shrink-0 mt-1 w-8 h-8 rounded-full flex items-center justify-center bg-gray-100 text-gray-500 hover:text-blue-500 hover:bg-blue-50 transition-colors shadow-sm active:scale-95"
+      >
+        <Volume2 size={18} />
+      </button>
+
+      {/* 右側：テキストエリア */}
+      <div className="flex-1 min-w-0 pt-0.5">
+        <p className="text-lg font-bold text-gray-800 leading-snug break-words">
           <VocabHighlighter text={textEn} vocabList={vocab} />
         </p>
-        <div className="flex gap-2 shrink-0">
-          <button 
-            onClick={(e) => { e.stopPropagation(); speak(textEn); }}
-            className="w-8 h-8 rounded-full flex items-center justify-center bg-gray-100 text-gray-500 hover:text-blue-500 hover:bg-blue-50 transition-colors shadow-sm active:scale-95"
-          >
-            <Volume2 size={18} />
-          </button>
-          <button 
-            onClick={(e) => { e.stopPropagation(); setShowTrans(!showTrans); }}
-            className={`w-8 h-8 rounded-full flex items-center justify-center transition-all active:scale-95 hover:shadow-md ${showTrans ? 'ring-2 ring-red-100 bg-white' : 'grayscale opacity-70 hover:grayscale-0 hover:opacity-100'}`}
-          >
-            <JapanFlag className="w-6 h-6" />
-          </button>
-        </div>
+        
+        {/* 日本語訳（showTransがtrueの時のみ表示） */}
+        {showTrans && (
+          <div className="mt-2 text-sm font-bold text-gray-600 bg-white/50 p-2 rounded-lg border-l-4 border-gray-300 animate-fade-in">
+            {textJa}
+          </div>
+        )}
       </div>
-      {showTrans && (
-        <div className="mt-2 text-sm font-bold text-gray-600 bg-gray-50/80 p-2 rounded-lg border-l-4 border-gray-300 animate-fade-in">
-          {textJa}
-        </div>
-      )}
     </div>
   );
 };
+
+// ■ 翻訳切り替えボタン（各セクションのヘッダー用）
+const TransToggleButton = ({ showTrans, onClick, colorClass = "text-gray-500" }) => (
+  <button 
+    onClick={(e) => { e.stopPropagation(); onClick(); }}
+    className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-bold transition-all shadow-sm ${showTrans ? 'bg-white text-gray-800 ring-2 ring-red-100' : 'bg-white/60 hover:bg-white text-gray-500'}`}
+  >
+    <JapanFlag className="w-4 h-4" />
+    <span>{showTrans ? '日本語を隠す' : '日本語訳を表示'}</span>
+  </button>
+);
 
 // ■ ガチャマシン
 const Machine3D = ({ id, colorClass, onClick, isSpinning }) => {
@@ -188,19 +194,19 @@ const Machine3D = ({ id, colorClass, onClick, isSpinning }) => {
 
 // ■ 質問カード (段階的表示機能付き)
 const QuestionCard = ({ item, index, isExpanded, onToggleExpand }) => {
-  // 表示ステップ管理
-  // 0: Q1のみ表示 (Answerボタン待ち)
-  // 1: A1表示済み (Detailボタン待ち)
-  // 2: Detail表示済み (Q2ボタン待ち)
-  // 3: Q2表示済み (完了)
   const [step, setStep] = useState(0);
+  
+  // 各セクションの翻訳表示状態管理
+  const [showTransQ1, setShowTransQ1] = useState(false);
+  const [showTransA1, setShowTransA1] = useState(false);
+  const [showTransGreen, setShowTransGreen] = useState(false);
 
-  // カードを閉じたり開いたりした時にステップをリセットするかどうか
-  // 今回は「展開されたら初期状態から」にするため、isExpandedが変わるたびにリセットはしないが、
-  // 親のリストで他のカードを開くと閉じる仕様なので、再展開時はリセットしたい場合はここで制御
   useEffect(() => {
     if (!isExpanded) {
       setStep(0);
+      setShowTransQ1(false);
+      setShowTransA1(false);
+      setShowTransGreen(false);
     }
   }, [isExpanded]);
 
@@ -213,11 +219,11 @@ const QuestionCard = ({ item, index, isExpanded, onToggleExpand }) => {
   const a2List = item.answer2_variations || [];
   const vocab = item.vocab || [];
 
-  // --- セクション間の矢印 ---
+  // --- セクション間の矢印 (濃く修正) ---
   const SectionArrow = () => (
-    <div className="flex justify-center -my-2 relative z-20">
-      <div className="bg-white rounded-full p-1 shadow-sm border border-gray-100">
-        <ArrowDown size={16} className="text-gray-300" />
+    <div className="flex justify-center -my-3 relative z-20">
+      <div className="bg-white rounded-full p-1.5 shadow-sm border border-gray-200">
+        <ArrowDown size={20} strokeWidth={3} className="text-gray-400" />
       </div>
     </div>
   );
@@ -225,7 +231,7 @@ const QuestionCard = ({ item, index, isExpanded, onToggleExpand }) => {
   return (
     <div className={`bg-white rounded-3xl shadow-sm border border-gray-100 overflow-hidden transition-all duration-300 mb-6 ${isExpanded ? 'ring-4 ring-blue-50 shadow-xl' : 'hover:shadow-md'}`}>
       
-      {/* --- カードヘッダー (Question 1 概要) --- */}
+      {/* --- カードヘッダー --- */}
       <div onClick={onToggleExpand} className="p-5 flex gap-4 items-center cursor-pointer bg-white relative hover:bg-gray-50 transition-colors">
         <div className={`flex-shrink-0 w-12 h-12 rounded-2xl bg-gradient-to-br from-blue-400 to-blue-600 text-white font-black text-xl flex items-center justify-center shadow-md transform transition-transform ${isExpanded ? 'scale-110 rotate-3' : ''}`}>
           Q{index + 1}
@@ -245,23 +251,28 @@ const QuestionCard = ({ item, index, isExpanded, onToggleExpand }) => {
 
       {/* --- コンテンツエリア (展開時) --- */}
       {isExpanded && (
-        <div className="px-4 pb-6 space-y-4 animate-fade-in bg-white">
+        <div className="px-4 pb-6 space-y-5 animate-fade-in bg-white">
           
           {/* ■■■ STEP 0: Question 1 (Blue) ■■■ */}
           <div className="rounded-2xl p-5 bg-gradient-to-br from-blue-50 to-blue-100 border-l-8 border-blue-400 shadow-sm relative overflow-hidden">
-            <div className="flex justify-between items-start mb-3 relative z-10">
+            <div className="flex justify-between items-center mb-4 relative z-10">
               <span className="bg-blue-500 text-white text-[10px] font-black px-2 py-1 rounded shadow-sm tracking-wider uppercase">Q1. Question</span>
+              <TransToggleButton showTrans={showTransQ1} onClick={() => setShowTransQ1(!showTransQ1)} />
             </div>
             
-            <SentenceRow textEn={q1.en} textJa={q1.ja} vocab={vocab} />
+            <SentenceRow 
+              textEn={q1.en} 
+              textJa={q1.ja} 
+              vocab={vocab} 
+              showTrans={showTransQ1}
+            />
           </div>
 
-          {/* 矢印 (次への誘導) */}
+          {/* 矢印 */}
           <SectionArrow />
 
           {/* ■■■ STEP 1: Answer Ideas (Orange) ■■■ */}
           {step === 0 ? (
-            // --- 誘導ボタン (心臓の鼓動アニメーション) ---
             <button 
               onClick={() => setStep(1)}
               className="w-full py-4 rounded-2xl bg-orange-50 border-2 border-orange-200 border-dashed text-orange-500 font-bold flex items-center justify-center gap-2 hover:bg-orange-100 transition-all animate-heartbeat shadow-sm"
@@ -270,13 +281,21 @@ const QuestionCard = ({ item, index, isExpanded, onToggleExpand }) => {
               Tap to see Answer Ideas
             </button>
           ) : (
-            // --- 展開後 ---
             <div className="rounded-2xl p-5 bg-gradient-to-br from-orange-50 to-orange-100 border-l-8 border-orange-400 shadow-sm animate-pop-up">
-              <span className="bg-orange-500 text-white text-[10px] font-black px-2 py-1 rounded shadow-sm tracking-wider uppercase mb-3 inline-block">A1. Answer Ideas</span>
+              <div className="flex justify-between items-center mb-4">
+                <span className="bg-orange-500 text-white text-[10px] font-black px-2 py-1 rounded shadow-sm tracking-wider uppercase">A1. Answer Ideas</span>
+                <TransToggleButton showTrans={showTransA1} onClick={() => setShowTransA1(!showTransA1)} />
+              </div>
+              
               <div className="space-y-4">
                 {a1List.map((ans, idx) => (
                   <div key={idx} className="bg-white/80 backdrop-blur-sm p-3 rounded-xl border border-orange-200 shadow-sm">
-                    <SentenceRow textEn={ans.en} textJa={ans.ja} vocab={vocab} />
+                    <SentenceRow 
+                      textEn={ans.en} 
+                      textJa={ans.ja} 
+                      vocab={vocab} 
+                      showTrans={showTransA1}
+                    />
                   </div>
                 ))}
               </div>
@@ -289,7 +308,6 @@ const QuestionCard = ({ item, index, isExpanded, onToggleExpand }) => {
               <SectionArrow />
               
               {step === 1 ? (
-                 // --- 誘導ボタン ---
                  <button 
                   onClick={() => setStep(2)}
                   className="w-full py-3 rounded-2xl bg-green-50 border-2 border-green-200 border-dashed text-green-600 font-bold flex items-center justify-center gap-2 hover:bg-green-100 transition-all"
@@ -298,14 +316,24 @@ const QuestionCard = ({ item, index, isExpanded, onToggleExpand }) => {
                   さらに詳しく説明、回答してみよう
                 </button>
               ) : (
-                // --- 展開後 ---
                 <div className="rounded-2xl p-5 bg-gradient-to-b from-green-50 to-green-100 border-l-8 border-green-400 shadow-sm animate-pop-up">
+                  
+                  {/* ヘッダー: 一括翻訳ボタン */}
+                  <div className="flex justify-end mb-2">
+                    <TransToggleButton showTrans={showTransGreen} onClick={() => setShowTransGreen(!showTransGreen)} />
+                  </div>
+
                   {/* Detail */}
                   {detail && (
-                    <div className="mb-4">
+                    <div className="mb-6">
                       <span className="text-green-600 font-black text-xs uppercase tracking-widest flex items-center gap-1 mb-2"><Sparkles size={12}/> More Detail</span>
                       <div className="bg-white/60 rounded-xl p-4 border border-green-100 shadow-sm">
-                         <SentenceRow textEn={detail.en} textJa={detail.ja} vocab={vocab} />
+                         <SentenceRow 
+                           textEn={detail.en} 
+                           textJa={detail.ja} 
+                           vocab={vocab} 
+                           showTrans={showTransGreen}
+                         />
                       </div>
                     </div>
                   )}
@@ -327,11 +355,17 @@ const QuestionCard = ({ item, index, isExpanded, onToggleExpand }) => {
                            </button>
                         ) : (
                           <div className="animate-fade-in">
-                            <span className="bg-green-600 text-white text-[10px] font-black px-2 py-1 rounded shadow-sm tracking-wider uppercase mb-2 inline-block">Q2. Follow-up</span>
+                            <span className="bg-green-600 text-white text-[10px] font-black px-2 py-1 rounded shadow-sm tracking-wider uppercase mb-3 inline-block">Q2. Follow-up</span>
                             
                             {/* Q2 */}
                             <div className="mb-4">
-                              <SentenceRow textEn={q2.en} textJa={q2.ja} vocab={vocab} className="mb-2" />
+                              <SentenceRow 
+                                textEn={q2.en} 
+                                textJa={q2.ja} 
+                                vocab={vocab} 
+                                showTrans={showTransGreen}
+                                className="mb-2" 
+                              />
                             </div>
 
                             {/* A2 */}
@@ -339,7 +373,12 @@ const QuestionCard = ({ item, index, isExpanded, onToggleExpand }) => {
                               <div className="pl-3 border-l-4 border-green-300 space-y-3">
                                 {a2List.map((ans, idx) => (
                                   <div key={idx} className="bg-white/80 p-3 rounded-lg text-sm shadow-sm">
-                                    <SentenceRow textEn={ans.en} textJa={ans.ja} vocab={vocab} />
+                                    <SentenceRow 
+                                      textEn={ans.en} 
+                                      textJa={ans.ja} 
+                                      vocab={vocab} 
+                                      showTrans={showTransGreen}
+                                    />
                                   </div>
                                 ))}
                               </div>

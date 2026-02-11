@@ -1,57 +1,362 @@
-{
-  "id": "topic_school",
-  "title": "School Life (学校生活)",
-  "questions": [
-    {
-      "id": "school_01",
-      "question": {
-        "en": "What is your favorite subject at school?",
-        "ja": "学校で一番好きな教科は何ですか？",
-        "pt": "Qual é a sua matéria favorita na escola?",
-        "zh": "你在学校最喜欢的科目是什么？"
-      },
-      "answer": {
-        "en": "I like English because I want to travel abroad someday.",
-        "ja": "いつか海外旅行に行きたいので英語が好きです。"
-      },
-      "followUp": {
-        "en": "Do you like studying languages?",
-        "ja": "言語を勉強するのは好きですか？"
-      }
-    },
-    {
-      "id": "school_02",
-      "question": {
-        "en": "Do you belong to any club activities?",
-        "ja": "部活動には入っていますか？",
-        "pt": "Você participa de alguma atividade extracurricular?",
-        "zh": "你参加什么社团活动吗？"
-      },
-      "answer": {
-        "en": "Yes, I'm in the basketball club. We practice very hard.",
-        "ja": "はい、バスケ部に入っています。練習はとてもハードです。"
-      },
-      "followUp": {
-        "en": "How often do you practice?",
-        "ja": "どのくらいの頻度で練習しますか？"
-      }
-    },
-    {
-      "id": "school_03",
-      "question": {
-        "en": "What is the best part of your school day?",
-        "ja": "学校生活の中で一番好きな時間はいつですか？",
-        "pt": "Qual é a melhor parte do seu dia na escola?",
-        "zh": "你在学校一天中最喜欢什么时候？"
-      },
-      "answer": {
-        "en": "Lunch time is the best because I can talk with my friends.",
-        "ja": "友達と話せるのでお昼休みが一番好きです。"
-      },
-      "followUp": {
-        "en": "Who do you usually eat lunch with?",
-        "ja": "たいてい誰とお昼を食べますか？"
-      }
-    }
-  ]
-}
+[
+  {
+    "id": "school_01",
+    "question1": { "en": "What was your favorite subject in school?", "ja": "学校で一番好きな教科は何でしたか？" },
+    "answer1_variations": [
+      { "en": "I really liked history.", "ja": "歴史がとても好きでした。" },
+      { "en": "Math was my best subject.", "ja": "数学が一番得意でした。" }
+    ],
+    "answer1_detail": { "en": "I found learning about the past fascinating.", "ja": "過去について学ぶのが魅力的だと思ったんです。" },
+    "question2": { "en": "Did you have a good teacher?", "ja": "いい先生でしたか？" },
+    "answer2_variations": [
+      { "en": "Yes, he made the classes very interesting.", "ja": "はい、彼は授業をとても面白くしてくれました。" },
+      { "en": "Strict, but I learned a lot.", "ja": "厳しかったですが、多くを学びました。" }
+    ],
+    "vocab": [
+      { "word": "subject", "meaning": "教科、科目" },
+      { "word": "fascinating", "meaning": "魅力的な、興味深い" }
+    ]
+  },
+  {
+    "id": "school_02",
+    "question1": { "en": "How do you get to school?", "ja": "どうやって通学していますか？" },
+    "answer1_variations": [
+      { "en": "I take the bus every morning.", "ja": "毎朝バスに乗ります。" },
+      { "en": "I usually ride my bike.", "ja": "たいてい自転車で行きます。" }
+    ],
+    "answer1_detail": { "en": "It takes about thirty minutes door-to-door.", "ja": "ドアツードア（家から学校まで）で約30分かかります。" },
+    "question2": { "en": "Is the bus crowded?", "ja": "バスは混んでいますか？" },
+    "answer2_variations": [
+      { "en": "Yes, it's packed during rush hour.", "ja": "はい、ラッシュアワーは満員です。" },
+      { "en": "Sometimes I can't even get a seat.", "ja": "時々座ることさえできません。" }
+    ],
+    "vocab": [
+      { "word": "ride a bike", "meaning": "自転車に乗る" },
+      { "word": "packed", "meaning": "満員の、ぎゅうぎゅう詰めの" }
+    ]
+  },
+  {
+    "id": "school_03",
+    "question1": { "en": "Do you have a lot of homework?", "ja": "宿題は多いですか？" },
+    "answer1_variations": [
+      { "en": "Yes, I'm swamped with assignments.", "ja": "はい、課題に追われています。" },
+      { "en": "Not too much, thankfully.", "ja": "ありがたいことに、それほど多くないです。" }
+    ],
+    "answer1_detail": { "en": "I have a big essay due tomorrow.", "ja": "明日締め切りの大きなエッセイ（作文）があるんです。" },
+    "question2": { "en": "When do you usually do it?", "ja": "普段いつやりますか？" },
+    "answer2_variations": [
+      { "en": "Right after I get home.", "ja": "家に帰ってすぐです。" },
+      { "en": "I tend to procrastinate until late at night.", "ja": "深夜まで先延ばしにしがちです。" }
+    ],
+    "vocab": [
+      { "word": "be swamped with", "meaning": "〜で忙殺される、〜に追われている" },
+      { "word": "procrastinate", "meaning": "先延ばしにする" }
+    ]
+  },
+  {
+    "id": "school_04",
+    "question1": { "en": "What do you eat for lunch at school?", "ja": "学校のお昼は何を食べますか？" },
+    "answer1_variations": [
+      { "en": "I buy bread at the cafeteria.", "ja": "食堂でパンを買います。" },
+      { "en": "My mom makes me a bento box.", "ja": "母がお弁当を作ってくれます。" }
+    ],
+    "answer1_detail": { "en": "The cafeteria food is actually pretty good.", "ja": "食堂のご飯は実は結構美味しいんです。" },
+    "question2": { "en": "What is the most popular menu item?", "ja": "一番人気のメニューは何ですか？" },
+    "answer2_variations": [
+      { "en": "Definitely the curry rice.", "ja": "間違いなくカレーライスです。" },
+      { "en": "The fried chicken sells out fast.", "ja": "唐揚げはすぐに売り切れます。" }
+    ],
+    "vocab": [
+      { "word": "cafeteria", "meaning": "食堂" },
+      { "word": "sell out", "meaning": "売り切れる" }
+    ]
+  },
+  {
+    "id": "school_05",
+    "question1": { "en": "Are you in any school clubs?", "ja": "何か部活に入っていますか？" },
+    "answer1_variations": [
+      { "en": "I'm in the brass band club.", "ja": "吹奏楽部に入っています。" },
+      { "en": "I joined the tennis team.", "ja": "テニス部に入りました。" }
+    ],
+    "answer1_detail": { "en": "We practice five days a week.", "ja": "週に5日練習しています。" },
+    "question2": { "en": "Do you have practice on weekends?", "ja": "週末も練習がありますか？" },
+    "answer2_variations": [
+      { "en": "Usually just on Saturday mornings.", "ja": "たいてい土曜の午前中だけです。" },
+      { "en": "Yes, especially before competitions.", "ja": "はい、特に大会前は。" }
+    ],
+    "vocab": [
+      { "word": "brass band", "meaning": "吹奏楽、ブラスバンド" },
+      { "word": "competition", "meaning": "大会、コンクール" }
+    ]
+  },
+  {
+    "id": "school_06",
+    "question1": { "en": "Do you have to wear a uniform?", "ja": "制服を着ないといけませんか？" },
+    "answer1_variations": [
+      { "en": "Yes, we wear blazers and skirts.", "ja": "はい、ブレザーとスカートです。" },
+      { "en": "No, we can wear casual clothes.", "ja": "いいえ、私服で大丈夫です。" }
+    ],
+    "answer1_detail": { "en": "I think it looks smart and tidy.", "ja": "賢そうでちゃんとして見えると思います。" },
+    "question2": { "en": "Is it comfortable?", "ja": "着心地はいいですか？" },
+    "answer2_variations": [
+      { "en": "It's okay, but a bit stiff.", "ja": "まあまあですが、少し堅苦しいです。" },
+      { "en": "I can't wait to change when I get home.", "ja": "家に帰って着替えるのが待ち遠しいです。" }
+    ],
+    "vocab": [
+      { "word": "smart", "meaning": "洗練された、きちんとした" },
+      { "word": "stiff", "meaning": "堅い、窮屈な" }
+    ]
+  },
+  {
+    "id": "school_07",
+    "question1": { "en": "When do you have exams?", "ja": "試験はいつありますか？" },
+    "answer1_variations": [
+      { "en": "Midterms are next week.", "ja": "中間テストが来週です。" },
+      { "en": "We have finals at the end of the semester.", "ja": "学期末に期末テストがあります。" }
+    ],
+    "answer1_detail": { "en": "I need to start cramming soon.", "ja": "そろそろ詰め込み勉強を始めないと。" },
+    "question2": { "en": "Which subject are you worried about?", "ja": "どの教科が心配ですか？" },
+    "answer2_variations": [
+      { "en": "Chemistry is really difficult for me.", "ja": "化学が本当に難しいんです。" },
+      { "en": "English grammar is confusing.", "ja": "英語の文法がややこしくて。" }
+    ],
+    "vocab": [
+      { "word": "midterm", "meaning": "中間テスト" },
+      { "word": "cram", "meaning": "詰め込み勉強をする" }
+    ]
+  },
+  {
+    "id": "school_08",
+    "question1": { "en": "What is your major in college?", "ja": "大学での専攻は何ですか？" },
+    "answer1_variations": [
+      { "en": "I'm majoring in Economics.", "ja": "経済学を専攻しています。" },
+      { "en": "I study Psychology.", "ja": "心理学を学んでいます。" }
+    ],
+    "answer1_detail": { "en": "I want to work in marketing in the future.", "ja": "将来はマーケティングの仕事がしたいんです。" },
+    "question2": { "en": "Is it a difficult course?", "ja": "難しいコースですか？" },
+    "answer2_variations": [
+      { "en": "There is a lot of reading involved.", "ja": "読まなければいけないものがたくさんあります。" },
+      { "en": "It's challenging but rewarding.", "ja": "大変ですがやりがいがあります。" }
+    ],
+    "vocab": [
+      { "word": "major in", "meaning": "〜を専攻する" },
+      { "word": "rewarding", "meaning": "やりがいのある、報われる" }
+    ]
+  },
+  {
+    "id": "school_09",
+    "question1": { "en": "Did you enjoy your school trip?", "ja": "修学旅行は楽しかったですか？" },
+    "answer1_variations": [
+      { "en": "Yes, we went to Kyoto and Nara.", "ja": "はい、京都と奈良に行きました。" },
+      { "en": "It was the highlight of the year.", "ja": "今年一番の思い出（ハイライト）でした。" }
+    ],
+    "answer1_detail": { "en": "Visiting the temples was very peaceful.", "ja": "お寺巡りはとても心が安らぎました。" },
+    "question2": { "en": "Did you stay in a hotel?", "ja": "ホテルに泊まりましたか？" },
+    "answer2_variations": [
+      { "en": "We stayed in a traditional inn.", "ja": "伝統的な旅館に泊まりました。" },
+      { "en": "Yes, with four people in a room.", "ja": "はい、4人部屋でした。" }
+    ],
+    "vocab": [
+      { "word": "highlight", "meaning": "最重要点、一番の見どころ" },
+      { "word": "traditional inn", "meaning": "（日本の）旅館" }
+    ]
+  },
+  {
+    "id": "school_10",
+    "question1": { "en": "Do you like P.E. class?", "ja": "体育の授業は好きですか？" },
+    "answer1_variations": [
+      { "en": "I love running around.", "ja": "走り回るのが大好きです。" },
+      { "en": "No, I'm not very athletic.", "ja": "いいえ、あまり運動神経がよくないので。" }
+    ],
+    "answer1_detail": { "en": "We are playing basketball right now.", "ja": "今はバスケットボールをやっています。" },
+    "question2": { "en": "Are you good at it?", "ja": "得意ですか？" },
+    "answer2_variations": [
+      { "en": "I'm okay at shooting.", "ja": "シュートはまあまあです。" },
+      { "en": "I prefer watching to playing.", "ja": "プレーするより見る方が好きです。" }
+    ],
+    "vocab": [
+      { "word": "P.E. (Physical Education)", "meaning": "体育" },
+      { "word": "athletic", "meaning": "運動神経が良い、スポーツマンらしい" }
+    ]
+  },
+  {
+    "id": "school_11",
+    "question1": { "en": "Who is your favorite teacher?", "ja": "好きな先生は誰ですか？" },
+    "answer1_variations": [
+      { "en": "Mr. Tanaka, the English teacher.", "ja": "英語の田中先生です。" },
+      { "en": "My homeroom teacher is really kind.", "ja": "担任の先生がとても親切なんです。" }
+    ],
+    "answer1_detail": { "en": "He tells funny jokes during class.", "ja": "彼は授業中に面白い冗談を言うんです。" },
+    "question2": { "en": "Is he strict?", "ja": "彼は厳しいですか？" },
+    "answer2_variations": [
+      { "en": "Only when we forget our homework.", "ja": "宿題を忘れた時だけですね。" },
+      { "en": "No, he's very laid back.", "ja": "いいえ、彼はとてものんびりしています。" }
+    ],
+    "vocab": [
+      { "word": "homeroom teacher", "meaning": "担任の先生" },
+      { "word": "laid back", "meaning": "おおらかな、細かいことを気にしない" }
+    ]
+  },
+  {
+    "id": "school_12",
+    "question1": { "en": "What happens if you are late for school?", "ja": "学校に遅刻するとどうなりますか？" },
+    "answer1_variations": [
+      { "en": "We have to sign a late slip.", "ja": "遅刻届にサインしないといけません。" },
+      { "en": "The teacher gets angry.", "ja": "先生に怒られます。" }
+    ],
+    "answer1_detail": { "en": "I hate the feeling of walking into a quiet class.", "ja": "静かな教室に入っていくあの感じが嫌いです。" },
+    "question2": { "en": "Are you often late?", "ja": "よく遅刻しますか？" },
+    "answer2_variations": [
+      { "en": "Never, I'm an early bird.", "ja": "一度もありません、早起きなので。" },
+      { "en": "Sometimes, when I oversleep.", "ja": "時々、寝坊した時に。" }
+    ],
+    "vocab": [
+      { "word": "slip", "meaning": "（小さな）紙片、伝票" },
+      { "word": "early bird", "meaning": "早起きの人" }
+    ]
+  },
+  {
+    "id": "school_13",
+    "question1": { "en": "Do you study in the library?", "ja": "図書館で勉強しますか？" },
+    "answer1_variations": [
+      { "en": "Yes, it's quiet and easy to focus.", "ja": "はい、静かで集中しやすいので。" },
+      { "en": "I prefer studying at a cafe.", "ja": "カフェで勉強する方が好きです。" }
+    ],
+    "answer1_detail": { "en": "My school library has a great collection.", "ja": "うちの学校の図書館は蔵書が素晴らしいんです。" },
+    "question2": { "en": "Is it allowed to eat there?", "ja": "そこで食べることは許可されていますか？" },
+    "answer2_variations": [
+      { "en": "No, food and drinks are banned.", "ja": "いいえ、飲食は禁止されています。" },
+      { "en": "Only water bottles are okay.", "ja": "水筒（水）だけなら大丈夫です。" }
+    ],
+    "vocab": [
+      { "word": "collection", "meaning": "蔵書、収集品" },
+      { "word": "banned", "meaning": "禁止されている" }
+    ]
+  },
+  {
+    "id": "school_14",
+    "question1": { "en": "Are you planning to study abroad?", "ja": "留学する予定はありますか？" },
+    "answer1_variations": [
+      { "en": "I want to go to Australia next year.", "ja": "来年オーストラリアに行きたいです。" },
+      { "en": "I'm thinking about it.", "ja": "考えているところです。" }
+    ],
+    "answer1_detail": { "en": "I want to improve my English skills.", "ja": "英語力を向上させたいんです。" },
+    "question2": { "en": "For how long?", "ja": "どのくらいの期間ですか？" },
+    "answer2_variations": [
+      { "en": "Just for a summer program.", "ja": "夏期プログラムの間だけ。" },
+      { "en": "Maybe for one year.", "ja": "たぶん1年間です。" }
+    ],
+    "vocab": [
+      { "word": "abroad", "meaning": "海外へ" },
+      { "word": "improve", "meaning": "向上させる、改善する" }
+    ]
+  },
+  {
+    "id": "school_15",
+    "question1": { "en": "What is the school festival like?", "ja": "文化祭はどんな感じですか？" },
+    "answer1_variations": [
+      { "en": "It's very lively and fun.", "ja": "とても賑やかで楽しいです。" },
+      { "en": "Every class makes a food stall or attraction.", "ja": "各クラスが屋台や出し物をします。" }
+    ],
+    "answer1_detail": { "en": "Our class is doing a haunted house this year.", "ja": "私たちのクラスは今年お化け屋敷をやります。" },
+    "question2": { "en": "Are outsiders allowed to come?", "ja": "部外者も来れますか？" },
+    "answer2_variations": [
+      { "en": "Yes, it's open to the public.", "ja": "はい、一般公開されています。" },
+      { "en": "Only family members and friends.", "ja": "家族と友人だけです。" }
+    ],
+    "vocab": [
+      { "word": "lively", "meaning": "活気のある、賑やかな" },
+      { "word": "haunted house", "meaning": "お化け屋敷" }
+    ]
+  },
+  {
+    "id": "school_16",
+    "question1": { "en": "Did you go to a cram school?", "ja": "塾には行っていましたか？" },
+    "answer1_variations": [
+      { "en": "Yes, to prepare for entrance exams.", "ja": "はい、受験勉強のために。" },
+      { "en": "No, I studied by myself.", "ja": "いいえ、独学でした。" }
+    ],
+    "answer1_detail": { "en": "I went three times a week after dinner.", "ja": "夕食後に週3回通っていました。" },
+    "question2": { "en": "Was it helpful?", "ja": "役に立ちましたか？" },
+    "answer2_variations": [
+      { "en": "It helped me improve my grades.", "ja": "成績を上げるのに役立ちました。" },
+      { "en": "I was just sleepy mostly.", "ja": "たいてい眠かっただけです。" }
+    ],
+    "vocab": [
+      { "word": "cram school", "meaning": "塾、予備校" },
+      { "word": "entrance exam", "meaning": "入学試験" }
+    ]
+  },
+  {
+    "id": "school_17",
+    "question1": { "en": "What do you do during recess?", "ja": "休み時間は何をしていますか？" },
+    "answer1_variations": [
+      { "en": "I chat with my friends.", "ja": "友達とおしゃべりしています。" },
+      { "en": "I check my phone or sleep.", "ja": "スマホを見るか寝ています。" }
+    ],
+    "answer1_detail": { "en": "The breaks are only ten minutes long.", "ja": "休み時間はたった10分しかありません。" },
+    "question2": { "en": "Is that enough time?", "ja": "時間は足りますか？" },
+    "answer2_variations": [
+      { "en": "Barely enough to go to the restroom.", "ja": "トイレに行くのがやっとです。" },
+      { "en": "It goes by so fast.", "ja": "あっという間に過ぎます。" }
+    ],
+    "vocab": [
+      { "word": "recess", "meaning": "休み時間" },
+      { "word": "barely", "meaning": "かろうじて、やっと" }
+    ]
+  },
+  {
+    "id": "school_18",
+    "question1": { "en": "Do you have cleaning duty?", "ja": "掃除当番はありますか？" },
+    "answer1_variations": [
+      { "en": "Yes, we clean the classroom every day.", "ja": "はい、毎日教室を掃除します。" },
+      { "en": "We take turns cleaning the hallway.", "ja": "交代で廊下を掃除します。" }
+    ],
+    "answer1_detail": { "en": "It teaches us to be responsible.", "ja": "責任感を持つことを教えてくれます。" },
+    "question2": { "en": "Do you like it?", "ja": "好きですか？" },
+    "answer2_variations": [
+      { "en": "Not really, but it's necessary.", "ja": "そうでもないですが、必要なことです。" },
+      { "en": "It's fun when we do it together.", "ja": "みんなでやると楽しいです。" }
+    ],
+    "vocab": [
+      { "word": "take turns", "meaning": "交代で行う" },
+      { "word": "responsible", "meaning": "責任がある、責任感のある" }
+    ]
+  },
+  {
+    "id": "school_19",
+    "question1": { "en": "What is your best memory from school?", "ja": "学校での一番の思い出は何ですか？" },
+    "answer1_variations": [
+      { "en": "Winning the sports day relay.", "ja": "運動会のリレーで勝ったことです。" },
+      { "en": "Just hanging out with friends every day.", "ja": "毎日友達と遊んだことですね。" }
+    ],
+    "answer1_detail": { "en": "We practiced so hard for that race.", "ja": "そのレースのためにすごく練習しましたから。" },
+    "question2": { "en": "Do you still see those friends?", "ja": "今でもその友達と会いますか？" },
+    "answer2_variations": [
+      { "en": "Yes, we are still close.", "ja": "はい、今でも仲良しです。" },
+      { "en": "We keep in touch on social media.", "ja": "SNSで連絡を取り合っています。" }
+    ],
+    "vocab": [
+      { "word": "hang out", "meaning": "遊ぶ、一緒に過ごす" },
+      { "word": "keep in touch", "meaning": "連絡を取り合う" }
+    ]
+  },
+  {
+    "id": "school_20",
+    "question1": { "en": "Are you looking forward to graduation?", "ja": "卒業を楽しみにしていますか？" },
+    "answer1_variations": [
+      { "en": "Yes, I'm ready for the next chapter.", "ja": "はい、次の章へ進む準備はできています。" },
+      { "en": "No, I'm going to miss everyone.", "ja": "いいえ、みんなに会えなくなるのが寂しいです。" }
+    ],
+    "answer1_detail": { "en": "We are planning a graduation party.", "ja": "卒業パーティーを計画しています。" },
+    "question2": { "en": "What will you do after graduation?", "ja": "卒業後はどうしますか？" },
+    "answer2_variations": [
+      { "en": "I'm going to university.", "ja": "大学に行きます。" },
+      { "en": "I'm going to start working.", "ja": "働き始めます。" }
+    ],
+    "vocab": [
+      { "word": "look forward to", "meaning": "〜を楽しみにする" },
+      { "word": "miss", "meaning": "寂しく思う、恋しく思う" }
+    ]
+  }
+]

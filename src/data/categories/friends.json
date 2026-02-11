@@ -1,5 +1,362 @@
-{
-  "id": "topic_friends",
-  "title": "Friends (友達)",
-  "questions": []
-}
+[
+  {
+    "id": "friend_01",
+    "question1": { "en": "How did you meet your best friend?", "ja": "親友とはどうやって知り合ったのですか？" },
+    "answer1_variations": [
+      { "en": "We met in high school.", "ja": "高校で出会いました。" },
+      { "en": "We were coworkers at my first job.", "ja": "最初の仕事の同僚だったんです。" }
+    ],
+    "answer1_detail": { "en": "We sat next to each other in math class.", "ja": "数学の授業で席が隣同士だったんです。" },
+    "question2": { "en": "Did you get along right away?", "ja": "すぐに仲良くなれましたか？" },
+    "answer2_variations": [
+      { "en": "Yes, we hit it off immediately.", "ja": "はい、すぐに意気投合しました。" },
+      { "en": "No, we actually hated each other at first.", "ja": "いいえ、実は最初は嫌い合ってたんです。" }
+    ],
+    "vocab": [
+      { "word": "get along", "meaning": "仲良くやっていく" },
+      { "word": "hit it off", "meaning": "すぐに意気投合する、仲良くなる" }
+    ]
+  },
+  {
+    "id": "friend_02",
+    "question1": { "en": "How often do you hang out with your friends?", "ja": "どのくらいの頻度で友達と遊びますか？" },
+    "answer1_variations": [
+      { "en": "Almost every weekend.", "ja": "ほぼ毎週末です。" },
+      { "en": "Not as often as I'd like.", "ja": "思っているほど頻繁には会えません。" }
+    ],
+    "answer1_detail": { "en": "We're all busy with work these days.", "ja": "最近はみんな仕事で忙しいので。" },
+    "question2": { "en": "What do you usually do?", "ja": "普段は何をしますか？" },
+    "answer2_variations": [
+      { "en": "We just grab coffee and chat.", "ja": "コーヒーを買って喋るだけです。" },
+      { "en": "We go to the movies.", "ja": "映画に行きます。" }
+    ],
+    "vocab": [
+      { "word": "hang out", "meaning": "（特に目的なく）遊ぶ、時間を過ごす" },
+      { "word": "grab", "meaning": "さっと食事などを取る" }
+    ]
+  },
+  {
+    "id": "friend_03",
+    "question1": { "en": "Do you have a lot of friends?", "ja": "友達は多いですか？" },
+    "answer1_variations": [
+      { "en": "I have a wide circle of friends.", "ja": "交友関係は広いです。" },
+      { "en": "I prefer having a few close friends.", "ja": "少数の親しい友人がいる方が好きです。" }
+    ],
+    "answer1_detail": { "en": "For me, it's quality over quantity.", "ja": "私にとっては、量より質ですね。" },
+    "question2": { "en": "Do you make friends easily?", "ja": "友達を作るのは得意ですか？" },
+    "answer2_variations": [
+      { "en": "Yes, I'm pretty outgoing.", "ja": "はい、かなり社交的なので。" },
+      { "en": "No, I'm a bit shy.", "ja": "いいえ、少し人見知りなんです。" }
+    ],
+    "vocab": [
+      { "word": "circle of friends", "meaning": "交友関係、友人の輪" },
+      { "word": "quality over quantity", "meaning": "量より質" }
+    ]
+  },
+  {
+    "id": "friend_04",
+    "question1": { "en": "Do you keep in touch with old school friends?", "ja": "昔の学校の友達と連絡を取り合っていますか？" },
+    "answer1_variations": [
+      { "en": "Yes, we have a group chat.", "ja": "はい、グループチャットがあります。" },
+      { "en": "Sadly, we've drifted apart.", "ja": "悲しいことに、疎遠になってしまいました。" }
+    ],
+    "answer1_detail": { "en": "We try to meet up once a year for a reunion.", "ja": "年に一度、同窓会として集まるようにしています。" },
+    "question2": { "en": "Is it awkward when you meet?", "ja": "会うと気まずいですか？" },
+    "answer2_variations": [
+      { "en": "Not at all, it's like no time has passed.", "ja": "全然、まるで時間が経っていないみたいです。" },
+      { "en": "Sometimes, we have different lives now.", "ja": "時々ですね、今は別の人生を歩んでいるので。" }
+    ],
+    "vocab": [
+      { "word": "keep in touch", "meaning": "連絡を取り合う" },
+      { "word": "drift apart", "meaning": "（徐々に）疎遠になる" }
+    ]
+  },
+  {
+    "id": "friend_05",
+    "question1": { "en": "What do you look for in a friend?", "ja": "友人に何を求めますか？" },
+    "answer1_variations": [
+      { "en": "Trust is the most important thing.", "ja": "信頼が一番大事です。" },
+      { "en": "Someone with a good sense of humor.", "ja": "ユーモアのセンスがある人ですね。" }
+    ],
+    "answer1_detail": { "en": "I need someone who can keep a secret.", "ja": "秘密を守れる人がいいです。" },
+    "question2": { "en": "Are you a good listener?", "ja": "あなたは聞き上手ですか？" },
+    "answer2_variations": [
+      { "en": "I try to be.", "ja": "そうあろうと努力しています。" },
+      { "en": "Sometimes I talk too much.", "ja": "時々喋りすぎちゃいますね。" }
+    ],
+    "vocab": [
+      { "word": "look for", "meaning": "探す、求める" },
+      { "word": "sense of humor", "meaning": "ユーモアのセンス" }
+    ]
+  },
+  {
+    "id": "friend_06",
+    "question1": { "en": "Do you ever argue with your friends?", "ja": "友達と口論することはありますか？" },
+    "answer1_variations": [
+      { "en": "Rarely. We get along well.", "ja": "めったにないです。仲が良いので。" },
+      { "en": "Sometimes, but we make up quickly.", "ja": "たまにありますが、すぐに仲直りします。" }
+    ],
+    "answer1_detail": { "en": "We usually argue about where to eat.", "ja": "たいていどこで食べるかで揉めます。" },
+    "question2": { "en": "Who apologizes first?", "ja": "誰が先に謝りますか？" },
+    "answer2_variations": [
+      { "en": "Usually me, I hate conflict.", "ja": "たいてい私です、争いごとは嫌いなので。" },
+      { "en": "We both just laugh it off.", "ja": "二人とも笑い飛ばして終わりです。" }
+    ],
+    "vocab": [
+      { "word": "argue", "meaning": "口論する、言い争う" },
+      { "word": "make up", "meaning": "仲直りする" }
+    ]
+  },
+  {
+    "id": "friend_07",
+    "question1": { "en": "Do you have any friends living abroad?", "ja": "海外に住んでいる友達はいますか？" },
+    "answer1_variations": [
+      { "en": "Yes, my friend moved to Canada.", "ja": "はい、友達がカナダに引っ越しました。" },
+      { "en": "No, all my friends are local.", "ja": "いいえ、友達はみんな地元にいます。" }
+    ],
+    "answer1_detail": { "en": "We video call every month to catch up.", "ja": "近況報告のために毎月ビデオ通話をしています。" },
+    "question2": { "en": "Do you miss them?", "ja": "寂しいですか？" },
+    "answer2_variations": [
+      { "en": "Terribly. I wish they were closer.", "ja": "すごく。もっと近くにいたらいいのに。" },
+      { "en": "A little, but we stay connected.", "ja": "少し寂しいですが、繋がっていますから。" }
+    ],
+    "vocab": [
+      { "word": "abroad", "meaning": "海外に" },
+      { "word": "catch up", "meaning": "近況を報告し合う、久しぶりに会う" }
+    ]
+  },
+  {
+    "id": "friend_08",
+    "question1": { "en": "Are you friends with your coworkers?", "ja": "職場の同僚とは友達ですか？" },
+    "answer1_variations": [
+      { "en": "Yes, we often go for drinks after work.", "ja": "はい、仕事の後によく飲みに行きます。" },
+      { "en": "I like to keep work and life separate.", "ja": "仕事とプライベートは分けたい派です。" }
+    ],
+    "answer1_detail": { "en": "It helps to have someone to vent to.", "ja": "愚痴をこぼせる相手がいると助かります。" },
+    "question2": { "en": "Do you hang out on weekends?", "ja": "週末も会いますか？" },
+    "answer2_variations": [
+      { "en": "No, weekends are for family.", "ja": "いいえ、週末は家族の時間です。" },
+      { "en": "Occasionally we play golf.", "ja": "たまにゴルフをします。" }
+    ],
+    "vocab": [
+      { "word": "separate", "meaning": "分ける、別々の" },
+      { "word": "vent", "meaning": "（感情や不満を）吐き出す" }
+    ]
+  },
+  {
+    "id": "friend_09",
+    "question1": { "en": "Do you prefer indoor or outdoor activities with friends?", "ja": "友達とはインドア派ですか、アウトドア派ですか？" },
+    "answer1_variations": [
+      { "en": "We love hiking and camping.", "ja": "ハイキングやキャンプが大好きです。" },
+      { "en": "We mostly stay in and play video games.", "ja": "たいてい家でゲームをしています。" }
+    ],
+    "answer1_detail": { "en": "It depends on the weather, really.", "ja": "本当に天気次第ですね。" },
+    "question2": { "en": "What did you do last weekend?", "ja": "先週末は何をしましたか？" },
+    "answer2_variations": [
+      { "en": "We had a BBQ by the river.", "ja": "川辺でバーベキューをしました。" },
+      { "en": "We just watched Netflix.", "ja": "ネットフリックスを見ただけです。" }
+    ],
+    "vocab": [
+      { "word": "mostly", "meaning": "たいていは" },
+      { "word": "stay in", "meaning": "家で過ごす、外出しない" }
+    ]
+  },
+  {
+    "id": "friend_10",
+    "question1": { "en": "Has a friend ever let you down?", "ja": "友達にがっかりさせられたことはありますか？" },
+    "answer1_variations": [
+      { "en": "Once, when they forgot my birthday.", "ja": "一度、誕生日を忘れられた時に。" },
+      { "en": "Not really, my friends are reliable.", "ja": "あんまりないですね、私の友人は信頼できるので。" }
+    ],
+    "answer1_detail": { "en": "It took a while to trust them again.", "ja": "また信用するのに時間がかかりました。" },
+    "question2": { "en": "Did you forgive them?", "ja": "許しましたか？" },
+    "answer2_variations": [
+      { "en": "Yes, everyone makes mistakes.", "ja": "はい、誰にでも間違いはありますから。" },
+      { "en": "We're still working on it.", "ja": "まだ修復中です。" }
+    ],
+    "vocab": [
+      { "word": "let down", "meaning": "失望させる、期待を裏切る" },
+      { "word": "reliable", "meaning": "信頼できる" }
+    ]
+  },
+  {
+    "id": "friend_11",
+    "question1": { "en": "Do you have a childhood friend?", "ja": "幼馴染はいますか？" },
+    "answer1_variations": [
+      { "en": "Yes, we've known each other since kindergarten.", "ja": "はい、幼稚園からの仲です。" },
+      { "en": "No, I moved around a lot as a kid.", "ja": "いいえ、子供の頃よく引越していたので。" }
+    ],
+    "answer1_detail": { "en": "She knows everything about me.", "ja": "彼女は私のことなら何でも知っています。" },
+    "question2": { "en": "Do you still live near each other?", "ja": "今も近くに住んでいますか？" },
+    "answer2_variations": [
+      { "en": "Yes, just 10 minutes away.", "ja": "はい、わずか10分の距離です。" },
+      { "en": "No, she lives in Tokyo now.", "ja": "いいえ、彼女は今東京に住んでいます。" }
+    ],
+    "vocab": [
+      { "word": "kindergarten", "meaning": "幼稚園" },
+      { "word": "move around", "meaning": "あちこち引っ越す・移動する" }
+    ]
+  },
+  {
+    "id": "friend_12",
+    "question1": { "en": "What do you do when your friend is feeling down?", "ja": "友達が落ち込んでいる時、どうしますか？" },
+    "answer1_variations": [
+      { "en": "I listen to them and bring snacks.", "ja": "話を聞いて、お菓子を持って行きます。" },
+      { "en": "I try to make them laugh.", "ja": "笑わせようとします。" }
+    ],
+    "answer1_detail": { "en": "Sometimes they just need someone to be there.", "ja": "ただ誰かにそばにいて欲しい時もありますから。" },
+    "question2": { "en": "Are you good at giving advice?", "ja": "アドバイスするのは得意ですか？" },
+    "answer2_variations": [
+      { "en": "I think so. I'm logical.", "ja": "そう思います。私は論理的なので。" },
+      { "en": "I'm better at just listening.", "ja": "ただ聞く方が得意ですね。" }
+    ],
+    "vocab": [
+      { "word": "feel down", "meaning": "落ち込む" },
+      { "word": "logical", "meaning": "論理的な" }
+    ]
+  },
+  {
+    "id": "friend_13",
+    "question1": { "en": "Do you share your secrets with friends?", "ja": "友達と秘密を共有しますか？" },
+    "answer1_variations": [
+      { "en": "Only with my absolute best friend.", "ja": "本当に一番の親友とだけ。" },
+      { "en": "No, I keep things to myself.", "ja": "いいえ、自分の胸にしまっておきます。" }
+    ],
+    "answer1_detail": { "en": "It feels good to get things off my chest.", "ja": "悩みを打ち明けるとスッキリします。" },
+    "question2": { "en": "Have you ever accidentally spilled a secret?", "ja": "うっかり秘密を漏らしてしまったことはありますか？" },
+    "answer2_variations": [
+      { "en": "Never. My lips are sealed.", "ja": "一度もありません。口は堅いです。" },
+      { "en": "Once, and I felt terrible.", "ja": "一度だけ、すごく罪悪感を感じました。" }
+    ],
+    "vocab": [
+      { "word": "get things off one's chest", "meaning": "悩みを打ち明けて心を軽くする" },
+      { "word": "My lips are sealed", "meaning": "誰にも言いません（口は堅い）" }
+    ]
+  },
+  {
+    "id": "friend_14",
+    "question1": { "en": "Do you like organizing parties for friends?", "ja": "友達のためにパーティーを企画するのは好きですか？" },
+    "answer1_variations": [
+      { "en": "I love it! I'm the planner of the group.", "ja": "大好きです！私がグループの計画係なんです。" },
+      { "en": "No, it's too much stress.", "ja": "いいえ、ストレスが溜まりすぎます。" }
+    ],
+    "answer1_detail": { "en": "I planned a surprise party last month.", "ja": "先月サプライズパーティーを企画しました。" },
+    "question2": { "en": "Was it successful?", "ja": "成功しましたか？" },
+    "answer2_variations": [
+      { "en": "Yes, she was totally surprised!", "ja": "はい、彼女は完全に驚いていました！" },
+      { "en": "Actually, someone ruined the surprise.", "ja": "実は、誰かがネタバレしちゃったんです。" }
+    ],
+    "vocab": [
+      { "word": "organize", "meaning": "企画する、組織する" },
+      { "word": "ruin", "meaning": "台無しにする" }
+    ]
+  },
+  {
+    "id": "friend_15",
+    "question1": { "en": "Do you lend money to friends?", "ja": "友達にお金を貸しますか？" },
+    "answer1_variations": [
+      { "en": "Never. Money ruins friendships.", "ja": "絶対にしません。お金は友情を壊します。" },
+      { "en": "Small amounts are fine.", "ja": "少額ならいいです。" }
+    ],
+    "answer1_detail": { "en": "I have a strict rule about it.", "ja": "それについては厳しいルールを決めているんです。" },
+    "question2": { "en": "What about lending books or clothes?", "ja": "本や服を貸すのはどうですか？" },
+    "answer2_variations": [
+      { "en": "That's totally fine.", "ja": "それは全然平気です。" },
+      { "en": "I don't like lending my favorite things.", "ja": "お気に入りのものを貸すのは好きじゃないです。" }
+    ],
+    "vocab": [
+      { "word": "ruin", "meaning": "ダメにする、壊す" },
+      { "word": "strict", "meaning": "厳しい" }
+    ]
+  },
+  {
+    "id": "friend_16",
+    "question1": { "en": "Do you think men and women can be just friends?", "ja": "男女の友情は成立すると思いますか？" },
+    "answer1_variations": [
+      { "en": "Absolutely, I have many guy friends.", "ja": "もちろんです、男友達がたくさんいます。" },
+      { "en": "It's complicated sometimes.", "ja": "時々ややこしいことになりますね。" }
+    ],
+    "answer1_detail": { "en": "It only works if there are no romantic feelings.", "ja": "恋愛感情がなければ成立します。" },
+    "question2": { "en": "Have you ever fallen for a friend?", "ja": "友達を好きになったことはありますか？" },
+    "answer2_variations": [
+      { "en": "Yes, and now we are married.", "ja": "はい、そして今結婚しています。" },
+      { "en": "No, I see them as siblings.", "ja": "いいえ、兄弟のように見ています。" }
+    ],
+    "vocab": [
+      { "word": "complicated", "meaning": "複雑な" },
+      { "word": "fall for", "meaning": "〜に惚れる、恋をする" }
+    ]
+  },
+  {
+    "id": "friend_17",
+    "question1": { "en": "How do you celebrate your friend's birthday?", "ja": "友達の誕生日はどうやって祝いますか？" },
+    "answer1_variations": [
+      { "en": "We go out for a fancy dinner.", "ja": "豪華な夕食に行きます。" },
+      { "en": "I usually just give a thoughtful gift.", "ja": "たいてい心のこもったプレゼントを贈るだけです。" }
+    ],
+    "answer1_detail": { "en": "I like to bake a cake for them.", "ja": "ケーキを焼いてあげるのが好きなんです。" },
+    "question2": { "en": "Are you good at picking gifts?", "ja": "プレゼント選びは得意ですか？" },
+    "answer2_variations": [
+      { "en": "Yes, I pay attention to what they like.", "ja": "はい、彼らの好みに注意を払っていますから。" },
+      { "en": "No, I usually ask what they want.", "ja": "いいえ、たいてい欲しいものを聞いちゃいます。" }
+    ],
+    "vocab": [
+      { "word": "thoughtful", "meaning": "思いやりのある、気の利いた" },
+      { "word": "pay attention", "meaning": "注意を払う、よく見ている" }
+    ]
+  },
+  {
+    "id": "friend_18",
+    "question1": { "en": "Do you connect with friends on social media?", "ja": "SNSで友達と繋がっていますか？" },
+    "answer1_variations": [
+      { "en": "Yes, I follow all my friends on Instagram.", "ja": "はい、インスタで友達全員フォローしています。" },
+      { "en": "I barely use social media.", "ja": "SNSはほとんど使いません。" }
+    ],
+    "answer1_detail": { "en": "It's a good way to see what they are up to.", "ja": "みんなが何をしているか知るのにいい方法です。" },
+    "question2": { "en": "Do you post often?", "ja": "よく投稿しますか？" },
+    "answer2_variations": [
+      { "en": "I post stories almost every day.", "ja": "ストーリーはほぼ毎日投稿します。" },
+      { "en": "I'm just a lurker.", "ja": "私は見る専門（ROM専）です。" }
+    ],
+    "vocab": [
+      { "word": "be up to", "meaning": "〜している、企んでいる" },
+      { "word": "lurker", "meaning": "ロム専（投稿せず見ているだけの人）" }
+    ]
+  },
+  {
+    "id": "friend_19",
+    "question1": { "en": "What is the best trip you took with friends?", "ja": "友達との最高の旅行は何でしたか？" },
+    "answer1_variations": [
+      { "en": "We went to Okinawa last summer.", "ja": "去年の夏、沖縄に行きました。" },
+      { "en": "A road trip across the US.", "ja": "アメリカ横断のドライブ旅行です。" }
+    ],
+    "answer1_detail": { "en": "We rented a big car and drove everywhere.", "ja": "大きな車を借りてどこへでも行きました。" },
+    "question2": { "en": "Did you fight during the trip?", "ja": "旅行中に喧嘩しましたか？" },
+    "answer2_variations": [
+      { "en": "A little bit, about directions.", "ja": "道順について少しだけ。" },
+      { "en": "No, it was perfect.", "ja": "いいえ、完璧でした。" }
+    ],
+    "vocab": [
+      { "word": "road trip", "meaning": "車での長旅" },
+      { "word": "direction", "meaning": "方向、道順" }
+    ]
+  },
+  {
+    "id": "friend_20",
+    "question1": { "en": "Are you an introvert or an extrovert?", "ja": "あなたは内向的ですか、外交的ですか？" },
+    "answer1_variations": [
+      { "en": "I'm definitely an extrovert.", "ja": "間違いなく外交的です。" },
+      { "en": "I'm an introvert, I like quiet time.", "ja": "内向的です、静かな時間が好きです。" }
+    ],
+    "answer1_detail": { "en": "I get energy from being around people.", "ja": "人と一緒にいるとエネルギーが湧くんです。" },
+    "question2": { "en": "How about your best friend?", "ja": "親友はどうですか？" },
+    "answer2_variations": [
+      { "en": "She's the opposite.", "ja": "彼女は正反対です。" },
+      { "en": "We are very similar.", "ja": "私たちはとても似ています。" }
+    ],
+    "vocab": [
+      { "word": "introvert", "meaning": "内向的な人" },
+      { "word": "opposite", "meaning": "反対の" }
+    ]
+  }
+]

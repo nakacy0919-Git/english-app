@@ -1,5 +1,362 @@
-{
-  "id": "topic_health",
-  "title": "Health (健康)",
-  "questions": []
-}
+[
+  {
+    "id": "health_01",
+    "question1": { "en": "How are you feeling today?", "ja": "今日の体調はどうですか？" },
+    "answer1_variations": [
+      { "en": "I feel great, full of energy.", "ja": "すごく元気です、エネルギー満タンです。" },
+      { "en": "I'm feeling a bit under the weather.", "ja": "ちょっと体調が優れないんです。" }
+    ],
+    "answer1_detail": { "en": "I think I might be coming down with something.", "ja": "何か（病気）にかかりかけている気がします。" },
+    "question2": { "en": "Do you have a fever?", "ja": "熱はありますか？" },
+    "answer2_variations": [
+      { "en": "Just a slight temperature.", "ja": "微熱が少しだけ。" },
+      { "en": "No, just a headache.", "ja": "いいえ、ただの頭痛です。" }
+    ],
+    "vocab": [
+      { "word": "under the weather", "meaning": "体調が悪い" },
+      { "word": "come down with", "meaning": "（病気）にかかる" }
+    ]
+  },
+  {
+    "id": "health_02",
+    "question1": { "en": "Do you exercise regularly?", "ja": "定期的に運動していますか？" },
+    "answer1_variations": [
+      { "en": "I hit the gym three times a week.", "ja": "週に3回ジムに行っています。" },
+      { "en": "I try to, but I'm often too busy.", "ja": "しようとはしていますが、忙しくて。" }
+    ],
+    "answer1_detail": { "en": "I mostly do cardio and some weights.", "ja": "たいてい有酸素運動と少しのウェイトトレーニングをします。" },
+    "question2": { "en": "Do you enjoy it?", "ja": "楽しんでいますか？" },
+    "answer2_variations": [
+      { "en": "It's a great stress reliever.", "ja": "いいストレス解消になります。" },
+      { "en": "Ideally, I prefer team sports.", "ja": "理想を言えば、チームスポーツの方が好きです。" }
+    ],
+    "vocab": [
+      { "word": "hit the gym", "meaning": "ジムに行く" },
+      { "word": "reliever", "meaning": "和らげるもの、解消法" }
+    ]
+  },
+  {
+    "id": "health_03",
+    "question1": { "en": "Are you getting enough sleep?", "ja": "睡眠は十分にとれていますか？" },
+    "answer1_variations": [
+      { "en": "I usually sleep like a log.", "ja": "たいていぐっすり眠れています。" },
+      { "en": "No, I've been tossing and turning lately.", "ja": "いいえ、最近寝返りばかり打って眠れません。" }
+    ],
+    "answer1_detail": { "en": "I aim for 7 hours a night.", "ja": "一晩7時間を目標にしています。" },
+    "question2": { "en": "What do you do when you can't sleep?", "ja": "眠れない時はどうしますか？" },
+    "answer2_variations": [
+      { "en": "I listen to relaxing music.", "ja": "リラックスできる音楽を聴きます。" },
+      { "en": "I read a boring book.", "ja": "退屈な本を読みます。" }
+    ],
+    "vocab": [
+      { "word": "sleep like a log", "meaning": "丸太のように（ぐっすり）眠る" },
+      { "word": "toss and turn", "meaning": "寝返りを打つ（眠れずに）" }
+    ]
+  },
+  {
+    "id": "health_04",
+    "question1": { "en": "Do you have any allergies?", "ja": "何かアレルギーはありますか？" },
+    "answer1_variations": [
+      { "en": "I have terrible hay fever in spring.", "ja": "春になるとひどい花粉症になります。" },
+      { "en": "I'm allergic to peanuts.", "ja": "ピーナッツアレルギーです。" }
+    ],
+    "answer1_detail": { "en": "My eyes get itchy and I sneeze a lot.", "ja": "目がかゆくなって、くしゃみが止まりません。" },
+    "question2": { "en": "Do you take medication for it?", "ja": "薬は飲んでいますか？" },
+    "answer2_variations": [
+      { "en": "Yes, I take antihistamines.", "ja": "はい、抗ヒスタミン剤を飲んでいます。" },
+      { "en": "I try to use natural remedies.", "ja": "自然療法を使うようにしています。" }
+    ],
+    "vocab": [
+      { "word": "hay fever", "meaning": "花粉症" },
+      { "word": "itchy", "meaning": "かゆい" }
+    ]
+  },
+  {
+    "id": "health_05",
+    "question1": { "en": "When was your last medical checkup?", "ja": "最後の健康診断はいつでしたか？" },
+    "answer1_variations": [
+      { "en": "I just went last month.", "ja": "先月行ったばかりです。" },
+      { "en": "It's been a while, actually.", "ja": "実は、だいぶ前になります。" }
+    ],
+    "answer1_detail": { "en": "The doctor said I passed with flying colors.", "ja": "医者には「成績優秀（異常なし）」だと言われました。" },
+    "question2": { "en": "Is there anything you are worried about?", "ja": "何か心配なことはありますか？" },
+    "answer2_variations": [
+      { "en": "My cholesterol is a bit high.", "ja": "コレステロール値が少し高いんです。" },
+      { "en": "Nothing specifically.", "ja": "特にはありません。" }
+    ],
+    "vocab": [
+      { "word": "checkup", "meaning": "健康診断、検査" },
+      { "word": "pass with flying colors", "meaning": "見事に合格する、素晴らしい結果を出す" }
+    ]
+  },
+  {
+    "id": "health_06",
+    "question1": { "en": "You look a little pale. Are you okay?", "ja": "顔色が悪いようですが、大丈夫ですか？" },
+    "answer1_variations": [
+      { "en": "I'm feeling a bit dizzy.", "ja": "少しめまいがします。" },
+      { "en": "I'm fine, just tired from work.", "ja": "大丈夫です、仕事で疲れているだけです。" }
+    ],
+    "answer1_detail": { "en": "I skipped breakfast this morning.", "ja": "今朝、朝食を抜いたんです。" },
+    "question2": { "en": "Do you need to sit down?", "ja": "座った方がいいですか？" },
+    "answer2_variations": [
+      { "en": "Yes, for a moment, please.", "ja": "はい、少しだけお願いします。" },
+      { "en": "I'll be fine after some water.", "ja": "水を飲めば治ります。" }
+    ],
+    "vocab": [
+      { "word": "pale", "meaning": "顔色が悪い、青白い" },
+      { "word": "dizzy", "meaning": "めまいがする" }
+    ]
+  },
+  {
+    "id": "health_07",
+    "question1": { "en": "Do you take any vitamins?", "ja": "ビタミン剤は飲んでいますか？" },
+    "answer1_variations": [
+      { "en": "I take a multivitamin every morning.", "ja": "毎朝マルチビタミンを飲んでいます。" },
+      { "en": "I prefer to get nutrients from food.", "ja": "栄養は食事から摂る方が好きです。" }
+    ],
+    "answer1_detail": { "en": "It helps boost my immune system.", "ja": "免疫力を高めるのに役立ちます。" },
+    "question2": { "en": "Do you feel a difference?", "ja": "違いを感じますか？" },
+    "answer2_variations": [
+      { "en": "I feel like I have more energy.", "ja": "エネルギーが湧いてくる気がします。" },
+      { "en": "Honestly, I'm not sure.", "ja": "正直、よくわかりません。" }
+    ],
+    "vocab": [
+      { "word": "nutrient", "meaning": "栄養素" },
+      { "word": "boost", "meaning": "高める、後押しする" }
+    ]
+  },
+  {
+    "id": "health_08",
+    "question1": { "en": "How is your eyesight?", "ja": "視力はどうですか？" },
+    "answer1_variations": [
+      { "en": "I have 20/20 vision.", "ja": "視力はとても良い（1.0以上）です。" },
+      { "en": "I'm very nearsighted.", "ja": "かなりの近視です。" }
+    ],
+    "answer1_detail": { "en": "I wear contact lenses during the day.", "ja": "日中はコンタクトレンズをつけています。" },
+    "question2": { "en": "Do your eyes get tired?", "ja": "目は疲れますか？" },
+    "answer2_variations": [
+      { "en": "Yes, from staring at screens all day.", "ja": "はい、一日中画面を見ているので。" },
+      { "en": "I use eye drops to help.", "ja": "目薬を使って対処しています。" }
+    ],
+    "vocab": [
+      { "word": "20/20 vision", "meaning": "正常な視力（欧米の基準）" },
+      { "word": "nearsighted", "meaning": "近視の" }
+    ]
+  },
+  {
+    "id": "health_09",
+    "question1": { "en": "Do you drink enough water?", "ja": "水は十分に飲んでいますか？" },
+    "answer1_variations": [
+      { "en": "I try to drink 2 liters a day.", "ja": "1日2リットル飲むようにしています。" },
+      { "en": "I always forget to hydrate.", "ja": "いつも水分補給を忘れてしまいます。" }
+    ],
+    "answer1_detail": { "en": "I carry a water bottle everywhere.", "ja": "どこへでも水筒を持ち歩いています。" },
+    "question2": { "en": "Does it help your skin?", "ja": "肌の調子は良くなりますか？" },
+    "answer2_variations": [
+      { "en": "Yes, my skin looks clearer.", "ja": "はい、肌がきれいになります。" },
+      { "en": "I think so.", "ja": "そう思います。" }
+    ],
+    "vocab": [
+      { "word": "hydrate", "meaning": "水分補給をする" },
+      { "word": "clear", "meaning": "（肌が）きれいな、荒れていない" }
+    ]
+  },
+  {
+    "id": "health_10",
+    "question1": { "en": "Are you watching your weight?", "ja": "体重を気にしていますか？" },
+    "answer1_variations": [
+      { "en": "Yes, I'm trying to lose a few kilos.", "ja": "はい、数キロ痩せようとしています。" },
+      { "en": "No, I'm happy with my size.", "ja": "いいえ、今の体型に満足しています。" }
+    ],
+    "answer1_detail": { "en": "I've cut out sugary drinks.", "ja": "甘い飲み物をやめました。" },
+    "question2": { "en": "Is it working?", "ja": "効果はありますか？" },
+    "answer2_variations": [
+      { "en": "Slowly but surely.", "ja": "ゆっくりですが着実に。" },
+      { "en": "I hit a plateau recently.", "ja": "最近、停滞期に入っちゃいました。" }
+    ],
+    "vocab": [
+      { "word": "cut out", "meaning": "（習慣などを）やめる、絶つ" },
+      { "word": "plateau", "meaning": "停滞期" }
+    ]
+  },
+  {
+    "id": "health_11",
+    "question1": { "en": "Do you smoke?", "ja": "タバコは吸いますか？" },
+    "answer1_variations": [
+      { "en": "No, I've never touched a cigarette.", "ja": "いいえ、一度も吸ったことはありません。" },
+      { "en": "I used to, but I quit years ago.", "ja": "以前は吸っていましたが、数年前にやめました。" }
+    ],
+    "answer1_detail": { "en": "It was the best decision for my health.", "ja": "健康のために最高の決断でした。" },
+    "question2": { "en": "Was it hard to quit?", "ja": "やめるのは大変でしたか？" },
+    "answer2_variations": [
+      { "en": "It was a real struggle.", "ja": "本当に苦労しました。" },
+      { "en": "I went cold turkey.", "ja": "きっぱりと（突然）やめました。" }
+    ],
+    "vocab": [
+      { "word": "quit", "meaning": "やめる" },
+      { "word": "cold turkey", "meaning": "（徐々にではなく）きっぱりと薬物などを断つこと" }
+    ]
+  },
+  {
+    "id": "health_12",
+    "question1": { "en": "How do you manage stress?", "ja": "ストレスはどうやって発散していますか？" },
+    "answer1_variations": [
+      { "en": "I practice yoga and meditation.", "ja": "ヨガと瞑想を実践しています。" },
+      { "en": "I vent to my friends.", "ja": "友達に愚痴をこぼします。" }
+    ],
+    "answer1_detail": { "en": "Taking a long bath helps me relax.", "ja": "長風呂がリラックスするのに役立ちます。" },
+    "question2": { "en": "Do you get stressed easily?", "ja": "ストレスを感じやすいですか？" },
+    "answer2_variations": [
+      { "en": "Yes, especially at work.", "ja": "はい、特に仕事で。" },
+      { "en": "I'm usually pretty laid back.", "ja": "たいていはかなりのんびり屋（気にしないタイプ）です。" }
+    ],
+    "vocab": [
+      { "word": "meditation", "meaning": "瞑想" },
+      { "word": "laid back", "meaning": "おおらかな、のんびりした" }
+    ]
+  },
+  {
+    "id": "health_13",
+    "question1": { "en": "What happened to your leg?", "ja": "足、どうしたんですか？" },
+    "answer1_variations": [
+      { "en": "I sprained my ankle playing soccer.", "ja": "サッカーをしていて足首を捻挫しました。" },
+      { "en": "I slipped on the stairs.", "ja": "階段で滑りました。" }
+    ],
+    "answer1_detail": { "en": "It's still a bit swollen.", "ja": "まだ少し腫れています。" },
+    "question2": { "en": "Does it hurt to walk?", "ja": "歩くと痛いですか？" },
+    "answer2_variations": [
+      { "en": "Only when I put weight on it.", "ja": "体重をかけた時だけ痛いです。" },
+      { "en": "It's getting better.", "ja": "良くなってきています。" }
+    ],
+    "vocab": [
+      { "word": "sprain", "meaning": "捻挫する" },
+      { "word": "swollen", "meaning": "腫れている" }
+    ]
+  },
+  {
+    "id": "health_14",
+    "question1": { "en": "Do you have a family doctor?", "ja": "かかりつけ医はいますか？" },
+    "answer1_variations": [
+      { "en": "Yes, Dr. Smith has treated us for years.", "ja": "はい、スミス先生に長年診てもらっています。" },
+      { "en": "No, I just go to a walk-in clinic.", "ja": "いいえ、予約なしのクリニックに行くだけです。" }
+    ],
+    "answer1_detail": { "en": "He knows my medical history well.", "ja": "彼は私の病歴をよく知っています。" },
+    "question2": { "en": "Is the clinic nearby?", "ja": "そのクリニックは近くですか？" },
+    "answer2_variations": [
+      { "en": "It's just around the corner.", "ja": "すぐ近く（角を曲がったところ）です。" },
+      { "en": "I have to drive there.", "ja": "車で行かなければなりません。" }
+    ],
+    "vocab": [
+      { "word": "medical history", "meaning": "病歴" },
+      { "word": "walk-in", "meaning": "予約なしの" }
+    ]
+  },
+  {
+    "id": "health_15",
+    "question1": { "en": "Do you get sick often?", "ja": "よく風邪をひきますか？" },
+    "answer1_variations": [
+      { "en": "I catch a cold every winter.", "ja": "冬になると毎回風邪をひきます。" },
+      { "en": "Rarely, I have a strong immune system.", "ja": "めったにないです。免疫力が強いので。" }
+    ],
+    "answer1_detail": { "en": "I make sure to wash my hands often.", "ja": "頻繁に手を洗うようにしています。" },
+    "question2": { "en": "Have you had a flu shot?", "ja": "インフルエンザの予防接種は受けましたか？" },
+    "answer2_variations": [
+      { "en": "Yes, I got one last week.", "ja": "はい、先週受けました。" },
+      { "en": "I usually don't bother.", "ja": "たいてい受けません（わざわざしません）。" }
+    ],
+    "vocab": [
+      { "word": "immune system", "meaning": "免疫系、免疫力" },
+      { "word": "flu shot", "meaning": "インフルエンザ予防接種" }
+    ]
+  },
+  {
+    "id": "health_16",
+    "question1": { "en": "Do you have a headache?", "ja": "頭痛がしますか？" },
+    "answer1_variations": [
+      { "en": "Yes, I have a splitting headache.", "ja": "はい、割れるような頭痛がします。" },
+      { "en": "It's just a mild one.", "ja": "軽い頭痛です。" }
+    ],
+    "answer1_detail": { "en": "I've been staring at the computer too long.", "ja": "パソコンを長く見過ぎていました。" },
+    "question2": { "en": "Do you want some aspirin?", "ja": "アスピリン（鎮痛剤）要りますか？" },
+    "answer2_variations": [
+      { "en": "That would be helpful, thanks.", "ja": "助かります、ありがとう。" },
+      { "en": "I already took some.", "ja": "もう飲みました。" }
+    ],
+    "vocab": [
+      { "word": "splitting headache", "meaning": "割れるような（激しい）頭痛" },
+      { "word": "mild", "meaning": "軽い、穏やかな" }
+    ]
+  },
+  {
+    "id": "health_17",
+    "question1": { "en": "Are you afraid of the dentist?", "ja": "歯医者さんは怖いですか？" },
+    "answer1_variations": [
+      { "en": "I hate the sound of the drill.", "ja": "ドリルの音が大嫌いです。" },
+      { "en": "Not really, I go for regular checkups.", "ja": "そうでもないです、定期検診に行っていますから。" }
+    ],
+    "answer1_detail": { "en": "I need to get a cavity filled.", "ja": "虫歯を埋めてもらわないといけないんです。" },
+    "question2": { "en": "When is your appointment?", "ja": "予約はいつですか？" },
+    "answer2_variations": [
+      { "en": "Tomorrow afternoon.", "ja": "明日の午後です。" },
+      { "en": "Next Tuesday.", "ja": "来週の火曜日です。" }
+    ],
+    "vocab": [
+      { "word": "drill", "meaning": "ドリル（歯を削る道具）" },
+      { "word": "cavity", "meaning": "虫歯（の穴）" }
+    ]
+  },
+  {
+    "id": "health_18",
+    "question1": { "en": "Do you have back pain?", "ja": "腰痛はありますか？" },
+    "answer1_variations": [
+      { "en": "Yes, my lower back hurts.", "ja": "はい、腰の下の方が痛みます。" },
+      { "en": "Sometimes, if I sit too long.", "ja": "時々、長く座りすぎると。" }
+    ],
+    "answer1_detail": { "en": "I have bad posture.", "ja": "姿勢が悪いんです。" },
+    "question2": { "en": "Have you tried stretching?", "ja": "ストレッチは試しましたか？" },
+    "answer2_variations": [
+      { "en": "I do it every morning.", "ja": "毎朝やっています。" },
+      { "en": "I should do it more often.", "ja": "もっと頻繁にやるべきですね。" }
+    ],
+    "vocab": [
+      { "word": "lower back", "meaning": "腰（背中の下部）" },
+      { "word": "posture", "meaning": "姿勢" }
+    ]
+  },
+  {
+    "id": "health_19",
+    "question1": { "en": "What do you eat for breakfast?", "ja": "朝食は何を食べますか？" },
+    "answer1_variations": [
+      { "en": "Oatmeal with fruit.", "ja": "フルーツを入れたオートミールです。" },
+      { "en": "Just coffee, which isn't healthy.", "ja": "コーヒーだけです、不健康ですけど。" }
+    ],
+    "answer1_detail": { "en": "They say breakfast is the most important meal.", "ja": "朝食は一番重要な食事だと言われていますよね。" },
+    "question2": { "en": "Do you eat junk food?", "ja": "ジャンクフードは食べますか？" },
+    "answer2_variations": [
+      { "en": "I try to limit it to weekends.", "ja": "週末だけに制限しています。" },
+      { "en": "Way too much.", "ja": "食べ過ぎちゃいます。" }
+    ],
+    "vocab": [
+      { "word": "oatmeal", "meaning": "オートミール" },
+      { "word": "limit", "meaning": "制限する" }
+    ]
+  },
+  {
+    "id": "health_20",
+    "question1": { "en": "How do you take care of your mental health?", "ja": "メンタルヘルスはどうケアしていますか？" },
+    "answer1_variations": [
+      { "en": "I make sure to have some 'me time'.", "ja": "「自分の時間」を持つようにしています。" },
+      { "en": "I talk to my family.", "ja": "家族と話します。" }
+    ],
+    "answer1_detail": { "en": "It's important to disconnect sometimes.", "ja": "時には（デジタルなどから）離れることが重要です。" },
+    "question2": { "en": "Do you take breaks from social media?", "ja": "SNSから離れる時間を取りますか？" },
+    "answer2_variations": [
+      { "en": "Yes, I do a digital detox on Sundays.", "ja": "はい、日曜日はデジタルデトックスをします。" },
+      { "en": "It's hard to put my phone down.", "ja": "スマホを置くのは難しいですね。" }
+    ],
+    "vocab": [
+      { "word": "me time", "meaning": "自分のための時間" },
+      { "word": "disconnect", "meaning": "（ネットや仕事などとの）接続を断つ" }
+    ]
+  }
+]

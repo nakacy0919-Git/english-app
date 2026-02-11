@@ -1,5 +1,362 @@
-{
-  "id": "topic_movies",
-  "title": "Movies (映画)",
-  "questions": []
-}
+[
+  {
+    "id": "movie_01",
+    "question1": { "en": "What kind of movies do you like?", "ja": "どんな種類の映画が好きですか？" },
+    "answer1_variations": [
+      { "en": "I love action movies.", "ja": "アクション映画が大好きです。" },
+      { "en": "I prefer romantic comedies.", "ja": "ラブコメの方が好きですね。" }
+    ],
+    "answer1_detail": { "en": "I enjoy the adrenaline rush.", "ja": "アドレナリンが出る感じが好きなんです。" },
+    "question2": { "en": "How about horror movies?", "ja": "ホラー映画はどうですか？" },
+    "answer2_variations": [
+      { "en": "No, they are too scary for me.", "ja": "いいえ、私には怖すぎます。" },
+      { "en": "I love getting scared!", "ja": "怖がるのが好きなんです！" }
+    ],
+    "vocab": [
+      { "word": "genre", "meaning": "ジャンル" },
+      { "word": "adrenaline rush", "meaning": "興奮、アドレナリンの放出" }
+    ]
+  },
+  {
+    "id": "movie_02",
+    "question1": { "en": "How often do you watch movies?", "ja": "どのくらいの頻度で映画を見ますか？" },
+    "answer1_variations": [
+      { "en": "Almost every weekend.", "ja": "ほぼ毎週末です。" },
+      { "en": "Maybe once a month.", "ja": "月に1回くらいですかね。" }
+    ],
+    "answer1_detail": { "en": "It's my favorite way to unwind.", "ja": "一番のお気に入りのリラックス法なんです。" },
+    "question2": { "en": "Do you go to the cinema?", "ja": "映画館に行きますか？" },
+    "answer2_variations": [
+      { "en": "Yes, for big new releases.", "ja": "はい、話題の新作の時は。" },
+      { "en": "No, I watch at home.", "ja": "いいえ、家で見ます。" }
+    ],
+    "vocab": [
+      { "word": "unwind", "meaning": "くつろぐ、リラックスする" },
+      { "word": "release", "meaning": "（映画の）公開、発売" }
+    ]
+  },
+  {
+    "id": "movie_03",
+    "question1": { "en": "Do you prefer the theater or watching at home?", "ja": "映画館と家で見るの、どっちが好きですか？" },
+    "answer1_variations": [
+      { "en": "Definitely the theater.", "ja": "断然映画館です。" },
+      { "en": "Home is more comfortable.", "ja": "家の方が快適ですね。" }
+    ],
+    "answer1_detail": { "en": "The big screen experience is unbeatable.", "ja": "大画面での体験には敵いません。" },
+    "question2": { "en": "What about the sound?", "ja": "音響はどうですか？" },
+    "answer2_variations": [
+      { "en": "The surround sound is intense.", "ja": "サラウンド音響が迫力あります。" },
+      { "en": "I use headphones at home.", "ja": "家ではヘッドホンを使っています。" }
+    ],
+    "vocab": [
+      { "word": "unbeatable", "meaning": "最高である、敵うものがない" },
+      { "word": "intense", "meaning": "激しい、強烈な" }
+    ]
+  },
+  {
+    "id": "movie_04",
+    "question1": { "en": "What is your all-time favorite movie?", "ja": "これまでで一番好きな映画は何ですか？" },
+    "answer1_variations": [
+      { "en": "It's hard to pick just one.", "ja": "一つだけ選ぶのは難しいですね。" },
+      { "en": "Probably 'The Shawshank Redemption'.", "ja": "たぶん『ショーシャンクの空に』です。" }
+    ],
+    "answer1_detail": { "en": "I've watched it at least ten times.", "ja": "少なくとも10回は見ました。" },
+    "question2": { "en": "Why do you like it?", "ja": "なぜ好きなのですか？" },
+    "answer2_variations": [
+      { "en": "The story is very moving.", "ja": "物語がとても感動的なんです。" },
+      { "en": "The ending is perfect.", "ja": "結末が完璧なんです。" }
+    ],
+    "vocab": [
+      { "word": "all-time", "meaning": "空前絶後の、歴代の" },
+      { "word": "moving", "meaning": "感動的な" }
+    ]
+  },
+  {
+    "id": "movie_05",
+    "question1": { "en": "Do you eat popcorn at the movies?", "ja": "映画館でポップコーンを食べますか？" },
+    "answer1_variations": [
+      { "en": "Always, it's a must.", "ja": "いつもです、欠かせません。" },
+      { "en": "No, I don't like the noise.", "ja": "いいえ、音がするのが嫌なので。" }
+    ],
+    "answer1_detail": { "en": "I love the caramel flavor.", "ja": "キャラメル味が大好きなんです。" },
+    "question2": { "en": "Do you get a drink too?", "ja": "飲み物も買いますか？" },
+    "answer2_variations": [
+      { "en": "A large soda.", "ja": "Lサイズのソーダを。" },
+      { "en": "Just water for me.", "ja": "私は水だけで。" }
+    ],
+    "vocab": [
+      { "word": "a must", "meaning": "必須のもの、欠かせないもの" },
+      { "word": "flavor", "meaning": "味、風味" }
+    ]
+  },
+  {
+    "id": "movie_06",
+    "question1": { "en": "What was the last movie you saw?", "ja": "最後に見た映画は何ですか？" },
+    "answer1_variations": [
+      { "en": "I saw the new Marvel movie.", "ja": "マーベルの新作を見ました。" },
+      { "en": "I watched an old documentary.", "ja": "古いドキュメンタリーを見ました。" }
+    ],
+    "answer1_detail": { "en": "The special effects were incredible.", "ja": "特殊効果がすごかったです。" },
+    "question2": { "en": "Was it good?", "ja": "よかったですか？" },
+    "answer2_variations": [
+      { "en": "It was a bit disappointing.", "ja": "少し期待外れでした。" },
+      { "en": "It exceeded my expectations.", "ja": "期待以上でした。" }
+    ],
+    "vocab": [
+      { "word": "special effects", "meaning": "特殊効果（SFX/VFX）" },
+      { "word": "disappointing", "meaning": "がっかりさせる、期待外れの" }
+    ]
+  },
+  {
+    "id": "movie_07",
+    "question1": { "en": "Who is your favorite actor?", "ja": "好きな俳優は誰ですか？" },
+    "answer1_variations": [
+      { "en": "I'm a big fan of Tom Hanks.", "ja": "トム・ハンクスの大ファンです。" },
+      { "en": "I really like Meryl Streep.", "ja": "メリル・ストリープがすごく好きです。" }
+    ],
+    "answer1_detail": { "en": "He plays every role perfectly.", "ja": "彼はどんな役も完璧に演じます。" },
+    "question2": { "en": "Have you seen his latest movie?", "ja": "彼の最新作は見ましたか？" },
+    "answer2_variations": [
+      { "en": "Not yet, but I want to.", "ja": "まだですが、見たいです。" },
+      { "en": "Yes, it was amazing.", "ja": "はい、素晴らしかったです。" }
+    ],
+    "vocab": [
+      { "word": "role", "meaning": "役、役割" },
+      { "word": "latest", "meaning": "最新の" }
+    ]
+  },
+  {
+    "id": "movie_08",
+    "question1": { "en": "Do you prefer subtitles or dubbing?", "ja": "字幕と吹き替え、どっちが好きですか？" },
+    "answer1_variations": [
+      { "en": "I prefer subtitles.", "ja": "字幕の方が好きです。" },
+      { "en": "I like dubbed versions.", "ja": "吹き替え版が好きです。" }
+    ],
+    "answer1_detail": { "en": "I want to hear the actors' real voices.", "ja": "俳優の本当の声を聞きたいので。" },
+    "question2": { "en": "Is it hard to read and watch?", "ja": "読みながら見るのは大変じゃないですか？" },
+    "answer2_variations": [
+      { "en": "You get used to it.", "ja": "慣れますよ。" },
+      { "en": "Sometimes I miss the action.", "ja": "時々アクションを見逃しちゃいます。" }
+    ],
+    "vocab": [
+      { "word": "subtitle", "meaning": "字幕" },
+      { "word": "dubbed", "meaning": "吹き替えられた" }
+    ]
+  },
+  {
+    "id": "movie_09",
+    "question1": { "en": "Do you subscribe to any streaming services?", "ja": "動画配信サービスに登録していますか？" },
+    "answer1_variations": [
+      { "en": "Yes, I have Netflix and Disney+.", "ja": "はい、ネットフリックスとディズニープラスに入っています。" },
+      { "en": "No, I just watch regular TV.", "ja": "いいえ、普通のテレビを見るだけです。" }
+    ],
+    "answer1_detail": { "en": "There is so much content to choose from.", "ja": "選べるコンテンツがたくさんあるので。" },
+    "question2": { "en": "Do you binge-watch shows?", "ja": "ドラマの一気見をしますか？" },
+    "answer2_variations": [
+      { "en": "Sometimes on lazy Sundays.", "ja": "だらけた日曜日に時々やります。" },
+      { "en": "No, I prefer watching one episode at a time.", "ja": "いいえ、一度に1話ずつ見る方が好きです。" }
+    ],
+    "vocab": [
+      { "word": "subscribe", "meaning": "定期購読する、加入する" },
+      { "word": "binge-watch", "meaning": "（シリーズ物などを）一気見する" }
+    ]
+  },
+  {
+    "id": "movie_10",
+    "question1": { "en": "Do you ever cry during movies?", "ja": "映画中に泣くことはありますか？" },
+    "answer1_variations": [
+      { "en": "Yes, I'm a total crybaby.", "ja": "はい、完全に泣き虫です。" },
+      { "en": "No, almost never.", "ja": "いいえ、ほぼないですね。" }
+    ],
+    "answer1_detail": { "en": "Sad endings always get me.", "ja": "悲しい結末にはいつもやられちゃいます。" },
+    "question2": { "en": "What movie made you cry?", "ja": "どの映画で泣きましたか？" },
+    "answer2_variations": [
+      { "en": "'Titanic' always makes me cry.", "ja": "『タイタニック』はいつも泣けます。" },
+      { "en": "I cried watching 'Coco'.", "ja": "『リメンバー・ミー（原題: Coco）』を見て泣きました。" }
+    ],
+    "vocab": [
+      { "word": "crybaby", "meaning": "泣き虫" },
+      { "word": "ending", "meaning": "結末" }
+    ]
+  },
+  {
+    "id": "movie_11",
+    "question1": { "en": "Can you handle horror movies?", "ja": "ホラー映画は平気ですか？" },
+    "answer1_variations": [
+      { "en": "Not at all, I have nightmares.", "ja": "全然ダメです、悪夢を見るので。" },
+      { "en": "I love the thrill.", "ja": "スリルが大好きです。" }
+    ],
+    "answer1_detail": { "en": "I usually cover my eyes.", "ja": "たいてい目を覆っちゃいます。" },
+    "question2": { "en": "Do you watch them alone?", "ja": "一人で見ますか？" },
+    "answer2_variations": [
+      { "en": "Never! Are you crazy?", "ja": "絶対無理！正気ですか？" },
+      { "en": "Yes, with the lights off.", "ja": "はい、電気を消して。" }
+    ],
+    "vocab": [
+      { "word": "nightmare", "meaning": "悪夢" },
+      { "word": "thrill", "meaning": "スリル、ゾクゾクする感じ" }
+    ]
+  },
+  {
+    "id": "movie_12",
+    "question1": { "en": "Do you watch trailers before the movie?", "ja": "映画の前に予告編を見ますか？" },
+    "answer1_variations": [
+      { "en": "Yes, to see if it looks good.", "ja": "はい、面白そうか確認するために。" },
+      { "en": "No, I try to avoid spoilers.", "ja": "いいえ、ネタバレを避けるようにしています。" }
+    ],
+    "answer1_detail": { "en": "Some trailers show too much of the story.", "ja": "予告編でストーリーを見せすぎるものもありますから。" },
+    "question2": { "en": "Do you read reviews?", "ja": "レビュー（評価）は読みますか？" },
+    "answer2_variations": [
+      { "en": "I check the rating on IMDb.", "ja": "IMDbで評価をチェックします。" },
+      { "en": "I prefer to decide for myself.", "ja": "自分で判断したいです。" }
+    ],
+    "vocab": [
+      { "word": "trailer", "meaning": "予告編" },
+      { "word": "spoiler", "meaning": "ネタバレ" }
+    ]
+  },
+  {
+    "id": "movie_13",
+    "question1": { "en": "Can you recommend a good movie?", "ja": "いい映画のおすすめはありますか？" },
+    "answer1_variations": [
+      { "en": "You should watch 'Inception'.", "ja": "『インセプション』を見るべきです。" },
+      { "en": "'La La Land' is great.", "ja": "『ラ・ラ・ランド』がいいですよ。" }
+    ],
+    "answer1_detail": { "en": "It will blow your mind.", "ja": "衝撃を受けますよ（度肝を抜かれますよ）。" },
+    "question2": { "en": "What is it about?", "ja": "どんな話ですか？" },
+    "answer2_variations": [
+      { "en": "It's about dreams within dreams.", "ja": "夢の中の夢の話です。" },
+      { "en": "It's a musical set in LA.", "ja": "LAを舞台にしたミュージカルです。" }
+    ],
+    "vocab": [
+      { "word": "recommend", "meaning": "勧める" },
+      { "word": "blow one's mind", "meaning": "圧倒する、衝撃を与える" }
+    ]
+  },
+  {
+    "id": "movie_14",
+    "question1": { "en": "Do you pay attention to movie soundtracks?", "ja": "映画のサウンドトラック（音楽）を気にしますか？" },
+    "answer1_variations": [
+      { "en": "Yes, music sets the mood.", "ja": "はい、音楽が雰囲気を作りますから。" },
+      { "en": "Not really, I focus on the story.", "ja": "あんまり、ストーリーに集中するので。" }
+    ],
+    "answer1_detail": { "en": "I listen to movie scores while studying.", "ja": "勉強中に映画音楽を聴きます。" },
+    "question2": { "en": "Who is your favorite composer?", "ja": "好きな作曲家は誰ですか？" },
+    "answer2_variations": [
+      { "en": "Hans Zimmer is a genius.", "ja": "ハンス・ジマーは天才です。" },
+      { "en": "John Williams is iconic.", "ja": "ジョン・ウィリアムズは象徴的ですね。" }
+    ],
+    "vocab": [
+      { "word": "soundtrack", "meaning": "サウンドトラック、映画音楽" },
+      { "word": "mood", "meaning": "雰囲気、気分" }
+    ]
+  },
+  {
+    "id": "movie_15",
+    "question1": { "en": "Do you watch old black and white movies?", "ja": "昔の白黒映画は見ますか？" },
+    "answer1_variations": [
+      { "en": "Yes, classics are timeless.", "ja": "はい、名作は色褪せません。" },
+      { "en": "No, they seem a bit boring.", "ja": "いいえ、ちょっと退屈そうで。" }
+    ],
+    "answer1_detail": { "en": "'Casablanca' is a masterpiece.", "ja": "『カサブランカ』は傑作です。" },
+    "question2": { "en": "Do you like silent movies?", "ja": "サイレント映画は好きですか？" },
+    "answer2_variations": [
+      { "en": "I've never seen one.", "ja": "見たことないです。" },
+      { "en": "Charlie Chaplin is funny.", "ja": "チャーリー・チャップリンは面白いです。" }
+    ],
+    "vocab": [
+      { "word": "timeless", "meaning": "時代を超越した、永遠の" },
+      { "word": "masterpiece", "meaning": "傑作" }
+    ]
+  },
+  {
+    "id": "movie_16",
+    "question1": { "en": "Do you like animated movies?", "ja": "アニメ映画は好きですか？" },
+    "answer1_variations": [
+      { "en": "Yes, especially Studio Ghibli films.", "ja": "はい、特にスタジオジブリの映画が。" },
+      { "en": "I think they are just for kids.", "ja": "子供向けだと思っています。" }
+    ],
+    "answer1_detail": { "en": "The art style is beautiful.", "ja": "画風が美しいんです。" },
+    "question2": { "en": "What's your favorite?", "ja": "お気に入りは何ですか？" },
+    "answer2_variations": [
+      { "en": "'Spirited Away' is amazing.", "ja": "『千と千尋の神隠し』は素晴らしいです。" },
+      { "en": "I love 'Toy Story'.", "ja": "『トイ・ストーリー』が大好きです。" }
+    ],
+    "vocab": [
+      { "word": "animated", "meaning": "アニメの" },
+      { "word": "art style", "meaning": "画風、アートスタイル" }
+    ]
+  },
+  {
+    "id": "movie_17",
+    "question1": { "en": "Do you mind long movies?", "ja": "長い映画は気になりますか？" },
+    "answer1_variations": [
+      { "en": "If the story is good, I don't mind.", "ja": "ストーリーが良ければ気にしません。" },
+      { "en": "Yes, I get restless.", "ja": "はい、落ち着かなくなります。" }
+    ],
+    "answer1_detail": { "en": "Three hours is my limit.", "ja": "3時間が限界ですね。" },
+    "question2": { "en": "Do you take bathroom breaks?", "ja": "トイレ休憩はとりますか？" },
+    "answer2_variations": [
+      { "en": "I try to go before it starts.", "ja": "始まる前に行くようにしています。" },
+      { "en": "At home, I pause it.", "ja": "家なら一時停止します。" }
+    ],
+    "vocab": [
+      { "word": "restless", "meaning": "落ち着かない、そわそわする" },
+      { "word": "limit", "meaning": "限界" }
+    ]
+  },
+  {
+    "id": "movie_18",
+    "question1": { "en": "Have you ever fallen asleep in a theater?", "ja": "映画館で寝てしまったことはありますか？" },
+    "answer1_variations": [
+      { "en": "Once, the movie was so boring.", "ja": "一度だけ、映画が退屈すぎて。" },
+      { "en": "Never, it's too loud to sleep.", "ja": "一度もないです、うるさすぎて寝れません。" }
+    ],
+    "answer1_detail": { "en": "I was really tired that day.", "ja": "その日は本当に疲れていたんです。" },
+    "question2": { "en": "Did you snore?", "ja": "いびきかきましたか？" },
+    "answer2_variations": [
+      { "en": "I hope not!", "ja": "かいてないといいけど！" },
+      { "en": "My friend poked me to wake up.", "ja": "友達がつっついて起こしてくれました。" }
+    ],
+    "vocab": [
+      { "word": "fall asleep", "meaning": "寝入る" },
+      { "word": "snore", "meaning": "いびきをかく" }
+    ]
+  },
+  {
+    "id": "movie_19",
+    "question1": { "en": "Who is your favorite director?", "ja": "好きな映画監督は誰ですか？" },
+    "answer1_variations": [
+      { "en": "I love Christopher Nolan's films.", "ja": "クリストファー・ノーランの映画が好きです。" },
+      { "en": "I like Steven Spielberg.", "ja": "スティーブン・スピルバーグが好きです。" }
+    ],
+    "answer1_detail": { "en": "His movies are always complex.", "ja": "彼の映画はいつも複雑なんです。" },
+    "question2": { "en": "Do you know Quentin Tarantino?", "ja": "クエンティン・タランティーノは知っていますか？" },
+    "answer2_variations": [
+      { "en": "Yes, his movies are stylish.", "ja": "はい、彼の映画はスタイリッシュです。" },
+      { "en": "Too violent for me.", "ja": "私には暴力的すぎます。" }
+    ],
+    "vocab": [
+      { "word": "director", "meaning": "映画監督" },
+      { "word": "complex", "meaning": "複雑な" }
+    ]
+  },
+  {
+    "id": "movie_20",
+    "question1": { "en": "Do you like 3D movies?", "ja": "3D映画は好きですか？" },
+    "answer1_variations": [
+      { "en": "It makes the movie immersive.", "ja": "映画への没入感が増します。" },
+      { "en": "No, it gives me a headache.", "ja": "いいえ、頭痛がします。" }
+    ],
+    "answer1_detail": { "en": "The glasses are uncomfortable.", "ja": "メガネが不快なんです。" },
+    "question2": { "en": "Is it worth the extra money?", "ja": "追加料金を払う価値はありますか？" },
+    "answer2_variations": [
+      { "en": "For action movies, yes.", "ja": "アクション映画なら、あります。" },
+      { "en": "Not really.", "ja": "あんまり。" }
+    ],
+    "vocab": [
+      { "word": "immersive", "meaning": "没入感のある" },
+      { "word": "uncomfortable", "meaning": "不快な、着け心地が悪い" }
+    ]
+  }
+]

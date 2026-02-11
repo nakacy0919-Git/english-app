@@ -1,5 +1,362 @@
-{
-  "id": "topic_future",
-  "title": "Future (将来)",
-  "questions": []
-}
+[
+  {
+    "id": "future_01",
+    "question1": { "en": "What are your plans for the weekend?", "ja": "週末の予定は何ですか？" },
+    "answer1_variations": [
+      { "en": "I'm going to check out a new cafe.", "ja": "新しいカフェに行ってみるつもりです。" },
+      { "en": "I'll probably just stay home and relax.", "ja": "たぶん家でゆっくりすると思います。" }
+    ],
+    "answer1_detail": { "en": "I've had a hectic week at work.", "ja": "仕事で目の回るような一週間だったので。" },
+    "question2": { "en": "Do you have anything specific in mind?", "ja": "何か具体的に考えていることはありますか？" },
+    "answer2_variations": [
+      { "en": "I might catch up on some reading.", "ja": "溜まっていた読書をするかもしれません。" },
+      { "en": "I need to do some laundry.", "ja": "洗濯をしなきゃいけないんです。" }
+    ],
+    "vocab": [
+      { "word": "check out", "meaning": "（興味を持って）見てみる、行ってみる" },
+      { "word": "hectic", "meaning": "大忙しの、てんてこ舞いの" }
+    ]
+  },
+  {
+    "id": "future_02",
+    "question1": { "en": "Where do you see yourself in five years?", "ja": "5年後の自分はどうなっていると思いますか？" },
+    "answer1_variations": [
+      { "en": "Hopefully, I'll be running my own business.", "ja": "願わくば、自分の会社を経営していたいですね。" },
+      { "en": "I hope to be traveling the world.", "ja": "世界中を旅しているといいなと思います。" }
+    ],
+    "answer1_detail": { "en": "I've always wanted to be independent.", "ja": "ずっと独立したいと思っていたんです。" },
+    "question2": { "en": "Are you working towards that goal?", "ja": "その目標に向かって取り組んでいますか？" },
+    "answer2_variations": [
+      { "en": "Yes, I'm saving money every month.", "ja": "はい、毎月貯金をしています。" },
+      { "en": "I'm currently studying for a license.", "ja": "現在、資格の勉強をしています。" }
+    ],
+    "vocab": [
+      { "word": "run a business", "meaning": "会社を経営する" },
+      { "word": "independent", "meaning": "独立した、自立した" }
+    ]
+  },
+  {
+    "id": "future_03",
+    "question1": { "en": "Do you think robots will take our jobs?", "ja": "ロボットが私たちの仕事を奪うと思いますか？" },
+    "answer1_variations": [
+      { "en": "It's inevitable for some industries.", "ja": "いくつかの業界では避けられないでしょうね。" },
+      { "en": "No, human creativity can't be replaced.", "ja": "いいえ、人間の創造性は代替できません。" }
+    ],
+    "answer1_detail": { "en": "AI is advancing faster than we think.", "ja": "AIは私たちが思うより早く進化しています。" },
+    "question2": { "en": "Does that scare you?", "ja": "それは怖いですか？" },
+    "answer2_variations": [
+      { "en": "A little bit, strictly speaking.", "ja": "厳密に言えば、少し怖いです。" },
+      { "en": "Not really, new jobs will be created.", "ja": "あんまり。新しい仕事が生まれるでしょうから。" }
+    ],
+    "vocab": [
+      { "word": "inevitable", "meaning": "避けられない、必然の" },
+      { "word": "replace", "meaning": "取って代わる、交換する" }
+    ]
+  },
+  {
+    "id": "future_04",
+    "question1": { "en": "Would you ever go to space if you could?", "ja": "もし行けるなら、宇宙に行ってみたいですか？" },
+    "answer1_variations": [
+      { "en": "In a heartbeat! It's my dream.", "ja": "すぐにでも！私の夢なんです。" },
+      { "en": "No way, it's too dangerous.", "ja": "まさか、危険すぎます。" }
+    ],
+    "answer1_detail": { "en": "I want to see the Earth from above.", "ja": "上から地球を見てみたいんです。" },
+    "question2": { "en": "What about living on Mars?", "ja": "火星に住むのはどうですか？" },
+    "answer2_variations": [
+      { "en": "That might be too extreme for me.", "ja": "それは私には過酷すぎるかも。" },
+      { "en": "Sign me up!", "ja": "ぜひ参加したいです！" }
+    ],
+    "vocab": [
+      { "word": "in a heartbeat", "meaning": "すぐに、喜んで" },
+      { "word": "extreme", "meaning": "極端な、過酷な" }
+    ]
+  },
+  {
+    "id": "future_05",
+    "question1": { "en": "Are you worried about the environment?", "ja": "環境問題について心配していますか？" },
+    "answer1_variations": [
+      { "en": "Yes, climate change is a serious issue.", "ja": "はい、気候変動は深刻な問題です。" },
+      { "en": "I'm optimistic that technology will solve it.", "ja": "技術が解決してくれると楽観視しています。" }
+    ],
+    "answer1_detail": { "en": "We need to act before it's too late.", "ja": "手遅れになる前に行動する必要があります。" },
+    "question2": { "en": "Do you do anything to help?", "ja": "何か役に立つことをしていますか？" },
+    "answer2_variations": [
+      { "en": "I try to reduce plastic waste.", "ja": "プラスチックゴミを減らすようにしています。" },
+      { "en": "I drive an electric car.", "ja": "電気自動車に乗っています。" }
+    ],
+    "vocab": [
+      { "word": "climate change", "meaning": "気候変動" },
+      { "word": "optimistic", "meaning": "楽観的な" }
+    ]
+  },
+  {
+    "id": "future_06",
+    "question1": { "en": "When do you plan to retire?", "ja": "いつ引退する予定ですか？" },
+    "answer1_variations": [
+      { "en": "As soon as I have enough savings.", "ja": "貯金が貯まったらすぐにでも。" },
+      { "en": "I want to work as long as I can.", "ja": "できるだけ長く働きたいです。" }
+    ],
+    "answer1_detail": { "en": "I don't think I'd know what to do with myself.", "ja": "（仕事がないと）何をしたらいいかわからないと思うので。" },
+    "question2": { "en": "What will you do after retirement?", "ja": "引退後は何をするつもりですか？" },
+    "answer2_variations": [
+      { "en": "I want to move to the countryside.", "ja": "田舎に引っ越したいです。" },
+      { "en": "Take up gardening.", "ja": "ガーデニングを始めます。" }
+    ],
+    "vocab": [
+      { "word": "retire", "meaning": "退職する、引退する" },
+      { "word": "take up", "meaning": "（趣味などを）始める" }
+    ]
+  },
+  {
+    "id": "future_07",
+    "question1": { "en": "Do you think we'll have flying cars soon?", "ja": "すぐに空飛ぶ車ができると思いますか？" },
+    "answer1_variations": [
+      { "en": "Maybe in another 50 years.", "ja": "あと50年はかかるんじゃないですか。" },
+      { "en": "I saw a prototype on the news recently.", "ja": "最近ニュースで試作品を見ましたよ。" }
+    ],
+    "answer1_detail": { "en": "The regulations would be a nightmare.", "ja": "法規制が大変なことになるでしょうね。" },
+    "question2": { "en": "Would you ride in one?", "ja": "乗ってみたいですか？" },
+    "answer2_variations": [
+      { "en": "Only if it's 100% safe.", "ja": "100%安全ならね。" },
+      { "en": "I'm afraid of heights, so no.", "ja": "高所恐怖症なので無理です。" }
+    ],
+    "vocab": [
+      { "word": "prototype", "meaning": "試作品" },
+      { "word": "nightmare", "meaning": "悪夢（のような困難な状況）" }
+    ]
+  },
+  {
+    "id": "future_08",
+    "question1": { "en": "What is the future of education?", "ja": "教育の未来はどうなると思いますか？" },
+    "answer1_variations": [
+      { "en": "Everything will move online.", "ja": "全てオンラインに移行するでしょう。" },
+      { "en": "We'll always need face-to-face interaction.", "ja": "対面でのやり取りは常に必要とされるでしょう。" }
+    ],
+    "answer1_detail": { "en": "Kids need to learn social skills.", "ja": "子供たちは社会性を学ぶ必要がありますから。" },
+    "question2": { "en": "Would you prefer online learning?", "ja": "オンライン学習の方がいいですか？" },
+    "answer2_variations": [
+      { "en": "It's more convenient for adults.", "ja": "大人にとっては便利ですよね。" },
+      { "en": "I get distracted easily at home.", "ja": "家だとすぐに気が散ってしまいます。" }
+    ],
+    "vocab": [
+      { "word": "interaction", "meaning": "相互作用、やり取り" },
+      { "word": "distracted", "meaning": "気が散った" }
+    ]
+  },
+  {
+    "id": "future_09",
+    "question1": { "en": "Do you plan to live abroad in the future?", "ja": "将来海外に住む予定はありますか？" },
+    "answer1_variations": [
+      { "en": "I'd love to retire in Europe.", "ja": "ヨーロッパで引退生活を送りたいです。" },
+      { "en": "No, my family is here.", "ja": "いいえ、家族がここにいますから。" }
+    ],
+    "answer1_detail": { "en": "I like the lifestyle in Spain.", "ja": "スペインのライフスタイルが好きなんです。" },
+    "question2": { "en": "Can you speak the language?", "ja": "言葉は話せますか？" },
+    "answer2_variations": [
+      { "en": "I'm learning a little bit.", "ja": "少し勉強しています。" },
+      { "en": "No, but I'll learn when I get there.", "ja": "いいえ、でも行ったら覚えますよ。" }
+    ],
+    "vocab": [
+      { "word": "lifestyle", "meaning": "生活様式" },
+      { "word": "abroad", "meaning": "海外で" }
+    ]
+  },
+  {
+    "id": "future_10",
+    "question1": { "en": "Will physical money disappear?", "ja": "現金はなくなると思いますか？" },
+    "answer1_variations": [
+      { "en": "Yes, we are going cashless rapidly.", "ja": "はい、急速にキャッシュレス化しています。" },
+      { "en": "Cash will always be around.", "ja": "現金はいつまでも残ると思います。" }
+    ],
+    "answer1_detail": { "en": "Digital payments are so convenient.", "ja": "デジタル決済はとても便利ですから。" },
+    "question2": { "en": "Do you carry cash?", "ja": "現金を持ち歩いていますか？" },
+    "answer2_variations": [
+      { "en": "Rarely, just for emergencies.", "ja": "めったに。緊急用だけです。" },
+      { "en": "I feel safer with cash.", "ja": "現金の方が安心感があります。" }
+    ],
+    "vocab": [
+      { "word": "disappear", "meaning": "消える、なくなる" },
+      { "word": "emergency", "meaning": "緊急事態" }
+    ]
+  },
+  {
+    "id": "future_11",
+    "question1": { "en": "Do you want to get married someday?", "ja": "いつか結婚したいですか？" },
+    "answer1_variations": [
+      { "en": "Yes, and I want a big family.", "ja": "はい、そして大家族がいいです。" },
+      { "en": "I'm happy being single for now.", "ja": "今のところ独身で幸せです。" }
+    ],
+    "answer1_detail": { "en": "It's not my top priority.", "ja": "最優先事項ではありません。" },
+    "question2": { "en": "What is your ideal age to settle down?", "ja": "身を固める（結婚する）理想の年齢は？" },
+    "answer2_variations": [
+      { "en": "Maybe around thirty.", "ja": "たぶん30歳くらいかな。" },
+      { "en": "Whenever I meet the right person.", "ja": "ふさわしい人に出会った時いつでも。" }
+    ],
+    "vocab": [
+      { "word": "priority", "meaning": "優先順位、優先事項" },
+      { "word": "settle down", "meaning": "身を固める、落ち着く" }
+    ]
+  },
+  {
+    "id": "future_12",
+    "question1": { "en": "What is on your bucket list?", "ja": "死ぬまでにやりたいことリストには何がありますか？" },
+    "answer1_variations": [
+      { "en": "I want to see the Northern Lights.", "ja": "オーロラを見てみたいです。" },
+      { "en": "I want to write a book.", "ja": "本を書いてみたいです。" }
+    ],
+    "answer1_detail": { "en": "It's been a dream of mine since childhood.", "ja": "子供の頃からの夢なんです。" },
+    "question2": { "en": "When will you do it?", "ja": "いつ実行しますか？" },
+    "answer2_variations": [
+      { "en": "Hopefully next year.", "ja": "できれば来年。" },
+      { "en": "Someday, when I have time.", "ja": "いつか、時間ができたら。" }
+    ],
+    "vocab": [
+      { "word": "bucket list", "meaning": "死ぬまでにしたいことリスト" },
+      { "word": "Northern Lights", "meaning": "オーロラ" }
+    ]
+  },
+  {
+    "id": "future_13",
+    "question1": { "en": "Are you afraid of getting old?", "ja": "年を取るのが怖いですか？" },
+    "answer1_variations": [
+      { "en": "A little, I worry about my health.", "ja": "少し。健康のことが心配です。" },
+      { "en": "No, I look forward to gaining wisdom.", "ja": "いいえ、知恵がつくのが楽しみです。" }
+    ],
+    "answer1_detail": { "en": "Age is just a number.", "ja": "年齢なんてただの数字です。" },
+    "question2": { "en": "How do you stay young?", "ja": "どうやって若さを保ちますか？" },
+    "answer2_variations": [
+      { "en": "I exercise regularly.", "ja": "定期的に運動しています。" },
+      { "en": "I try to keep a positive mindset.", "ja": "前向きな考え方を保つようにしています。" }
+    ],
+    "vocab": [
+      { "word": "wisdom", "meaning": "知恵、賢明さ" },
+      { "word": "mindset", "meaning": "考え方、思考態度" }
+    ]
+  },
+  {
+    "id": "future_14",
+    "question1": { "en": "What will be the food of the future?", "ja": "未来の食べ物は何になると思いますか？" },
+    "answer1_variations": [
+      { "en": "Lab-grown meat will be common.", "ja": "培養肉が一般的になるでしょう。" },
+      { "en": "Maybe we'll just take nutrition pills.", "ja": "たぶん栄養剤の錠剤を飲むだけになるかも。" }
+    ],
+    "answer1_detail": { "en": "It's better for the environment.", "ja": "その方が環境にいいですから。" },
+    "question2": { "en": "Would you eat insects for protein?", "ja": "タンパク源として昆虫を食べますか？" },
+    "answer2_variations": [
+      { "en": "If it tastes good, why not?", "ja": "美味しければ、いいんじゃないですか？" },
+      { "en": "Absolutely not. That's gross.", "ja": "絶対無理。気持ち悪いです。" }
+    ],
+    "vocab": [
+      { "word": "lab-grown", "meaning": "研究室で培養された" },
+      { "word": "nutrition", "meaning": "栄養" }
+    ]
+  },
+  {
+    "id": "future_15",
+    "question1": { "en": "Will humans live to be 100 easily?", "ja": "人間は簡単に100歳まで生きられるようになるでしょうか？" },
+    "answer1_variations": [
+      { "en": "With medical advances, yes.", "ja": "医療の進歩があれば、そうなるでしょう。" },
+      { "en": "Maybe, but quality of life matters more.", "ja": "そうかもしれませんが、生活の質の方が重要です。" }
+    ],
+    "answer1_detail": { "en": "Living longer isn't always better.", "ja": "長生きが必ずしも良いとは限りません。" },
+    "question2": { "en": "Do you want to live forever?", "ja": "永遠に生きたいですか？" },
+    "answer2_variations": [
+      { "en": "No, that sounds lonely.", "ja": "いいえ、それは孤独そうです。" },
+      { "en": "I'd like to see what happens in 2200.", "ja": "2200年にどうなっているかは見てみたいですね。" }
+    ],
+    "vocab": [
+      { "word": "advance", "meaning": "進歩、前進" },
+      { "word": "matter", "meaning": "重要である" }
+    ]
+  },
+  {
+    "id": "future_16",
+    "question1": { "en": "Are you excited about self-driving cars?", "ja": "自動運転車にワクワクしますか？" },
+    "answer1_variations": [
+      { "en": "Yes, I can relax during my commute.", "ja": "はい、通勤中にリラックスできますから。" },
+      { "en": "I don't trust the technology yet.", "ja": "まだその技術を信用していません。" }
+    ],
+    "answer1_detail": { "en": "I love driving, so I'd miss it.", "ja": "運転が好きなので、寂しくなると思います。" },
+    "question2": { "en": "Will they reduce accidents?", "ja": "事故は減るでしょうか？" },
+    "answer2_variations": [
+      { "en": "Defintely, humans make mistakes.", "ja": "間違いなく。人間はミスをしますから。" },
+      { "en": "Maybe, but computers can glitch too.", "ja": "たぶん、でもコンピュータも誤作動しますよ。" }
+    ],
+    "vocab": [
+      { "word": "commute", "meaning": "通勤・通学" },
+      { "word": "glitch", "meaning": "誤作動する、故障する" }
+    ]
+  },
+  {
+    "id": "future_17",
+    "question1": { "en": "What do you predict for next year?", "ja": "来年はどうなると予想しますか？" },
+    "answer1_variations": [
+      { "en": "I think the economy will improve.", "ja": "経済は良くなると思います。" },
+      { "en": "It's going to be another crazy year.", "ja": "また慌ただしい一年になるでしょう。" }
+    ],
+    "answer1_detail": { "en": "It's hard to predict anything these days.", "ja": "最近は何を予測するのも難しいです。" },
+    "question2": { "en": "Do you have any new year's resolutions?", "ja": "新年の抱負はありますか？" },
+    "answer2_variations": [
+      { "en": "I want to learn a new language.", "ja": "新しい言語を学びたいです。" },
+      { "en": "I don't believe in resolutions.", "ja": "抱負とかは信じないタイプです。" }
+    ],
+    "vocab": [
+      { "word": "predict", "meaning": "予測する" },
+      { "word": "resolution", "meaning": "決意、抱負" }
+    ]
+  },
+  {
+    "id": "future_18",
+    "question1": { "en": "Are you generally optimistic about the future?", "ja": "基本的に未来について楽観的ですか？" },
+    "answer1_variations": [
+      { "en": "Yes, I believe things get better.", "ja": "はい、事態は良くなると信じています。" },
+      { "en": "No, I'm a bit pessimistic.", "ja": "いいえ、少し悲観的です。" }
+    ],
+    "answer1_detail": { "en": "The world faces so many challenges.", "ja": "世界は多くの課題に直面していますから。" },
+    "question2": { "en": "What gives you hope?", "ja": "何が希望を与えてくれますか？" },
+    "answer2_variations": [
+      { "en": "Young people are very passionate.", "ja": "若者がとても情熱的ですから。" },
+      { "en": "Kindness of strangers.", "ja": "見知らぬ人の親切心です。" }
+    ],
+    "vocab": [
+      { "word": "pessimistic", "meaning": "悲観的な" },
+      { "word": "passionate", "meaning": "情熱的な" }
+    ]
+  },
+  {
+    "id": "future_19",
+    "question1": { "en": "What is the future of entertainment?", "ja": "エンターテイメントの未来はどうなるでしょう？" },
+    "answer1_variations": [
+      { "en": "Virtual Reality will be huge.", "ja": "バーチャルリアリティ（VR）が巨大化するでしょう。" },
+      { "en": "Streaming services will take over.", "ja": "ストリーミングサービスが支配的になるでしょう。" }
+    ],
+    "answer1_detail": { "en": "Movie theaters might disappear.", "ja": "映画館はなくなるかもしれません。" },
+    "question2": { "en": "Do you like VR?", "ja": "VRは好きですか？" },
+    "answer2_variations": [
+      { "en": "It makes me motion sick.", "ja": "（画面）酔いしちゃいます。" },
+      { "en": "It's an amazing experience.", "ja": "素晴らしい体験ですよ。" }
+    ],
+    "vocab": [
+      { "word": "huge", "meaning": "巨大な、大人気になる" },
+      { "word": "motion sick", "meaning": "乗り物酔い（画面酔い）" }
+    ]
+  },
+  {
+    "id": "future_20",
+    "question1": { "en": "What advice would you give your future self?", "ja": "未来の自分にアドバイスするとしたら？" },
+    "answer1_variations": [
+      { "en": "Don't worry so much about small things.", "ja": "些細なことでそんなに悩むな。" },
+      { "en": "Make sure to spend time with family.", "ja": "家族との時間を大切にして。" }
+    ],
+    "answer1_detail": { "en": "Time flies faster than you think.", "ja": "時間は思ったより早く過ぎ去るから。" },
+    "question2": { "en": "Do you keep a diary?", "ja": "日記をつけていますか？" },
+    "answer2_variations": [
+      { "en": "I used to, but I stopped.", "ja": "以前はつけていましたが、やめました。" },
+      { "en": "Yes, to record my memories.", "ja": "はい、思い出を記録するために。" }
+    ],
+    "vocab": [
+      { "word": "time flies", "meaning": "光陰矢の如し（時間はあっという間に過ぎる）" },
+      { "word": "record", "meaning": "記録する" }
+    ]
+  }
+]
