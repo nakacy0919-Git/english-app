@@ -1,4 +1,7 @@
-[
+{
+  "id": "topic_friends",
+  "title": "Friends (友達)",
+  "questions": [
   {
     "id": "friend_01",
     "question1": { "en": "How did you meet your best friend?", "ja": "親友とはどうやって知り合ったのですか？" },
@@ -360,3 +363,4 @@
     ]
   }
 ]
+}

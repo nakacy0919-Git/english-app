@@ -1,4 +1,7 @@
-[
+{
+  "id": "topic_shopping",
+  "title": "Shopping (買い物)",
+  "questions": [
   {
     "id": "shopping_01",
     "question1": { "en": "Do you prefer shopping online or in-store?", "ja": "ネットショッピングと実店舗、どっちが好きですか？" },
@@ -360,3 +363,4 @@
     ]
   }
 ]
+}

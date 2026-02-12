@@ -1,4 +1,7 @@
-[
+{
+  "id": "topic_school",
+  "title": "School (学校)",
+  "questions": [
   {
     "id": "school_01",
     "question1": { "en": "What was your favorite subject in school?", "ja": "学校で一番好きな教科は何でしたか？" },
@@ -360,3 +363,4 @@
     ]
   }
 ]
+}

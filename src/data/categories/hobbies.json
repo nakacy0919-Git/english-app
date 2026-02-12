@@ -1,4 +1,7 @@
-[
+{
+  "id": "topic_hobbies",
+  "title": "Hobbies (趣味)",
+  "questions": [
   {
     "id": "hobbies_01",
     "question1": { "en": "What do you do in your free time?", "ja": "暇な時は何をしていますか？" },
@@ -360,3 +363,4 @@
     ]
   }
 ]
+}
