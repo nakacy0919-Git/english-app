@@ -118,7 +118,7 @@ const VocabHighlighter = ({ text, vocabList }) => {
   );
 };
 
-// ■ 1行ごとの英文コンポーネント（修正版：スピーカー左固定、日本語は下段）
+// ■ 1行ごとの英文コンポーネント
 const SentenceRow = ({ textEn, textJa, vocab, showTrans, className = "" }) => {
   return (
     <div className={`flex items-start gap-3 ${className}`}>
@@ -136,7 +136,7 @@ const SentenceRow = ({ textEn, textJa, vocab, showTrans, className = "" }) => {
           <VocabHighlighter text={textEn} vocabList={vocab} />
         </p>
         
-        {/* 日本語訳（showTransがtrueの時のみ表示） */}
+        {/* 日本語訳 */}
         {showTrans && (
           <div className="mt-2 text-sm font-bold text-gray-600 bg-white/50 p-2 rounded-lg border-l-4 border-gray-300 animate-fade-in">
             {textJa}
@@ -147,7 +147,7 @@ const SentenceRow = ({ textEn, textJa, vocab, showTrans, className = "" }) => {
   );
 };
 
-// ■ 翻訳切り替えボタン（各セクションのヘッダー用）
+// ■ 翻訳切り替えボタン
 const TransToggleButton = ({ showTrans, onClick }) => (
   <button 
     onClick={(e) => { e.stopPropagation(); onClick(); }}
@@ -192,7 +192,7 @@ const Machine3D = ({ id, colorClass, onClick, isSpinning }) => {
   );
 };
 
-// ■ 質問カード (段階的表示機能付き)
+// ■ 質問カード
 const QuestionCard = ({ item, index, isExpanded, onToggleExpand }) => {
   const [step, setStep] = useState(0);
   
@@ -219,7 +219,7 @@ const QuestionCard = ({ item, index, isExpanded, onToggleExpand }) => {
   const a2List = item.answer2_variations || [];
   const vocab = item.vocab || [];
 
-  // --- セクション間の矢印 (ご要望通り濃く修正) ---
+  // --- セクション間の矢印 (濃く) ---
   const SectionArrow = () => (
     <div className="flex justify-center -my-3 relative z-20">
       <div className="bg-white rounded-full p-1.5 shadow-sm border border-gray-200">
@@ -460,14 +460,12 @@ const OpenModal = ({ isOpen, onClose, topic, topicIndex, initialStep = 0 }) => {
             <div className="relative z-10">
               <h3 className="text-xl md:text-2xl font-black line-clamp-1">{topic.title}</h3>
               <p className="text-white/80 font-bold text-xs bg-white/20 inline-block px-2 py-1 rounded mt-1">
-                {/* ここで安全に長さを取得してエラー回避！ */}
                 {topic.questions?.length || 0} Lessons
               </p>
             </div>
           </div>
           
           <div className="p-4 md:p-6 overflow-y-auto flex-1 overscroll-contain bg-slate-50">
-            {/* ここでも安全にマップ処理してエラー回避！ */}
             {topic.questions?.map((item, i) => (
               <QuestionCard 
                 key={i}
@@ -540,41 +538,44 @@ const App = () => {
       </div>
       
       {/* Header */}
-      <div className="absolute top-4 w-full flex justify-between items-start px-4 z-40 pointer-events-none">
-         <div className="hidden md:block pointer-events-auto">
-            <div className="bg-white/60 backdrop-blur-md px-6 py-2 rounded-full shadow-lg border-2 border-white/80 transform -rotate-2">
-              <h1 className="text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-500">
-                CHAT GACHA
+      <div className="absolute top-4 right-4 z-40 flex gap-2 pointer-events-auto">
+         <button 
+           onClick={() => setViewMode(viewMode === 'gacha' ? 'list' : 'gacha')}
+           className="flex items-center gap-2 bg-white/80 backdrop-blur-sm border-2 border-indigo-100 text-indigo-600 px-4 py-2 rounded-full font-bold shadow-lg hover:bg-indigo-50 transition-all active:scale-95 text-sm"
+         >
+           {viewMode === 'gacha' ? <><LayoutGrid size={18} /><span className="hidden sm:inline">List</span></> : <><Gamepad2 size={18} /><span className="hidden sm:inline">Gacha</span></>}
+         </button>
+      </div>
+
+      {/* Gacha View (中央配置、鼓動アニメーション) */}
+      {viewMode === 'gacha' && (
+        <div className="absolute inset-0 flex items-center justify-center z-10 p-4">
+          {/* 全体を包むコンテナに鼓動アニメーションを適用 */}
+          <div className="flex flex-col items-center animate-heartbeat-slow">
+            {/* インパクトのある新タイトル */}
+            <div className="relative mb-10 md:mb-16 text-center">
+              {/* 縁取り効果用の背面テキスト */}
+              <h1 className="absolute inset-0 text-5xl md:text-7xl font-black text-white drop-shadow-[0_0_10px_rgba(255,255,255,0.8)] select-none blur-[2px]">
+                Pile-UP GACHA
+              </h1>
+              {/* 前面のグラデーションテキスト */}
+              <h1 className="relative text-5xl md:text-7xl font-black text-transparent bg-clip-text bg-gradient-to-tr from-purple-600 via-pink-500 to-orange-500 filter drop-shadow-[0_5px_5px_rgba(0,0,0,0.3)] tracking-tighter select-none">
+                Pile-UP GACHA
               </h1>
             </div>
-         </div>
-         <div className="flex gap-2 ml-auto pointer-events-auto">
-            <button 
-              onClick={() => setViewMode(viewMode === 'gacha' ? 'list' : 'gacha')}
-              className="flex items-center gap-2 bg-white border-2 border-indigo-100 text-indigo-600 px-4 py-2 rounded-full font-bold shadow-lg hover:bg-indigo-50 transition-all active:scale-95 text-sm"
-            >
-              {viewMode === 'gacha' ? <><LayoutGrid size={18} /><span className="hidden sm:inline">List</span></> : <><Gamepad2 size={18} /><span className="hidden sm:inline">Gacha</span></>}
-            </button>
-         </div>
-      </div>
 
-      <div className="absolute top-24 w-full text-center md:hidden pointer-events-none z-0 opacity-80">
-          <h1 className="text-5xl font-black text-white drop-shadow-md tracking-wider opacity-60">GACHA</h1>
-      </div>
-
-      {/* Gacha View (2x2 on Mobile) */}
-      {viewMode === 'gacha' && (
-        <div className="absolute bottom-0 w-full h-[70vh] flex items-center md:items-end justify-center pb-8 z-10 animate-slide-up">
-          <div className="grid grid-cols-2 md:flex gap-x-6 gap-y-2 md:gap-8 px-6 items-end justify-items-center w-full max-w-4xl mx-auto">
-            {[1, 2, 3, 4].map(id => (
-              <Machine3D 
-                key={id}
-                id={id} 
-                colorClass={id === 1 ? "bg-red-400" : id === 2 ? "bg-blue-400" : id === 3 ? "bg-yellow-400" : "bg-green-400"} 
-                onClick={() => handleSpin(id)} 
-                isSpinning={spinningId === id} 
-              />
-            ))}
+            {/* ガチャガチャ 2x2 */}
+            <div className="grid grid-cols-2 gap-x-6 gap-y-8 md:gap-12 justify-items-center">
+              {[1, 2, 3, 4].map(id => (
+                <Machine3D 
+                  key={id}
+                  id={id} 
+                  colorClass={id === 1 ? "bg-red-400" : id === 2 ? "bg-blue-400" : id === 3 ? "bg-yellow-400" : "bg-green-400"} 
+                  onClick={() => handleSpin(id)} 
+                  isSpinning={spinningId === id} 
+                />
+              ))}
+            </div>
           </div>
         </div>
       )}
@@ -596,7 +597,6 @@ const App = () => {
                   </div>
                   <div className="min-w-0">
                     <h3 className="font-bold text-gray-700 text-lg group-hover:text-indigo-600 transition-colors truncate">{topic.title}</h3>
-                    {/* 安全に長さを取得する修正 */}
                     <p className="text-gray-400 text-xs md:text-sm font-bold">{topic.questions?.length || 0} Lessons</p>
                   </div>
                   <ChevronRight className="ml-auto text-gray-300 group-hover:text-indigo-400 shrink-0" />
@@ -630,6 +630,8 @@ const App = () => {
         .animate-blob { animation: blob 10s infinite; }
         @keyframes heartbeat { 0% { transform: scale(1); } 15% { transform: scale(1.05); } 30% { transform: scale(1); } 45% { transform: scale(1.05); } 60% { transform: scale(1); } }
         .animate-heartbeat { animation: heartbeat 2s infinite ease-in-out; }
+        @keyframes heartbeat-slow { 0% { transform: scale(1); } 50% { transform: scale(1.03); } 100% { transform: scale(1); } }
+        .animate-heartbeat-slow { animation: heartbeat-slow 3s infinite ease-in-out; }
         .animation-delay-2000 { animation-delay: 2s; }
         .animation-delay-4000 { animation-delay: 4s; }
         .safe-area-bottom { padding-bottom: env(safe-area-inset-bottom); }
