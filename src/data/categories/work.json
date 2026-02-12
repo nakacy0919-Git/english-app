@@ -1,5 +1,382 @@
-{
-  "id": "topic_work",
-  "title": "Work (仕事)",
-  "questions": []
-}
+[
+  {
+    "id": "work_01",
+    "question1": { "en": "So, what do you do for a living?", "ja": "ところで、お仕事は何をされているんですか？" },
+    "answer1_variations": [
+      { "en": "I work in marketing at a tech startup.", "ja": "テック系のスタートアップでマーケティングをしています。" },
+      { "en": "I'm a freelance graphic designer.", "ja": "フリーランスのグラフィックデザイナーです。" }
+    ],
+    "answer1_detail": { "en": "It can be pretty stressful, but I love the creativity involved.", "ja": "結構ストレスは溜まりますけど、創造性が求められるところが好きなんです。" },
+    "question2": { "en": "How long have you been doing that?", "ja": "その仕事はどれくらい続けているんですか？" },
+    "answer2_variations": [
+      { "en": "For about five years now.", "ja": "もう5年くらいになります。" },
+      { "en": "I just started a few months ago.", "ja": "数ヶ月前に始めたばかりです。" }
+    ],
+    "vocab": [
+      { "word": "for a living", "meaning": "生活の糧として、職業として" },
+      { "word": "startup", "meaning": "新興企業、スタートアップ" },
+      { "word": "creativity", "meaning": "創造性" }
+    ]
+  },
+  {
+    "id": "work_02",
+    "question1": { "en": "How was your commute this morning?", "ja": "今朝の通勤はどうだった？" },
+    "answer1_variations": [
+      { "en": "Terrible. The train was packed like sardines.", "ja": "最悪だったよ。電車はスシ詰め状態だった。" },
+      { "en": "Not bad. I drove, and traffic was light.", "ja": "悪くなかったよ。車だったけど、道は空いてたし。" }
+    ],
+    "answer1_detail": { "en": "Rush hour seems to be getting worse every year.", "ja": "ラッシュアワーは年々ひどくなってる気がするよ。" },
+    "question2": { "en": "Have you considered moving closer to work?", "ja": "職場の近くに引っ越そうとは思わない？" },
+    "answer2_variations": [
+      { "en": "I have, but the rent is too high downtown.", "ja": "考えたけど、都心は家賃が高すぎて。" },
+      { "en": "No, I like living in a quiet neighborhood.", "ja": "ううん、静かな住宅街に住むのが好きなんだ。" }
+    ],
+    "vocab": [
+      { "word": "packed like sardines", "meaning": "スシ詰め状態の、ぎゅうぎゅう詰めの" },
+      { "word": "traffic", "meaning": "交通量、渋滞" },
+      { "word": "rush hour", "meaning": "ラッシュアワー、通勤混雑時" }
+    ]
+  },
+  {
+    "id": "work_03",
+    "question1": { "en": "Do you prefer working from home or the office?", "ja": "在宅勤務とオフィス勤務、どっちが好き？" },
+    "answer1_variations": [
+      { "en": "Definitely from home. No commute!", "ja": "断然、在宅だね。通勤がないし！" },
+      { "en": "I actually like the office for the social aspect.", "ja": "人との交流があるから、実はオフィスの方が好きなんだ。" }
+    ],
+    "answer1_detail": { "en": "I find I'm much more productive when I'm alone.", "ja": "一人でいる時の方が、ずっと生産性が高いってわかったんだ。" },
+    "question2": { "en": "Don't you get lonely though?", "ja": "でも、寂しくならない？" },
+    "answer2_variations": [
+      { "en": "Sometimes, but I have my cat for company.", "ja": "たまにね、でも猫が相手をしてくれるから。" },
+      { "en": "I make sure to meet friends after work.", "ja": "仕事の後に友達と会うようにしてるよ。" }
+    ],
+    "vocab": [
+      { "word": "social aspect", "meaning": "社会的側面、人との関わり" },
+      { "word": "productive", "meaning": "生産的な、はかどる" },
+      { "word": "company", "meaning": "話し相手、同伴" }
+    ]
+  },
+  {
+    "id": "work_04",
+    "question1": { "en": "You look exhausted. Are you working late?", "ja": "疲れ切ってるね。遅くまで仕事してるの？" },
+    "answer1_variations": [
+      { "en": "Yeah, it's our busy season right now.", "ja": "うん、今は繁忙期だから。" },
+      { "en": "I've been burning the midnight oil all week.", "ja": "今週はずっと夜遅くまで仕事してるんだ。" }
+    ],
+    "answer1_detail": { "en": "We have a big project deadline coming up on Friday.", "ja": "金曜日に大きなプロジェクトの締め切りが迫ってて。" },
+    "question2": { "en": "Will you get some time off afterwards?", "ja": "終わったら休みは取れるの？" },
+    "answer2_variations": [
+      { "en": "I hope so. I need a vacation.", "ja": "そうだといいな。休暇が必要だよ。" },
+      { "en": "Probably not immediately, but maybe next month.", "ja": "すぐには無理だろうけど、たぶん来月には。" }
+    ],
+    "vocab": [
+      { "word": "busy season", "meaning": "繁忙期" },
+      { "word": "burn the midnight oil", "meaning": "夜遅くまで働く（勉強する）" },
+      { "word": "deadline", "meaning": "締め切り" }
+    ]
+  },
+  {
+    "id": "work_05",
+    "question1": { "en": "How do you get along with your boss?", "ja": "上司とはうまくいってる？" },
+    "answer1_variations": [
+      { "en": "She's great. Very supportive and understanding.", "ja": "彼女は素晴らしいよ。すごく協力的で理解があるし。" },
+      { "en": "He's a bit of a micromanager, honestly.", "ja": "正直言って、彼はちょっと細かすぎる（マイクロマネージャー）かな。" }
+    ],
+    "answer1_detail": { "en": "It makes a huge difference in the work environment.", "ja": "それって職場環境にとってすごく大きな違いだよね。" },
+    "question2": { "en": "Does he check your work constantly?", "ja": "彼はしょっちゅう仕事をチェックしてくるの？" },
+    "answer2_variations": [
+      { "en": "Every hour. It drives me crazy.", "ja": "1時間おきにね。おかしくなりそうだよ。" },
+      { "en": "Not constantly, but he wants to be CC'd on every email.", "ja": "常にではないけど、全てのメールにCCを入れて欲しがるんだ。" }
+    ],
+    "vocab": [
+      { "word": "get along with", "meaning": "〜とうまくやる" },
+      { "word": "micromanager", "meaning": "細かく管理したがる上司" },
+      { "word": "drive someone crazy", "meaning": "人をイライラさせる、おかしくさせる" }
+    ]
+  },
+  {
+    "id": "work_06",
+    "question1": { "en": "That meeting took forever, didn't it?", "ja": "あの会議、すごく長かったよね？" },
+    "answer1_variations": [
+      { "en": "Tell me about it. Could have been an email.", "ja": "本当だよ。メールで済んだ話なのに。" },
+      { "en": "I almost fell asleep halfway through.", "ja": "途中で寝そうになっちゃったよ。" }
+    ],
+    "answer1_detail": { "en": "We spent 30 minutes just discussing the font size.", "ja": "フォントサイズの話だけで30分も費やしたんだよ。" },
+    "question2": { "en": "Did you reach a decision at least?", "ja": "少なくとも決定事項はあったの？" },
+    "answer2_variations": [
+      { "en": "Nope, we scheduled another meeting for Monday.", "ja": "いいや、月曜日にまた会議を入れただけ。" },
+      { "en": "Sort of, but nothing concrete.", "ja": "一応ね、でも具体的なことは何も。" }
+    ],
+    "vocab": [
+      { "word": "could have been an email", "meaning": "（会議を開かずとも）メールで済んだはずの内容だ" },
+      { "word": "halfway through", "meaning": "途中で" },
+      { "word": "concrete", "meaning": "具体的な、明確な" }
+    ]
+  },
+  {
+    "id": "work_07",
+    "question1": { "en": "What do you usually do for lunch?", "ja": "お昼はどうしてる？" },
+    "answer1_variations": [
+      { "en": "I bring a bento from home to save money.", "ja": "節約のために家からお弁当を持ってきてるよ。" },
+      { "en": "I usually grab a sandwich at the convenience store.", "ja": "たいていコンビニでサンドイッチを買うかな。" }
+    ],
+    "answer1_detail": { "en": "Eating out every day gets expensive really fast.", "ja": "毎日外食すると、あっという間にお金がかかるからね。" },
+    "question2": { "en": "Do you eat at your desk?", "ja": "デスクで食べるの？" },
+    "answer2_variations": [
+      { "en": "Yeah, I usually work while I eat.", "ja": "うん、たいてい働きながら食べてる。" },
+      { "en": "No, I try to go to the park for some fresh air.", "ja": "ううん、新鮮な空気を吸いに公園に行くようにしてるよ。" }
+    ],
+    "vocab": [
+      { "word": "grab", "meaning": "（急いで）買う、食べる" },
+      { "word": "save money", "meaning": "お金を節約する" },
+      { "word": "fresh air", "meaning": "新鮮な空気" }
+    ]
+  },
+  {
+    "id": "work_08",
+    "question1": { "en": "Are you asking for a raise this year?", "ja": "今年は昇給をお願いするつもり？" },
+    "answer1_variations": [
+      { "en": "I'm planning to. I've exceeded all my targets.", "ja": "そのつもりだよ。目標は全部達成したし。" },
+      { "en": "I don't think the company has the budget for it.", "ja": "会社にその予算があるとは思えないな。" }
+    ],
+    "answer1_detail": { "en": "I've taken on a lot more responsibility recently.", "ja": "最近はずっと多くの責任を負ってるからね。" },
+    "question2": { "en": "When is your performance review?", "ja": "人事考課（査定面談）はいつ？" },
+    "answer2_variations": [
+      { "en": "Next Tuesday. I'm nervous.", "ja": "来週の火曜日。緊張するよ。" },
+      { "en": "It hasn't been scheduled yet.", "ja": "まだ予定が決まってないんだ。" }
+    ],
+    "vocab": [
+      { "word": "raise", "meaning": "昇給" },
+      { "word": "exceed", "meaning": "上回る、超える" },
+      { "word": "performance review", "meaning": "人事考課、業績評価" }
+    ]
+  },
+  {
+    "id": "work_09",
+    "question1": { "en": "I heard you got a promotion! Congratulations!", "ja": "昇進したんだってね！おめでとう！" },
+    "answer1_variations": [
+      { "en": "Thanks! I'm really excited about the new role.", "ja": "ありがとう！新しい役割にすごくワクワクしてるよ。" },
+      { "en": "Thank you. It's going to be a lot more work though.", "ja": "ありがとう。でも仕事量はかなり増えるだろうな。" }
+    ],
+    "answer1_detail": { "en": "I'll be managing a team of five people now.", "ja": "これからは5人のチームを管理することになるんだ。" },
+    "question2": { "en": "Are you ready for the management side?", "ja": "管理職の準備はできてる？" },
+    "answer2_variations": [
+      { "en": "I think so. I've been training for this.", "ja": "そう思うよ。このためにトレーニングしてきたから。" },
+      { "en": "Honestly, I'm a bit intimidated.", "ja": "正直、ちょっとビビってるよ。" }
+    ],
+    "vocab": [
+      { "word": "promotion", "meaning": "昇進" },
+      { "word": "role", "meaning": "役割、職務" },
+      { "word": "intimidated", "meaning": "おじけづいた、威圧された" }
+    ]
+  },
+  {
+    "id": "work_10",
+    "question1": { "en": "How did your job interview go?", "ja": "就職面接はどうだった？" },
+    "answer1_variations": [
+      { "en": "I think I nailed it!", "ja": "バッチリだったと思う！" },
+      { "en": "It was tough. They asked some tricky questions.", "ja": "きつかったよ。いくつか答えにくい質問をされたんだ。" }
+    ],
+    "answer1_detail": { "en": "The interviewer seemed impressed with my portfolio.", "ja": "面接官は私のポートフォリオに感心していたようだったよ。" },
+    "question2": { "en": "When will you hear back?", "ja": "いつ返事が来るの？" },
+    "answer2_variations": [
+      { "en": "They said by the end of the week.", "ja": "今週末までにはって言ってた。" },
+      { "en": "Hopefully soon. The suspense is killing me.", "ja": "すぐだといいな。待ってる間、生きた心地がしないよ。" }
+    ],
+    "vocab": [
+      { "word": "nail it", "meaning": "うまくやる、成功させる" },
+      { "word": "tricky", "meaning": "扱いにくい、巧妙な" },
+      { "word": "suspense", "meaning": "不安、未決定の状態" }
+    ]
+  },
+  {
+    "id": "work_11",
+    "question1": { "en": "Are you taking any time off this summer?", "ja": "この夏は休みを取るの？" },
+    "answer1_variations": [
+      { "en": "Yes, I'm taking two weeks of paid leave.", "ja": "うん、2週間の有給休暇を取るよ。" },
+      { "en": "I can't. We're too understaffed right now.", "ja": "無理だね。今は人手不足すぎて。" }
+    ],
+    "answer1_detail": { "en": "I have so many vacation days saved up.", "ja": "有給休暇がたくさん溜まってるんだ。" },
+    "question2": { "en": "Use them or lose them, right?", "ja": "使わないとなくなるもんね？" },
+    "answer2_variations": [
+      { "en": "Exactly. I don't want to waste them.", "ja": "その通り。無駄にはしたくないから。" },
+      { "en": "Actually, ours roll over to next year.", "ja": "実は、うちは来年に繰り越せるんだ。" }
+    ],
+    "vocab": [
+      { "word": "paid leave", "meaning": "有給休暇" },
+      { "word": "understaffed", "meaning": "人手不足の" },
+      { "word": "roll over", "meaning": "（次の期間に）繰り越す" }
+    ]
+  },
+  {
+    "id": "work_12",
+    "question1": { "en": "I'm thinking about quitting my job.", "ja": "仕事を辞めようかと考えてるんだ。" },
+    "answer1_variations": [
+      { "en": "Really? What happened?", "ja": "本当に？何があったの？" },
+      { "en": "I saw that coming. You haven't looked happy.", "ja": "そうなると思ってたよ。幸せそうじゃなかったし。" }
+    ],
+    "answer1_detail": { "en": "I'm just feeling burnt out and unappreciated.", "ja": "ただ燃え尽きて、評価されてないと感じてて。" },
+    "question2": { "en": "Do you have another offer lined up?", "ja": "次のアテはあるの？（内定はもらってるの？）" },
+    "answer2_variations": [
+      { "en": "Not yet, but I'm looking.", "ja": "まだだけど、探してる。" },
+      { "en": "Yes, I start a new position next month.", "ja": "うん、来月から新しい職場で働き始めるよ。" }
+    ],
+    "vocab": [
+      { "word": "burnt out", "meaning": "燃え尽きた" },
+      { "word": "unappreciated", "meaning": "正当に評価されていない" },
+      { "word": "lined up", "meaning": "手配した、確保した" }
+    ]
+  },
+  {
+    "id": "work_13",
+    "question1": { "en": "Who is your favorite coworker?", "ja": "お気に入りの同僚は誰？" },
+    "answer1_variations": [
+      { "en": "Sarah. We grab coffee together every morning.", "ja": "サラだね。毎朝一緒にコーヒーを買いに行くんだ。" },
+      { "en": "I don't really socialize with anyone there.", "ja": "職場の人とはあんまり交流しないんだ。" }
+    ],
+    "answer1_detail": { "en": "Having a 'work bestie' makes the day go faster.", "ja": "「職場の親友」がいると、一日が早く過ぎるよね。" },
+    "question2": { "en": "Do you hang out outside of work?", "ja": "仕事以外でも遊んだりする？" },
+    "answer2_variations": [
+      { "en": "Sometimes we go for drinks on Fridays.", "ja": "たまに金曜日に飲みに行くよ。" },
+      { "en": "No, we keep it strictly professional.", "ja": "ううん、あくまで仕事上の付き合いにしてる。" }
+    ],
+    "vocab": [
+      { "word": "socialize", "meaning": "付き合う、親睦を深める" },
+      { "word": "work bestie", "meaning": "職場の親友" },
+      { "word": "strictly", "meaning": "厳格に、あくまで" }
+    ]
+  },
+  {
+    "id": "work_14",
+    "question1": { "en": "Do you have to travel for business often?", "ja": "出張にはよく行くの？" },
+    "answer1_variations": [
+      { "en": "Yes, about once a month.", "ja": "うん、月に1回くらいかな。" },
+      { "en": "Rarely. Most of my meetings are online.", "ja": "めったにないよ。会議のほとんどはオンラインだし。" }
+    ],
+    "answer1_detail": { "en": "It sounds glamorous, but living out of a suitcase is tiring.", "ja": "華やかに聞こえるけど、ホテル暮らし（スーツケース生活）は疲れるよ。" },
+    "question2": { "en": "Do you get to see the sights at least?", "ja": "せめて観光はできるの？" },
+    "answer2_variations": [
+      { "en": "Sometimes, if I finish early.", "ja": "たまにね、早く終われば。" },
+      { "en": "Never. It's just airport, hotel, office.", "ja": "全然。空港、ホテル、オフィスの往復だけ。" }
+    ],
+    "vocab": [
+      { "word": "glamorous", "meaning": "魅力的な、華やかな" },
+      { "word": "living out of a suitcase", "meaning": "（旅続きで）スーツケース一つで生活する" },
+      { "word": "sights", "meaning": "観光名所" }
+    ]
+  },
+  {
+    "id": "work_15",
+    "question1": { "en": "How do you handle stress at work?", "ja": "仕事のストレスはどう発散してる？" },
+    "answer1_variations": [
+      { "en": "I go to the gym during my lunch break.", "ja": "昼休みにジムに行ってるよ。" },
+      { "en": "I vent to my partner when I get home.", "ja": "家に帰ってパートナーに愚痴るんだ。" }
+    ],
+    "answer1_detail": { "en": "If I don't exercise, I get really cranky.", "ja": "運動しないと、すごく不機嫌になっちゃうから。" },
+    "question2": { "en": "Does your company offer mental health days?", "ja": "会社はメンタルヘルス休暇を提供してる？" },
+    "answer2_variations": [
+      { "en": "No, I wish they did.", "ja": "いいや、あったらいいのになあ。" },
+      { "en": "Yes, we can take personal days whenever.", "ja": "うん、いつでも個人的な休暇が取れるよ。" }
+    ],
+    "vocab": [
+      { "word": "vent", "meaning": "（感情を）発散する、愚痴を言う" },
+      { "word": "cranky", "meaning": "不機嫌な" },
+      { "word": "mental health day", "meaning": "心の健康のための休暇" }
+    ]
+  },
+  {
+    "id": "work_16",
+    "question1": { "en": "It's finally Friday!", "ja": "ついに金曜日だ！" },
+    "answer1_variations": [
+      { "en": "TGIF! This week was brutal.", "ja": "花金だね！今週はきつかったー。" },
+      { "en": "I know right? I'm ready to check out.", "ja": "だよね？もう帰る準備万端だよ。" }
+    ],
+    "answer1_detail": { "en": "I have absolutely zero motivation left.", "ja": "もうやる気ゼロだよ。" },
+    "question2": { "en": "Any plans for the weekend?", "ja": "週末の予定は？" },
+    "answer2_variations": [
+      { "en": "Sleeping. Just sleeping.", "ja": "寝る。ただ寝る。" },
+      { "en": "I'm going hiking with some friends.", "ja": "友達とハイキングに行くよ。" }
+    ],
+    "vocab": [
+      { "word": "TGIF", "meaning": "Thank God It's Friday（花金）" },
+      { "word": "brutal", "meaning": "過酷な、ひどい" },
+      { "word": "check out", "meaning": "（仕事を終えて）退勤する、意識が飛ぶ" }
+    ]
+  },
+  {
+    "id": "work_17",
+    "question1": { "en": "I've got a bad case of the Mondays.", "ja": "月曜病（ブルーマンデー）がひどいよ。" },
+    "answer1_variations": [
+      { "en": "Same here. I can't wake up.", "ja": "こっちも。目が覚めないよ。" },
+      { "en": "Drink some coffee, you'll be fine.", "ja": "コーヒーでも飲みなよ、大丈夫だって。" }
+    ],
+    "answer1_detail": { "en": "Starting the engine after the weekend is so hard.", "ja": "週末のあとにエンジンをかけるのは大変だよね。" },
+    "question2": { "en": "Do you have a busy week ahead?", "ja": "今週は忙しくなりそう？" },
+    "answer2_variations": [
+      { "en": "Packed. Meetings every single day.", "ja": "ぎっしりだよ。毎日会議だ。" },
+      { "en": "Hopefully it's a slow week.", "ja": "暇な週だといいんだけど。" }
+    ],
+    "vocab": [
+      { "word": "case of the Mondays", "meaning": "月曜日の憂鬱、仕事に行きたくない気分" },
+      { "word": "packed", "meaning": "予定が詰まった" },
+      { "word": "slow", "meaning": "（仕事などが）暇な、忙しくない" }
+    ]
+  },
+  {
+    "id": "work_18",
+    "question1": { "en": "Is it freezing in your office?", "ja": "オフィス、寒すぎない？" },
+    "answer1_variations": [
+      { "en": "Yes! The AC is always set way too low.", "ja": "うん！エアコンの設定温度がいつも低すぎるんだよ。" },
+      { "en": "It's actually okay near my desk.", "ja": "僕の席の近くは大丈夫だよ。" }
+    ],
+    "answer1_detail": { "en": "I keep a blanket and a hoodie at my desk.", "ja": "デスクにブランケットとパーカーを置いてるもん。" },
+    "question2": { "en": "Why don't you ask them to turn it down?", "ja": "弱めるように頼まないの？" },
+    "answer2_variations": [
+      { "en": "I did, but the guys in suits are hot.", "ja": "言ったけど、スーツ着てる男性陣が暑がりだから。" },
+      { "en": "It's controlled by the building management.", "ja": "ビルの管理会社が管理してるから無理なんだ。" }
+    ],
+    "vocab": [
+      { "word": "freezing", "meaning": "凍えるほど寒い" },
+      { "word": "AC", "meaning": "エアコン (Air Conditioner)" },
+      { "word": "hoodie", "meaning": "パーカー、フード付きスウェット" }
+    ]
+  },
+  {
+    "id": "work_19",
+    "question1": { "en": "Do you ever think about changing careers?", "ja": "キャリアチェンジ（転職）について考えることある？" },
+    "answer1_variations": [
+      { "en": "All the time. I want to do something more meaningful.", "ja": "しょっちゅうね。もっと意味のあることがしたいんだ。" },
+      { "en": "Not really. I'm comfortable where I am.", "ja": "あんまり。今の場所に満足してるし。" }
+    ],
+    "answer1_detail": { "en": "I've always wanted to open a bakery.", "ja": "ずっとパン屋さんを開きたいと思ってるんだ。" },
+    "question2": { "en": "What's stopping you?", "ja": "何が障害になってるの？（なぜやらないの？）" },
+    "answer2_variations": [
+      { "en": "Money, mostly. It's a big risk.", "ja": "主にお金だね。リスクが大きいから。" },
+      { "en": "I'm too old to start over.", "ja": "一からやり直すには年を取りすぎたよ。" }
+    ],
+    "vocab": [
+      { "word": "meaningful", "meaning": "意義のある" },
+      { "word": "start over", "meaning": "やり直す、一から始める" },
+      { "word": "risk", "meaning": "危険、リスク" }
+    ]
+  },
+  {
+    "id": "work_20",
+    "question1": { "en": "Let's call it a day.", "ja": "今日の仕事はこれくらいにしよう（切り上げよう）。" },
+    "answer1_variations": [
+      { "en": "Good idea. My brain is fried.", "ja": "いい考えだ。もう脳みそが働かないよ。" },
+      { "en": "I just need to finish this one email.", "ja": "あとメール1通だけ終わらせないと。" }
+    ],
+    "answer1_detail": { "en": "We can pick this up again tomorrow morning.", "ja": "この続きはまた明日の朝やろう。" },
+    "question2": { "en": "Do you want to grab a drink?", "ja": "一杯飲みに行く？" },
+    "answer2_variations": [
+      { "en": "Sure, I need a beer.", "ja": "いいね、ビールが必要だ。" },
+      { "en": "I'll pass. I want to get home early.", "ja": "やめとくよ。早く家に帰りたいんだ。" }
+    ],
+    "vocab": [
+      { "word": "call it a day", "meaning": "（その日の）仕事を切り上げる、終わりにする" },
+      { "word": "fried", "meaning": "（頭が）疲れ切った、オーバーヒートした" },
+      { "word": "pick up", "meaning": "（中断した箇所から）再開する" }
+    ]
+  }
+]

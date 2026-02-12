@@ -1,5 +1,362 @@
-{
-  "id": "topic_sports",
-  "title": "Sports (スポーツ)",
-  "questions": []
-}
+[
+  {
+    "id": "sports_01",
+    "question1": { "en": "Do you like sports?", "ja": "スポーツは好きですか？" },
+    "answer1_variations": [
+      { "en": "Yes, I love playing and watching.", "ja": "はい、するのも見るのも大好きです。" },
+      { "en": "Not really, I'm not very athletic.", "ja": "いいえ、あまり運動神経がよくないので。" }
+    ],
+    "answer1_detail": { "en": "I played soccer all through high school.", "ja": "高校時代はずっとサッカーをしていました。" },
+    "question2": { "en": "What position did you play?", "ja": "ポジションはどこでしたか？" },
+    "answer2_variations": [
+      { "en": "I was a goalkeeper.", "ja": "ゴールキーパーでした。" },
+      { "en": "I played forward.", "ja": "フォワードをやっていました。" }
+    ],
+    "vocab": [
+      { "word": "athletic", "meaning": "運動神経が良い、スポーツマンらしい" },
+      { "word": "position", "meaning": "（スポーツの）守備位置、ポジション" }
+    ]
+  },
+  {
+    "id": "sports_02",
+    "question1": { "en": "Do you prefer team sports or individual sports?", "ja": "チームスポーツと個人競技、どっちが好きですか？" },
+    "answer1_variations": [
+      { "en": "I like the camaraderie of team sports.", "ja": "チームスポーツの連帯感が好きです。" },
+      { "en": "I prefer individual sports like tennis.", "ja": "テニスのような個人競技の方が好きです。" }
+    ],
+    "answer1_detail": { "en": "It's nice to rely on teammates.", "ja": "チームメイトを頼れるのはいいことですから。" },
+    "question2": { "en": "Do you get nervous?", "ja": "緊張しますか？" },
+    "answer2_variations": [
+      { "en": "Yes, especially before a match.", "ja": "はい、特に試合前は。" },
+      { "en": "No, I focus on the game.", "ja": "いいえ、試合に集中しているので。" }
+    ],
+    "vocab": [
+      { "word": "camaraderie", "meaning": "仲間意識、友情" },
+      { "word": "rely on", "meaning": "頼る、信頼する" }
+    ]
+  },
+  {
+    "id": "sports_03",
+    "question1": { "en": "How often do you work out?", "ja": "どのくらいの頻度で運動（筋トレ）しますか？" },
+    "answer1_variations": [
+      { "en": "I hit the gym three times a week.", "ja": "週に3回ジムに行きます。" },
+      { "en": "I go for a jog every morning.", "ja": "毎朝ジョギングをしています。" }
+    ],
+    "answer1_detail": { "en": "I'm trying to build some muscle.", "ja": "筋肉をつけようとしているんです。" },
+    "question2": { "en": "Do you use protein shakes?", "ja": "プロテインは飲んでいますか？" },
+    "answer2_variations": [
+      { "en": "Yes, after every workout.", "ja": "はい、トレーニングの後は毎回。" },
+      { "en": "No, I just eat a lot of chicken.", "ja": "いいえ、鶏肉をたくさん食べるだけです。" }
+    ],
+    "vocab": [
+      { "word": "work out", "meaning": "運動する、トレーニングする" },
+      { "word": "build muscle", "meaning": "筋肉をつける" }
+    ]
+  },
+  {
+    "id": "sports_04",
+    "question1": { "en": "Have you ever run a marathon?", "ja": "マラソンを走ったことはありますか？" },
+    "answer1_variations": [
+      { "en": "No, but it's on my bucket list.", "ja": "いいえ、でも死ぬまでにやってみたいリストに入っています。" },
+      { "en": "Yes, I did one last year.", "ja": "はい、去年一度走りました。" }
+    ],
+    "answer1_detail": { "en": "Training for it was brutal.", "ja": "そのためのトレーニングは過酷でした。" },
+    "question2": { "en": "What was your time?", "ja": "タイムはどれくらいでしたか？" },
+    "answer2_variations": [
+      { "en": "Just under four hours.", "ja": "4時間を少し切るくらいです。" },
+      { "en": "I didn't care about the time.", "ja": "タイムは気にしませんでした。" }
+    ],
+    "vocab": [
+      { "word": "bucket list", "meaning": "死ぬまでにしたいことリスト" },
+      { "word": "brutal", "meaning": "過酷な、厳しい" }
+    ]
+  },
+  {
+    "id": "sports_05",
+    "question1": { "en": "Do you follow professional baseball?", "ja": "プロ野球は見ていますか？" },
+    "answer1_variations": [
+      { "en": "Yes, I'm a huge fan of the Tigers.", "ja": "はい、タイガースの大ファンです。" },
+      { "en": "Only during the Japan Series.", "ja": "日本シリーズの時だけですね。" }
+    ],
+    "answer1_detail": { "en": "I go to the stadium whenever I can.", "ja": "行ける時はいつでも球場に行きます。" },
+    "question2": { "en": "Do you have a favorite player?", "ja": "好きな選手はいますか？" },
+    "answer2_variations": [
+      { "en": "Yes, Ohtani is amazing.", "ja": "はい、大谷選手は素晴らしいです。" },
+      { "en": "I like the whole team.", "ja": "チーム全体が好きです。" }
+    ],
+    "vocab": [
+      { "word": "huge fan", "meaning": "大ファン" },
+      { "word": "stadium", "meaning": "スタジアム、球場" }
+    ]
+  },
+  {
+    "id": "sports_06",
+    "question1": { "en": "Can you swim?", "ja": "泳げますか？" },
+    "answer1_variations": [
+      { "en": "Yes, I was on the swim team.", "ja": "はい、水泳部でした。" },
+      { "en": "I can tread water, but that's it.", "ja": "立ち泳ぎはできますが、それだけです。" }
+    ],
+    "answer1_detail": { "en": "Breaststroke is my strongest style.", "ja": "平泳ぎが一番得意です。" },
+    "question2": { "en": "Do you like the ocean?", "ja": "海は好きですか？" },
+    "answer2_variations": [
+      { "en": "I prefer the pool, no waves.", "ja": "波がないのでプールの方が好きです。" },
+      { "en": "Yes, I love surfing.", "ja": "はい、サーフィンが大好きです。" }
+    ],
+    "vocab": [
+      { "word": "tread water", "meaning": "立ち泳ぎをする" },
+      { "word": "breaststroke", "meaning": "平泳ぎ" }
+    ]
+  },
+  {
+    "id": "sports_07",
+    "question1": { "en": "Do you play golf?", "ja": "ゴルフはしますか？" },
+    "answer1_variations": [
+      { "en": "Sometimes with my coworkers.", "ja": "時々同僚と。" },
+      { "en": "No, it seems too expensive.", "ja": "いいえ、お金がかかりすぎる気がして。" }
+    ],
+    "answer1_detail": { "en": "I'm still trying to improve my swing.", "ja": "まだスイングを改善しようとしているところです。" },
+    "question2": { "en": "What is your handicap?", "ja": "ハンディキャップはいくつですか？" },
+    "answer2_variations": [
+      { "en": "I'm not good enough to have one.", "ja": "ハンデを持つほど上手くないですよ。" },
+      { "en": "It's around 18.", "ja": "18くらいです。" }
+    ],
+    "vocab": [
+      { "word": "improve", "meaning": "改善する、上達させる" },
+      { "word": "handicap", "meaning": "（ゴルフなどの）ハンディキャップ" }
+    ]
+  },
+  {
+    "id": "sports_08",
+    "question1": { "en": "Do you watch the Olympics?", "ja": "オリンピックは見ますか？" },
+    "answer1_variations": [
+      { "en": "I watch every event I can.", "ja": "見られる種目は全部見ます。" },
+      { "en": "Only the opening ceremony.", "ja": "開会式だけですね。" }
+    ],
+    "answer1_detail": { "en": "I love seeing athletes represent their countries.", "ja": "選手たちが国を代表している姿を見るのが好きなんです。" },
+    "question2": { "en": "Summer or Winter games?", "ja": "夏季と冬季、どっち？" },
+    "answer2_variations": [
+      { "en": "Winter, I love figure skating.", "ja": "冬季ですね、フィギュアスケートが好きなので。" },
+      { "en": "Summer, for the track and field.", "ja": "夏季です、陸上競技があるので。" }
+    ],
+    "vocab": [
+      { "word": "represent", "meaning": "代表する" },
+      { "word": "track and field", "meaning": "陸上競技" }
+    ]
+  },
+  {
+    "id": "sports_09",
+    "question1": { "en": "Have you ever tried yoga?", "ja": "ヨガをやったことはありますか？" },
+    "answer1_variations": [
+      { "en": "Yes, it helps me stretch.", "ja": "はい、ストレッチになるので。" },
+      { "en": "I think it's too slow for me.", "ja": "私には動きがゆっくりすぎると思います。" }
+    ],
+    "answer1_detail": { "en": "It's great for flexibility and balance.", "ja": "柔軟性とバランス感覚にすごくいいんです。" },
+    "question2": { "en": "Can you touch your toes?", "ja": "つま先に手が届きますか？" },
+    "answer2_variations": [
+      { "en": "Easily.", "ja": "余裕です。" },
+      { "en": "Not even close.", "ja": "全然届きません。" }
+    ],
+    "vocab": [
+      { "word": "flexibility", "meaning": "柔軟性" },
+      { "word": "not even close", "meaning": "惜しくもない、全然ダメ" }
+    ]
+  },
+  {
+    "id": "sports_10",
+    "question1": { "en": "What do you think about tennis?", "ja": "テニスについてどう思いますか？" },
+    "answer1_variations": [
+      { "en": "It looks like a lot of fun.", "ja": "とても楽しそうです。" },
+      { "en": "It's tiring to run back and forth.", "ja": "あちこち走り回るのは疲れますよ。" }
+    ],
+    "answer1_detail": { "en": "I used to take lessons on weekends.", "ja": "週末にレッスンを受けていました。" },
+    "question2": { "en": "Are you good at serving?", "ja": "サーブは得意ですか？" },
+    "answer2_variations": [
+      { "en": "My serve is my best weapon.", "ja": "サーブは私の最大の武器です。" },
+      { "en": "I often double fault.", "ja": "よくダブルフォルトしちゃいます。" }
+    ],
+    "vocab": [
+      { "word": "back and forth", "meaning": "前後左右に、あちこちに" },
+      { "word": "weapon", "meaning": "武器" }
+    ]
+  },
+  {
+    "id": "sports_11",
+    "question1": { "en": "Do you enjoy winter sports?", "ja": "ウィンタースポーツは好きですか？" },
+    "answer1_variations": [
+      { "en": "I love skiing.", "ja": "スキーが大好きです。" },
+      { "en": "I prefer staying warm indoors.", "ja": "室内で暖かくしている方が好きです。" }
+    ],
+    "answer1_detail": { "en": "The view from the mountain top is amazing.", "ja": "山頂からの景色は最高です。" },
+    "question2": { "en": "Have you ever broken a bone?", "ja": "骨折したことはありますか？" },
+    "answer2_variations": [
+      { "en": "Luckily, never.", "ja": "運良く、一度もありません。" },
+      { "en": "Yes, I broke my leg once.", "ja": "はい、一度足を骨折しました。" }
+    ],
+    "vocab": [
+      { "word": "indoors", "meaning": "屋内で" },
+      { "word": "luckily", "meaning": "運良く" }
+    ]
+  },
+  {
+    "id": "sports_12",
+    "question1": { "en": "Is basketball popular in your country?", "ja": "あなたの国でバスケットボールは人気ですか？" },
+    "answer1_variations": [
+      { "en": "Yes, especially among students.", "ja": "はい、特に学生の間で。" },
+      { "en": "Soccer is much more popular.", "ja": "サッカーの方がずっと人気があります。" }
+    ],
+    "answer1_detail": { "en": "We grew up reading 'Slam Dunk'.", "ja": "私たちは『スラムダンク』を読んで育ちましたから。" },
+    "question2": { "en": "Can you dribble well?", "ja": "ドリブルは上手ですか？" },
+    "answer2_variations": [
+      { "en": "I'm okay, but not great.", "ja": "まあまあですが、すごくはないです。" },
+      { "en": "I can do some tricks.", "ja": "少しトリックができます。" }
+    ],
+    "vocab": [
+      { "word": "grow up", "meaning": "育つ、成長する" },
+      { "word": "trick", "meaning": "技、トリック" }
+    ]
+  },
+  {
+    "id": "sports_13",
+    "question1": { "en": "Have you ever been injured playing sports?", "ja": "スポーツをしていて怪我をしたことはありますか？" },
+    "answer1_variations": [
+      { "en": "I sprained my ankle playing volleyball.", "ja": "バレーボールをしていて足首を捻挫しました。" },
+      { "en": "Just some scratches and bruises.", "ja": "擦り傷と打撲くらいです。" }
+    ],
+    "answer1_detail": { "en": "I had to use crutches for a week.", "ja": "1週間松葉杖を使わなければなりませんでした。" },
+    "question2": { "en": "Did you go to the hospital?", "ja": "病院に行きましたか？" },
+    "answer2_variations": [
+      { "en": "Yes, to get an X-ray.", "ja": "はい、レントゲンを撮りに。" },
+      { "en": "No, I just put ice on it.", "ja": "いいえ、ただ氷で冷やしました。" }
+    ],
+    "vocab": [
+      { "word": "sprain", "meaning": "捻挫する" },
+      { "word": "crutches", "meaning": "松葉杖" }
+    ]
+  },
+  {
+    "id": "sports_14",
+    "question1": { "en": "Do you like hiking?", "ja": "ハイキングは好きですか？" },
+    "answer1_variations": [
+      { "en": "It's my favorite way to relax.", "ja": "お気に入りのリラックス法です。" },
+      { "en": "I don't like bugs.", "ja": "虫が嫌いなので。" }
+    ],
+    "answer1_detail": { "en": "Fresh air is good for your health.", "ja": "新鮮な空気は健康にいいですから。" },
+    "question2": { "en": "Do you have hiking boots?", "ja": "ハイキングシューズは持っていますか？" },
+    "answer2_variations": [
+      { "en": "Yes, very sturdy ones.", "ja": "はい、とても頑丈なやつを。" },
+      { "en": "I just wear sneakers.", "ja": "スニーカーを履くだけです。" }
+    ],
+    "vocab": [
+      { "word": "fresh air", "meaning": "新鮮な空気" },
+      { "word": "sturdy", "meaning": "頑丈な、丈夫な" }
+    ]
+  },
+  {
+    "id": "sports_15",
+    "question1": { "en": "Do you know the rules of rugby?", "ja": "ラグビーのルールを知っていますか？" },
+    "answer1_variations": [
+      { "en": "Not really, it looks complicated.", "ja": "あんまり、複雑そうに見えます。" },
+      { "en": "Yes, I watched the World Cup.", "ja": "はい、ワールドカップを見ましたから。" }
+    ],
+    "answer1_detail": { "en": "They tackle each other without pads.", "ja": "彼らはパッドなしでタックルし合いますよね。" },
+    "question2": { "en": "Would you play it?", "ja": "やってみたいですか？" },
+    "answer2_variations": [
+      { "en": "No way, it's too dangerous.", "ja": "まさか、危険すぎます。" },
+      { "en": "Maybe touch rugby.", "ja": "タッチラグビーなら。" }
+    ],
+    "vocab": [
+      { "word": "complicated", "meaning": "複雑な" },
+      { "word": "pad", "meaning": "（防具の）パッド" }
+    ]
+  },
+  {
+    "id": "sports_16",
+    "question1": { "en": "Are you competitive?", "ja": "負けず嫌いですか？" },
+    "answer1_variations": [
+      { "en": "Yes, I hate losing.", "ja": "はい、負けるのが大嫌いです。" },
+      { "en": "No, I just play for fun.", "ja": "いいえ、楽しむためにやっているだけです。" }
+    ],
+    "answer1_detail": { "en": "Winning isn't everything.", "ja": "勝つことが全てではありません。" },
+    "question2": { "en": "Are you a sore loser?", "ja": "負け惜しみを言うタイプですか？" },
+    "answer2_variations": [
+      { "en": "I try to be a good sport.", "ja": "潔くあろうとしています。" },
+      { "en": "Sometimes I get sulky.", "ja": "時々ふてくされちゃいます。" }
+    ],
+    "vocab": [
+      { "word": "competitive", "meaning": "競争心の強い、負けず嫌いな" },
+      { "word": "sore loser", "meaning": "負け惜しみを言う人、潔くない敗者" }
+    ]
+  },
+  {
+    "id": "sports_17",
+    "question1": { "en": "Do you cycle?", "ja": "自転車に乗りますか？" },
+    "answer1_variations": [
+      { "en": "I commute by bike.", "ja": "自転車で通勤しています。" },
+      { "en": "I go cycling on weekends.", "ja": "週末にサイクリングに行きます。" }
+    ],
+    "answer1_detail": { "en": "I have a road bike.", "ja": "ロードバイクを持っています。" },
+    "question2": { "en": "Do you wear a helmet?", "ja": "ヘルメットはかぶりますか？" },
+    "answer2_variations": [
+      { "en": "Always, safety first.", "ja": "いつもです、安全第一。" },
+      { "en": "I often forget it.", "ja": "よく忘れちゃいます。" }
+    ],
+    "vocab": [
+      { "word": "commute", "meaning": "通勤・通学する" },
+      { "word": "safety first", "meaning": "安全第一" }
+    ]
+  },
+  {
+    "id": "sports_18",
+    "question1": { "en": "Have you tried any extreme sports?", "ja": "エクストリームスポーツに挑戦したことはありますか？" },
+    "answer1_variations": [
+      { "en": "I went bungee jumping once.", "ja": "一度バンジージャンプをしました。" },
+      { "en": "I'm too scared of heights.", "ja": "高所恐怖症なので無理です。" }
+    ],
+    "answer1_detail": { "en": "The adrenaline rush was insane.", "ja": "アドレナリンの出方が尋常じゃなかったです。" },
+    "question2": { "en": "Would you do it again?", "ja": "もう一度やりますか？" },
+    "answer2_variations": [
+      { "en": "Definitely!", "ja": "絶対に！" },
+      { "en": "Never again.", "ja": "二度とやりません。" }
+    ],
+    "vocab": [
+      { "word": "scared of heights", "meaning": "高所恐怖症である" },
+      { "word": "insane", "meaning": "正気じゃない、すごい（スラング）" }
+    ]
+  },
+  {
+    "id": "sports_19",
+    "question1": { "en": "Do you engage in martial arts?", "ja": "武道（格闘技）はやっていますか？" },
+    "answer1_variations": [
+      { "en": "I have a black belt in Karate.", "ja": "空手の黒帯を持っています。" },
+      { "en": "I do Judo.", "ja": "柔道をやっています。" }
+    ],
+    "answer1_detail": { "en": "It teaches discipline and respect.", "ja": "規律と礼儀を教えてくれます。" },
+    "question2": { "en": "How long have you been practicing?", "ja": "どのくらいやっていますか？" },
+    "answer2_variations": [
+      { "en": "Since I was a child.", "ja": "子供の頃からです。" },
+      { "en": "Just a few months.", "ja": "まだ数ヶ月です。" }
+    ],
+    "vocab": [
+      { "word": "engage in", "meaning": "従事する、行う" },
+      { "word": "discipline", "meaning": "規律、しつけ" }
+    ]
+  },
+  {
+    "id": "sports_20",
+    "question1": { "en": "What is the most expensive sport?", "ja": "一番お金のかかるスポーツは何だと思いますか？" },
+    "answer1_variations": [
+      { "en": "Probably equestrian sports.", "ja": "たぶん馬術（乗馬）でしょう。" },
+      { "en": "Motor racing costs a fortune.", "ja": "カーレースは大金がかかります。" }
+    ],
+    "answer1_detail": { "en": "You need a lot of equipment and maintenance.", "ja": "多くの機材とメンテナンスが必要ですから。" },
+    "question2": { "en": "Is walking a sport?", "ja": "ウォーキングはスポーツですか？" },
+    "answer2_variations": [
+      { "en": "If you walk fast enough.", "ja": "十分に速く歩けばね。" },
+      { "en": "It's more of an exercise.", "ja": "どちらかというと運動ですね。" }
+    ],
+    "vocab": [
+      { "word": "equestrian", "meaning": "馬術の、乗馬の" },
+      { "word": "maintenance", "meaning": "維持、整備" }
+    ]
+  }
+]

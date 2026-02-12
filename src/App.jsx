@@ -118,7 +118,7 @@ const VocabHighlighter = ({ text, vocabList }) => {
   );
 };
 
-// ■ 1行ごとの英文コンポーネント（修正版：スピーカー左、日本語下、レイアウト優先）
+// ■ 1行ごとの英文コンポーネント（修正版：スピーカー左固定、日本語は下段）
 const SentenceRow = ({ textEn, textJa, vocab, showTrans, className = "" }) => {
   return (
     <div className={`flex items-start gap-3 ${className}`}>
@@ -148,7 +148,7 @@ const SentenceRow = ({ textEn, textJa, vocab, showTrans, className = "" }) => {
 };
 
 // ■ 翻訳切り替えボタン（各セクションのヘッダー用）
-const TransToggleButton = ({ showTrans, onClick, colorClass = "text-gray-500" }) => (
+const TransToggleButton = ({ showTrans, onClick }) => (
   <button 
     onClick={(e) => { e.stopPropagation(); onClick(); }}
     className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-bold transition-all shadow-sm ${showTrans ? 'bg-white text-gray-800 ring-2 ring-red-100' : 'bg-white/60 hover:bg-white text-gray-500'}`}
@@ -219,7 +219,7 @@ const QuestionCard = ({ item, index, isExpanded, onToggleExpand }) => {
   const a2List = item.answer2_variations || [];
   const vocab = item.vocab || [];
 
-  // --- セクション間の矢印 (濃く修正) ---
+  // --- セクション間の矢印 (ご要望通り濃く修正) ---
   const SectionArrow = () => (
     <div className="flex justify-center -my-3 relative z-20">
       <div className="bg-white rounded-full p-1.5 shadow-sm border border-gray-200">
@@ -460,13 +460,15 @@ const OpenModal = ({ isOpen, onClose, topic, topicIndex, initialStep = 0 }) => {
             <div className="relative z-10">
               <h3 className="text-xl md:text-2xl font-black line-clamp-1">{topic.title}</h3>
               <p className="text-white/80 font-bold text-xs bg-white/20 inline-block px-2 py-1 rounded mt-1">
-                {topic.questions.length} Lessons
+                {/* ここで安全に長さを取得してエラー回避！ */}
+                {topic.questions?.length || 0} Lessons
               </p>
             </div>
           </div>
           
           <div className="p-4 md:p-6 overflow-y-auto flex-1 overscroll-contain bg-slate-50">
-            {topic.questions.map((item, i) => (
+            {/* ここでも安全にマップ処理してエラー回避！ */}
+            {topic.questions?.map((item, i) => (
               <QuestionCard 
                 key={i}
                 index={i}
@@ -594,7 +596,8 @@ const App = () => {
                   </div>
                   <div className="min-w-0">
                     <h3 className="font-bold text-gray-700 text-lg group-hover:text-indigo-600 transition-colors truncate">{topic.title}</h3>
-                    <p className="text-gray-400 text-xs md:text-sm font-bold">{topic.questions.length} Lessons</p>
+                    {/* 安全に長さを取得する修正 */}
+                    <p className="text-gray-400 text-xs md:text-sm font-bold">{topic.questions?.length || 0} Lessons</p>
                   </div>
                   <ChevronRight className="ml-auto text-gray-300 group-hover:text-indigo-400 shrink-0" />
                 </button>

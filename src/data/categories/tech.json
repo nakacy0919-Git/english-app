@@ -1,5 +1,382 @@
-{
-  "id": "topic_tech",
-  "title": "Technology (テクノロジー)",
-  "questions": []
-}
+[
+  {
+    "id": "tech_01",
+    "question1": { "en": "What kind of phone are you using these days?", "ja": "最近はどんなスマホを使ってるの？" },
+    "answer1_variations": [
+      { "en": "I'm sticking with my iPhone for now.", "ja": "今はiPhoneを使い続けてるよ。" },
+      { "en": "I actually just switched to Android.", "ja": "実はAndroidに乗り換えたばかりなんだ。" }
+    ],
+    "answer1_detail": { "en": "I mainly use it for photography, so the camera quality is a dealbreaker for me.", "ja": "主に写真撮影に使うから、画質は譲れない条件なんだよね。" },
+    "question2": { "en": "Is the night mode any good?", "ja": "ナイトモードの性能はどう？" },
+    "answer2_variations": [
+      { "en": "It's incredible; shots look crystal clear in the dark.", "ja": "すごいよ。暗いところでも鮮明に撮れるんだ。" },
+      { "en": "It's decent, but a bit grainy in low light.", "ja": "悪くはないけど、光が少ないと少し粒子が荒くなるかな。" }
+    ],
+    "vocab": [
+      { "word": "stick with", "meaning": "〜を使い続ける、〜に固執する" },
+      { "word": "dealbreaker", "meaning": "交渉決裂の要因、譲れない条件" },
+      { "word": "grainy", "meaning": "粒子が荒い、ざらついた" }
+    ]
+  },
+  {
+    "id": "tech_02",
+    "question1": { "en": "Do you prefer working on a Mac or a PC?", "ja": "仕事をするならMacとPC（Windows）、どっちが好き？" },
+    "answer1_variations": [
+      { "en": "I'm definitely a Mac user.", "ja": "断然Macユーザーだね。" },
+      { "en": "I prefer PC because of the software compatibility.", "ja": "ソフトの互換性を考えるとPCの方が好きかな。" }
+    ],
+    "answer1_detail": { "en": "The ecosystem is just so seamless between my laptop and phone.", "ja": "ノートPCとスマホの間のエコシステム（連携）が本当にシームレスなんだ。" },
+    "question2": { "en": "Does it ever lag when you're multitasking?", "ja": "マルチタスクをしている時に遅くなったりする？" },
+    "answer2_variations": [
+      { "en": "Rarely. It handles heavy apps like a champ.", "ja": "めったにないね。重いアプリも余裕で処理してくれるよ。" },
+      { "en": "Sometimes, especially if I have too many tabs open.", "ja": "たまにあるね、特にタブを開きすぎている時は。" }
+    ],
+    "vocab": [
+      { "word": "seamless", "meaning": "継ぎ目のない、円滑な" },
+      { "word": "lag", "meaning": "遅れる、動作が重くなる" },
+      { "word": "like a champ", "meaning": "見事に、余裕で" }
+    ]
+  },
+  {
+    "id": "tech_03",
+    "question1": { "en": "Have you tried that new AI chatbot yet?", "ja": "あの新しいAIチャットボット、もう試した？" },
+    "answer1_variations": [
+      { "en": "Yeah, I use it almost every day.", "ja": "うん、ほぼ毎日使ってるよ。" },
+      { "en": "Not yet. Is it worth the hype?", "ja": "まだだよ。そんなに評判いいの？（盛り上がる価値ある？）" }
+    ],
+    "answer1_detail": { "en": "It's a game-changer for drafting emails and summarizing articles.", "ja": "メールの下書きや記事の要約には、まさに革命的だよ。" },
+    "question2": { "en": "Does it sound natural though?", "ja": "でも、自然な文章になる？" },
+    "answer2_variations": [
+      { "en": "Surprisingly, yes. It's hard to tell it's a bot.", "ja": "驚いたことにね。ボットだと見分けるのは難しいよ。" },
+      { "en": "Sometimes it sounds a bit robotic, so I have to edit it.", "ja": "たまに少しロボットっぽいから、手直しは必要かな。" }
+    ],
+    "vocab": [
+      { "word": "worth the hype", "meaning": "評判通りの価値がある" },
+      { "word": "game-changer", "meaning": "状況を一変させるもの、画期的なもの" },
+      { "word": "draft", "meaning": "下書きする" }
+    ]
+  },
+  {
+    "id": "tech_04",
+    "question1": { "en": "My laptop battery keeps dying so fast.", "ja": "ノートPCの充電がすぐになくなっちゃうんだ。" },
+    "answer1_variations": [
+      { "en": "How old is the device?", "ja": "その端末、どれくらい古いの？" },
+      { "en": "You might need to replace the battery.", "ja": "バッテリーを交換した方がいいかもね。" }
+    ],
+    "answer1_detail": { "en": "If it's over three years old, the battery health probably degraded.", "ja": "もし3年以上経ってるなら、バッテリーの状態が劣化してる可能性が高いよ。" },
+    "question2": { "en": "Is it expensive to fix?", "ja": "修理するの高いかな？" },
+    "answer2_variations": [
+      { "en": "It shouldn't be too bad if you go to a third-party shop.", "ja": "非正規の店に行けば、そこまでひどい値段にはならないはずだよ。" },
+      { "en": "It might be better to just invest in a new one.", "ja": "いっそ新しいのを買った方がいいかもしれないね。" }
+    ],
+    "vocab": [
+      { "word": "degrade", "meaning": "劣化する" },
+      { "word": "third-party", "meaning": "サードパーティ、非正規の（第三者機関の）" },
+      { "word": "invest in", "meaning": "〜に投資する、思い切って買う" }
+    ]
+  },
+  {
+    "id": "tech_05",
+    "question1": { "en": "Are you into gaming at all?", "ja": "ゲームにはハマってる？" },
+    "answer1_variations": [
+      { "en": "I'm a huge gamer. I play on PC mostly.", "ja": "大のゲーマーだよ。主にPCでやってる。" },
+      { "en": "I play casually on my phone to kill time.", "ja": "暇つぶしにスマホで軽くやる程度かな。" }
+    ],
+    "answer1_detail": { "en": "I just built a new gaming rig with a high-end graphics card.", "ja": "ハイエンドのグラフィックボードを積んだゲーミングPCを自作したばかりなんだ。" },
+    "question2": { "en": "That sounds expensive. What do you play?", "ja": "高そうだね。何をプレイしてるの？" },
+    "answer2_variations": [
+      { "en": "Mostly FPS games and open-world RPGs.", "ja": "主にFPS（一人称シューティング）とオープンワールドのRPGだね。" },
+      { "en": "I'm really into strategy games right now.", "ja": "今は戦略ゲームにすごくハマってるよ。" }
+    ],
+    "vocab": [
+      { "word": "kill time", "meaning": "暇をつぶす" },
+      { "word": "rig", "meaning": "（特定の目的で組み立てた）装置、機材一式" },
+      { "word": "high-end", "meaning": "高性能の、高級な" }
+    ]
+  },
+  {
+    "id": "tech_06",
+    "question1": { "en": "Do you wear a smartwatch?", "ja": "スマートウォッチは着けてる？" },
+    "answer1_variations": [
+      { "en": "Yes, I feel naked without it.", "ja": "うん、着けてないと落ち着かないよ。" },
+      { "en": "No, I prefer traditional analog watches.", "ja": "いいや、僕は昔ながらのアナログ時計の方が好きだな。" }
+    ],
+    "answer1_detail": { "en": "I use it to track my steps and monitor my sleep quality.", "ja": "歩数の記録と、睡眠の質のモニタリングに使ってるんだ。" },
+    "question2": { "en": "Does the battery last long?", "ja": "充電は長持ちする？" },
+    "answer2_variations": [
+      { "en": "I have to charge it every night, unfortunately.", "ja": "残念ながら毎晩充電しないといけないんだ。" },
+      { "en": "Yeah, it can go for about a week on a single charge.", "ja": "うん、1回の充電で1週間くらい持つよ。" }
+    ],
+    "vocab": [
+      { "word": "feel naked", "meaning": "（いつも身につけているものがなくて）心細い、裸同然に感じる" },
+      { "word": "track", "meaning": "追跡する、記録する" },
+      { "word": "charge", "meaning": "充電する" }
+    ]
+  },
+  {
+    "id": "tech_07",
+    "question1": { "en": "The Wi-Fi here is super sketchy.", "ja": "ここのWi-Fi、すごく不安定だね。" },
+    "answer1_variations": [
+      { "en": "Tell me about it. I can't even load a video.", "ja": "本当だよね。動画すら読み込めないよ。" },
+      { "en": "Really? Mine seems to be working fine.", "ja": "そう？私のは順調に動いてるみたいだけど。" }
+    ],
+    "answer1_detail": { "en": "I tried disconnecting and reconnecting, but it keeps dropping.", "ja": "接続を切って繋ぎ直してみたけど、切れ続けるんだ。" },
+    "question2": { "en": "Why don't you use your mobile hotspot?", "ja": "スマホのテザリング（ホットスポット）を使ったら？" },
+    "answer2_variations": [
+      { "en": "Good idea, I have unlimited data anyway.", "ja": "いい考えだね、どうせデータ無制限だし。" },
+      { "en": "I'm almost out of data for the month.", "ja": "今月のデータ容量がもうすぐ切れそうなんだ。" }
+    ],
+    "vocab": [
+      { "word": "sketchy", "meaning": "怪しい、不安定な" },
+      { "word": "Tell me about it", "meaning": "（同意して）本当だよね、言わなくてもわかるよ" },
+      { "word": "drop", "meaning": "（接続が）切れる" }
+    ]
+  },
+  {
+    "id": "tech_08",
+    "question1": { "en": "How do you back up your photos?", "ja": "写真のバックアップはどうしてる？" },
+    "answer1_variations": [
+      { "en": "I use cloud storage for everything.", "ja": "全部クラウドストレージを使ってるよ。" },
+      { "en": "I prefer using an external hard drive.", "ja": "外付けハードディスクを使う方が好きだな。" }
+    ],
+    "answer1_detail": { "en": "It syncs automatically whenever I'm on Wi-Fi.", "ja": "Wi-Fiに繋がっていれば自動的に同期されるんだ。" },
+    "question2": { "en": "Do you pay for extra storage?", "ja": "追加容量にお金を払ってる？" },
+    "answer2_variations": [
+      { "en": "Yeah, the free tier filled up years ago.", "ja": "うん、無料枠は何年も前にいっぱいになっちゃったから。" },
+      { "en": "No, I just delete old stuff to make space.", "ja": "いいや、古いやつを消してスペースを空けてるよ。" }
+    ],
+    "vocab": [
+      { "word": "sync", "meaning": "同期する" },
+      { "word": "external hard drive", "meaning": "外付けハードディスク" },
+      { "word": "tier", "meaning": "（価格やレベルの）段階、層" }
+    ]
+  },
+  {
+    "id": "tech_09",
+    "question1": { "en": "Do you use any productivity apps?", "ja": "何か生産性を上げるアプリ（タスク管理など）は使ってる？" },
+    "answer1_variations": [
+      { "en": "I live by my calendar app.", "ja": "カレンダーアプリがないと生きていけないね。" },
+      { "en": "I use a simple to-do list manager.", "ja": "シンプルなTo-Doリスト管理ツールを使ってるよ。" }
+    ],
+    "answer1_detail": { "en": "It sends me reminders so I never miss a deadline.", "ja": "リマインダーを送ってくれるから、締め切りを逃すことがないんだ。" },
+    "question2": { "en": "Is it free or paid?", "ja": "それって無料？有料？" },
+    "answer2_variations": [
+      { "en": "It's a subscription model, but totally worth it.", "ja": "サブスク制だけど、払う価値は絶対あるよ。" },
+      { "en": "There's a free version that does the job.", "ja": "無料版でも十分役に立つよ。" }
+    ],
+    "vocab": [
+      { "word": "live by", "meaning": "〜に頼って生きる、〜を指針とする" },
+      { "word": "deadline", "meaning": "締め切り" },
+      { "word": "subscription", "meaning": "定期購読、サブスクリプション" }
+    ]
+  },
+  {
+    "id": "tech_10",
+    "question1": { "en": "Have you seen those new VR headsets?", "ja": "あの新しいVRヘッドセット見た？" },
+    "answer1_variations": [
+      { "en": "Yeah, the immersion is unbelievable.", "ja": "うん、没入感が信じられないレベルだよ。" },
+      { "en": "I saw them, but they look too bulky for me.", "ja": "見たけど、私にはちょっと大きくて重そうだな。" }
+    ],
+    "answer1_detail": { "en": "You really feel like you're in a different world.", "ja": "本当に別の世界にいるように感じるんだ。" },
+    "question2": { "en": "Do you get motion sickness though?", "ja": "でも、画面酔いしない？" },
+    "answer2_variations": [
+      { "en": "A little bit if I play for too long.", "ja": "長くやりすぎると少しね。" },
+      { "en": "Not at all, the refresh rate is very high.", "ja": "全然。リフレッシュレート（画面の更新頻度）がすごく高いから。" }
+    ],
+    "vocab": [
+      { "word": "immersion", "meaning": "没入感" },
+      { "word": "bulky", "meaning": "かさばる、大きすぎる" },
+      { "word": "motion sickness", "meaning": "乗り物酔い、画面酔い" }
+    ]
+  },
+  {
+    "id": "tech_11",
+    "question1": { "en": "I think I got a virus on my computer.", "ja": "パソコンがウイルスに感染したみたいなんだ。" },
+    "answer1_variations": [
+      { "en": "What makes you say that?", "ja": "どうしてそう思うの？" },
+      { "en": "Did you click on a suspicious link?", "ja": "何か怪しいリンクをクリックした？" }
+    ],
+    "answer1_detail": { "en": "I keep getting these annoying pop-up ads everywhere.", "ja": "どこにでも迷惑なポップアップ広告が出るようになっちゃって。" },
+    "question2": { "en": "Have you run a scan yet?", "ja": "ウイルススキャンはもうかけた？" },
+    "answer2_variations": [
+      { "en": "I'm running one right now.", "ja": "今ちょうどかけてるところ。" },
+      { "en": "No, I don't have any antivirus software installed.", "ja": "ううん、ウイルス対策ソフトを入れてないんだ。" }
+    ],
+    "vocab": [
+      { "word": "suspicious", "meaning": "怪しい、疑わしい" },
+      { "word": "annoying", "meaning": "うっとうしい、イライラさせる" },
+      { "word": "run a scan", "meaning": "（ウイルス）スキャンを実行する" }
+    ]
+  },
+  {
+    "id": "tech_12",
+    "question1": { "en": "Are you working remotely today?", "ja": "今日はリモートワーク？" },
+    "answer1_variations": [
+      { "en": "Yes, I'm working from home all week.", "ja": "うん、今週はずっと在宅勤務だよ。" },
+      { "en": "No, I had to come into the office for a meeting.", "ja": "いや、会議があるからオフィスに来なきゃいけなかったんだ。" }
+    ],
+    "answer1_detail": { "en": "I love the flexibility, but I miss the social interaction.", "ja": "柔軟なのは最高だけど、人との交流が恋しくなるね。" },
+    "question2": { "en": "Do you use Zoom a lot?", "ja": "Zoomはよく使う？" },
+    "answer2_variations": [
+      { "en": "Way too much. I have 'Zoom fatigue'.", "ja": "使いすぎだよ。「Zoom疲れ」してる。" },
+      { "en": "Only for the morning check-ins.", "ja": "朝の確認ミーティングの時だけかな。" }
+    ],
+    "vocab": [
+      { "word": "flexibility", "meaning": "柔軟性" },
+      { "word": "interaction", "meaning": "交流、やりとり" },
+      { "word": "fatigue", "meaning": "疲労" }
+    ]
+  },
+  {
+    "id": "tech_13",
+    "question1": { "en": "How do you handle all your passwords?", "ja": "パスワードの管理ってどうやってる？" },
+    "answer1_variations": [
+      { "en": "I use a password manager app.", "ja": "パスワード管理アプリを使ってるよ。" },
+      { "en": "Honestly, I use the same one for everything. I know it's bad.", "ja": "正直言うと、全部同じのを使ってる。悪いとはわかってるんだけど。" }
+    ],
+    "answer1_detail": { "en": "It generates complex passwords and stores them securely.", "ja": "それは複雑なパスワードを生成して、安全に保存してくれるんだ。" },
+    "question2": { "en": "Do you use two-factor authentication?", "ja": "二段階認証は使ってる？" },
+    "answer2_variations": [
+      { "en": "Yes, wherever it's available.", "ja": "うん、使えるところはどこでも。" },
+      { "en": "It's too much of a hassle for me.", "ja": "僕にはちょっと面倒くさすぎるかな。" }
+    ],
+    "vocab": [
+      { "word": "securely", "meaning": "安全に" },
+      { "word": "two-factor authentication", "meaning": "二段階認証（2FA）" },
+      { "word": "hassle", "meaning": "面倒なこと" }
+    ]
+  },
+  {
+    "id": "tech_14",
+    "question1": { "en": "Do you prefer e-books or physical books?", "ja": "電子書籍と紙の本、どっちが好き？" },
+    "answer1_variations": [
+      { "en": "I love my Kindle. It's so convenient.", "ja": "Kindleを愛用してるよ。すごく便利だし。" },
+      { "en": "Nothing beats the smell of a real book.", "ja": "本物の本の匂いには勝てないよ。" }
+    ],
+    "answer1_detail": { "en": "I can carry thousands of books in my pocket.", "ja": "ポケットに何千冊もの本を入れて持ち運べるからね。" },
+    "question2": { "en": "Doesn't it strain your eyes?", "ja": "目が疲れたりしない？" },
+    "answer2_variations": [
+      { "en": "Not really, the screen is designed to look like paper.", "ja": "あんまり。画面が紙に見えるように設計されてるから。" },
+      { "en": "A little, so I take breaks often.", "ja": "少しね、だからこまめに休憩をとるよ。" }
+    ],
+    "vocab": [
+      { "word": "convenient", "meaning": "便利な" },
+      { "word": "strain", "meaning": "（目などを）酷使する、負担をかける" },
+      { "word": "take a break", "meaning": "休憩する" }
+    ]
+  },
+  {
+    "id": "tech_15",
+    "question1": { "en": "Do you have any smart home devices?", "ja": "スマートホーム機器は何か持ってる？" },
+    "answer1_variations": [
+      { "en": "Just a smart speaker to play music.", "ja": "音楽を流すためのスマートスピーカーだけかな。" },
+      { "en": "My whole house is connected. Lights, locks, everything.", "ja": "家じゅう繋がってるよ。照明も、鍵も、全部。" }
+    ],
+    "answer1_detail": { "en": "I can control the lights with my voice. It's pretty cool.", "ja": "声で照明を操作できるんだ。かなりかっこいいよ。" },
+    "question2": { "en": "Does it ever misunderstand you?", "ja": "聞き間違えられることある？" },
+    "answer2_variations": [
+      { "en": "All the time. I have to shout sometimes.", "ja": "しょっちゅうだよ。たまに叫ばなきゃいけないし。" },
+      { "en": "It's gotten much better recently.", "ja": "最近はずいぶん良くなったよ。" }
+    ],
+    "vocab": [
+      { "word": "connected", "meaning": "ネットに接続された" },
+      { "word": "misunderstand", "meaning": "誤解する、聞き間違える" },
+      { "word": "shout", "meaning": "叫ぶ、大声を出す" }
+    ]
+  },
+  {
+    "id": "tech_16",
+    "question1": { "en": "Are you learning how to code?", "ja": "プログラミングを勉強してるの？" },
+    "answer1_variations": [
+      { "en": "Yeah, I'm trying to learn Python.", "ja": "うん、Pythonを学ぼうとしてるところ。" },
+      { "en": "I dabbled in it, but it was too hard.", "ja": "少しかじってみたけど、難しすぎたよ。" }
+    ],
+    "answer1_detail": { "en": "I want to automate some boring tasks at work.", "ja": "仕事での退屈な作業をいくつか自動化したいんだ。" },
+    "question2": { "en": "Are you using any online courses?", "ja": "オンラインコースは使ってる？" },
+    "answer2_variations": [
+      { "en": "I'm mostly watching tutorials on YouTube.", "ja": "主にYouTubeのチュートリアルを見てるよ。" },
+      { "en": "Yes, I signed up for a bootcamp.", "ja": "うん、ブートキャンプ（短期集中講座）に申し込んだよ。" }
+    ],
+    "vocab": [
+      { "word": "dabble", "meaning": "（趣味などで）少しかじる、手を出してみる" },
+      { "word": "automate", "meaning": "自動化する" },
+      { "word": "tutorial", "meaning": "個別指導、解説動画" }
+    ]
+  },
+  {
+    "id": "tech_17",
+    "question1": { "en": "Do you use streaming services instead of cable TV?", "ja": "ケーブルテレビの代わりに動画配信サービスを使ってる？" },
+    "answer1_variations": [
+      { "en": "Exclusively. I cut the cord years ago.", "ja": "それだけだね。何年も前にケーブルテレビは解約したよ。" },
+      { "en": "I have both, mainly for sports channels.", "ja": "両方持ってるよ、主にスポーツチャンネルのためにね。" }
+    ],
+    "answer1_detail": { "en": "I subscribe to like four different platforms. It adds up.", "ja": "4つくらいのプラットフォームに登録してる。ちりも積もれば結構な額になるね。" },
+    "question2": { "en": "Which one has the best content?", "ja": "どれが一番コンテンツがいい？" },
+    "answer2_variations": [
+      { "en": "It depends on whether you like movies or TV shows.", "ja": "映画が好きかドラマが好きかによるね。" },
+      { "en": "Netflix is still the king for variety.", "ja": "種類の多さではやっぱりNetflixが王様かな。" }
+    ],
+    "vocab": [
+      { "word": "exclusively", "meaning": "独占的に、〜だけ" },
+      { "word": "cut the cord", "meaning": "（ケーブルTVなどを）解約する" },
+      { "word": "add up", "meaning": "（金額などが）積み重なる、合計で〜になる" }
+    ]
+  },
+  {
+    "id": "tech_18",
+    "question1": { "en": "Are you trying to do a digital detox?", "ja": "デジタルデトックスしようとしてるの？" },
+    "answer1_variations": [
+      { "en": "Desperately. I spend way too much time scrolling.", "ja": "必死にね。スクロールするのに時間を使いすぎてるから。" },
+      { "en": "I try to turn off my phone an hour before bed.", "ja": "寝る1時間前には携帯の電源を切るようにしてるよ。" }
+    ],
+    "answer1_detail": { "en": "I installed an app that limits my screen time.", "ja": "スクリーンタイム（画面を見る時間）を制限するアプリを入れたんだ。" },
+    "question2": { "en": "Is it helping so far?", "ja": "今のところ効果はある？" },
+    "answer2_variations": [
+      { "en": "Actually, yes. I feel more focused.", "ja": "実はね。集中力が増した気がするよ。" },
+      { "en": "I just end up overriding the limit.", "ja": "結局、制限を解除しちゃうんだよね。" }
+    ],
+    "vocab": [
+      { "word": "desperately", "meaning": "必死に、絶望的に" },
+      { "word": "screen time", "meaning": "画面を見ている時間" },
+      { "word": "override", "meaning": "（自動設定などを）無効にする、覆す" }
+    ]
+  },
+  {
+    "id": "tech_19",
+    "question1": { "en": "Do you prefer wireless or wired headphones?", "ja": "ワイヤレスと有線のヘッドホン、どっちが好き？" },
+    "answer1_variations": [
+      { "en": "Wireless all the way. No tangled cables.", "ja": "断然ワイヤレス。ケーブルが絡まることもないし。" },
+      { "en": "Wired, because the sound quality is better.", "ja": "有線だね、音質が良いから。" }
+    ],
+    "answer1_detail": { "en": "The noise-canceling feature on these earbuds is amazing.", "ja": "このイヤホンのノイズキャンセリング機能は素晴らしいよ。" },
+    "question2": { "en": "Do they fall out when you run?", "ja": "走ってる時に落ちたりしない？" },
+    "answer2_variations": [
+      { "en": "They fit pretty snugly, so no issues there.", "ja": "かなりぴったりフィットするから、問題ないよ。" },
+      { "en": "Sometimes, if I sweat a lot.", "ja": "たくさん汗をかくと、たまにね。" }
+    ],
+    "vocab": [
+      { "word": "tangled", "meaning": "絡まった" },
+      { "word": "noise-canceling", "meaning": "ノイズキャンセリング（騒音低減）" },
+      { "word": "snugly", "meaning": "ぴったりと、快適に" }
+    ]
+  },
+  {
+    "id": "tech_20",
+    "question1": { "en": "What do you think about self-driving cars?", "ja": "自動運転車についてどう思う？" },
+    "answer1_variations": [
+      { "en": "I think it's the future of transportation.", "ja": "交通機関の未来だと思うよ。" },
+      { "en": "I'm a bit terrified of trusting a computer to drive.", "ja": "運転をコンピュータに任せるのはちょっと怖いな。" }
+    ],
+    "answer1_detail": { "en": "It could significantly reduce traffic accidents caused by human error.", "ja": "人為的ミスによる交通事故を大幅に減らせるかもしれないよ。" },
+    "question2": { "en": "Would you buy one if you could afford it?", "ja": "お金に余裕があったら買う？" },
+    "answer2_variations": [
+      { "en": "In a heartbeat. I hate commuting.", "ja": "すぐにでも。通勤が大っ嫌いだから。" },
+      { "en": "I'd wait until the technology is more mature.", "ja": "技術がもっと成熟するまで待つかな。" }
+    ],
+    "vocab": [
+      { "word": "transportation", "meaning": "交通機関、輸送" },
+      { "word": "human error", "meaning": "人為的ミス" },
+      { "word": "in a heartbeat", "meaning": "すぐに、一瞬で" }
+    ]
+  }
+]

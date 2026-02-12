@@ -1,57 +1,382 @@
-{
-  "id": "topic_travel",
-  "title": "Travel (旅行)",
-  "questions": [
-    {
-      "id": "travel_01",
-      "question": {
-        "en": "Where do you want to travel someday?",
-        "ja": "いつか旅行してみたい場所はどこですか？",
-        "pt": "Para onde você quer viajar algum dia?",
-        "zh": "有一天你想去哪里旅行？"
-      },
-      "answer": {
-        "en": "I want to go to America to see a MLB game.",
-        "ja": "メジャーリーグの試合を見るためにアメリカに行きたいです。"
-      },
-      "followUp": {
-        "en": "Are you a baseball fan?",
-        "ja": "野球ファンですか？"
-      }
-    },
-    {
-      "id": "travel_02",
-      "question": {
-        "en": "Have you ever been abroad?",
-        "ja": "海外に行ったことはありますか？",
-        "pt": "Você já esteve no exterior?",
-        "zh": "你去过国外吗？"
-      },
-      "answer": {
-        "en": "No, I haven't. I want to get a passport soon.",
-        "ja": "いいえ、ありません。早くパスポートを取りたいです。"
-      },
-      "followUp": {
-        "en": "Where is the first place you want to go?",
-        "ja": "最初に行きたい場所はどこですか？"
-      }
-    },
-    {
-      "id": "travel_03",
-      "question": {
-        "en": "Do you like hot springs (Onsen)?",
-        "ja": "温泉は好きですか？",
-        "pt": "Você gosta de fontes termais (Onsen)?",
-        "zh": "你喜欢温泉吗？"
-      },
-      "answer": {
-        "en": "Yes, I love Onsen. It's very relaxing.",
-        "ja": "はい、温泉は大好きです。とてもリラックスできます。"
-      },
-      "followUp": {
-        "en": "Do you prefer indoor or outdoor baths?",
-        "ja": "内風呂と露天風呂、どっちが好きですか？"
-      }
-    }
-  ]
-}
+[
+  {
+    "id": "travel_01",
+    "question1": { "en": "Where is the best place you've ever been?", "ja": "今まで行った中で一番良かった場所はどこ？" },
+    "answer1_variations": [
+      { "en": "I absolutely loved Kyoto in autumn.", "ja": "秋の京都が本当に最高だったよ。" },
+      { "en": "The beaches in Thailand were magical.", "ja": "タイのビーチが魔法みたいに素敵だったな。" }
+    ],
+    "answer1_detail": { "en": "The scenery was breathtaking, especially the temples.", "ja": "景色が息をのむほど美しくて、特にお寺がすごかったんだ。" },
+    "question2": { "en": "Did you take a lot of photos?", "ja": "写真はたくさん撮った？" },
+    "answer2_variations": [
+      { "en": "Hundreds. I couldn't stop snapping away.", "ja": "何百枚もね。撮る手が止まらなかったよ。" },
+      { "en": "I tried to just enjoy the moment instead.", "ja": "その代わり、その瞬間を楽しむようにしたんだ。" }
+    ],
+    "vocab": [
+      { "word": "breathtaking", "meaning": "息をのむような、素晴らしい" },
+      { "word": "snap away", "meaning": "（写真を）パシャパシャ撮る" },
+      { "word": "moment", "meaning": "瞬間" }
+    ]
+  },
+  {
+    "id": "travel_02",
+    "question1": { "en": "Do you have any trips coming up?", "ja": "近いうちに旅行の予定はある？" },
+    "answer1_variations": [
+      { "en": "I'm planning a trip to Europe this summer.", "ja": "この夏にヨーロッパ旅行を計画してるんだ。" },
+      { "en": "Just a weekend getaway to the mountains.", "ja": "山へ週末旅行に行くだけかな。" }
+    ],
+    "answer1_detail": { "en": "I've already booked my flights and hotels.", "ja": "もうフライトとホテルは予約済みだよ。" },
+    "question2": { "en": "Are you going by yourself?", "ja": "一人で行くの？" },
+    "answer2_variations": [
+      { "en": "No, I'm going with a group of friends.", "ja": "ううん、友達のグループと行くんだ。" },
+      { "en": "Yes, I love solo travel.", "ja": "うん、一人旅が大好きなんだ。" }
+    ],
+    "vocab": [
+      { "word": "getaway", "meaning": "短期間の旅行、逃避行" },
+      { "word": "book", "meaning": "予約する" },
+      { "word": "solo travel", "meaning": "一人旅" }
+    ]
+  },
+  {
+    "id": "travel_03",
+    "question1": { "en": "Are you a light packer?", "ja": "荷物は少なくまとめる派？" },
+    "answer1_variations": [
+      { "en": "I try to be. I hate checking bags.", "ja": "そうしようとしてるよ。荷物を預けるのが嫌いだから。" },
+      { "en": "Not at all. I bring my whole closet.", "ja": "全然。クローゼットの中身を全部持っていく勢いだよ。" }
+    ],
+    "answer1_detail": { "en": "I usually just travel with a carry-on suitcase.", "ja": "たいていは機内持ち込みのスーツケースだけで旅行するんだ。" },
+    "question2": { "en": "How do you fit everything in?", "ja": "どうやって全部詰め込んでるの？" },
+    "answer2_variations": [
+      { "en": "I use packing cubes to organize stuff.", "ja": "パッキングキューブ（収納ポーチ）を使って整理してるよ。" },
+      { "en": "I roll my clothes instead of folding them.", "ja": "服はたたむ代わりに丸めてるんだ。" }
+    ],
+    "vocab": [
+      { "word": "check a bag", "meaning": "荷物を預ける" },
+      { "word": "carry-on", "meaning": "機内持ち込み手荷物" },
+      { "word": "fit in", "meaning": "中に入る、収まる" }
+    ]
+  },
+  {
+    "id": "travel_04",
+    "question1": { "en": "Do you prefer the window or aisle seat?", "ja": "窓側の席と通路側の席、どっちがいい？" },
+    "answer1_variations": [
+      { "en": "Window, so I can see the view.", "ja": "窓側だね、景色が見えるから。" },
+      { "en": "Aisle, for the extra legroom.", "ja": "通路側かな、足元のスペースが広いから。" }
+    ],
+    "answer1_detail": { "en": "Plus, I can lean against the wall to sleep.", "ja": "それに、壁にもたれて眠れるしね。" },
+    "question2": { "en": "Can you actually sleep on planes?", "ja": "飛行機で本当に寝られる？" },
+    "answer2_variations": [
+      { "en": "Like a baby. As soon as we take off.", "ja": "ぐっすりだよ。離陸したらすぐにね。" },
+      { "en": "Rarely. I usually just watch movies.", "ja": "めったに寝れない。たいていは映画を見てるよ。" }
+    ],
+    "vocab": [
+      { "word": "aisle", "meaning": "通路" },
+      { "word": "legroom", "meaning": "足元のスペース" },
+      { "word": "take off", "meaning": "離陸する" }
+    ]
+  },
+  {
+    "id": "travel_05",
+    "question1": { "en": "Do you prefer hotels or Airbnb?", "ja": "ホテルとAirbnb（民泊）、どっちが好き？" },
+    "answer1_variations": [
+      { "en": "Hotels. I like the room service.", "ja": "ホテルだね。ルームサービスが好きだから。" },
+      { "en": "Airbnb. I like having a kitchen.", "ja": "Airbnbかな。キッチンがあるのがいいんだ。" }
+    ],
+    "answer1_detail": { "en": "It feels more like living like a local.", "ja": "その方が現地の人みたいに暮らしている感じがするからね。" },
+    "question2": { "en": "Is it cheaper than a hotel?", "ja": "ホテルより安いの？" },
+    "answer2_variations": [
+      { "en": "Sometimes, especially for long stays.", "ja": "時々ね、特に長期滞在の場合は。" },
+      { "en": "Not always, the cleaning fees add up.", "ja": "そうとも限らないよ、清掃料金がかさむから。" }
+    ],
+    "vocab": [
+      { "word": "local", "meaning": "地元の人、現地の" },
+      { "word": "cleaning fee", "meaning": "清掃料金" },
+      { "word": "add up", "meaning": "積み重なる、高くなる" }
+    ]
+  },
+  {
+    "id": "travel_06",
+    "question1": { "en": "Have you ever missed a flight?", "ja": "飛行機に乗り遅れたことある？" },
+    "answer1_variations": [
+      { "en": "Once. It was a nightmare.", "ja": "一度だけあるよ。悪夢だった。" },
+      { "en": "No, I always arrive super early.", "ja": "ないよ、いつもすごく早く到着するから。" }
+    ],
+    "answer1_detail": { "en": "I got stuck in traffic on the way to the airport.", "ja": "空港に向かう途中で渋滞に巻き込まれちゃって。" },
+    "question2": { "en": "What did you do?", "ja": "どうしたの？" },
+    "answer2_variations": [
+      { "en": "I had to pay extra for the next flight.", "ja": "追加料金を払って次の便に乗らなきゃいけなかったよ。" },
+      { "en": "Luckily, the airline rebooked me for free.", "ja": "運良く、航空会社が無料で予約変更してくれたんだ。" }
+    ],
+    "vocab": [
+      { "word": "nightmare", "meaning": "悪夢、最悪な状況" },
+      { "word": "get stuck", "meaning": "動けなくなる、はまる" },
+      { "word": "rebook", "meaning": "再予約する" }
+    ]
+  },
+  {
+    "id": "travel_07",
+    "question1": { "en": "Do you worry about the language barrier?", "ja": "言葉の壁って心配になる？" },
+    "answer1_variations": [
+      { "en": "A little, but body language helps.", "ja": "少しね、でもボディランゲージが役立つよ。" },
+      { "en": "Not really. Translation apps are great.", "ja": "あんまり。翻訳アプリが優秀だからね。" }
+    ],
+    "answer1_detail": { "en": "Most people in tourist areas speak some English.", "ja": "観光地にいる大抵の人は、少しは英語を話せるしね。" },
+    "question2": { "en": "Do you try to learn local phrases?", "ja": "現地のフレーズを覚えようとする？" },
+    "answer2_variations": [
+      { "en": "Always. Just 'hello' and 'thank you'.", "ja": "いつもね。「こんにちは」と「ありがとう」くらいだけど。" },
+      { "en": "I try, but my pronunciation is terrible.", "ja": "しようとはするけど、発音がひどくて。" }
+    ],
+    "vocab": [
+      { "word": "barrier", "meaning": "壁、障壁" },
+      { "word": "phrase", "meaning": "言い回し、フレーズ" },
+      { "word": "pronunciation", "meaning": "発音" }
+    ]
+  },
+  {
+    "id": "travel_08",
+    "question1": { "en": "What's the longest flight you've been on?", "ja": "今まで乗った一番長いフライトは？" },
+    "answer1_variations": [
+      { "en": "About 12 hours to New York.", "ja": "ニューヨークまでの約12時間かな。" },
+      { "en": "I flew to London once, it took forever.", "ja": "一度ロンドンに飛んだんだけど、永遠に続くかと思ったよ。" }
+    ],
+    "answer1_detail": { "en": "My legs were so stiff by the time we landed.", "ja": "着陸する頃には足がカチコチだったよ。" },
+    "question2": { "en": "How do you kill time on board?", "ja": "機内ではどうやって暇をつぶすの？" },
+    "answer2_variations": [
+      { "en": "I binge-watch movies and TV shows.", "ja": "映画やドラマを一気見するんだ。" },
+      { "en": "I read books or listen to podcasts.", "ja": "本を読んだりポッドキャストを聴いたりするよ。" }
+    ],
+    "vocab": [
+      { "word": "forever", "meaning": "（時間が）とても長く、永遠に" },
+      { "word": "stiff", "meaning": "凝った、こわばった" },
+      { "word": "binge-watch", "meaning": "（ドラマなどを）一気見する" }
+    ]
+  },
+  {
+    "id": "travel_09",
+    "question1": { "en": "How do you handle jet lag?", "ja": "時差ボケはどうやって対策してる？" },
+    "answer1_variations": [
+      { "en": "I force myself to stay awake until night.", "ja": "夜になるまで無理やり起きてるようにしてる。" },
+      { "en": "I just sleep whenever I feel tired.", "ja": "疲れたらその時に寝ちゃうかな。" }
+    ],
+    "answer1_detail": { "en": "Sunlight helps reset my internal clock.", "ja": "日光を浴びると体内時計をリセットするのに役立つんだ。" },
+    "question2": { "en": "Does it take long to recover?", "ja": "治るのに時間はかかる？" },
+    "answer2_variations": [
+      { "en": "Usually a couple of days.", "ja": "たいてい2、3日だね。" },
+      { "en": "Yeah, the first week is always rough.", "ja": "うん、最初の1週間はいつもきついよ。" }
+    ],
+    "vocab": [
+      { "word": "jet lag", "meaning": "時差ボケ" },
+      { "word": "internal clock", "meaning": "体内時計" },
+      { "word": "recover", "meaning": "回復する" }
+    ]
+  },
+  {
+    "id": "travel_10",
+    "question1": { "en": "Do you buy souvenirs for people?", "ja": "誰かにお土産は買う？" },
+    "answer1_variations": [
+      { "en": "Only for close family and friends.", "ja": "親しい家族と友達にだけね。" },
+      { "en": "I usually just buy snacks to share at work.", "ja": "たいてい職場で配る用のお菓子を買うだけかな。" }
+    ],
+    "answer1_detail": { "en": "I try to find something unique and local.", "ja": "ユニークでその土地らしいものを探すようにしてるんだ。" },
+    "question2": { "en": "Do you buy anything for yourself?", "ja": "自分のためには何か買う？" },
+    "answer2_variations": [
+      { "en": "I collect fridge magnets from every city.", "ja": "各都市の冷蔵庫マグネットを集めてるんだ。" },
+      { "en": "Maybe a T-shirt or a mug.", "ja": "Tシャツかマグカップくらいかな。" }
+    ],
+    "vocab": [
+      { "word": "souvenir", "meaning": "お土産" },
+      { "word": "unique", "meaning": "独特な、他にはない" },
+      { "word": "collect", "meaning": "集める" }
+    ]
+  },
+  {
+    "id": "travel_11",
+    "question1": { "en": "Do you plan your itinerary in detail?", "ja": "旅程は細かく計画する？" },
+    "answer1_variations": [
+      { "en": "Yes, I have a spreadsheet for everything.", "ja": "うん、全部スプレッドシート（表計算ソフト）で管理してる。" },
+      { "en": "No, I prefer to be spontaneous.", "ja": "ううん、行き当たりばったりが好きだな。" }
+    ],
+    "answer1_detail": { "en": "I want to make sure I don't miss the main sights.", "ja": "主要な観光スポットを見逃したくないからね。" },
+    "question2": { "en": "Doesn't that get stressful?", "ja": "それってストレスにならない？" },
+    "answer2_variations": [
+      { "en": "Not for me. Being unprepared is stressful.", "ja": "僕にとってはならないよ。準備不足の方がストレスだ。" },
+      { "en": "It can be, so I leave some free time.", "ja": "なることもあるから、自由時間も残しておくよ。" }
+    ],
+    "vocab": [
+      { "word": "itinerary", "meaning": "旅程、旅行計画" },
+      { "word": "spontaneous", "meaning": "自発的な、その場のノリで動く" },
+      { "word": "sight", "meaning": "観光名所、景色" }
+    ]
+  },
+  {
+    "id": "travel_12",
+    "question1": { "en": "What's on your travel bucket list?", "ja": "死ぬまでに旅行で行きたい場所リストには何が入ってる？" },
+    "answer1_variations": [
+      { "en": "I really want to see the Northern Lights.", "ja": "どうしてもオーロラが見たいんだ。" },
+      { "en": "Machu Picchu is at the top of my list.", "ja": "マチュピチュがリストの一番上にあるよ。" }
+    ],
+    "answer1_detail": { "en": "I've seen photos and it looks unreal.", "ja": "写真を見たけど、現実とは思えないくらいすごいんだ。" },
+    "question2": { "en": "When do you think you'll go?", "ja": "いつ行けそう？" },
+    "answer2_variations": [
+      { "en": "Hopefully next year if I save enough money.", "ja": "十分お金が貯まったら、来年行きたいな。" },
+      { "en": "Maybe for my honeymoon someday.", "ja": "いつかハネムーンで行くかもね。" }
+    ],
+    "vocab": [
+      { "word": "bucket list", "meaning": "死ぬまでにしたいことリスト" },
+      { "word": "Northern Lights", "meaning": "オーロラ" },
+      { "word": "unreal", "meaning": "非現実的な、素晴らしい" }
+    ]
+  },
+  {
+    "id": "travel_13",
+    "question1": { "en": "Do you prefer touristy spots or off the beaten path?", "ja": "観光地らしい場所と、人があまり行かない場所、どっちが好き？" },
+    "answer1_variations": [
+      { "en": "I like to go off the beaten path.", "ja": "人があまり行かない場所に行くのが好きだね。" },
+      { "en": "I usually stick to the famous landmarks.", "ja": "たいていは有名なランドマークに行くよ。" }
+    ],
+    "answer1_detail": { "en": "It's less crowded and the food is more authentic.", "ja": "混んでないし、食事もより本場に近いからね。" },
+    "question2": { "en": "How do you find those places?", "ja": "どうやってそういう場所を見つけるの？" },
+    "answer2_variations": [
+      { "en": "I ask the locals for recommendations.", "ja": "地元の人におすすめを聞くんだ。" },
+      { "en": "I read travel blogs and forums.", "ja": "旅行ブログや掲示板を読むよ。" }
+    ],
+    "vocab": [
+      { "word": "touristy", "meaning": "観光客向けの、観光客だらけの" },
+      { "word": "off the beaten path", "meaning": "人里離れた、知る人ぞ知る" },
+      { "word": "authentic", "meaning": "本物の、正真正銘の" }
+    ]
+  },
+  {
+    "id": "travel_14",
+    "question1": { "en": "Have you ever been on a cruise?", "ja": "クルーズ旅行に行ったことある？" },
+    "answer1_variations": [
+      { "en": "No, I'm worried about getting seasick.", "ja": "ううん、船酔いが心配で。" },
+      { "en": "Yes, I went on a Caribbean cruise last year.", "ja": "うん、去年カリブ海クルーズに行ったよ。" }
+    ],
+    "answer1_detail": { "en": "The idea of being stuck on a boat scares me.", "ja": "船の上に閉じ込められるって考えただけで怖いよ。" },
+    "question2": { "en": "Even with all the entertainment on board?", "ja": "船上にあんなに娯楽があっても？" },
+    "answer2_variations": [
+      { "en": "Yeah, I prefer exploring on land.", "ja": "うん、陸の上を探検する方が好きだな。" },
+      { "en": "I guess I could try a short one.", "ja": "短いクルーズなら試してもいいかな。" }
+    ],
+    "vocab": [
+      { "word": "seasick", "meaning": "船酔い" },
+      { "word": "stuck", "meaning": "動けない、閉じ込められた" },
+      { "word": "on land", "meaning": "陸上で" }
+    ]
+  },
+  {
+    "id": "travel_15",
+    "question1": { "en": "Do you get travel insurance?", "ja": "旅行保険には入る？" },
+    "answer1_variations": [
+      { "en": "Always. Better safe than sorry.", "ja": "いつもね。転ばぬ先の杖だよ（後悔するより安全な方がいい）。" },
+      { "en": "I usually skip it to save money.", "ja": "節約のためにたいていパスしちゃう。" }
+    ],
+    "answer1_detail": { "en": "It covers medical emergencies and lost luggage.", "ja": "医療の緊急事態や荷物の紛失をカバーしてくれるから。" },
+    "question2": { "en": "Have you ever had to use it?", "ja": "実際に使わなきゃいけないことあった？" },
+    "answer2_variations": [
+      { "en": "Thankfully, never.", "ja": "ありがたいことに、一度もないよ。" },
+      { "en": "Once, when my flight got cancelled.", "ja": "一度だけ、フライトがキャンセルになった時にね。" }
+    ],
+    "vocab": [
+      { "word": "Better safe than sorry", "meaning": "用心に越したことはない、転ばぬ先の杖" },
+      { "word": "emergency", "meaning": "緊急事態" },
+      { "word": "cancelled", "meaning": "中止になった" }
+    ]
+  },
+  {
+    "id": "travel_16",
+    "question1": { "en": "What do you do with your pets when you travel?", "ja": "旅行中、ペットはどうしてるの？" },
+    "answer1_variations": [
+      { "en": "I leave them with my parents.", "ja": "両親に預けてるよ。" },
+      { "en": "I hire a pet sitter to come to my house.", "ja": "ペットシッターを雇って家に来てもらうんだ。" }
+    ],
+    "answer1_detail": { "en": "They get stressed if I take them to a kennel.", "ja": "ペットホテル（檻）に連れて行くとストレスを感じるみたいで。" },
+    "question2": { "en": "Do you miss them while you're away?", "ja": "離れてる間、寂しい？" },
+    "answer2_variations": [
+      { "en": "Terribly. I video call them sometimes.", "ja": "ものすごくね。たまにビデオ通話するよ。" },
+      { "en": "A little, but I enjoy the freedom too.", "ja": "少しね、でも自由も楽しんでるよ。" }
+    ],
+    "vocab": [
+      { "word": "pet sitter", "meaning": "ペットシッター" },
+      { "word": "kennel", "meaning": "ペットホテル、犬舎" },
+      { "word": "terribly", "meaning": "ひどく、ものすごく" }
+    ]
+  },
+  {
+    "id": "travel_17",
+    "question1": { "en": "Do you check reviews before booking a restaurant?", "ja": "レストランを予約する前にレビューを確認する？" },
+    "answer1_variations": [
+      { "en": "Religiously. I don't want a bad meal.", "ja": "熱心にね。不味い食事はしたくないから。" },
+      { "en": "Sometimes, but I like to explore.", "ja": "たまにね、でも自分の足で探検するのが好き。" }
+    ],
+    "answer1_detail": { "en": "I look for places with at least 4 stars.", "ja": "少なくとも星4つ以上の場所を探すようにしてる。" },
+    "question2": { "en": "Do you trust online reviews?", "ja": "ネットのレビューを信用してる？" },
+    "answer2_variations": [
+      { "en": "Mostly, but I read the negative ones too.", "ja": "だいたいはね。でも悪い評価も読むようにしてるよ。" },
+      { "en": "Not completely, tastes are subjective.", "ja": "完全にはね。味の好みは主観的だから。" }
+    ],
+    "vocab": [
+      { "word": "religiously", "meaning": "信心深く、律儀に、欠かさず" },
+      { "word": "subjective", "meaning": "主観的な" },
+      { "word": "taste", "meaning": "味覚、好み" }
+    ]
+  },
+  {
+    "id": "travel_18",
+    "question1": { "en": "How do you handle currency exchange?", "ja": "両替はどうしてる？" },
+    "answer1_variations": [
+      { "en": "I withdraw cash from ATMs locally.", "ja": "現地のATMから現金を引き出すよ。" },
+      { "en": "I exchange money at the airport before leaving.", "ja": "出発前に空港で両替するよ。" }
+    ],
+    "answer1_detail": { "en": "It usually has the best exchange rate.", "ja": "たいていその方がレートが良いんだ。" },
+    "question2": { "en": "Do you carry a lot of cash?", "ja": "現金はたくさん持ち歩く？" },
+    "answer2_variations": [
+      { "en": "No, I use my credit card whenever possible.", "ja": "ううん、できるだけクレジットカードを使うよ。" },
+      { "en": "Just enough for small purchases.", "ja": "ちょっとした買い物に必要な分だけね。" }
+    ],
+    "vocab": [
+      { "word": "currency exchange", "meaning": "通貨両替" },
+      { "word": "withdraw", "meaning": "（お金を）引き出す" },
+      { "word": "rate", "meaning": "レート、相場" }
+    ]
+  },
+  {
+    "id": "travel_19",
+    "question1": { "en": "What's the worst thing that happened on a trip?", "ja": "旅行中に起きた最悪な出来事は何？" },
+    "answer1_variations": [
+      { "en": "My wallet got stolen in Paris.", "ja": "パリで財布を盗まれたこと。" },
+      { "en": "I got food poisoning in India.", "ja": "インドで食中毒になったこと。" }
+    ],
+    "answer1_detail": { "en": "I spent two days in the hotel bathroom.", "ja": "ホテルのバスルームで丸2日過ごしたよ。" },
+    "question2": { "en": "That sounds awful. Did you see a doctor?", "ja": "それはひどいね。お医者さんには診てもらった？" },
+    "answer2_variations": [
+      { "en": "No, I just drank lots of water and rested.", "ja": "ううん、水をたくさん飲んで休んでただけ。" },
+      { "en": "Yes, I had to go to a local clinic.", "ja": "うん、現地の診療所に行かなきゃいけなかった。" }
+    ],
+    "vocab": [
+      { "word": "stolen", "meaning": "盗まれた" },
+      { "word": "food poisoning", "meaning": "食中毒" },
+      { "word": "awful", "meaning": "ひどい、恐ろしい" }
+    ]
+  },
+  {
+    "id": "travel_20",
+    "question1": { "en": "How do you feel when you return home?", "ja": "家に帰ってきた時、どんな気分？" },
+    "answer1_variations": [
+      { "en": "Relieved. There's no place like home.", "ja": "ホッとするよ。我が家に勝る場所はないね。" },
+      { "en": "Depressed. I want to go back immediately.", "ja": "落ち込むよ。すぐにでも戻りたい。" }
+    ],
+    "answer1_detail": { "en": "Sleeping in my own bed is the best feeling.", "ja": "自分のベッドで寝るのが最高の気分だよ。" },
+    "question2": { "en": "Do you start planning the next trip right away?", "ja": "すぐに次の旅行の計画を立て始める？" },
+    "answer2_variations": [
+      { "en": "Literally the next day.", "ja": "文字通り、次の日にはね。" },
+      { "en": "I wait a bit to let my bank account recover.", "ja": "銀行口座が回復するまで少し待つよ。" }
+    ],
+    "vocab": [
+      { "word": "relieved", "meaning": "ホッとした、安堵した" },
+      { "word": "There's no place like home", "meaning": "我が家に勝る場所なし" },
+      { "word": "bank account", "meaning": "銀行口座" }
+    ]
+  }
+]

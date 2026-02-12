@@ -1,5 +1,362 @@
-{
-  "id": "topic_shopping",
-  "title": "Shopping (買い物)",
-  "questions": []
-}
+[
+  {
+    "id": "shopping_01",
+    "question1": { "en": "Do you prefer shopping online or in-store?", "ja": "ネットショッピングと実店舗、どっちが好きですか？" },
+    "answer1_variations": [
+      { "en": "I definitely prefer online shopping.", "ja": "断然ネットショッピングですね。" },
+      { "en": "I like to see things in person.", "ja": "実物を見るのが好きです。" }
+    ],
+    "answer1_detail": { "en": "It's just so much more convenient.", "ja": "とにかく便利なんですよね。" },
+    "question2": { "en": "What do you buy online?", "ja": "ネットでは何を買いますか？" },
+    "answer2_variations": [
+      { "en": "Mostly books and electronics.", "ja": "たいてい本と家電です。" },
+      { "en": "I buy everything on Amazon.", "ja": "アマゾンで何でも買います。" }
+    ],
+    "vocab": [
+      { "word": "in person", "meaning": "直接、実物で" },
+      { "word": "convenient", "meaning": "便利な" }
+    ]
+  },
+  {
+    "id": "shopping_02",
+    "question1": { "en": "Are you an impulse buyer?", "ja": "衝動買いしちゃうタイプですか？" },
+    "answer1_variations": [
+      { "en": "Yes, I often buy things I don't need.", "ja": "はい、よくいらないものを買っちゃいます。" },
+      { "en": "No, I plan my purchases carefully.", "ja": "いいえ、買い物は慎重に計画します。" }
+    ],
+    "answer1_detail": { "en": "I regret it later usually.", "ja": "たいてい後で後悔するんですけどね。" },
+    "question2": { "en": "What was your last impulse buy?", "ja": "最後に衝動買いしたものは何ですか？" },
+    "answer2_variations": [
+      { "en": "A pair of expensive shoes.", "ja": "高い靴です。" },
+      { "en": "Some random snacks at the checkout.", "ja": "レジ横にあった適当なお菓子です。" }
+    ],
+    "vocab": [
+      { "word": "impulse buyer", "meaning": "衝動買いをする人" },
+      { "word": "regret", "meaning": "後悔する" }
+    ]
+  },
+  {
+    "id": "shopping_03",
+    "question1": { "en": "How often do you go grocery shopping?", "ja": "どのくらいの頻度で食料品の買い出しに行きますか？" },
+    "answer1_variations": [
+      { "en": "I go once a week on Sundays.", "ja": "週に1回、日曜に行きます。" },
+      { "en": "I stop by the supermarket every day.", "ja": "毎日スーパーに寄ります。" }
+    ],
+    "answer1_detail": { "en": "I try to buy everything in bulk.", "ja": "まとめ買いするようにしています。" },
+    "question2": { "en": "Do you make a shopping list?", "ja": "買い物リストは作りますか？" },
+    "answer2_variations": [
+      { "en": "Always, or I forget things.", "ja": "いつも作ります、じゃないと忘れちゃうので。" },
+      { "en": "No, I just memorize it.", "ja": "いいえ、記憶しています。" }
+    ],
+    "vocab": [
+      { "word": "grocery", "meaning": "食料雑貨類" },
+      { "word": "in bulk", "meaning": "大量に、まとめて" }
+    ]
+  },
+  {
+    "id": "shopping_04",
+    "question1": { "en": "Do you try on clothes before buying them?", "ja": "買う前に服を試着しますか？" },
+    "answer1_variations": [
+      { "en": "Always. Sizes vary so much.", "ja": "いつもです。サイズが全然違うので。" },
+      { "en": "Sometimes, if I'm not in a rush.", "ja": "時々、急いでなければ。" }
+    ],
+    "answer1_detail": { "en": "I hate returning things later.", "ja": "後で返品するのが嫌いなんです。" },
+    "question2": { "en": "What if it doesn't fit?", "ja": "サイズが合わなかったらどうしますか？" },
+    "answer2_variations": [
+      { "en": "I ask for a different size.", "ja": "違うサイズをお願いします。" },
+      { "en": "I just put it back.", "ja": "ただ棚に戻します。" }
+    ],
+    "vocab": [
+      { "word": "try on", "meaning": "試着する" },
+      { "word": "vary", "meaning": "異なる、変わる" }
+    ]
+  },
+  {
+    "id": "shopping_05",
+    "question1": { "en": "What is the most expensive thing you've bought recently?", "ja": "最近買った一番高いものは何ですか？" },
+    "answer1_variations": [
+      { "en": "I bought a new laptop.", "ja": "新しいノートパソコンを買いました。" },
+      { "en": "Probably a designer bag.", "ja": "たぶんブランド物のバッグです。" }
+    ],
+    "answer1_detail": { "en": "It cost me an arm and a leg.", "ja": "すごく高かったです（手足をもがれるほど）。" },
+    "question2": { "en": "Was it worth it?", "ja": "それだけの価値はありましたか？" },
+    "answer2_variations": [
+      { "en": "Totally, I use it every day.", "ja": "完全に。毎日使ってますから。" },
+      { "en": "I'm having buyer's remorse.", "ja": "買ったことを後悔しています。" }
+    ],
+    "vocab": [
+      { "word": "cost an arm and a leg", "meaning": "非常に高価である" },
+      { "word": "buyer's remorse", "meaning": "買った後の後悔" }
+    ]
+  },
+  {
+    "id": "shopping_06",
+    "question1": { "en": "Do you wait for sales to buy clothes?", "ja": "服を買う時、セールを待ちますか？" },
+    "answer1_variations": [
+      { "en": "Yes, I never pay full price.", "ja": "はい、定価では絶対に買いません。" },
+      { "en": "If I like it, I buy it immediately.", "ja": "気に入ったらすぐに買っちゃいます。" }
+    ],
+    "answer1_detail": { "en": "I love hunting for bargains.", "ja": "掘り出し物を探すのが大好きなんです。" },
+    "question2": { "en": "Where do you find the best deals?", "ja": "どこで一番いい商品（お得なもの）を見つけますか？" },
+    "answer2_variations": [
+      { "en": "Outlet malls are great.", "ja": "アウトレットモールがいいですよ。" },
+      { "en": "End-of-season sales.", "ja": "季節の終わりのセールです。" }
+    ],
+    "vocab": [
+      { "word": "full price", "meaning": "定価" },
+      { "word": "bargain", "meaning": "掘り出し物、特価品" }
+    ]
+  },
+  {
+    "id": "shopping_07",
+    "question1": { "en": "Do you prefer cash or credit card?", "ja": "現金とクレジットカード、どっちが好きですか？" },
+    "answer1_variations": [
+      { "en": "I use my card for everything.", "ja": "何でもカードを使います。" },
+      { "en": "I prefer cash to control my spending.", "ja": "使いすぎを防ぐために現金が好きです。" }
+    ],
+    "answer1_detail": { "en": "I want to collect the points.", "ja": "ポイントを貯めたいので。" },
+    "question2": { "en": "Do you use mobile payments?", "ja": "スマホ決済は使いますか？" },
+    "answer2_variations": [
+      { "en": "Yes, Apple Pay is so easy.", "ja": "はい、Apple Payはすごく楽です。" },
+      { "en": "Not really, I don't trust it.", "ja": "あんまり、信用していないので。" }
+    ],
+    "vocab": [
+      { "word": "collect points", "meaning": "ポイントを貯める" },
+      { "word": "spending", "meaning": "支出、出費" }
+    ]
+  },
+  {
+    "id": "shopping_08",
+    "question1": { "en": "Do you shop at thrift stores?", "ja": "古着屋（リサイクルショップ）で買い物しますか？" },
+    "answer1_variations": [
+      { "en": "Yes, I love vintage fashion.", "ja": "はい、ビンテージファッションが好きなので。" },
+      { "en": "No, I prefer new items.", "ja": "いいえ、新品の方がいいです。" }
+    ],
+    "answer1_detail": { "en": "You can find unique pieces there.", "ja": "ユニークな一点物が見つかるんです。" },
+    "question2": { "en": "Is it cheaper?", "ja": "安いですか？" },
+    "answer2_variations": [
+      { "en": "Much cheaper than retail.", "ja": "定価よりずっと安いです。" },
+      { "en": "Some vintage items are pricey.", "ja": "ビンテージ物は高いこともあります。" }
+    ],
+    "vocab": [
+      { "word": "thrift store", "meaning": "古着屋、リサイクルショップ" },
+      { "word": "retail", "meaning": "小売価格、定価" }
+    ]
+  },
+  {
+    "id": "shopping_09",
+    "question1": { "en": "Are you good at picking gifts?", "ja": "プレゼント選びは得意ですか？" },
+    "answer1_variations": [
+      { "en": "I think so. I put a lot of thought into it.", "ja": "そう思います。かなり考えますから。" },
+      { "en": "No, I usually just give gift cards.", "ja": "いいえ、たいていギフトカードをあげちゃいます。" }
+    ],
+    "answer1_detail": { "en": "It's stressful finding the perfect gift.", "ja": "完璧なプレゼントを探すのはストレスです。" },
+    "question2": { "en": "What do you buy when you have no ideas?", "ja": "アイデアがない時は何を買いますか？" },
+    "answer2_variations": [
+      { "en": "Consumables like food or wine.", "ja": "食べ物やワインなどの消え物（消耗品）です。" },
+      { "en": "Something practical.", "ja": "何か実用的なものを。" }
+    ],
+    "vocab": [
+      { "word": "put thought into", "meaning": "〜についてよく考える" },
+      { "word": "consumable", "meaning": "消耗品" }
+    ]
+  },
+  {
+    "id": "shopping_10",
+    "question1": { "en": "Do you enjoy window shopping?", "ja": "ウィンドウショッピングは好きですか？" },
+    "answer1_variations": [
+      { "en": "Yes, I can walk around for hours.", "ja": "はい、何時間でも歩き回れます。" },
+      { "en": "No, it's boring if I can't buy anything.", "ja": "いいえ、買えないならつまらないです。" }
+    ],
+    "answer1_detail": { "en": "It gives me inspiration.", "ja": "インスピレーション（刺激）をくれるんです。" },
+    "question2": { "en": "Do you go alone?", "ja": "一人で行きますか？" },
+    "answer2_variations": [
+      { "en": "I prefer going with friends.", "ja": "友達と行く方が好きです。" },
+      { "en": "Yes, I can go at my own pace.", "ja": "はい、自分のペースで回れるので。" }
+    ],
+    "vocab": [
+      { "word": "window shopping", "meaning": "ショーウィンドウを見て歩くこと（買わずに）" },
+      { "word": "inspiration", "meaning": "ひらめき、刺激" }
+    ]
+  },
+  {
+    "id": "shopping_11",
+    "question1": { "en": "Have you ever returned an item?", "ja": "商品を返品したことはありますか？" },
+    "answer1_variations": [
+      { "en": "Yes, I ordered the wrong size online.", "ja": "はい、ネットでサイズを間違えて注文して。" },
+      { "en": "Rarely. It's too much hassle.", "ja": "めったにないです。面倒くさすぎて。" }
+    ],
+    "answer1_detail": { "en": "Customer service was very helpful.", "ja": "カスタマーサービスがとても親切でした。" },
+    "question2": { "en": "Did you get a full refund?", "ja": "全額返金されましたか？" },
+    "answer2_variations": [
+      { "en": "Yes, back to my credit card.", "ja": "はい、クレジットカードに戻りました。" },
+      { "en": "No, only store credit.", "ja": "いいえ、ストアクレジット（その店で使えるポイント等）だけでした。" }
+    ],
+    "vocab": [
+      { "word": "hassle", "meaning": "面倒なこと" },
+      { "word": "refund", "meaning": "返金" }
+    ]
+  },
+  {
+    "id": "shopping_12",
+    "question1": { "en": "Do you read reviews before buying?", "ja": "買う前にレビューを読みますか？" },
+    "answer1_variations": [
+      { "en": "Always. I trust other people's opinions.", "ja": "いつも読みます。他人の意見を信用しているので。" },
+      { "en": "I take them with a grain of salt.", "ja": "話半分に聞くようにしています。" }
+    ],
+    "answer1_detail": { "en": "I check the one-star reviews first.", "ja": "まず星1つのレビューをチェックします。" },
+    "question2": { "en": "Do you write reviews yourself?", "ja": "自分でレビューを書きますか？" },
+    "answer2_variations": [
+      { "en": "Only if the product was amazing or terrible.", "ja": "商品がすごく良いか、最悪だった時だけ。" },
+      { "en": "Never, I'm too lazy.", "ja": "一度も。面倒なので。" }
+    ],
+    "vocab": [
+      { "word": "take with a grain of salt", "meaning": "話半分に聞く、鵜呑みにしない" },
+      { "word": "opinion", "meaning": "意見" }
+    ]
+  },
+  {
+    "id": "shopping_13",
+    "question1": { "en": "Are you loyal to certain brands?", "ja": "特定のブランドにこだわり（忠誠心）はありますか？" },
+    "answer1_variations": [
+      { "en": "For sneakers, yes. I only wear Nike.", "ja": "スニーカーに関してははい。ナイキしかし履きません。" },
+      { "en": "Not really, I buy whatever looks good.", "ja": "あんまり、良さそうなものなら何でも。" }
+    ],
+    "answer1_detail": { "en": "I trust the quality.", "ja": "品質を信頼しているので。" },
+    "question2": { "en": "Is branding important?", "ja": "ブランド名は重要ですか？" },
+    "answer2_variations": [
+      { "en": "Sometimes it guarantees quality.", "ja": "時にはそれが品質を保証しますから。" },
+      { "en": "No, you're just paying for the name.", "ja": "いいえ、名前にお金を払っているだけですよ。" }
+    ],
+    "vocab": [
+      { "word": "loyal", "meaning": "忠実な、義理堅い" },
+      { "word": "guarantee", "meaning": "保証する" }
+    ]
+  },
+  {
+    "id": "shopping_14",
+    "question1": { "en": "Do you like shopping alone or with friends?", "ja": "買い物は一人が好きですか、友達と一緒が好きですか？" },
+    "answer1_variations": [
+      { "en": "I prefer shopping alone. It's faster.", "ja": "一人がいいです。早いですから。" },
+      { "en": "With friends. It's more fun.", "ja": "友達と。その方が楽しいです。" }
+    ],
+    "answer1_detail": { "en": "I can make decisions quickly by myself.", "ja": "自分一人ならすぐに決断できるので。" },
+    "question2": { "en": "Do you ask for advice?", "ja": "アドバイスを求めますか？" },
+    "answer2_variations": [
+      { "en": "Yes, I need a second opinion.", "ja": "はい、セカンドオピニオン（他人の意見）が必要なので。" },
+      { "en": "No, I know what I want.", "ja": "いいえ、欲しい物は分かっていますから。" }
+    ],
+    "vocab": [
+      { "word": "decision", "meaning": "決断" },
+      { "word": "second opinion", "meaning": "第三者の意見" }
+    ]
+  },
+  {
+    "id": "shopping_15",
+    "question1": { "en": "Do you go to convenience stores often?", "ja": "よくコンビニに行きますか？" },
+    "answer1_variations": [
+      { "en": "Almost every day on my way to work.", "ja": "ほぼ毎日、仕事に行く途中で。" },
+      { "en": "I try not to, it's expensive.", "ja": "行かないようにしてます、高いので。" }
+    ],
+    "answer1_detail": { "en": "Japanese convenience stores are amazing.", "ja": "日本のコンビニは素晴らしいですよね。" },
+    "question2": { "en": "What do you usually buy?", "ja": "たいてい何を買いますか？" },
+    "answer2_variations": [
+      { "en": "Coffee and onigiri.", "ja": "コーヒーとおにぎりです。" },
+      { "en": "Sweets and drinks.", "ja": "お菓子と飲み物です。" }
+    ],
+    "vocab": [
+      { "word": "on way to", "meaning": "〜へ行く途中で" },
+      { "word": "expensive", "meaning": "高価な" }
+    ]
+  },
+  {
+    "id": "shopping_16",
+    "question1": { "en": "Do you use eco-bags?", "ja": "エコバッグを使っていますか？" },
+    "answer1_variations": [
+      { "en": "Yes, I always carry one in my bag.", "ja": "はい、いつもカバンに入れています。" },
+      { "en": "I often forget to bring them.", "ja": "よく持っていくのを忘れちゃいます。" }
+    ],
+    "answer1_detail": { "en": "I don't want to pay for plastic bags.", "ja": "レジ袋にお金を払いたくないので。" },
+    "question2": { "en": "Do you care about the environment?", "ja": "環境を気にしていますか？" },
+    "answer2_variations": [
+      { "en": "I try to do my part.", "ja": "自分の役割を果たそうとはしています。" },
+      { "en": "A little bit.", "ja": "少しは。" }
+    ],
+    "vocab": [
+      { "word": "plastic bag", "meaning": "レジ袋、ビニール袋" },
+      { "word": "do one's part", "meaning": "自分の役割を果たす" }
+    ]
+  },
+  {
+    "id": "shopping_17",
+    "question1": { "en": "Are you good at haggling?", "ja": "値切り交渉は得意ですか？" },
+    "answer1_variations": [
+      { "en": "I'm terrible at it. I'm too shy.", "ja": "全然ダメです。恥ずかしすぎて。" },
+      { "en": "I love it, especially at markets abroad.", "ja": "大好きです、特に海外の市場で。" }
+    ],
+    "answer1_detail": { "en": "It's part of the culture in some places.", "ja": "場所によってはそれが文化の一部ですから。" },
+    "question2": { "en": "Did you get a discount?", "ja": "値引きしてもらえましたか？" },
+    "answer2_variations": [
+      { "en": "Yes, I got 20% off!", "ja": "はい、20%オフになりました！" },
+      { "en": "No, the price was fixed.", "ja": "いいえ、定価でした。" }
+    ],
+    "vocab": [
+      { "word": "haggle", "meaning": "値切る、交渉する" },
+      { "word": "fixed", "meaning": "固定された" }
+    ]
+  },
+  {
+    "id": "shopping_18",
+    "question1": { "en": "Do you shop on Black Friday?", "ja": "ブラックフライデーに買い物をしますか？" },
+    "answer1_variations": [
+      { "en": "Yes, I wait all year for it.", "ja": "はい、そのために一年待ちます。" },
+      { "en": "No, it's too chaotic.", "ja": "いいえ、カオスすぎる（混雑しすぎる）ので。" }
+    ],
+    "answer1_detail": { "en": "I bought a TV for half price.", "ja": "テレビを半額で買いました。" },
+    "question2": { "en": "Do you camp out?", "ja": "徹夜で並びますか（キャンプしますか）？" },
+    "answer2_variations": [
+      { "en": "I just shop online from home.", "ja": "家からネットで買うだけです。" },
+      { "en": "I'm not that crazy.", "ja": "そこまでクレイジーじゃないですよ。" }
+    ],
+    "vocab": [
+      { "word": "chaotic", "meaning": "混沌とした、大混乱の" },
+      { "word": "camp out", "meaning": "野宿する、徹夜で並ぶ" }
+    ]
+  },
+  {
+    "id": "shopping_19",
+    "question1": { "en": "What store could you spend all day in?", "ja": "一日中いられるお店はどこですか？" },
+    "answer1_variations": [
+      { "en": "A big bookstore or IKEA.", "ja": "大きな本屋かIKEAですね。" },
+      { "en": "Probably a hardware store.", "ja": "たぶんホームセンターです。" }
+    ],
+    "answer1_detail": { "en": "I get lost in all the aisles.", "ja": "通路で迷っちゃうのが楽しいんです。" },
+    "question2": { "en": "Do you end up buying things?", "ja": "結局何か買っちゃいますか？" },
+    "answer2_variations": [
+      { "en": "Usually just a coffee.", "ja": "たいていコーヒーだけです。" },
+      { "en": "My cart is always full.", "ja": "カートはいつもいっぱいです。" }
+    ],
+    "vocab": [
+      { "word": "aisle", "meaning": "（店内の）通路" },
+      { "word": "end up ~ing", "meaning": "結局〜することになる" }
+    ]
+  },
+  {
+    "id": "shopping_20",
+    "question1": { "en": "Do you buy souvenirs when you travel?", "ja": "旅行に行くとお土産を買いますか？" },
+    "answer1_variations": [
+      { "en": "I buy snacks for my coworkers.", "ja": "同僚にお菓子を買います。" },
+      { "en": "I buy magnets for myself.", "ja": "自分のためにマグネットを買います。" }
+    ],
+    "answer1_detail": { "en": "It's a nice way to remember the trip.", "ja": "旅を思い出すいい方法ですから。" },
+    "question2": { "en": "Do you spend a lot?", "ja": "たくさんお金を使いますか？" },
+    "answer2_variations": [
+      { "en": "I try to stick to a budget.", "ja": "予算内に収めるようにしています。" },
+      { "en": "Too much, honestly.", "ja": "正直、使いすぎちゃいます。" }
+    ],
+    "vocab": [
+      { "word": "souvenir", "meaning": "お土産" },
+      { "word": "budget", "meaning": "予算" }
+    ]
+  }
+]
