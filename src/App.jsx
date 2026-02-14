@@ -192,7 +192,7 @@ const Machine3D = ({ id, colorClass, onClick, isSpinning }) => {
   );
 };
 
-// ■ 質問カード
+// ■ 質問カード (画像表示機能を追加)
 const QuestionCard = ({ item, index, isExpanded, onToggleExpand }) => {
   const [step, setStep] = useState(0);
   
@@ -218,8 +218,9 @@ const QuestionCard = ({ item, index, isExpanded, onToggleExpand }) => {
   const q2 = item.question2;
   const a2List = item.answer2_variations || [];
   const vocab = item.vocab || [];
+  const imageUrl = item.image || null; // 画像URL
 
-  // --- セクション間の矢印 (濃く) ---
+  // --- セクション間の矢印 ---
   const SectionArrow = () => (
     <div className="flex justify-center -my-3 relative z-20">
       <div className="bg-white rounded-full p-1.5 shadow-sm border border-gray-200">
@@ -253,6 +254,18 @@ const QuestionCard = ({ item, index, isExpanded, onToggleExpand }) => {
       {isExpanded && (
         <div className="px-4 pb-6 space-y-5 animate-fade-in bg-white">
           
+          {/* ★★★ ここに画像表示エリアを追加 ★★★ */}
+          {imageUrl && (
+            <div className="rounded-2xl overflow-hidden shadow-sm border border-gray-100 mb-2 animate-fade-in">
+              <img 
+                src={imageUrl} 
+                alt="Scene" 
+                className="w-full h-auto object-cover max-h-60 md:max-h-80"
+                onError={(e) => e.target.style.display = 'none'} // エラー時は非表示
+              />
+            </div>
+          )}
+
           {/* ■■■ STEP 0: Question 1 (Blue) ■■■ */}
           <div className="rounded-2xl p-5 bg-gradient-to-br from-blue-50 to-blue-100 border-l-8 border-blue-400 shadow-sm relative overflow-hidden">
             <div className="flex justify-between items-center mb-4 relative z-10">
@@ -550,15 +563,12 @@ const App = () => {
       {/* Gacha View (中央配置、鼓動アニメーション) */}
       {viewMode === 'gacha' && (
         <div className="absolute inset-0 flex items-center justify-center z-10 p-4">
-          {/* 全体を包むコンテナに鼓動アニメーションを適用 */}
           <div className="flex flex-col items-center animate-heartbeat-slow">
             {/* インパクトのある新タイトル */}
             <div className="relative mb-10 md:mb-16 text-center">
-              {/* 縁取り効果用の背面テキスト */}
               <h1 className="absolute inset-0 text-5xl md:text-7xl font-black text-white drop-shadow-[0_0_10px_rgba(255,255,255,0.8)] select-none blur-[2px]">
                 Pile-UP GACHA
               </h1>
-              {/* 前面のグラデーションテキスト */}
               <h1 className="relative text-5xl md:text-7xl font-black text-transparent bg-clip-text bg-gradient-to-tr from-purple-600 via-pink-500 to-orange-500 filter drop-shadow-[0_5px_5px_rgba(0,0,0,0.3)] tracking-tighter select-none">
                 Pile-UP GACHA
               </h1>
