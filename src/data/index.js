@@ -19,7 +19,6 @@ import tech from './categories/tech.json';
 import travel from './categories/travel.json';
 import work from './categories/work.json';
 
-// ここが重要！ "categories" という名前をつけて送り出します
 export const categories = [
   animals,
   culture,
