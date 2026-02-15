@@ -4,7 +4,7 @@
   "questions": [
     {
       "id": "animal_adv_01",
-      "image": "images/animal/animal_1.webp",
+      "image": "images/animal/animal_01.webp",
       "question1": { "en": "If you could have any animal as a pet, what would it be?", "ja": "もしどんな動物でもペットにできるとしたら、何がいい？" },
       "answer1_variations": [
         { "en": "I'd love to have a sloth.", "ja": "ナマケモノを飼ってみたいな。" },
@@ -24,7 +24,7 @@
     },
     {
       "id": "animal_adv_02",
-      "image": "images/animal/animal_2.webp",
+      "image": "images/animal/animal_02.webp",
       "question1": { "en": "Can I pet your dog?", "ja": "そのワンちゃん、撫でてもいいですか？" },
       "answer1_variations": [
         { "en": "Sure, he loves people!", "ja": "もちろんです、彼は人が大好きなんですよ！" },
@@ -44,7 +44,7 @@
     },
     {
       "id": "animal_adv_03",
-      "image": "images/animal/animal_3.webp",
+      "image": "images/animal/animal_03.webp",
       "question1": { "en": "Have you ever been to a cat cafe?", "ja": "猫カフェに行ったことある？" },
       "answer1_variations": [
         { "en": "Yeah, I went to one in Tokyo last year.", "ja": "うん、去年東京で行ったよ。" },
@@ -64,7 +64,7 @@
     },
     {
       "id": "animal_adv_04",
-      "image": "images/animal/animal_4.webp",
+      "image": "images/animal/animal_04.webp",
       "question1": { "en": "Are there any animals you are afraid of?", "ja": "何か苦手な動物っている？" },
       "answer1_variations": [
         { "en": "I absolutely can't stand spiders.", "ja": "クモがどうしても無理なんだ。" },
@@ -84,7 +84,7 @@
     },
     {
       "id": "animal_adv_05",
-      "image": "images/animal/animal_5.webp",
+      "image": "images/animal/animal_05.webp",
       "question1": { "en": "Do you like watching animal documentaries?", "ja": "動物のドキュメンタリー番組は好き？" },
       "answer1_variations": [
         { "en": "I love them! Especially the ones about sea life.", "ja": "大好き！特に海の生き物のやつがね。" },
@@ -104,7 +104,7 @@
     },
     {
       "id": "animal_adv_06",
-      "image": "images/animal/animal_6.webp",
+      "image": "images/animal/animal_06.webp",
       "question1": { "en": "Have you seen any wild animals around here?", "ja": "この辺りで野生動物を見かけたことある？" },
       "answer1_variations": [
         { "en": "I saw a wild boar near the mountains.", "ja": "山の近くでイノシシを見たよ。" },
@@ -124,7 +124,7 @@
     },
     {
       "id": "animal_adv_07",
-      "image": "images/animal/animal_7.webp",
+      "image": "images/animal/animal_07.webp",
       "question1": { "en": "I'm thinking about getting a parrot.", "ja": "オウムを飼おうかと思っているんだ。" },
       "answer1_variations": [
         { "en": "That sounds fun! They are very intelligent.", "ja": "それは楽しそうだね！彼らはとても賢いよ。" },
@@ -144,7 +144,7 @@
     },
     {
       "id": "animal_adv_08",
-      "image": "images/animal/animal_8.webp",
+      "image": "images/animal/animal_08.webp",
       "question1": { "en": "Do you prefer zoos or aquariums?", "ja": "動物園と水族館、どっちが好き？" },
       "answer1_variations": [
         { "en": "Definitely aquariums. I love jellyfish.", "ja": "断然、水族館だね。クラゲが大好きなんだ。" },
@@ -164,7 +164,7 @@
     },
     {
       "id": "animal_adv_09",
-      "image": "images/animal/animal_9.webp",
+      "image": "images/animal/animal_09.webp",
       "question1": { "en": "Have you ever ridden a horse?", "ja": "馬に乗ったことはある？" },
       "answer1_variations": [
         { "en": "Yes, I tried it once during a trip.", "ja": "うん、旅行中に一度試したよ。" },
