@@ -1,14 +1,15 @@
-import React, { useState, useEffect, useRef }from 'react'; // ★ useRefを追加
+import React, { useState, useEffect, useRef } from 'react';
 import { 
   X, ChevronRight, Smile, ChevronDown, 
   Lightbulb, Volume2, LayoutGrid, Gamepad2,
   School, Plane, Rocket, Sun, Heart, Music, Globe,
   Briefcase, Utensils, Home, BookOpen, Activity, 
-  ArrowRight, Sparkles, ArrowDown
+  ArrowRight, Sparkles, ArrowDown, Play
 } from 'lucide-react';
 
-// ■ データ読み込み
+// ■ データとコンポーネント読み込み
 import { categories } from './data/index.js';
+import QuizGame from './components/QuizGame'; // クイズコンポーネント
 
 // ■ 日本語の丸い国旗アイコン
 const JapanFlag = ({ className }) => (
@@ -125,7 +126,7 @@ const SentenceRow = ({ textEn, textJa, vocab, showTrans, className = "" }) => {
       {/* 左側：スピーカーアイコン */}
       <button 
         onClick={(e) => { e.stopPropagation(); speak(textEn); }}
-        className="shrink-0 mt-1 w-8 h-8 rounded-full flex items-center justify-center bg-gray-100 text-gray-500 hover:text-blue-500 hover:bg-blue-50 transition-colors shadow-sm active:scale-95"
+        className="shrink-0 mt-1 w-8 h-8 rounded-full flex items-center justify-center bg-gray-100 text-gray-500 hover:text-blue-50 hover:bg-blue-50 transition-colors shadow-sm active:scale-95"
       >
         <Volume2 size={18} />
       </button>
@@ -192,10 +193,10 @@ const Machine3D = ({ id, colorClass, onClick, isSpinning }) => {
   );
 };
 
-// ■ 質問カード (画像表示機能＋自動スクロール機能を追加)
+// ■ 質問カード (画像表示 + 自動スクロール)
 const QuestionCard = ({ item, index, isExpanded, onToggleExpand }) => {
   const [step, setStep] = useState(0);
-  const cardRef = useRef(null); // ★スクロール用の「目印」を作成
+  const cardRef = useRef(null); // ★スクロール用
   
   // 各セクションの翻訳表示状態管理
   const [showTransQ1, setShowTransQ1] = useState(false);
@@ -209,15 +210,15 @@ const QuestionCard = ({ item, index, isExpanded, onToggleExpand }) => {
       setShowTransA1(false);
       setShowTransGreen(false);
     } else {
-      // ★ 開いた(isExpandedがtrueになった)時、0.3秒後に画面中央へスクロール
+      // ★ 開いた時に画面中央へスクロール
       if (cardRef.current) {
         setTimeout(() => {
           cardRef.current.scrollIntoView({
             behavior: 'smooth',
-            block: 'center', // カードの中心を画面の真ん中に合わせる
+            block: 'center',
             inline: 'nearest'
           });
-        }, 300); // アニメーションの時間を待つ
+        }, 300);
       }
     }
   }, [isExpanded]);
@@ -243,7 +244,7 @@ const QuestionCard = ({ item, index, isExpanded, onToggleExpand }) => {
 
   return (
     <div 
-      ref={cardRef} // ★ここに目印を設定
+      ref={cardRef} // ★Ref設定
       className={`bg-white rounded-3xl shadow-sm border border-gray-100 overflow-hidden transition-all duration-300 mb-6 ${isExpanded ? 'ring-4 ring-blue-50 shadow-xl' : 'hover:shadow-md'}`}
     >
       
@@ -425,8 +426,9 @@ const QuestionCard = ({ item, index, isExpanded, onToggleExpand }) => {
     </div>
   );
 };
+
 // ■ モーダル画面
-const OpenModal = ({ isOpen, onClose, topic, topicIndex, initialStep = 0 }) => {
+const OpenModal = ({ isOpen, onClose, topic, topicIndex, initialStep = 0, onStartQuiz }) => {
   const [step, setStep] = useState(initialStep); 
   const [capsuleColor, setCapsuleColor] = useState("");
   const [expandedQuestion, setExpandedQuestion] = useState(null);
@@ -470,8 +472,18 @@ const OpenModal = ({ isOpen, onClose, topic, topicIndex, initialStep = 0 }) => {
           </div>
           <h2 className="text-gray-400 font-bold uppercase tracking-widest text-sm mb-2">Today's Topic</h2>
           <h3 className="text-3xl font-black text-gray-800 mb-8 leading-tight">{topic.title}</h3>
-          <div className="w-full bg-gray-50 hover:bg-indigo-50 transition-colors py-4 rounded-2xl flex items-center justify-center gap-2 font-bold text-gray-600 group-hover:text-indigo-600 border-2 border-dashed border-gray-200">
-            Start Learning <ChevronRight size={20} />
+          
+          <div className="space-y-3 w-full">
+            <div className="w-full bg-gray-50 hover:bg-indigo-50 transition-colors py-4 rounded-2xl flex items-center justify-center gap-2 font-bold text-gray-600 group-hover:text-indigo-600 border-2 border-dashed border-gray-200">
+              Start Learning <ChevronRight size={20} />
+            </div>
+            {/* クイズボタンを追加 */}
+            <button 
+              onClick={(e) => { e.stopPropagation(); onStartQuiz(); }}
+              className="w-full bg-yellow-400 hover:bg-yellow-500 text-white py-3 rounded-2xl flex items-center justify-center gap-2 font-bold shadow-md transition-all active:scale-95"
+            >
+              <Gamepad2 size={20} /> Play Quiz
+            </button>
           </div>
         </div>
       )}
@@ -484,12 +496,20 @@ const OpenModal = ({ isOpen, onClose, topic, topicIndex, initialStep = 0 }) => {
             <div className="text-white text-4xl bg-white/20 w-16 h-16 rounded-2xl flex items-center justify-center backdrop-blur-md shadow-inner relative z-10">
                {TopicIcon}
             </div>
-            <div className="relative z-10">
+            <div className="relative z-10 flex-1">
               <h3 className="text-xl md:text-2xl font-black line-clamp-1">{topic.title}</h3>
               <p className="text-white/80 font-bold text-xs bg-white/20 inline-block px-2 py-1 rounded mt-1">
                 {topic.questions?.length || 0} Lessons
               </p>
             </div>
+            {/* ヘッダー内にもクイズボタン */}
+            <button 
+              onClick={onStartQuiz}
+              className="bg-white/20 p-2 rounded-full hover:bg-white/30 transition-colors"
+              title="Start Quiz"
+            >
+              <Gamepad2 size={24} />
+            </button>
           </div>
           
           <div className="p-4 md:p-6 overflow-y-auto flex-1 overscroll-contain bg-slate-50">
@@ -523,7 +543,9 @@ const App = () => {
   const [currentTopicIndex, setCurrentTopicIndex] = useState(null);
   const [modalStep, setModalStep] = useState(0);
   const [viewMode, setViewMode] = useState('gacha'); 
+  const [quizMode, setQuizMode] = useState(false); // ★クイズモード状態管理
 
+  // ガチャを回した時の処理
   const handleSpin = (id) => {
     if (spinningId || modalOpen) return;
     setSpinningId(id);
@@ -540,11 +562,19 @@ const App = () => {
     }, 1500);
   };
 
+  // リスト選択時の処理
   const handleListSelect = (topic, index) => {
     setCurrentTopic(topic);
     setCurrentTopicIndex(index);
     setModalStep(2);
     setModalOpen(true);
+  };
+
+  // クイズ開始処理（リストやガチャ結果から呼べるようにする）
+  const startQuiz = (topic) => {
+    setCurrentTopic(topic);
+    setQuizMode(true); // クイズ画面へ
+    setModalOpen(false); // モーダルは閉じる
   };
 
   const handleClose = () => {
@@ -558,87 +588,109 @@ const App = () => {
   return (
     <div className="w-full h-[100dvh] overflow-hidden relative font-sans select-none bg-white touch-none">
       <div className="absolute inset-0 bg-gradient-to-br from-indigo-100 via-purple-100 to-pink-100 animate-gradient-flow opacity-80"></div>
+      
+      {/* 背景エフェクト */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
         <div className="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] bg-blue-300 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob"></div>
         <div className="absolute top-[-10%] right-[-10%] w-[50%] h-[50%] bg-purple-300 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-2000"></div>
         <div className="absolute bottom-[-10%] left-[20%] w-[50%] h-[50%] bg-pink-300 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-4000"></div>
       </div>
       
-      {/* Header */}
-      <div className="absolute top-4 right-4 z-40 flex gap-2 pointer-events-auto">
-         <button 
-           onClick={() => setViewMode(viewMode === 'gacha' ? 'list' : 'gacha')}
-           className="flex items-center gap-2 bg-white/80 backdrop-blur-sm border-2 border-indigo-100 text-indigo-600 px-4 py-2 rounded-full font-bold shadow-lg hover:bg-indigo-50 transition-all active:scale-95 text-sm"
-         >
-           {viewMode === 'gacha' ? <><LayoutGrid size={18} /><span className="hidden sm:inline">List</span></> : <><Gamepad2 size={18} /><span className="hidden sm:inline">Gacha</span></>}
-         </button>
-      </div>
-
-      {/* Gacha View (中央配置、鼓動アニメーション) */}
-      {viewMode === 'gacha' && (
-        <div className="absolute inset-0 flex items-center justify-center z-10 p-4">
-          <div className="flex flex-col items-center animate-heartbeat-slow">
-            {/* インパクトのある新タイトル */}
-            <div className="relative mb-10 md:mb-16 text-center">
-              <h1 className="absolute inset-0 text-5xl md:text-7xl font-black text-white drop-shadow-[0_0_10px_rgba(255,255,255,0.8)] select-none blur-[2px]">
-                Pile-UP GACHA
-              </h1>
-              <h1 className="relative text-5xl md:text-7xl font-black text-transparent bg-clip-text bg-gradient-to-tr from-purple-600 via-pink-500 to-orange-500 filter drop-shadow-[0_5px_5px_rgba(0,0,0,0.3)] tracking-tighter select-none">
-                Pile-UP GACHA
-              </h1>
-            </div>
-
-            {/* ガチャガチャ 2x2 */}
-            <div className="grid grid-cols-2 gap-x-6 gap-y-8 md:gap-12 justify-items-center">
-              {[1, 2, 3, 4].map(id => (
-                <Machine3D 
-                  key={id}
-                  id={id} 
-                  colorClass={id === 1 ? "bg-red-400" : id === 2 ? "bg-blue-400" : id === 3 ? "bg-yellow-400" : "bg-green-400"} 
-                  onClick={() => handleSpin(id)} 
-                  isSpinning={spinningId === id} 
-                />
-              ))}
-            </div>
+      {/* ★ クイズ画面の表示切り替え */}
+      {quizMode && currentTopic ? (
+        <QuizGame 
+          topic={currentTopic} 
+          onClose={() => {
+            setQuizMode(false);
+            setCurrentTopic(null);
+          }} 
+        />
+      ) : (
+        <>
+          {/* Header */}
+          <div className="absolute top-4 right-4 z-40 flex gap-2 pointer-events-auto">
+             <button 
+               onClick={() => setViewMode(viewMode === 'gacha' ? 'list' : 'gacha')}
+               className="flex items-center gap-2 bg-white/80 backdrop-blur-sm border-2 border-indigo-100 text-indigo-600 px-4 py-2 rounded-full font-bold shadow-lg hover:bg-indigo-50 transition-all active:scale-95 text-sm"
+             >
+               {viewMode === 'gacha' ? <><LayoutGrid size={18} /><span className="hidden sm:inline">List</span></> : <><Gamepad2 size={18} /><span className="hidden sm:inline">Gacha</span></>}
+             </button>
           </div>
-        </div>
+
+          {/* Gacha View */}
+          {viewMode === 'gacha' && (
+            <div className="absolute inset-0 flex items-center justify-center z-10 p-4">
+              <div className="flex flex-col items-center animate-heartbeat-slow">
+                <div className="relative mb-10 md:mb-16 text-center">
+                  <h1 className="absolute inset-0 text-5xl md:text-7xl font-black text-white drop-shadow-[0_0_10px_rgba(255,255,255,0.8)] select-none blur-[2px]">Pile-UP GACHA</h1>
+                  <h1 className="relative text-5xl md:text-7xl font-black text-transparent bg-clip-text bg-gradient-to-tr from-purple-600 via-pink-500 to-orange-500 filter drop-shadow-[0_5px_5px_rgba(0,0,0,0.3)] tracking-tighter select-none">Pile-UP GACHA</h1>
+                </div>
+                <div className="grid grid-cols-2 gap-x-6 gap-y-8 md:gap-12 justify-items-center">
+                  {[1, 2, 3, 4].map(id => (
+                    <Machine3D 
+                      key={id}
+                      id={id} 
+                      colorClass={id === 1 ? "bg-red-400" : id === 2 ? "bg-blue-400" : id === 3 ? "bg-yellow-400" : "bg-green-400"} 
+                      onClick={() => handleSpin(id)} 
+                      isSpinning={spinningId === id} 
+                    />
+                  ))}
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* List View */}
+          {viewMode === 'list' && (
+            <div className="absolute inset-0 pt-20 px-4 pb-8 overflow-y-auto z-20 bg-white/30 backdrop-blur-sm animate-fade-in overscroll-contain">
+              <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-4 pb-10">
+                {categoryList.map((topic, i) => {
+                  const color = getThemeColor(i);
+                  return (
+                    <div key={topic.id} className="relative group">
+                      {/* 通常の学習ボタン */}
+                      <button 
+                        onClick={() => handleListSelect(topic, i)}
+                        className="w-full bg-white/90 hover:bg-white rounded-2xl p-4 shadow-sm hover:shadow-xl border-2 border-transparent hover:border-indigo-300 transition-all text-left flex items-center gap-4 active:scale-[0.98]"
+                      >
+                        <div className={`${color} w-12 h-12 md:w-14 md:h-14 rounded-2xl flex items-center justify-center text-white shadow-md group-hover:scale-110 transition-transform`}>
+                          {getTopicIcon(topic.title)}
+                        </div>
+                        <div className="min-w-0 flex-1">
+                          <h3 className="font-bold text-gray-700 text-lg group-hover:text-indigo-600 transition-colors truncate">{topic.title}</h3>
+                          <p className="text-gray-400 text-xs md:text-sm font-bold">{topic.questions?.length || 0} Lessons</p>
+                        </div>
+                        <ChevronRight className="text-gray-300 group-hover:text-indigo-400 shrink-0" />
+                      </button>
+                      
+                      {/* ★ クイズ起動ボタン（右下に配置） */}
+                      <button
+                        onClick={(e) => { e.stopPropagation(); startQuiz(topic); }}
+                        className="absolute right-2 bottom-2 bg-yellow-400 text-white p-2 rounded-full shadow-md hover:bg-yellow-500 hover:scale-110 transition-all z-10"
+                        title="Start Quiz"
+                      >
+                        <Play size={16} fill="white" />
+                      </button>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+
+          {/* モーダル内にクイズボタンを追加 */}
+          <OpenModal 
+            isOpen={modalOpen} 
+            onClose={handleClose} 
+            topic={currentTopic} 
+            topicIndex={currentTopicIndex} 
+            initialStep={modalStep}
+            onStartQuiz={() => startQuiz(currentTopic)} // ★クイズ開始関数を渡す
+          />
+        </>
       )}
 
-      {/* List View */}
-      {viewMode === 'list' && (
-        <div className="absolute inset-0 pt-20 px-4 pb-8 overflow-y-auto z-20 bg-white/30 backdrop-blur-sm animate-fade-in overscroll-contain">
-          <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-4 pb-10">
-            {categoryList.map((topic, i) => {
-              const color = getThemeColor(i);
-              return (
-                <button 
-                  key={topic.id} 
-                  onClick={() => handleListSelect(topic, i)}
-                  className="bg-white/90 hover:bg-white rounded-2xl p-4 shadow-sm hover:shadow-xl border-2 border-transparent hover:border-indigo-300 transition-all text-left group flex items-center gap-4 active:scale-[0.98]"
-                >
-                  <div className={`${color} w-12 h-12 md:w-14 md:h-14 rounded-2xl flex items-center justify-center text-white shadow-md group-hover:scale-110 transition-transform`}>
-                    {getTopicIcon(topic.title)}
-                  </div>
-                  <div className="min-w-0">
-                    <h3 className="font-bold text-gray-700 text-lg group-hover:text-indigo-600 transition-colors truncate">{topic.title}</h3>
-                    <p className="text-gray-400 text-xs md:text-sm font-bold">{topic.questions?.length || 0} Lessons</p>
-                  </div>
-                  <ChevronRight className="ml-auto text-gray-300 group-hover:text-indigo-400 shrink-0" />
-                </button>
-              );
-            })}
-          </div>
-        </div>
-      )}
-
-      <OpenModal 
-        isOpen={modalOpen} 
-        onClose={handleClose} 
-        topic={currentTopic} 
-        topicIndex={currentTopicIndex} 
-        initialStep={modalStep}
-      />
-
+      {/* スタイル定義 */}
       <style>{`
         @keyframes bounce-in { 0% { transform: scale(0); opacity: 0; } 60% { transform: scale(1.1); opacity: 1; } 100% { transform: scale(1); } }
         .animate-bounce-in { animation: bounce-in 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
@@ -659,6 +711,7 @@ const App = () => {
         .animation-delay-2000 { animation-delay: 2s; }
         .animation-delay-4000 { animation-delay: 4s; }
         .safe-area-bottom { padding-bottom: env(safe-area-inset-bottom); }
+        .safe-area-top { padding-top: env(safe-area-inset-top); }
       `}</style>
     </div>
   );
