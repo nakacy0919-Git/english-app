@@ -1,386 +1,406 @@
 {
   "id": "topic_daily",
   "title": "Daily Life (日常生活)",
-  "questions":[
-  {
-    "id": "daily_adv_01",
-    "question1": { "en": "I totally overslept this morning.", "ja": "今朝、完全に寝坊しちゃったよ。" },
-    "answer1_variations": [
-      { "en": "Oh no, were you late for work?", "ja": "えっ、仕事に遅刻した？" },
-      { "en": "Happens to the best of us.", "ja": "誰にでもあることだよ。" }
-    ],
-    "answer1_detail": { "en": "My alarm didn't go off for some reason.", "ja": "なぜか目覚ましが鳴らなかったんだ。" },
-    "question2": { "en": "Did you make it in time?", "ja": "（仕事や学校に）間に合った？" },
-    "answer2_variations": [
-      { "en": "Barely! I had to skip breakfast.", "ja": "かろうじてね！朝食は抜かなきゃいけなかったけど。" },
-      { "en": "No, I was 15 minutes late.", "ja": "ううん、15分遅刻しちゃった。" }
-    ],
-    "vocab": [
-      { "word": "oversleep", "meaning": "寝坊する" },
-      { "word": "go off", "meaning": "（警報・目覚ましなどが）鳴る" },
-      { "word": "barely", "meaning": "かろうじて、ギリギリで" }
-    ]
-  },
-  {
-    "id": "daily_adv_02",
-    "question1": { "en": "Do you want to grab some coffee?", "ja": "コーヒーでも買いに行かない？" },
-    "answer1_variations": [
-      { "en": "I'd love to. I need the caffeine.", "ja": "いいね。カフェインが必要だよ。" },
-      { "en": "I'm trying to cut down on caffeine, actually.", "ja": "実はカフェインを控えるようにしてるんだ。" }
-    ],
-    "answer1_detail": { "en": "There's a new cafe around the corner.", "ja": "角を曲がったところに新しいカフェがあるんだよ。" },
-    "question2": { "en": "Is it any good?", "ja": "そこ、美味しいの？" },
-    "answer2_variations": [
-      { "en": "Yeah, their latte is amazing.", "ja": "うん、ラテが最高だよ。" },
-      { "en": "I haven't tried it yet, let's find out.", "ja": "まだ試してないから、行ってみようよ。" }
-    ],
-    "vocab": [
-      { "word": "grab", "meaning": "（食事や飲み物を）さっと取る、買いに行く" },
-      { "word": "cut down on", "meaning": "～を減らす、控える" },
-      { "word": "around the corner", "meaning": "すぐ近くに、角を曲がったところに" }
-    ]
-  },
-  {
-    "id": "daily_adv_03",
-    "question1": { "en": "The train is so packed today.", "ja": "今日の電車、すごく混んでるね。" },
-    "answer1_variations": [
-      { "en": "Yeah, it's rush hour.", "ja": "うん、ラッシュアワーだからね。" },
-      { "en": "I can barely move my arms.", "ja": "腕を動かすことさえできないよ。" }
-    ],
-    "answer1_detail": { "en": "I hate taking the train at this time.", "ja": "この時間の電車に乗るのは大嫌いだよ。" },
-    "question2": { "en": "Is it always this bad?", "ja": "いつもこんなにひどいの？" },
-    "answer2_variations": [
-      { "en": "Pretty much, especially on Mondays.", "ja": "大体ね、特に月曜日は。" },
-      { "en": "No, there must be a delay somewhere.", "ja": "ううん、どこかで遅延があるに違いないよ。" }
-    ],
-    "vocab": [
-      { "word": "packed", "meaning": "満員の、混雑した" },
-      { "word": "rush hour", "meaning": "通勤ラッシュの時間帯" },
-      { "word": "delay", "meaning": "遅延" }
-    ]
-  },
-  {
-    "id": "daily_adv_04",
-    "question1": { "en": "It looks like it's going to rain.", "ja": "雨が降りそうだね。" },
-    "answer1_variations": [
-      { "en": "I hope not, I didn't bring an umbrella.", "ja": "降らないといいけど、傘持ってきてないんだ。" },
-      { "en": "Good thing I checked the forecast.", "ja": "天気予報を確認しておいてよかったよ。" }
-    ],
-    "answer1_detail": { "en": "The sky is getting really dark.", "ja": "空がすごく暗くなってきてるしね。" },
-    "question2": { "en": "Should we head back?", "ja": "戻ったほうがいいかな？" },
-    "answer2_variations": [
-      { "en": "Yeah, let's go before it starts pouring.", "ja": "うん、土砂降りになる前に帰ろう。" },
-      { "en": "We can wait it out in a cafe.", "ja": "カフェで止むのを待てるよ。" }
-    ],
-    "vocab": [
-      { "word": "forecast", "meaning": "予報" },
-      { "word": "head back", "meaning": "引き返す、戻る" },
-      { "word": "pour", "meaning": "（雨が）激しく降る" }
-    ]
-  },
-  {
-    "id": "daily_adv_05",
-    "question1": { "en": "What are you having for lunch?", "ja": "お昼は何にするの？" },
-    "answer1_variations": [
-      { "en": "I brought a bento from home.", "ja": "家からお弁当を持ってきたよ。" },
-      { "en": "I might just grab a sandwich at the konbini.", "ja": "コンビニでサンドイッチでも買おうかな。" }
-    ],
-    "answer1_detail": { "en": "I'm trying to save money this month.", "ja": "今月は節約しようと思って。" },
-    "question2": { "en": "That's a good idea. Eating out is expensive.", "ja": "いい考えだね。外食は高いし。" },
-    "answer2_variations": [
-      { "en": "Exactly, it adds up quickly.", "ja": "その通り、ちりも積もれば山となるからね。" },
-      { "en": "Do you want to join me?", "ja": "一緒に食べる？" }
-    ],
-    "vocab": [
-      { "word": "save money", "meaning": "節約する、貯金する" },
-      { "word": "eat out", "meaning": "外食する" },
-      { "word": "add up", "meaning": "積み重なる、合計が増える" }
-    ]
-  },
-  {
-    "id": "daily_adv_06",
-    "question1": { "en": "Do you have a charger? My phone is dying.", "ja": "充電器持ってる？スマホの充電が切れそうなんだ。" },
-    "answer1_variations": [
-      { "en": "Yeah, here you go.", "ja": "うん、はいどうぞ。" },
-      { "en": "Sorry, I left mine at home.", "ja": "ごめん、家に置いてきちゃった。" }
-    ],
-    "answer1_detail": { "en": "I'm at 1%, so it's an emergency!", "ja": "残り1%だから緊急事態なんだ！" },
-    "question2": { "en": "Does your battery drain fast?", "ja": "バッテリーの減りが早いの？" },
-    "answer2_variations": [
-      { "en": "It's an old phone, so yeah.", "ja": "古いスマホだからね、そうなんだ。" },
-      { "en": "I've been using GPS all day.", "ja": "一日中GPSを使ってたからさ。" }
-    ],
-    "vocab": [
-      { "word": "dying", "meaning": "（バッテリーが）切れそうな" },
-      { "word": "leave", "meaning": "置き忘れる、置いてくる" },
-      { "word": "drain", "meaning": "（液体や電力が）減る、消耗する" }
-    ]
-  },
-  {
-    "id": "daily_adv_07",
-    "question1": { "en": "I have so much laundry to do.", "ja": "洗濯しなきゃいけないものが山ほどあるよ。" },
-    "answer1_variations": [
-      { "en": "Me too, it's been piling up.", "ja": "私も、溜まっていく一方だよ。" },
-      { "en": "Just do it while watching Netflix.", "ja": "Netflixでも見ながらやっちゃいなよ。" }
-    ],
-    "answer1_detail": { "en": "I've been procrastinating all week.", "ja": "今週ずっと先延ばしにしてたんだ。" },
-    "question2": { "en": "Do you hang it outside?", "ja": "外に干す派？" },
-    "answer2_variations": [
-      { "en": "Yes, I like the smell of the sun.", "ja": "うん、お日様の匂いが好きだから。" },
-      { "en": "No, I usually use the dryer.", "ja": "ううん、たいてい乾燥機を使うよ。" }
-    ],
-    "vocab": [
-      { "word": "pile up", "meaning": "積み重なる、溜まる" },
-      { "word": "procrastinate", "meaning": "先延ばしにする" },
-      { "word": "hang", "meaning": "干す、吊るす" }
-    ]
-  },
-  {
-    "id": "daily_adv_08",
-    "question1": { "en": "We are out of milk.", "ja": "牛乳が切れてるよ。" },
-    "answer1_variations": [
-      { "en": "I'll pick some up on my way home.", "ja": "帰りに買ってくるよ。" },
-      { "en": "Can you add it to the shopping list?", "ja": "買い物リストに追加しておいてくれる？" }
-    ],
-    "answer1_detail": { "en": "We need it for breakfast tomorrow.", "ja": "明日の朝食に必要なんだ。" },
-    "question2": { "en": "Do we need anything else?", "ja": "他に何か必要なものはある？" },
-    "answer2_variations": [
-      { "en": "Maybe some eggs too.", "ja": "卵もいるかも。" },
-      { "en": "I think that's it.", "ja": "それだけだと思う。" }
-    ],
-    "vocab": [
-      { "word": "be out of", "meaning": "～を切らしている" },
-      { "word": "pick up", "meaning": "買って帰る、拾う" },
-      { "word": "shopping list", "meaning": "買い物リスト" }
-    ]
-  },
-  {
-    "id": "daily_adv_09",
-    "question1": { "en": "What should we make for dinner?", "ja": "夕食は何を作ろうか？" },
-    "answer1_variations": [
-      { "en": "How about pasta? It's easy.", "ja": "パスタはどう？簡単だし。" },
-      { "en": "I'm too tired to cook. Let's order in.", "ja": "疲れすぎて料理できないよ。デリバリー頼もう。" }
-    ],
-    "answer1_detail": { "en": "We have some leftover veggies in the fridge.", "ja": "冷蔵庫に野菜の残りがあるよ。" },
-    "question2": { "en": "Pasta sounds good. Tomato or cream?", "ja": "パスタいいね。トマト系？クリーム系？" },
-    "answer2_variations": [
-      { "en": "Let's do a simple tomato sauce.", "ja": "シンプルなトマトソースにしよう。" },
-      { "en": "Whatever uses up the leftovers.", "ja": "残りを使い切れる方なら何でも。" }
-    ],
-    "vocab": [
-      { "word": "order in", "meaning": "出前を取る、デリバリーを頼む" },
-      { "word": "leftover", "meaning": "残り物" },
-      { "word": "fridge", "meaning": "冷蔵庫" }
-    ]
-  },
-  {
-    "id": "daily_adv_10",
-    "question1": { "en": "Did you watch the latest episode?", "ja": "最新話見た？" },
-    "answer1_variations": [
-      { "en": "No spoilers! I haven't seen it yet.", "ja": "ネタバレしないで！まだ見てないんだ。" },
-      { "en": "Yes! The ending was crazy.", "ja": "見たよ！結末がヤバかったね。" }
-    ],
-    "answer1_detail": { "en": "I was so busy I couldn't watch it last night.", "ja": "昨夜は忙しくて見れなかったんだ。" },
-    "question2": { "en": "When are you going to watch it?", "ja": "いつ見るつもり？" },
-    "answer2_variations": [
-      { "en": "I'll probably binge-watch it this weekend.", "ja": "たぶん今週末に一気見するよ。" },
-      { "en": "Tonight, as soon as I get home.", "ja": "今夜、帰ったらすぐに。" }
-    ],
-    "vocab": [
-      { "word": "spoiler", "meaning": "ネタバレ" },
-      { "word": "episode", "meaning": "（ドラマなどの）１話、エピソード" },
-      { "word": "binge-watch", "meaning": "一気見する" }
-    ]
-  },
-  {
-    "id": "daily_adv_11",
-    "question1": { "en": "Got any plans for the weekend?", "ja": "週末は何か予定ある？" },
-    "answer1_variations": [
-      { "en": "I'm just going to chill at home.", "ja": "家でダラダラするつもり。" },
-      { "en": "I'm going hiking with some friends.", "ja": "友達とハイキングに行くんだ。" }
-    ],
-    "answer1_detail": { "en": "I've had a long week, so I need to rest.", "ja": "今週は長かったから、休まないと。" },
-    "question2": { "en": "Sounds relaxing. Watching movies?", "ja": "リラックスできそうだね。映画でも見るの？" },
-    "answer2_variations": [
-      { "en": "Yeah, I have a watchlist to get through.", "ja": "うん、見なきゃいけないリストがあるから消化するよ。" },
-      { "en": "Probably just sleeping and reading.", "ja": "たぶん寝て、本を読むだけかな。" }
-    ],
-    "vocab": [
-      { "word": "chill", "meaning": "くつろぐ、ダラダラする" },
-      { "word": "go hiking", "meaning": "ハイキングに行く" },
-      { "word": "watchlist", "meaning": "（映画などの）見たいものリスト" }
-    ]
-  },
-  {
-    "id": "daily_adv_12",
-    "question1": { "en": "I'm running a bit late, sorry!", "ja": "ちょっと遅れてる、ごめん！" },
-    "answer1_variations": [
-      { "en": "No worries, take your time.", "ja": "気にしないで、ゆっくり来て。" },
-      { "en": "Okay, let me know when you're close.", "ja": "了解、近くに来たら教えて。" }
-    ],
-    "answer1_detail": { "en": "I missed my usual bus.", "ja": "いつものバスに乗り遅れちゃって。" },
-    "question2": { "en": "How long will you be?", "ja": "あとどれくらいかかりそう？" },
-    "answer2_variations": [
-      { "en": "About 10 minutes.", "ja": "あと10分くらい。" },
-      { "en": "I should be there by 7:30.", "ja": "7時半には着くはず。" }
-    ],
-    "vocab": [
-      { "word": "run late", "meaning": "遅れる" },
-      { "word": "no worries", "meaning": "心配ない、ドンマイ" },
-      { "word": "take your time", "meaning": "慌てないで、ゆっくりでいいよ" }
-    ]
-  },
-  {
-    "id": "daily_adv_13",
-    "question1": { "en": "I have a splitting headache.", "ja": "頭が割れるように痛いんだ。" },
-    "answer1_variations": [
-      { "en": "You should take some painkillers.", "ja": "痛み止めを飲んだほうがいいよ。" },
-      { "en": "Maybe you're dehydrated. Drink water.", "ja": "脱水症状かもよ。水を飲みなよ。" }
-    ],
-    "answer1_detail": { "en": "I've been staring at my screen for too long.", "ja": "画面を長時間見すぎたんだと思う。" },
-    "question2": { "en": "Can you take a break?", "ja": "休憩とれる？" },
-    "answer2_variations": [
-      { "en": "I'll try to close my eyes for a bit.", "ja": "ちょっと目を閉じてみるよ。" },
-      { "en": "No, I have a deadline in an hour.", "ja": "無理、1時間後に締め切りがあるんだ。" }
-    ],
-    "vocab": [
-      { "word": "splitting headache", "meaning": "激しい頭痛" },
-      { "word": "painkiller", "meaning": "鎮痛剤、痛み止め" },
-      { "word": "dehydrated", "meaning": "脱水状態の" }
-    ]
-  },
-  {
-    "id": "daily_adv_14",
-    "question1": { "en": "Have you seen my keys?", "ja": "私の鍵見かけなかった？" },
-    "answer1_variations": [
-      { "en": "Check your jacket pocket.", "ja": "ジャケットのポケットを確認してごらん。" },
-      { "en": "Aren't they on the table?", "ja": "テーブルの上にない？" }
-    ],
-    "answer1_detail": { "en": "I swear I put them right here.", "ja": "絶対にここに置いたはずなんだけど。" },
-    "question2": { "en": "Did you check inside your bag?", "ja": "バッグの中は確認した？" },
-    "answer2_variations": [
-      { "en": "Oh, found them! Thanks.", "ja": "あ、あった！ありがとう。" },
-      { "en": "I've looked everywhere.", "ja": "あらゆるところを探したよ。" }
-    ],
-    "vocab": [
-      { "word": "swear", "meaning": "誓う、断言する" },
-      { "word": "right here", "meaning": "まさにここに" },
-      { "word": "look everywhere", "meaning": "あちこち探す" }
-    ]
-  },
-  {
-    "id": "daily_adv_15",
-    "question1": { "en": "What's the Wi-Fi password here?", "ja": "ここのWi-Fiのパスワードは何ですか？" },
-    "answer1_variations": [
-      { "en": "It's written on the menu.", "ja": "メニューに書いてありますよ。" },
-      { "en": "Let me check for you.", "ja": "確認してあげますね。" }
-    ],
-    "answer1_detail": { "en": "The signal is kind of weak in the back.", "ja": "奥の方は電波がちょっと弱いんですけどね。" },
-    "question2": { "en": "Is it fast enough for video calls?", "ja": "ビデオ通話ができるくらい速いですか？" },
-    "answer2_variations": [
-      { "en": "It should be fine.", "ja": "大丈夫だと思いますよ。" },
-      { "en": "It might be a bit laggy.", "ja": "ちょっとラグがある（遅い）かもしれません。" }
-    ],
-    "vocab": [
-      { "word": "signal", "meaning": "信号、電波" },
-      { "word": "weak", "meaning": "弱い" },
-      { "word": "laggy", "meaning": "遅延がある、重い" }
-    ]
-  },
-  {
-    "id": "daily_adv_16",
-    "question1": { "en": "Is this outfit okay for the party?", "ja": "パーティーにこの服で大丈夫かな？" },
-    "answer1_variations": [
-      { "en": "You look great!", "ja": "すごく似合ってるよ！" },
-      { "en": "Maybe wear something a bit more formal.", "ja": "もうちょっとフォーマルな方がいいかも。" }
-    ],
-    "answer1_detail": { "en": "It depends on the dress code.", "ja": "ドレスコード（服装規定）によるね。" },
-    "question2": { "en": "It said 'smart casual'.", "ja": "「スマートカジュアル」って書いてあったんだけど。" },
-    "answer2_variations": [
-      { "en": "Then that shirt is perfect.", "ja": "それならそのシャツで完璧だよ。" },
-      { "en": "You might want to add a jacket then.", "ja": "それならジャケットを羽織ったほうがいいかもね。" }
-    ],
-    "vocab": [
-      { "word": "outfit", "meaning": "服装、コーディネート" },
-      { "word": "formal", "meaning": "公式の、きちんとした" },
-      { "word": "dress code", "meaning": "服装規定" }
-    ]
-  },
-  {
-    "id": "daily_adv_17",
-    "question1": { "en": "I've been skipping the gym lately.", "ja": "最近ジムをサボり気味なんだ。" },
-    "answer1_variations": [
-      { "en": "Don't be too hard on yourself.", "ja": "自分を責めすぎないで。" },
-      { "en": "You can always start again tomorrow.", "ja": "いつだって明日から再開できるよ。" }
-    ],
-    "answer1_detail": { "en": "I just can't find the motivation.", "ja": "どうしてもやる気が出なくて。" },
-    "question2": { "en": "Why don't we go together?", "ja": "一緒に行かない？" },
-    "answer2_variations": [
-      { "en": "That would actually help a lot.", "ja": "それはすごく助かるよ。" },
-      { "en": "I prefer working out alone.", "ja": "僕は一人でトレーニングするほうが好きだな。" }
-    ],
-    "vocab": [
-      { "word": "skip", "meaning": "サボる、抜かす" },
-      { "word": "be hard on", "meaning": "～に厳しく当たる" },
-      { "word": "motivation", "meaning": "やる気、モチベーション" }
-    ]
-  },
-  {
-    "id": "daily_adv_18",
-    "question1": { "en": "Let's split the bill.", "ja": "割り勘にしよう。" },
-    "answer1_variations": [
-      { "en": "Sure, let's go Dutch.", "ja": "うん、割り勘でいこう。" },
-      { "en": "No, it's my treat today.", "ja": "いや、今日は僕のおごりだよ。" }
-    ],
-    "answer1_detail": { "en": "You paid last time, so it's only fair.", "ja": "前回払ってくれたから、それが公平だよ。" },
-    "question2": { "en": "Are you sure?", "ja": "本当にいいの？" },
-    "answer2_variations": [
-      { "en": "Absolutely. I insist.", "ja": "もちろん。ここは譲らないよ（出させて）。" },
-      { "en": "Yeah, consider it a thank you gift.", "ja": "うん、お礼だと思って。" }
-    ],
-    "vocab": [
-      { "word": "split the bill", "meaning": "割り勘にする" },
-      { "word": "go Dutch", "meaning": "割り勘にする" },
-      { "word": "treat", "meaning": "おごり、ごちそう" }
-    ]
-  },
-  {
-    "id": "daily_adv_19",
-    "question1": { "en": "I'm absolutely exhausted.", "ja": "もうクタクタだよ。" },
-    "answer1_variations": [
-      { "en": "You've been working too hard.", "ja": "働きすぎだよ。" },
-      { "en": "Go to bed early tonight.", "ja": "今夜は早く寝なよ。" }
-    ],
-    "answer1_detail": { "en": "I've had back-to-back meetings all day.", "ja": "一日中、会議が立て続けに入ってたんだ。" },
-    "question2": { "en": "Can you sleep in tomorrow?", "ja": "明日はゆっくり寝てられるの？" },
-    "answer2_variations": [
-      { "en": "Thankfully, yes. It's Saturday.", "ja": "ありがたいことにね。土曜日だし。" },
-      { "en": "No, I have to get up at 6.", "ja": "ううん、6時に起きなきゃいけないんだ。" }
-    ],
-    "vocab": [
-      { "word": "exhausted", "meaning": "疲れ果てた" },
-      { "word": "back-to-back", "meaning": "立て続けの、連続した" },
-      { "word": "sleep in", "meaning": "（いつもより）遅くまで寝ている" }
-    ]
-  },
-  {
-    "id": "daily_adv_20",
-    "question1": { "en": "Traffic is terrible today.", "ja": "今日の交通渋滞はひどいね。" },
-    "answer1_variations": [
-      { "en": "There must be an accident ahead.", "ja": "この先で事故があったに違いないよ。" },
-      { "en": "We should have taken the other route.", "ja": "別のルートを使えばよかったね。" }
-    ],
-    "answer1_detail": { "en": "We haven't moved in 10 minutes.", "ja": "10分間ピクリとも動いてないよ。" },
-    "question2": { "en": "Are we going to be late?", "ja": "遅刻しちゃうかな？" },
-    "answer2_variations": [
-      { "en": "Probably. I'll call them to let them know.", "ja": "たぶんね。電話して知らせておくよ。" },
-      { "en": "We might make it if it clears up soon.", "ja": "すぐに解消すれば間に合うかも。" }
-    ],
-    "vocab": [
-      { "word": "traffic", "meaning": "交通（量）、交通渋滞" },
-      { "word": "terrible", "meaning": "ひどい" },
-      { "word": "clear up", "meaning": "（渋滞などが）解消する、晴れる" }
-    ]
-  }
-]
+  "questions": [
+    {
+      "id": "daily_adv_01",
+      "image": "images/daily/daily_01.webp",
+      "question1": { "en": "I totally overslept this morning.", "ja": "今朝、完全に寝坊しちゃったよ。" },
+      "answer1_variations": [
+        { "en": "Oh no, were you late for work?", "ja": "えっ、仕事に遅刻した？" },
+        { "en": "Happens to the best of us.", "ja": "誰にでもあることだよ。" }
+      ],
+      "answer1_detail": { "en": "My alarm didn't go off for some reason.", "ja": "なぜか目覚ましが鳴らなかったんだ。" },
+      "question2": { "en": "Did you make it in time?", "ja": "（仕事や学校に）間に合った？" },
+      "answer2_variations": [
+        { "en": "Barely! I had to skip breakfast.", "ja": "かろうじてね！朝食は抜かなきゃいけなかったけど。" },
+        { "en": "No, I was 15 minutes late.", "ja": "ううん、15分遅刻しちゃった。" }
+      ],
+      "vocab": [
+        { "word": "oversleep", "meaning": "寝坊する" },
+        { "word": "go off", "meaning": "（警報・目覚ましなどが）鳴る" },
+        { "word": "barely", "meaning": "かろうじて、ギリギリで" }
+      ]
+    },
+    {
+      "id": "daily_adv_02",
+      "image": "images/daily/daily_02.webp",
+      "question1": { "en": "Do you want to grab some coffee?", "ja": "コーヒーでも買いに行かない？" },
+      "answer1_variations": [
+        { "en": "I'd love to. I need the caffeine.", "ja": "いいね。カフェインが必要だよ。" },
+        { "en": "I'm trying to cut down on caffeine, actually.", "ja": "実はカフェインを控えるようにしてるんだ。" }
+      ],
+      "answer1_detail": { "en": "There's a new cafe around the corner.", "ja": "角を曲がったところに新しいカフェがあるんだよ。" },
+      "question2": { "en": "Is it any good?", "ja": "そこ、美味しいの？" },
+      "answer2_variations": [
+        { "en": "Yeah, their latte is amazing.", "ja": "うん、ラテが最高だよ。" },
+        { "en": "I haven't tried it yet, let's find out.", "ja": "まだ試してないから、行ってみようよ。" }
+      ],
+      "vocab": [
+        { "word": "grab", "meaning": "（食事や飲み物を）さっと取る、買いに行く" },
+        { "word": "cut down on", "meaning": "～を減らす、控える" },
+        { "word": "around the corner", "meaning": "すぐ近くに、角を曲がったところに" }
+      ]
+    },
+    {
+      "id": "daily_adv_03",
+      "image": "images/daily/daily_03.webp",
+      "question1": { "en": "The train is so packed today.", "ja": "今日の電車、すごく混んでるね。" },
+      "answer1_variations": [
+        { "en": "Yeah, it's rush hour.", "ja": "うん、ラッシュアワーだからね。" },
+        { "en": "I can barely move my arms.", "ja": "腕を動かすことさえできないよ。" }
+      ],
+      "answer1_detail": { "en": "I hate taking the train at this time.", "ja": "この時間の電車に乗るのは大嫌いだよ。" },
+      "question2": { "en": "Is it always this bad?", "ja": "いつもこんなにひどいの？" },
+      "answer2_variations": [
+        { "en": "Pretty much, especially on Mondays.", "ja": "大体ね、特に月曜日は。" },
+        { "en": "No, there must be a delay somewhere.", "ja": "ううん、どこかで遅延があるに違いないよ。" }
+      ],
+      "vocab": [
+        { "word": "packed", "meaning": "満員の、混雑した" },
+        { "word": "rush hour", "meaning": "通勤ラッシュの時間帯" },
+        { "word": "delay", "meaning": "遅延" }
+      ]
+    },
+    {
+      "id": "daily_adv_04",
+      "image": "images/daily/daily_04.webp",
+      "question1": { "en": "It looks like it's going to rain.", "ja": "雨が降りそうだね。" },
+      "answer1_variations": [
+        { "en": "I hope not, I didn't bring an umbrella.", "ja": "降らないといいけど、傘持ってきてないんだ。" },
+        { "en": "Good thing I checked the forecast.", "ja": "天気予報を確認しておいてよかったよ。" }
+      ],
+      "answer1_detail": { "en": "The sky is getting really dark.", "ja": "空がすごく暗くなってきてるしね。" },
+      "question2": { "en": "Should we head back?", "ja": "戻ったほうがいいかな？" },
+      "answer2_variations": [
+        { "en": "Yeah, let's go before it starts pouring.", "ja": "うん、土砂降りになる前に帰ろう。" },
+        { "en": "We can wait it out in a cafe.", "ja": "カフェで止むのを待てるよ。" }
+      ],
+      "vocab": [
+        { "word": "forecast", "meaning": "予報" },
+        { "word": "head back", "meaning": "引き返す、戻る" },
+        { "word": "pour", "meaning": "（雨が）激しく降る" }
+      ]
+    },
+    {
+      "id": "daily_adv_05",
+      "image": "images/daily/daily_05.webp",
+      "question1": { "en": "What are you having for lunch?", "ja": "お昼は何にするの？" },
+      "answer1_variations": [
+        { "en": "I brought a bento from home.", "ja": "家からお弁当を持ってきたよ。" },
+        { "en": "I might just grab a sandwich at the konbini.", "ja": "コンビニでサンドイッチでも買おうかな。" }
+      ],
+      "answer1_detail": { "en": "I'm trying to save money this month.", "ja": "今月は節約しようと思って。" },
+      "question2": { "en": "That's a good idea. Eating out is expensive.", "ja": "いい考えだね。外食は高いし。" },
+      "answer2_variations": [
+        { "en": "Exactly, it adds up quickly.", "ja": "その通り、ちりも積もれば山となるからね。" },
+        { "en": "Do you want to join me?", "ja": "一緒に食べる？" }
+      ],
+      "vocab": [
+        { "word": "save money", "meaning": "節約する、貯金する" },
+        { "word": "eat out", "meaning": "外食する" },
+        { "word": "add up", "meaning": "積み重なる、合計が増える" }
+      ]
+    },
+    {
+      "id": "daily_adv_06",
+      "image": "images/daily/daily_06.webp",
+      "question1": { "en": "Do you have a charger? My phone is dying.", "ja": "充電器持ってる？スマホの充電が切れそうなんだ。" },
+      "answer1_variations": [
+        { "en": "Yeah, here you go.", "ja": "うん、はいどうぞ。" },
+        { "en": "Sorry, I left mine at home.", "ja": "ごめん、家に置いてきちゃった。" }
+      ],
+      "answer1_detail": { "en": "I'm at 1%, so it's an emergency!", "ja": "残り1%だから緊急事態なんだ！" },
+      "question2": { "en": "Does your battery drain fast?", "ja": "バッテリーの減りが早いの？" },
+      "answer2_variations": [
+        { "en": "It's an old phone, so yeah.", "ja": "古いスマホだからね、そうなんだ。" },
+        { "en": "I've been using GPS all day.", "ja": "一日中GPSを使ってたからさ。" }
+      ],
+      "vocab": [
+        { "word": "dying", "meaning": "（バッテリーが）切れそうな" },
+        { "word": "leave", "meaning": "置き忘れる、置いてくる" },
+        { "word": "drain", "meaning": "（液体や電力が）減る、消耗する" }
+      ]
+    },
+    {
+      "id": "daily_adv_07",
+      "image": "images/daily/daily_07.webp",
+      "question1": { "en": "I have so much laundry to do.", "ja": "洗濯しなきゃいけないものが山ほどあるよ。" },
+      "answer1_variations": [
+        { "en": "Me too, it's been piling up.", "ja": "私も、溜まっていく一方だよ。" },
+        { "en": "Just do it while watching Netflix.", "ja": "Netflixでも見ながらやっちゃいなよ。" }
+      ],
+      "answer1_detail": { "en": "I've been procrastinating all week.", "ja": "今週ずっと先延ばしにしてたんだ。" },
+      "question2": { "en": "Do you hang it outside?", "ja": "外に干す派？" },
+      "answer2_variations": [
+        { "en": "Yes, I like the smell of the sun.", "ja": "うん、お日様の匂いが好きだから。" },
+        { "en": "No, I usually use the dryer.", "ja": "ううん、たいてい乾燥機を使うよ。" }
+      ],
+      "vocab": [
+        { "word": "pile up", "meaning": "積み重なる、溜まる" },
+        { "word": "procrastinate", "meaning": "先延ばしにする" },
+        { "word": "hang", "meaning": "干す、吊るす" }
+      ]
+    },
+    {
+      "id": "daily_adv_08",
+      "image": "images/daily/daily_08.webp",
+      "question1": { "en": "We are out of milk.", "ja": "牛乳が切れてるよ。" },
+      "answer1_variations": [
+        { "en": "I'll pick some up on my way home.", "ja": "帰りに買ってくるよ。" },
+        { "en": "Can you add it to the shopping list?", "ja": "買い物リストに追加しておいてくれる？" }
+      ],
+      "answer1_detail": { "en": "We need it for breakfast tomorrow.", "ja": "明日の朝食に必要なんだ。" },
+      "question2": { "en": "Do we need anything else?", "ja": "他に何か必要なものはある？" },
+      "answer2_variations": [
+        { "en": "Maybe some eggs too.", "ja": "卵もいるかも。" },
+        { "en": "I think that's it.", "ja": "それだけだと思う。" }
+      ],
+      "vocab": [
+        { "word": "be out of", "meaning": "～を切らしている" },
+        { "word": "pick up", "meaning": "買って帰る、拾う" },
+        { "word": "shopping list", "meaning": "買い物リスト" }
+      ]
+    },
+    {
+      "id": "daily_adv_09",
+      "image": "images/daily/daily_09.webp",
+      "question1": { "en": "What should we make for dinner?", "ja": "夕食は何を作ろうか？" },
+      "answer1_variations": [
+        { "en": "How about pasta? It's easy.", "ja": "パスタはどう？簡単だし。" },
+        { "en": "I'm too tired to cook. Let's order in.", "ja": "疲れすぎて料理できないよ。デリバリー頼もう。" }
+      ],
+      "answer1_detail": { "en": "We have some leftover veggies in the fridge.", "ja": "冷蔵庫に野菜の残りがあるよ。" },
+      "question2": { "en": "Pasta sounds good. Tomato or cream?", "ja": "パスタいいね。トマト系？クリーム系？" },
+      "answer2_variations": [
+        { "en": "Let's do a simple tomato sauce.", "ja": "シンプルなトマトソースにしよう。" },
+        { "en": "Whatever uses up the leftovers.", "ja": "残りを使い切れる方なら何でも。" }
+      ],
+      "vocab": [
+        { "word": "order in", "meaning": "出前を取る、デリバリーを頼む" },
+        { "word": "leftover", "meaning": "残り物" },
+        { "word": "fridge", "meaning": "冷蔵庫" }
+      ]
+    },
+    {
+      "id": "daily_adv_10",
+      "image": "images/daily/daily_10.webp",
+      "question1": { "en": "Did you watch the latest episode?", "ja": "最新話見た？" },
+      "answer1_variations": [
+        { "en": "No spoilers! I haven't seen it yet.", "ja": "ネタバレしないで！まだ見てないんだ。" },
+        { "en": "Yes! The ending was crazy.", "ja": "見たよ！結末がヤバかったね。" }
+      ],
+      "answer1_detail": { "en": "I was so busy I couldn't watch it last night.", "ja": "昨夜は忙しくて見れなかったんだ。" },
+      "question2": { "en": "When are you going to watch it?", "ja": "いつ見るつもり？" },
+      "answer2_variations": [
+        { "en": "I'll probably binge-watch it this weekend.", "ja": "たぶん今週末に一気見するよ。" },
+        { "en": "Tonight, as soon as I get home.", "ja": "今夜、帰ったらすぐに。" }
+      ],
+      "vocab": [
+        { "word": "spoiler", "meaning": "ネタバレ" },
+        { "word": "episode", "meaning": "（ドラマなどの）１話、エピソード" },
+        { "word": "binge-watch", "meaning": "一気見する" }
+      ]
+    },
+    {
+      "id": "daily_adv_11",
+      "image": "images/daily/daily_11.webp",
+      "question1": { "en": "Got any plans for the weekend?", "ja": "週末は何か予定ある？" },
+      "answer1_variations": [
+        { "en": "I'm just going to chill at home.", "ja": "家でダラダラするつもり。" },
+        { "en": "I'm going hiking with some friends.", "ja": "友達とハイキングに行くんだ。" }
+      ],
+      "answer1_detail": { "en": "I've had a long week, so I need to rest.", "ja": "今週は長かったから、休まないと。" },
+      "question2": { "en": "Sounds relaxing. Watching movies?", "ja": "リラックスできそうだね。映画でも見るの？" },
+      "answer2_variations": [
+        { "en": "Yeah, I have a watchlist to get through.", "ja": "うん、見なきゃいけないリストがあるから消化するよ。" },
+        { "en": "Probably just sleeping and reading.", "ja": "たぶん寝て、本を読むだけかな。" }
+      ],
+      "vocab": [
+        { "word": "chill", "meaning": "くつろぐ、ダラダラする" },
+        { "word": "go hiking", "meaning": "ハイキングに行く" },
+        { "word": "watchlist", "meaning": "（映画などの）見たいものリスト" }
+      ]
+    },
+    {
+      "id": "daily_adv_12",
+      "image": "images/daily/daily_12.webp",
+      "question1": { "en": "I'm running a bit late, sorry!", "ja": "ちょっと遅れてる、ごめん！" },
+      "answer1_variations": [
+        { "en": "No worries, take your time.", "ja": "気にしないで、ゆっくり来て。" },
+        { "en": "Okay, let me know when you're close.", "ja": "了解、近くに来たら教えて。" }
+      ],
+      "answer1_detail": { "en": "I missed my usual bus.", "ja": "いつものバスに乗り遅れちゃって。" },
+      "question2": { "en": "How long will you be?", "ja": "あとどれくらいかかりそう？" },
+      "answer2_variations": [
+        { "en": "About 10 minutes.", "ja": "あと10分くらい。" },
+        { "en": "I should be there by 7:30.", "ja": "7時半には着くはず。" }
+      ],
+      "vocab": [
+        { "word": "run late", "meaning": "遅れる" },
+        { "word": "no worries", "meaning": "心配ない、ドンマイ" },
+        { "word": "take your time", "meaning": "慌てないで、ゆっくりでいいよ" }
+      ]
+    },
+    {
+      "id": "daily_adv_13",
+      "image": "images/daily/daily_13.webp",
+      "question1": { "en": "I have a splitting headache.", "ja": "頭が割れるように痛いんだ。" },
+      "answer1_variations": [
+        { "en": "You should take some painkillers.", "ja": "痛み止めを飲んだほうがいいよ。" },
+        { "en": "Maybe you're dehydrated. Drink water.", "ja": "脱水症状かもよ。水を飲みなよ。" }
+      ],
+      "answer1_detail": { "en": "I've been staring at my screen for too long.", "ja": "画面を長時間見すぎたんだと思う。" },
+      "question2": { "en": "Can you take a break?", "ja": "休憩とれる？" },
+      "answer2_variations": [
+        { "en": "I'll try to close my eyes for a bit.", "ja": "ちょっと目を閉じてみるよ。" },
+        { "en": "No, I have a deadline in an hour.", "ja": "無理、1時間後に締め切りがあるんだ。" }
+      ],
+      "vocab": [
+        { "word": "splitting headache", "meaning": "激しい頭痛" },
+        { "word": "painkiller", "meaning": "鎮痛剤、痛み止め" },
+        { "word": "dehydrated", "meaning": "脱水状態の" }
+      ]
+    },
+    {
+      "id": "daily_adv_14",
+      "image": "images/daily/daily_14.webp",
+      "question1": { "en": "Have you seen my keys?", "ja": "私の鍵見かけなかった？" },
+      "answer1_variations": [
+        { "en": "Check your jacket pocket.", "ja": "ジャケットのポケットを確認してごらん。" },
+        { "en": "Aren't they on the table?", "ja": "テーブルの上にない？" }
+      ],
+      "answer1_detail": { "en": "I swear I put them right here.", "ja": "絶対にここに置いたはずなんだけど。" },
+      "question2": { "en": "Did you check inside your bag?", "ja": "バッグの中は確認した？" },
+      "answer2_variations": [
+        { "en": "Oh, found them! Thanks.", "ja": "あ、あった！ありがとう。" },
+        { "en": "I've looked everywhere.", "ja": "あらゆるところを探したよ。" }
+      ],
+      "vocab": [
+        { "word": "swear", "meaning": "誓う、断言する" },
+        { "word": "right here", "meaning": "まさにここに" },
+        { "word": "look everywhere", "meaning": "あちこち探す" }
+      ]
+    },
+    {
+      "id": "daily_adv_15",
+      "image": "images/daily/daily_15.webp",
+      "question1": { "en": "What's the Wi-Fi password here?", "ja": "ここのWi-Fiのパスワードは何ですか？" },
+      "answer1_variations": [
+        { "en": "It's written on the menu.", "ja": "メニューに書いてありますよ。" },
+        { "en": "Let me check for you.", "ja": "確認してあげますね。" }
+      ],
+      "answer1_detail": { "en": "The signal is kind of weak in the back.", "ja": "奥の方は電波がちょっと弱いんですけどね。" },
+      "question2": { "en": "Is it fast enough for video calls?", "ja": "ビデオ通話ができるくらい速いですか？" },
+      "answer2_variations": [
+        { "en": "It should be fine.", "ja": "大丈夫だと思いますよ。" },
+        { "en": "It might be a bit laggy.", "ja": "ちょっとラグがある（遅い）かもしれません。" }
+      ],
+      "vocab": [
+        { "word": "signal", "meaning": "信号、電波" },
+        { "word": "weak", "meaning": "弱い" },
+        { "word": "laggy", "meaning": "遅延がある、重い" }
+      ]
+    },
+    {
+      "id": "daily_adv_16",
+      "image": "images/daily/daily_16.webp",
+      "question1": { "en": "Is this outfit okay for the party?", "ja": "パーティーにこの服で大丈夫かな？" },
+      "answer1_variations": [
+        { "en": "You look great!", "ja": "すごく似合ってるよ！" },
+        { "en": "Maybe wear something a bit more formal.", "ja": "もうちょっとフォーマルな方がいいかも。" }
+      ],
+      "answer1_detail": { "en": "It depends on the dress code.", "ja": "ドレスコード（服装規定）によるね。" },
+      "question2": { "en": "It said 'smart casual'.", "ja": "「スマートカジュアル」って書いてあったんだけど。" },
+      "answer2_variations": [
+        { "en": "Then that shirt is perfect.", "ja": "それならそのシャツで完璧だよ。" },
+        { "en": "You might want to add a jacket then.", "ja": "それならジャケットを羽織ったほうがいいかもね。" }
+      ],
+      "vocab": [
+        { "word": "outfit", "meaning": "服装、コーディネート" },
+        { "word": "formal", "meaning": "公式の、きちんとした" },
+        { "word": "dress code", "meaning": "服装規定" }
+      ]
+    },
+    {
+      "id": "daily_adv_17",
+      "image": "images/daily/daily_17.webp",
+      "question1": { "en": "I've been skipping the gym lately.", "ja": "最近ジムをサボり気味なんだ。" },
+      "answer1_variations": [
+        { "en": "Don't be too hard on yourself.", "ja": "自分を責めすぎないで。" },
+        { "en": "You can always start again tomorrow.", "ja": "いつだって明日から再開できるよ。" }
+      ],
+      "answer1_detail": { "en": "I just can't find the motivation.", "ja": "どうしてもやる気が出なくて。" },
+      "question2": { "en": "Why don't we go together?", "ja": "一緒に行かない？" },
+      "answer2_variations": [
+        { "en": "That would actually help a lot.", "ja": "それはすごく助かるよ。" },
+        { "en": "I prefer working out alone.", "ja": "僕は一人でトレーニングするほうが好きだな。" }
+      ],
+      "vocab": [
+        { "word": "skip", "meaning": "サボる、抜かす" },
+        { "word": "be hard on", "meaning": "～に厳しく当たる" },
+        { "word": "motivation", "meaning": "やる気、モチベーション" }
+      ]
+    },
+    {
+      "id": "daily_adv_18",
+      "image": "images/daily/daily_18.webp",
+      "question1": { "en": "Let's split the bill.", "ja": "割り勘にしよう。" },
+      "answer1_variations": [
+        { "en": "Sure, let's go Dutch.", "ja": "うん、割り勘でいこう。" },
+        { "en": "No, it's my treat today.", "ja": "いや、今日は僕のおごりだよ。" }
+      ],
+      "answer1_detail": { "en": "You paid last time, so it's only fair.", "ja": "前回払ってくれたから、それが公平だよ。" },
+      "question2": { "en": "Are you sure?", "ja": "本当にいいの？" },
+      "answer2_variations": [
+        { "en": "Absolutely. I insist.", "ja": "もちろん。ここは譲らないよ（出させて）。" },
+        { "en": "Yeah, consider it a thank you gift.", "ja": "うん、お礼だと思って。" }
+      ],
+      "vocab": [
+        { "word": "split the bill", "meaning": "割り勘にする" },
+        { "word": "go Dutch", "meaning": "割り勘にする" },
+        { "word": "treat", "meaning": "おごり、ごちそう" }
+      ]
+    },
+    {
+      "id": "daily_adv_19",
+      "image": "images/daily/daily_19.webp",
+      "question1": { "en": "I'm absolutely exhausted.", "ja": "もうクタクタだよ。" },
+      "answer1_variations": [
+        { "en": "You've been working too hard.", "ja": "働きすぎだよ。" },
+        { "en": "Go to bed early tonight.", "ja": "今夜は早く寝なよ。" }
+      ],
+      "answer1_detail": { "en": "I've had back-to-back meetings all day.", "ja": "一日中、会議が立て続けに入ってたんだ。" },
+      "question2": { "en": "Can you sleep in tomorrow?", "ja": "明日はゆっくり寝てられるの？" },
+      "answer2_variations": [
+        { "en": "Thankfully, yes. It's Saturday.", "ja": "ありがたいことにね。土曜日だし。" },
+        { "en": "No, I have to get up at 6.", "ja": "ううん、6時に起きなきゃいけないんだ。" }
+      ],
+      "vocab": [
+        { "word": "exhausted", "meaning": "疲れ果てた" },
+        { "word": "back-to-back", "meaning": "立て続けの、連続した" },
+        { "word": "sleep in", "meaning": "（いつもより）遅くまで寝ている" }
+      ]
+    },
+    {
+      "id": "daily_adv_20",
+      "image": "images/daily/daily_20.webp",
+      "question1": { "en": "Traffic is terrible today.", "ja": "今日の交通渋滞はひどいね。" },
+      "answer1_variations": [
+        { "en": "There must be an accident ahead.", "ja": "この先で事故があったに違いないよ。" },
+        { "en": "We should have taken the other route.", "ja": "別のルートを使えばよかったね。" }
+      ],
+      "answer1_detail": { "en": "We haven't moved in 10 minutes.", "ja": "10分間ピクリとも動いてないよ。" },
+      "question2": { "en": "Are we going to be late?", "ja": "遅刻しちゃうかな？" },
+      "answer2_variations": [
+        { "en": "Probably. I'll call them to let them know.", "ja": "たぶんね。電話して知らせておくよ。" },
+        { "en": "We might make it if it clears up soon.", "ja": "すぐに解消すれば間に合うかも。" }
+      ],
+      "vocab": [
+        { "word": "traffic", "meaning": "交通（量）、交通渋滞" },
+        { "word": "terrible", "meaning": "ひどい" },
+        { "word": "clear up", "meaning": "（渋滞などが）解消する、晴れる" }
+      ]
+    }
+  ]
 }
