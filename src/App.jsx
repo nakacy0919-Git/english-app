@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef }from 'react'; // ★ useRefを追加
 import { 
   X, ChevronRight, Smile, ChevronDown, 
   Lightbulb, Volume2, LayoutGrid, Gamepad2,
@@ -192,9 +192,10 @@ const Machine3D = ({ id, colorClass, onClick, isSpinning }) => {
   );
 };
 
-// ■ 質問カード (画像表示機能を追加)
+// ■ 質問カード (画像表示機能＋自動スクロール機能を追加)
 const QuestionCard = ({ item, index, isExpanded, onToggleExpand }) => {
   const [step, setStep] = useState(0);
+  const cardRef = useRef(null); // ★スクロール用の「目印」を作成
   
   // 各セクションの翻訳表示状態管理
   const [showTransQ1, setShowTransQ1] = useState(false);
@@ -207,6 +208,17 @@ const QuestionCard = ({ item, index, isExpanded, onToggleExpand }) => {
       setShowTransQ1(false);
       setShowTransA1(false);
       setShowTransGreen(false);
+    } else {
+      // ★ 開いた(isExpandedがtrueになった)時、0.3秒後に画面中央へスクロール
+      if (cardRef.current) {
+        setTimeout(() => {
+          cardRef.current.scrollIntoView({
+            behavior: 'smooth',
+            block: 'center', // カードの中心を画面の真ん中に合わせる
+            inline: 'nearest'
+          });
+        }, 300); // アニメーションの時間を待つ
+      }
     }
   }, [isExpanded]);
 
@@ -218,7 +230,7 @@ const QuestionCard = ({ item, index, isExpanded, onToggleExpand }) => {
   const q2 = item.question2;
   const a2List = item.answer2_variations || [];
   const vocab = item.vocab || [];
-  const imageUrl = item.image || null; // 画像URL
+  const imageUrl = item.image || null;
 
   // --- セクション間の矢印 ---
   const SectionArrow = () => (
@@ -230,7 +242,10 @@ const QuestionCard = ({ item, index, isExpanded, onToggleExpand }) => {
   );
 
   return (
-    <div className={`bg-white rounded-3xl shadow-sm border border-gray-100 overflow-hidden transition-all duration-300 mb-6 ${isExpanded ? 'ring-4 ring-blue-50 shadow-xl' : 'hover:shadow-md'}`}>
+    <div 
+      ref={cardRef} // ★ここに目印を設定
+      className={`bg-white rounded-3xl shadow-sm border border-gray-100 overflow-hidden transition-all duration-300 mb-6 ${isExpanded ? 'ring-4 ring-blue-50 shadow-xl' : 'hover:shadow-md'}`}
+    >
       
       {/* --- カードヘッダー --- */}
       <div onClick={onToggleExpand} className="p-5 flex gap-4 items-center cursor-pointer bg-white relative hover:bg-gray-50 transition-colors">
@@ -254,14 +269,14 @@ const QuestionCard = ({ item, index, isExpanded, onToggleExpand }) => {
       {isExpanded && (
         <div className="px-4 pb-6 space-y-5 animate-fade-in bg-white">
           
-          {/* ★★★ ここに画像表示エリアを追加 ★★★ */}
+          {/* 画像表示エリア */}
           {imageUrl && (
             <div className="rounded-2xl overflow-hidden shadow-sm border border-gray-100 mb-2 animate-fade-in">
               <img 
                 src={imageUrl} 
                 alt="Scene" 
                 className="w-full h-auto object-cover max-h-60 md:max-h-80"
-                onError={(e) => e.target.style.display = 'none'} // エラー時は非表示
+                onError={(e) => e.target.style.display = 'none'} 
               />
             </div>
           )}
@@ -410,7 +425,6 @@ const QuestionCard = ({ item, index, isExpanded, onToggleExpand }) => {
     </div>
   );
 };
-
 // ■ モーダル画面
 const OpenModal = ({ isOpen, onClose, topic, topicIndex, initialStep = 0 }) => {
   const [step, setStep] = useState(initialStep); 
